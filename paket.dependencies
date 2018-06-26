@@ -1,0 +1,8 @@
+source https://www.nuget.org/api/v2
+
+nuget Google.Protobuf 3.6.0
+nuget Grpc 1.12.0
+
+group Build
+    source https://nuget.org/api/v2
+    nuget Grpc.Tools 1.12.0
