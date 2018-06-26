@@ -31,7 +31,7 @@ Write-Host "Generating Proto Classes.."
 
 gci ".\gauge-proto" -Filter "*.proto" | %{
     Write-Host "Generating classes for $_"
-    &$protoc @('-I.\gauge-proto', '--csharp_out=.\Core','--grpc_out=.\Core',"--plugin=protoc-gen-grpc=$grpc_csharp", ".\gauge-proto\$_")
+    &$protoc @('-I.\gauge-proto', '--csharp_out=.\Gauge.CSharp.Core','--grpc_out=.\Gauge.CSharp.Core',"--plugin=protoc-gen-grpc=$grpc_csharp", ".\gauge-proto\$_")
 }
 
 Write-Host "Done!"

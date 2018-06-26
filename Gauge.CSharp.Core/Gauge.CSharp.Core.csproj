@@ -21,7 +21,7 @@
   </PropertyGroup>
   <Import Project="..\.paket\Paket.targets" />
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.5.1" />
+    <PackageReference Include="Google.Protobuf" Version="3.6.0" />
+    <PackageReference Include="Grpc.Core" Version="1.12.0" />
   </ItemGroup>
-  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
