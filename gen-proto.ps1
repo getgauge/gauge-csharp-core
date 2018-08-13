@@ -15,8 +15,7 @@
 # You should have received a copy of the GNU General Public License
 # along with Gauge-CSharp.  If not, see <http://www.gnu.org/licenses/>.
 
-$paket = .paket\paket.exe
-&$paket install
+.paket\paket.exe install
 
 $protoc
 $grpc_csharp
