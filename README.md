@@ -1,5 +1,7 @@
 # Gauge CSharp Core
 
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg)](CODE_OF_CONDUCT.md)
+
 `Core` is a dll that brings in Gauge's protobuf communication code. It is hosted in [Nuget](https://www.nuget.org/packages/Gauge.CSharp.Core/).
 
 You will need Gauge and Gauge-csharp plugin installed before installing `Core`.
