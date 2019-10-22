@@ -24,144 +24,36 @@ namespace Gauge.Messages {
     static LspReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "Cglsc3AucHJvdG8SDmdhdWdlLm1lc3NhZ2VzGg5tZXNzYWdlcy5wcm90byIH",
-            "CgVFbXB0eTLqBgoKbHNwU2VydmljZRJTCgxHZXRTdGVwTmFtZXMSIC5nYXVn",
-            "ZS5tZXNzYWdlcy5TdGVwTmFtZXNSZXF1ZXN0GiEuZ2F1Z2UubWVzc2FnZXMu",
-            "U3RlcE5hbWVzUmVzcG9uc2USRAoJQ2FjaGVGaWxlEiAuZ2F1Z2UubWVzc2Fn",
-            "ZXMuQ2FjaGVGaWxlUmVxdWVzdBoVLmdhdWdlLm1lc3NhZ2VzLkVtcHR5El8K",
-            "EEdldFN0ZXBQb3NpdGlvbnMSJC5nYXVnZS5tZXNzYWdlcy5TdGVwUG9zaXRp",
-            "b25zUmVxdWVzdBolLmdhdWdlLm1lc3NhZ2VzLlN0ZXBQb3NpdGlvbnNSZXNw",
-            "b25zZRJfChZHZXRJbXBsZW1lbnRhdGlvbkZpbGVzEhUuZ2F1Z2UubWVzc2Fn",
-            "ZXMuRW1wdHkaLi5nYXVnZS5tZXNzYWdlcy5JbXBsZW1lbnRhdGlvbkZpbGVM",
-            "aXN0UmVzcG9uc2USWAoNSW1wbGVtZW50U3R1YhItLmdhdWdlLm1lc3NhZ2Vz",
-            "LlN0dWJJbXBsZW1lbnRhdGlvbkNvZGVSZXF1ZXN0GhguZ2F1Z2UubWVzc2Fn",
-            "ZXMuRmlsZURpZmYSWQoMVmFsaWRhdGVTdGVwEiMuZ2F1Z2UubWVzc2FnZXMu",
-            "U3RlcFZhbGlkYXRlUmVxdWVzdBokLmdhdWdlLm1lc3NhZ2VzLlN0ZXBWYWxp",
-            "ZGF0ZVJlc3BvbnNlEk0KCFJlZmFjdG9yEh8uZ2F1Z2UubWVzc2FnZXMuUmVm",
-            "YWN0b3JSZXF1ZXN0GiAuZ2F1Z2UubWVzc2FnZXMuUmVmYWN0b3JSZXNwb25z",
-            "ZRJQCgtHZXRTdGVwTmFtZRIfLmdhdWdlLm1lc3NhZ2VzLlN0ZXBOYW1lUmVx",
-            "dWVzdBogLmdhdWdlLm1lc3NhZ2VzLlN0ZXBOYW1lUmVzcG9uc2USXwoPR2V0",
-            "R2xvYlBhdHRlcm5zEhUuZ2F1Z2UubWVzc2FnZXMuRW1wdHkaNS5nYXVnZS5t",
-            "ZXNzYWdlcy5JbXBsZW1lbnRhdGlvbkZpbGVHbG9iUGF0dGVyblJlc3BvbnNl",
-            "EkgKC0tpbGxQcm9jZXNzEiIuZ2F1Z2UubWVzc2FnZXMuS2lsbFByb2Nlc3NS",
-            "ZXF1ZXN0GhUuZ2F1Z2UubWVzc2FnZXMuRW1wdHlCKQoWY29tLnRob3VnaHR3",
-            "b3Jrcy5nYXVnZaoCDkdhdWdlLk1lc3NhZ2VzYgZwcm90bzM="));
+            "Cglsc3AucHJvdG8SDmdhdWdlLm1lc3NhZ2VzGg5tZXNzYWdlcy5wcm90bzKc",
+            "BwoKbHNwU2VydmljZRJYCgxHZXRTdGVwTmFtZXMSIC5nYXVnZS5tZXNzYWdl",
+            "cy5TdGVwTmFtZXNSZXF1ZXN0GiEuZ2F1Z2UubWVzc2FnZXMuU3RlcE5hbWVz",
+            "UmVzcG9uc2UiA4gCARJJCglDYWNoZUZpbGUSIC5nYXVnZS5tZXNzYWdlcy5D",
+            "YWNoZUZpbGVSZXF1ZXN0GhUuZ2F1Z2UubWVzc2FnZXMuRW1wdHkiA4gCARJk",
+            "ChBHZXRTdGVwUG9zaXRpb25zEiQuZ2F1Z2UubWVzc2FnZXMuU3RlcFBvc2l0",
+            "aW9uc1JlcXVlc3QaJS5nYXVnZS5tZXNzYWdlcy5TdGVwUG9zaXRpb25zUmVz",
+            "cG9uc2UiA4gCARJkChZHZXRJbXBsZW1lbnRhdGlvbkZpbGVzEhUuZ2F1Z2Uu",
+            "bWVzc2FnZXMuRW1wdHkaLi5nYXVnZS5tZXNzYWdlcy5JbXBsZW1lbnRhdGlv",
+            "bkZpbGVMaXN0UmVzcG9uc2UiA4gCARJdCg1JbXBsZW1lbnRTdHViEi0uZ2F1",
+            "Z2UubWVzc2FnZXMuU3R1YkltcGxlbWVudGF0aW9uQ29kZVJlcXVlc3QaGC5n",
+            "YXVnZS5tZXNzYWdlcy5GaWxlRGlmZiIDiAIBEl4KDFZhbGlkYXRlU3RlcBIj",
+            "LmdhdWdlLm1lc3NhZ2VzLlN0ZXBWYWxpZGF0ZVJlcXVlc3QaJC5nYXVnZS5t",
+            "ZXNzYWdlcy5TdGVwVmFsaWRhdGVSZXNwb25zZSIDiAIBElIKCFJlZmFjdG9y",
+            "Eh8uZ2F1Z2UubWVzc2FnZXMuUmVmYWN0b3JSZXF1ZXN0GiAuZ2F1Z2UubWVz",
+            "c2FnZXMuUmVmYWN0b3JSZXNwb25zZSIDiAIBElUKC0dldFN0ZXBOYW1lEh8u",
+            "Z2F1Z2UubWVzc2FnZXMuU3RlcE5hbWVSZXF1ZXN0GiAuZ2F1Z2UubWVzc2Fn",
+            "ZXMuU3RlcE5hbWVSZXNwb25zZSIDiAIBEmQKD0dldEdsb2JQYXR0ZXJucxIV",
+            "LmdhdWdlLm1lc3NhZ2VzLkVtcHR5GjUuZ2F1Z2UubWVzc2FnZXMuSW1wbGVt",
+            "ZW50YXRpb25GaWxlR2xvYlBhdHRlcm5SZXNwb25zZSIDiAIBEk0KC0tpbGxQ",
+            "cm9jZXNzEiIuZ2F1Z2UubWVzc2FnZXMuS2lsbFByb2Nlc3NSZXF1ZXN0GhUu",
+            "Z2F1Z2UubWVzc2FnZXMuRW1wdHkiA4gCAUIpChZjb20udGhvdWdodHdvcmtz",
+            "LmdhdWdlqgIOR2F1Z2UuTWVzc2FnZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gauge.Messages.MessagesReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Empty), global::Gauge.Messages.Empty.Parser, null, null, null, null)
-          }));
+          new pbr::GeneratedClrTypeInfo(null, null));
     }
     #endregion
 
   }
-  #region Messages
-  /// <summary>
-  /// Empty is a blank response, to be used when there is no return expected.
-  /// </summary>
-  public sealed partial class Empty : pb::IMessage<Empty> {
-    private static readonly pb::MessageParser<Empty> _parser = new pb::MessageParser<Empty>(() => new Empty());
-    private pb::UnknownFieldSet _unknownFields;
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pb::MessageParser<Empty> Parser { get { return _parser; } }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.LspReflection.Descriptor.MessageTypes[0]; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    pbr::MessageDescriptor pb::IMessage.Descriptor {
-      get { return Descriptor; }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Empty() {
-      OnConstruction();
-    }
-
-    partial void OnConstruction();
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Empty(Empty other) : this() {
-      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public Empty Clone() {
-      return new Empty(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override bool Equals(object other) {
-      return Equals(other as Empty);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Equals(Empty other) {
-      if (ReferenceEquals(other, null)) {
-        return false;
-      }
-      if (ReferenceEquals(other, this)) {
-        return true;
-      }
-      return Equals(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override int GetHashCode() {
-      int hash = 1;
-      if (_unknownFields != null) {
-        hash ^= _unknownFields.GetHashCode();
-      }
-      return hash;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public override string ToString() {
-      return pb::JsonFormatter.ToDiagnosticString(this);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void WriteTo(pb::CodedOutputStream output) {
-      if (_unknownFields != null) {
-        _unknownFields.WriteTo(output);
-      }
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int CalculateSize() {
-      int size = 0;
-      if (_unknownFields != null) {
-        size += _unknownFields.CalculateSize();
-      }
-      return size;
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(Empty other) {
-      if (other == null) {
-        return;
-      }
-      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
-    }
-
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public void MergeFrom(pb::CodedInputStream input) {
-      uint tag;
-      while ((tag = input.ReadTag()) != 0) {
-        switch(tag) {
-          default:
-            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
-            break;
-        }
-      }
-    }
-
-  }
-
-  #endregion
-
 }
 
 #endregion Designer generated code

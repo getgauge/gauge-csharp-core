@@ -27,175 +27,197 @@ namespace Gauge.Messages {
             "Cg5tZXNzYWdlcy5wcm90bxIOZ2F1Z2UubWVzc2FnZXMaCnNwZWMucHJvdG8i",
             "FAoSS2lsbFByb2Nlc3NSZXF1ZXN0IlgKF0V4ZWN1dGlvblN0YXR1c1Jlc3Bv",
             "bnNlEj0KD2V4ZWN1dGlvblJlc3VsdBgBIAEoCzIkLmdhdWdlLm1lc3NhZ2Vz",
-            "LlByb3RvRXhlY3V0aW9uUmVzdWx0IlcKGEV4ZWN1dGlvblN0YXJ0aW5nUmVx",
-            "dWVzdBI7ChRjdXJyZW50RXhlY3V0aW9uSW5mbxgBIAEoCzIdLmdhdWdlLm1l",
-            "c3NhZ2VzLkV4ZWN1dGlvbkluZm8iVQoWRXhlY3V0aW9uRW5kaW5nUmVxdWVz",
-            "dBI7ChRjdXJyZW50RXhlY3V0aW9uSW5mbxgBIAEoCzIdLmdhdWdlLm1lc3Nh",
-            "Z2VzLkV4ZWN1dGlvbkluZm8iWwocU3BlY0V4ZWN1dGlvblN0YXJ0aW5nUmVx",
-            "dWVzdBI7ChRjdXJyZW50RXhlY3V0aW9uSW5mbxgBIAEoCzIdLmdhdWdlLm1l",
-            "c3NhZ2VzLkV4ZWN1dGlvbkluZm8iWQoaU3BlY0V4ZWN1dGlvbkVuZGluZ1Jl",
+            "LlByb3RvRXhlY3V0aW9uUmVzdWx0Io4BChhFeGVjdXRpb25TdGFydGluZ1Jl",
             "cXVlc3QSOwoUY3VycmVudEV4ZWN1dGlvbkluZm8YASABKAsyHS5nYXVnZS5t",
-            "ZXNzYWdlcy5FeGVjdXRpb25JbmZvIl8KIFNjZW5hcmlvRXhlY3V0aW9uU3Rh",
-            "cnRpbmdSZXF1ZXN0EjsKFGN1cnJlbnRFeGVjdXRpb25JbmZvGAEgASgLMh0u",
-            "Z2F1Z2UubWVzc2FnZXMuRXhlY3V0aW9uSW5mbyJdCh5TY2VuYXJpb0V4ZWN1",
-            "dGlvbkVuZGluZ1JlcXVlc3QSOwoUY3VycmVudEV4ZWN1dGlvbkluZm8YASAB",
-            "KAsyHS5nYXVnZS5tZXNzYWdlcy5FeGVjdXRpb25JbmZvIlsKHFN0ZXBFeGVj",
-            "dXRpb25TdGFydGluZ1JlcXVlc3QSOwoUY3VycmVudEV4ZWN1dGlvbkluZm8Y",
-            "ASABKAsyHS5nYXVnZS5tZXNzYWdlcy5FeGVjdXRpb25JbmZvIlkKGlN0ZXBF",
-            "eGVjdXRpb25FbmRpbmdSZXF1ZXN0EjsKFGN1cnJlbnRFeGVjdXRpb25JbmZv",
-            "GAEgASgLMh0uZ2F1Z2UubWVzc2FnZXMuRXhlY3V0aW9uSW5mbyK4AQoNRXhl",
-            "Y3V0aW9uSW5mbxItCgtjdXJyZW50U3BlYxgBIAEoCzIYLmdhdWdlLm1lc3Nh",
-            "Z2VzLlNwZWNJbmZvEjUKD2N1cnJlbnRTY2VuYXJpbxgCIAEoCzIcLmdhdWdl",
-            "Lm1lc3NhZ2VzLlNjZW5hcmlvSW5mbxItCgtjdXJyZW50U3RlcBgDIAEoCzIY",
-            "LmdhdWdlLm1lc3NhZ2VzLlN0ZXBJbmZvEhIKCnN0YWNrdHJhY2UYBCABKAki",
-            "SgoIU3BlY0luZm8SDAoEbmFtZRgBIAEoCRIQCghmaWxlTmFtZRgCIAEoCRIQ",
-            "Cghpc0ZhaWxlZBgDIAEoCBIMCgR0YWdzGAQgAygJIjwKDFNjZW5hcmlvSW5m",
-            "bxIMCgRuYW1lGAEgASgJEhAKCGlzRmFpbGVkGAIgASgIEgwKBHRhZ3MYAyAD",
-            "KAkieAoIU3RlcEluZm8SMAoEc3RlcBgBIAEoCzIiLmdhdWdlLm1lc3NhZ2Vz",
-            "LkV4ZWN1dGVTdGVwUmVxdWVzdBIQCghpc0ZhaWxlZBgCIAEoCBISCgpzdGFj",
-            "a1RyYWNlGAMgASgJEhQKDGVycm9yTWVzc2FnZRgEIAEoCSKMAQoSRXhlY3V0",
-            "ZVN0ZXBSZXF1ZXN0EhYKDmFjdHVhbFN0ZXBUZXh0GAEgASgJEhYKDnBhcnNl",
-            "ZFN0ZXBUZXh0GAIgASgJEhcKD3NjZW5hcmlvRmFpbGluZxgDIAEoCBItCgpw",
-            "YXJhbWV0ZXJzGAQgAygLMhkuZ2F1Z2UubWVzc2FnZXMuUGFyYW1ldGVyInYK",
-            "E1N0ZXBWYWxpZGF0ZVJlcXVlc3QSEAoIc3RlcFRleHQYASABKAkSGgoSbnVt",
-            "YmVyT2ZQYXJhbWV0ZXJzGAIgASgFEjEKCXN0ZXBWYWx1ZRgDIAEoCzIeLmdh",
-            "dWdlLm1lc3NhZ2VzLlByb3RvU3RlcFZhbHVlIucBChRTdGVwVmFsaWRhdGVS",
-            "ZXNwb25zZRIPCgdpc1ZhbGlkGAEgASgIEhQKDGVycm9yTWVzc2FnZRgCIAEo",
-            "CRJBCgllcnJvclR5cGUYAyABKA4yLi5nYXVnZS5tZXNzYWdlcy5TdGVwVmFs",
-            "aWRhdGVSZXNwb25zZS5FcnJvclR5cGUSEgoKc3VnZ2VzdGlvbhgEIAEoCSJR",
-            "CglFcnJvclR5cGUSIQodU1RFUF9JTVBMRU1FTlRBVElPTl9OT1RfRk9VTkQQ",
-            "ABIhCh1EVVBMSUNBVEVfU1RFUF9JTVBMRU1FTlRBVElPThABIk0KFFN1aXRl",
-            "RXhlY3V0aW9uUmVzdWx0EjUKC3N1aXRlUmVzdWx0GAEgASgLMiAuZ2F1Z2Uu",
-            "bWVzc2FnZXMuUHJvdG9TdWl0ZVJlc3VsdCISChBTdGVwTmFtZXNSZXF1ZXN0",
-            "IiIKEVN0ZXBOYW1lc1Jlc3BvbnNlEg0KBXN0ZXBzGAEgAygJIh4KHFNjZW5h",
-            "cmlvRGF0YVN0b3JlSW5pdFJlcXVlc3QiGgoYU3BlY0RhdGFTdG9yZUluaXRS",
-            "ZXF1ZXN0IhsKGVN1aXRlRGF0YVN0b3JlSW5pdFJlcXVlc3QiPQoRUGFyYW1l",
-            "dGVyUG9zaXRpb24SEwoLb2xkUG9zaXRpb24YASABKAUSEwoLbmV3UG9zaXRp",
-            "b24YAiABKAUizQEKD1JlZmFjdG9yUmVxdWVzdBI0CgxvbGRTdGVwVmFsdWUY",
-            "ASABKAsyHi5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXBWYWx1ZRI0CgxuZXdT",
-            "dGVwVmFsdWUYAiABKAsyHi5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXBWYWx1",
-            "ZRI5Cg5wYXJhbVBvc2l0aW9ucxgDIAMoCzIhLmdhdWdlLm1lc3NhZ2VzLlBh",
-            "cmFtZXRlclBvc2l0aW9uEhMKC3NhdmVDaGFuZ2VzGAQgASgIImEKC0ZpbGVD",
-            "aGFuZ2VzEhAKCGZpbGVOYW1lGAEgASgJEhcKC2ZpbGVDb250ZW50GAIgASgJ",
-            "QgIYARInCgVkaWZmcxgDIAMoCzIYLmdhdWdlLm1lc3NhZ2VzLlRleHREaWZm",
-            "InoKEFJlZmFjdG9yUmVzcG9uc2USDwoHc3VjY2VzcxgBIAEoCBINCgVlcnJv",
-            "chgCIAEoCRIUCgxmaWxlc0NoYW5nZWQYAyADKAkSMAoLZmlsZUNoYW5nZXMY",
-            "BCADKAsyGy5nYXVnZS5tZXNzYWdlcy5GaWxlQ2hhbmdlcyIkCg9TdGVwTmFt",
-            "ZVJlcXVlc3QSEQoJc3RlcFZhbHVlGAEgASgJIoMBChBTdGVwTmFtZVJlc3Bv",
-            "bnNlEhUKDWlzU3RlcFByZXNlbnQYASABKAgSEAoIc3RlcE5hbWUYAiADKAkS",
-            "EAoIaGFzQWxpYXMYAyABKAgSEAoIZmlsZU5hbWUYBCABKAkSIgoEc3BhbhgF",
-            "IAEoCzIULmdhdWdlLm1lc3NhZ2VzLlNwYW4iLQoaVW5zdXBwb3J0ZWRNZXNz",
-            "YWdlUmVzcG9uc2USDwoHbWVzc2FnZRgBIAEoCSLRAQoQQ2FjaGVGaWxlUmVx",
-            "dWVzdBIPCgdjb250ZW50GAEgASgJEhAKCGZpbGVQYXRoGAIgASgJEhAKCGlz",
-            "Q2xvc2VkGAMgASgIEjsKBnN0YXR1cxgEIAEoDjIrLmdhdWdlLm1lc3NhZ2Vz",
-            "LkNhY2hlRmlsZVJlcXVlc3QuRmlsZVN0YXR1cyJLCgpGaWxlU3RhdHVzEgsK",
-            "B0NIQU5HRUQQABIKCgZDTE9TRUQQARILCgdDUkVBVEVEEAISCwoHREVMRVRF",
-            "RBADEgoKBk9QRU5FRBAEIigKFFN0ZXBQb3NpdGlvbnNSZXF1ZXN0EhAKCGZp",
-            "bGVQYXRoGAEgASgJIrgBChVTdGVwUG9zaXRpb25zUmVzcG9uc2USSQoNc3Rl",
-            "cFBvc2l0aW9ucxgBIAMoCzIyLmdhdWdlLm1lc3NhZ2VzLlN0ZXBQb3NpdGlv",
-            "bnNSZXNwb25zZS5TdGVwUG9zaXRpb24SDQoFZXJyb3IYAiABKAkaRQoMU3Rl",
-            "cFBvc2l0aW9uEhEKCXN0ZXBWYWx1ZRgBIAEoCRIiCgRzcGFuGAIgASgLMhQu",
-            "Z2F1Z2UubWVzc2FnZXMuU3BhbiImCiRJbXBsZW1lbnRhdGlvbkZpbGVHbG9i",
-            "UGF0dGVyblJlcXVlc3QiPQolSW1wbGVtZW50YXRpb25GaWxlR2xvYlBhdHRl",
-            "cm5SZXNwb25zZRIUCgxnbG9iUGF0dGVybnMYASADKAkiHwodSW1wbGVtZW50",
-            "YXRpb25GaWxlTGlzdFJlcXVlc3QiQQoeSW1wbGVtZW50YXRpb25GaWxlTGlz",
-            "dFJlc3BvbnNlEh8KF2ltcGxlbWVudGF0aW9uRmlsZVBhdGhzGAEgAygJIk4K",
-            "HVN0dWJJbXBsZW1lbnRhdGlvbkNvZGVSZXF1ZXN0Eh4KFmltcGxlbWVudGF0",
-            "aW9uRmlsZVBhdGgYASABKAkSDQoFY29kZXMYAiADKAkiPwoIVGV4dERpZmYS",
-            "IgoEc3BhbhgBIAEoCzIULmdhdWdlLm1lc3NhZ2VzLlNwYW4SDwoHY29udGVu",
-            "dBgCIAEoCSJJCghGaWxlRGlmZhIQCghmaWxlUGF0aBgBIAEoCRIrCgl0ZXh0",
-            "RGlmZnMYAiADKAsyGC5nYXVnZS5tZXNzYWdlcy5UZXh0RGlmZiLWGgoHTWVz",
-            "c2FnZRI4CgttZXNzYWdlVHlwZRgBIAEoDjIjLmdhdWdlLm1lc3NhZ2VzLk1l",
-            "c3NhZ2UuTWVzc2FnZVR5cGUSEQoJbWVzc2FnZUlkGAIgASgDEkoKGGV4ZWN1",
-            "dGlvblN0YXJ0aW5nUmVxdWVzdBgDIAEoCzIoLmdhdWdlLm1lc3NhZ2VzLkV4",
-            "ZWN1dGlvblN0YXJ0aW5nUmVxdWVzdBJSChxzcGVjRXhlY3V0aW9uU3RhcnRp",
-            "bmdSZXF1ZXN0GAQgASgLMiwuZ2F1Z2UubWVzc2FnZXMuU3BlY0V4ZWN1dGlv",
-            "blN0YXJ0aW5nUmVxdWVzdBJOChpzcGVjRXhlY3V0aW9uRW5kaW5nUmVxdWVz",
-            "dBgFIAEoCzIqLmdhdWdlLm1lc3NhZ2VzLlNwZWNFeGVjdXRpb25FbmRpbmdS",
-            "ZXF1ZXN0EloKIHNjZW5hcmlvRXhlY3V0aW9uU3RhcnRpbmdSZXF1ZXN0GAYg",
-            "ASgLMjAuZ2F1Z2UubWVzc2FnZXMuU2NlbmFyaW9FeGVjdXRpb25TdGFydGlu",
-            "Z1JlcXVlc3QSVgoec2NlbmFyaW9FeGVjdXRpb25FbmRpbmdSZXF1ZXN0GAcg",
-            "ASgLMi4uZ2F1Z2UubWVzc2FnZXMuU2NlbmFyaW9FeGVjdXRpb25FbmRpbmdS",
-            "ZXF1ZXN0ElIKHHN0ZXBFeGVjdXRpb25TdGFydGluZ1JlcXVlc3QYCCABKAsy",
-            "LC5nYXVnZS5tZXNzYWdlcy5TdGVwRXhlY3V0aW9uU3RhcnRpbmdSZXF1ZXN0",
-            "Ek4KGnN0ZXBFeGVjdXRpb25FbmRpbmdSZXF1ZXN0GAkgASgLMiouZ2F1Z2Uu",
-            "bWVzc2FnZXMuU3RlcEV4ZWN1dGlvbkVuZGluZ1JlcXVlc3QSPgoSZXhlY3V0",
-            "ZVN0ZXBSZXF1ZXN0GAogASgLMiIuZ2F1Z2UubWVzc2FnZXMuRXhlY3V0ZVN0",
-            "ZXBSZXF1ZXN0EkYKFmV4ZWN1dGlvbkVuZGluZ1JlcXVlc3QYCyABKAsyJi5n",
-            "YXVnZS5tZXNzYWdlcy5FeGVjdXRpb25FbmRpbmdSZXF1ZXN0EkAKE3N0ZXBW",
-            "YWxpZGF0ZVJlcXVlc3QYDCABKAsyIy5nYXVnZS5tZXNzYWdlcy5TdGVwVmFs",
-            "aWRhdGVSZXF1ZXN0EkIKFHN0ZXBWYWxpZGF0ZVJlc3BvbnNlGA0gASgLMiQu",
-            "Z2F1Z2UubWVzc2FnZXMuU3RlcFZhbGlkYXRlUmVzcG9uc2USSAoXZXhlY3V0",
-            "aW9uU3RhdHVzUmVzcG9uc2UYDiABKAsyJy5nYXVnZS5tZXNzYWdlcy5FeGVj",
-            "dXRpb25TdGF0dXNSZXNwb25zZRI6ChBzdGVwTmFtZXNSZXF1ZXN0GA8gASgL",
-            "MiAuZ2F1Z2UubWVzc2FnZXMuU3RlcE5hbWVzUmVxdWVzdBI8ChFzdGVwTmFt",
-            "ZXNSZXNwb25zZRgQIAEoCzIhLmdhdWdlLm1lc3NhZ2VzLlN0ZXBOYW1lc1Jl",
-            "c3BvbnNlEkIKFHN1aXRlRXhlY3V0aW9uUmVzdWx0GBEgASgLMiQuZ2F1Z2Uu",
-            "bWVzc2FnZXMuU3VpdGVFeGVjdXRpb25SZXN1bHQSPgoSa2lsbFByb2Nlc3NS",
-            "ZXF1ZXN0GBIgASgLMiIuZ2F1Z2UubWVzc2FnZXMuS2lsbFByb2Nlc3NSZXF1",
-            "ZXN0ElIKHHNjZW5hcmlvRGF0YVN0b3JlSW5pdFJlcXVlc3QYEyABKAsyLC5n",
-            "YXVnZS5tZXNzYWdlcy5TY2VuYXJpb0RhdGFTdG9yZUluaXRSZXF1ZXN0EkoK",
-            "GHNwZWNEYXRhU3RvcmVJbml0UmVxdWVzdBgUIAEoCzIoLmdhdWdlLm1lc3Nh",
-            "Z2VzLlNwZWNEYXRhU3RvcmVJbml0UmVxdWVzdBJMChlzdWl0ZURhdGFTdG9y",
-            "ZUluaXRSZXF1ZXN0GBUgASgLMikuZ2F1Z2UubWVzc2FnZXMuU3VpdGVEYXRh",
-            "U3RvcmVJbml0UmVxdWVzdBI4Cg9zdGVwTmFtZVJlcXVlc3QYFiABKAsyHy5n",
-            "YXVnZS5tZXNzYWdlcy5TdGVwTmFtZVJlcXVlc3QSOgoQc3RlcE5hbWVSZXNw",
-            "b25zZRgXIAEoCzIgLmdhdWdlLm1lc3NhZ2VzLlN0ZXBOYW1lUmVzcG9uc2US",
-            "OAoPcmVmYWN0b3JSZXF1ZXN0GBggASgLMh8uZ2F1Z2UubWVzc2FnZXMuUmVm",
-            "YWN0b3JSZXF1ZXN0EjoKEHJlZmFjdG9yUmVzcG9uc2UYGSABKAsyIC5nYXVn",
-            "ZS5tZXNzYWdlcy5SZWZhY3RvclJlc3BvbnNlEk4KGnVuc3VwcG9ydGVkTWVz",
-            "c2FnZVJlc3BvbnNlGBogASgLMiouZ2F1Z2UubWVzc2FnZXMuVW5zdXBwb3J0",
-            "ZWRNZXNzYWdlUmVzcG9uc2USOgoQY2FjaGVGaWxlUmVxdWVzdBgbIAEoCzIg",
-            "LmdhdWdlLm1lc3NhZ2VzLkNhY2hlRmlsZVJlcXVlc3QSQgoUc3RlcFBvc2l0",
-            "aW9uc1JlcXVlc3QYHCABKAsyJC5nYXVnZS5tZXNzYWdlcy5TdGVwUG9zaXRp",
-            "b25zUmVxdWVzdBJEChVzdGVwUG9zaXRpb25zUmVzcG9uc2UYHSABKAsyJS5n",
-            "YXVnZS5tZXNzYWdlcy5TdGVwUG9zaXRpb25zUmVzcG9uc2USVAodaW1wbGVt",
-            "ZW50YXRpb25GaWxlTGlzdFJlcXVlc3QYHiABKAsyLS5nYXVnZS5tZXNzYWdl",
-            "cy5JbXBsZW1lbnRhdGlvbkZpbGVMaXN0UmVxdWVzdBJWCh5pbXBsZW1lbnRh",
-            "dGlvbkZpbGVMaXN0UmVzcG9uc2UYHyABKAsyLi5nYXVnZS5tZXNzYWdlcy5J",
-            "bXBsZW1lbnRhdGlvbkZpbGVMaXN0UmVzcG9uc2USVAodc3R1YkltcGxlbWVu",
-            "dGF0aW9uQ29kZVJlcXVlc3QYICABKAsyLS5nYXVnZS5tZXNzYWdlcy5TdHVi",
-            "SW1wbGVtZW50YXRpb25Db2RlUmVxdWVzdBIqCghmaWxlRGlmZhghIAEoCzIY",
-            "LmdhdWdlLm1lc3NhZ2VzLkZpbGVEaWZmEmIKJGltcGxlbWVudGF0aW9uRmls",
-            "ZUdsb2JQYXR0ZXJuUmVxdWVzdBgiIAEoCzI0LmdhdWdlLm1lc3NhZ2VzLklt",
-            "cGxlbWVudGF0aW9uRmlsZUdsb2JQYXR0ZXJuUmVxdWVzdBJkCiVpbXBsZW1l",
-            "bnRhdGlvbkZpbGVHbG9iUGF0dGVyblJlc3BvbnNlGCMgASgLMjUuZ2F1Z2Uu",
-            "bWVzc2FnZXMuSW1wbGVtZW50YXRpb25GaWxlR2xvYlBhdHRlcm5SZXNwb25z",
-            "ZSL1BgoLTWVzc2FnZVR5cGUSFQoRRXhlY3V0aW9uU3RhcnRpbmcQABIZChVT",
-            "cGVjRXhlY3V0aW9uU3RhcnRpbmcQARIXChNTcGVjRXhlY3V0aW9uRW5kaW5n",
-            "EAISHQoZU2NlbmFyaW9FeGVjdXRpb25TdGFydGluZxADEhsKF1NjZW5hcmlv",
-            "RXhlY3V0aW9uRW5kaW5nEAQSGQoVU3RlcEV4ZWN1dGlvblN0YXJ0aW5nEAUS",
-            "FwoTU3RlcEV4ZWN1dGlvbkVuZGluZxAGEg8KC0V4ZWN1dGVTdGVwEAcSEwoP",
-            "RXhlY3V0aW9uRW5kaW5nEAgSFwoTU3RlcFZhbGlkYXRlUmVxdWVzdBAJEhgK",
-            "FFN0ZXBWYWxpZGF0ZVJlc3BvbnNlEAoSGwoXRXhlY3V0aW9uU3RhdHVzUmVz",
-            "cG9uc2UQCxIUChBTdGVwTmFtZXNSZXF1ZXN0EAwSFQoRU3RlcE5hbWVzUmVz",
-            "cG9uc2UQDRIWChJLaWxsUHJvY2Vzc1JlcXVlc3QQDhIYChRTdWl0ZUV4ZWN1",
-            "dGlvblJlc3VsdBAPEhkKFVNjZW5hcmlvRGF0YVN0b3JlSW5pdBAQEhUKEVNw",
-            "ZWNEYXRhU3RvcmVJbml0EBESFgoSU3VpdGVEYXRhU3RvcmVJbml0EBISEwoP",
-            "U3RlcE5hbWVSZXF1ZXN0EBMSFAoQU3RlcE5hbWVSZXNwb25zZRAUEhMKD1Jl",
-            "ZmFjdG9yUmVxdWVzdBAVEhQKEFJlZmFjdG9yUmVzcG9uc2UQFhIeChpVbnN1",
-            "cHBvcnRlZE1lc3NhZ2VSZXNwb25zZRAXEhQKEENhY2hlRmlsZVJlcXVlc3QQ",
-            "GBIYChRTdGVwUG9zaXRpb25zUmVxdWVzdBAZEhkKFVN0ZXBQb3NpdGlvbnNS",
-            "ZXNwb25zZRAaEiEKHUltcGxlbWVudGF0aW9uRmlsZUxpc3RSZXF1ZXN0EBsS",
-            "IgoeSW1wbGVtZW50YXRpb25GaWxlTGlzdFJlc3BvbnNlEBwSIQodU3R1Yklt",
-            "cGxlbWVudGF0aW9uQ29kZVJlcXVlc3QQHRIMCghGaWxlRGlmZhAeEigKJElt",
-            "cGxlbWVudGF0aW9uRmlsZUdsb2JQYXR0ZXJuUmVxdWVzdBAfEikKJUltcGxl",
-            "bWVudGF0aW9uRmlsZUdsb2JQYXR0ZXJuUmVzcG9uc2UQIEIpChZjb20udGhv",
-            "dWdodHdvcmtzLmdhdWdlqgIOR2F1Z2UuTWVzc2FnZXNiBnByb3RvMw=="));
+            "ZXNzYWdlcy5FeGVjdXRpb25JbmZvEjUKC3N1aXRlUmVzdWx0GAIgASgLMiAu",
+            "Z2F1Z2UubWVzc2FnZXMuUHJvdG9TdWl0ZVJlc3VsdCKMAQoWRXhlY3V0aW9u",
+            "RW5kaW5nUmVxdWVzdBI7ChRjdXJyZW50RXhlY3V0aW9uSW5mbxgBIAEoCzId",
+            "LmdhdWdlLm1lc3NhZ2VzLkV4ZWN1dGlvbkluZm8SNQoLc3VpdGVSZXN1bHQY",
+            "AiABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b1N1aXRlUmVzdWx0IpABChxT",
+            "cGVjRXhlY3V0aW9uU3RhcnRpbmdSZXF1ZXN0EjsKFGN1cnJlbnRFeGVjdXRp",
+            "b25JbmZvGAEgASgLMh0uZ2F1Z2UubWVzc2FnZXMuRXhlY3V0aW9uSW5mbxIz",
+            "CgpzcGVjUmVzdWx0GAIgASgLMh8uZ2F1Z2UubWVzc2FnZXMuUHJvdG9TcGVj",
+            "UmVzdWx0Io4BChpTcGVjRXhlY3V0aW9uRW5kaW5nUmVxdWVzdBI7ChRjdXJy",
+            "ZW50RXhlY3V0aW9uSW5mbxgBIAEoCzIdLmdhdWdlLm1lc3NhZ2VzLkV4ZWN1",
+            "dGlvbkluZm8SMwoKc3BlY1Jlc3VsdBgCIAEoCzIfLmdhdWdlLm1lc3NhZ2Vz",
+            "LlByb3RvU3BlY1Jlc3VsdCKcAQogU2NlbmFyaW9FeGVjdXRpb25TdGFydGlu",
+            "Z1JlcXVlc3QSOwoUY3VycmVudEV4ZWN1dGlvbkluZm8YASABKAsyHS5nYXVn",
+            "ZS5tZXNzYWdlcy5FeGVjdXRpb25JbmZvEjsKDnNjZW5hcmlvUmVzdWx0GAIg",
+            "ASgLMiMuZ2F1Z2UubWVzc2FnZXMuUHJvdG9TY2VuYXJpb1Jlc3VsdCKaAQoe",
+            "U2NlbmFyaW9FeGVjdXRpb25FbmRpbmdSZXF1ZXN0EjsKFGN1cnJlbnRFeGVj",
+            "dXRpb25JbmZvGAEgASgLMh0uZ2F1Z2UubWVzc2FnZXMuRXhlY3V0aW9uSW5m",
+            "bxI7Cg5zY2VuYXJpb1Jlc3VsdBgCIAEoCzIjLmdhdWdlLm1lc3NhZ2VzLlBy",
+            "b3RvU2NlbmFyaW9SZXN1bHQikAEKHFN0ZXBFeGVjdXRpb25TdGFydGluZ1Jl",
+            "cXVlc3QSOwoUY3VycmVudEV4ZWN1dGlvbkluZm8YASABKAsyHS5nYXVnZS5t",
+            "ZXNzYWdlcy5FeGVjdXRpb25JbmZvEjMKCnN0ZXBSZXN1bHQYAiABKAsyHy5n",
+            "YXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXBSZXN1bHQijgEKGlN0ZXBFeGVjdXRp",
+            "b25FbmRpbmdSZXF1ZXN0EjsKFGN1cnJlbnRFeGVjdXRpb25JbmZvGAEgASgL",
+            "Mh0uZ2F1Z2UubWVzc2FnZXMuRXhlY3V0aW9uSW5mbxIzCgpzdGVwUmVzdWx0",
+            "GAIgASgLMh8uZ2F1Z2UubWVzc2FnZXMuUHJvdG9TdGVwUmVzdWx0IjMKDEV4",
+            "ZWN1dGlvbkFyZxIQCghmbGFnTmFtZRgBIAEoCRIRCglmbGFnVmFsdWUYAiAD",
+            "KAkitgIKDUV4ZWN1dGlvbkluZm8SLQoLY3VycmVudFNwZWMYASABKAsyGC5n",
+            "YXVnZS5tZXNzYWdlcy5TcGVjSW5mbxI1Cg9jdXJyZW50U2NlbmFyaW8YAiAB",
+            "KAsyHC5nYXVnZS5tZXNzYWdlcy5TY2VuYXJpb0luZm8SLQoLY3VycmVudFN0",
+            "ZXAYAyABKAsyGC5nYXVnZS5tZXNzYWdlcy5TdGVwSW5mbxISCgpzdGFja3Ry",
+            "YWNlGAQgASgJEhMKC3Byb2plY3ROYW1lGAUgASgJEjMKDUV4ZWN1dGlvbkFy",
+            "Z3MYBiADKAsyHC5nYXVnZS5tZXNzYWdlcy5FeGVjdXRpb25BcmcSIAoYbnVt",
+            "YmVyT2ZFeGVjdXRpb25TdHJlYW1zGAcgASgFEhAKCHJ1bm5lcklkGAggASgF",
+            "IkoKCFNwZWNJbmZvEgwKBG5hbWUYASABKAkSEAoIZmlsZU5hbWUYAiABKAkS",
+            "EAoIaXNGYWlsZWQYAyABKAgSDAoEdGFncxgEIAMoCSI8CgxTY2VuYXJpb0lu",
+            "Zm8SDAoEbmFtZRgBIAEoCRIQCghpc0ZhaWxlZBgCIAEoCBIMCgR0YWdzGAMg",
+            "AygJIngKCFN0ZXBJbmZvEjAKBHN0ZXAYASABKAsyIi5nYXVnZS5tZXNzYWdl",
+            "cy5FeGVjdXRlU3RlcFJlcXVlc3QSEAoIaXNGYWlsZWQYAiABKAgSEgoKc3Rh",
+            "Y2tUcmFjZRgDIAEoCRIUCgxlcnJvck1lc3NhZ2UYBCABKAkijAEKEkV4ZWN1",
+            "dGVTdGVwUmVxdWVzdBIWCg5hY3R1YWxTdGVwVGV4dBgBIAEoCRIWCg5wYXJz",
+            "ZWRTdGVwVGV4dBgCIAEoCRIXCg9zY2VuYXJpb0ZhaWxpbmcYAyABKAgSLQoK",
+            "cGFyYW1ldGVycxgEIAMoCzIZLmdhdWdlLm1lc3NhZ2VzLlBhcmFtZXRlciJ2",
+            "ChNTdGVwVmFsaWRhdGVSZXF1ZXN0EhAKCHN0ZXBUZXh0GAEgASgJEhoKEm51",
+            "bWJlck9mUGFyYW1ldGVycxgCIAEoBRIxCglzdGVwVmFsdWUYAyABKAsyHi5n",
+            "YXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXBWYWx1ZSLnAQoUU3RlcFZhbGlkYXRl",
+            "UmVzcG9uc2USDwoHaXNWYWxpZBgBIAEoCBIUCgxlcnJvck1lc3NhZ2UYAiAB",
+            "KAkSQQoJZXJyb3JUeXBlGAMgASgOMi4uZ2F1Z2UubWVzc2FnZXMuU3RlcFZh",
+            "bGlkYXRlUmVzcG9uc2UuRXJyb3JUeXBlEhIKCnN1Z2dlc3Rpb24YBCABKAki",
+            "UQoJRXJyb3JUeXBlEiEKHVNURVBfSU1QTEVNRU5UQVRJT05fTk9UX0ZPVU5E",
+            "EAASIQodRFVQTElDQVRFX1NURVBfSU1QTEVNRU5UQVRJT04QASJNChRTdWl0",
+            "ZUV4ZWN1dGlvblJlc3VsdBI1CgtzdWl0ZVJlc3VsdBgBIAEoCzIgLmdhdWdl",
+            "Lm1lc3NhZ2VzLlByb3RvU3VpdGVSZXN1bHQiSQoYU3VpdGVFeGVjdXRpb25S",
+            "ZXN1bHRJdGVtEi0KCnJlc3VsdEl0ZW0YASABKAsyGS5nYXVnZS5tZXNzYWdl",
+            "cy5Qcm90b0l0ZW0iEgoQU3RlcE5hbWVzUmVxdWVzdCIiChFTdGVwTmFtZXNS",
+            "ZXNwb25zZRINCgVzdGVwcxgBIAMoCSIeChxTY2VuYXJpb0RhdGFTdG9yZUlu",
+            "aXRSZXF1ZXN0IhoKGFNwZWNEYXRhU3RvcmVJbml0UmVxdWVzdCIbChlTdWl0",
+            "ZURhdGFTdG9yZUluaXRSZXF1ZXN0Ij0KEVBhcmFtZXRlclBvc2l0aW9uEhMK",
+            "C29sZFBvc2l0aW9uGAEgASgFEhMKC25ld1Bvc2l0aW9uGAIgASgFIs0BCg9S",
+            "ZWZhY3RvclJlcXVlc3QSNAoMb2xkU3RlcFZhbHVlGAEgASgLMh4uZ2F1Z2Uu",
+            "bWVzc2FnZXMuUHJvdG9TdGVwVmFsdWUSNAoMbmV3U3RlcFZhbHVlGAIgASgL",
+            "Mh4uZ2F1Z2UubWVzc2FnZXMuUHJvdG9TdGVwVmFsdWUSOQoOcGFyYW1Qb3Np",
+            "dGlvbnMYAyADKAsyIS5nYXVnZS5tZXNzYWdlcy5QYXJhbWV0ZXJQb3NpdGlv",
+            "bhITCgtzYXZlQ2hhbmdlcxgEIAEoCCJhCgtGaWxlQ2hhbmdlcxIQCghmaWxl",
+            "TmFtZRgBIAEoCRIXCgtmaWxlQ29udGVudBgCIAEoCUICGAESJwoFZGlmZnMY",
+            "AyADKAsyGC5nYXVnZS5tZXNzYWdlcy5UZXh0RGlmZiJ6ChBSZWZhY3RvclJl",
+            "c3BvbnNlEg8KB3N1Y2Nlc3MYASABKAgSDQoFZXJyb3IYAiABKAkSFAoMZmls",
+            "ZXNDaGFuZ2VkGAMgAygJEjAKC2ZpbGVDaGFuZ2VzGAQgAygLMhsuZ2F1Z2Uu",
+            "bWVzc2FnZXMuRmlsZUNoYW5nZXMiJAoPU3RlcE5hbWVSZXF1ZXN0EhEKCXN0",
+            "ZXBWYWx1ZRgBIAEoCSKDAQoQU3RlcE5hbWVSZXNwb25zZRIVCg1pc1N0ZXBQ",
+            "cmVzZW50GAEgASgIEhAKCHN0ZXBOYW1lGAIgAygJEhAKCGhhc0FsaWFzGAMg",
+            "ASgIEhAKCGZpbGVOYW1lGAQgASgJEiIKBHNwYW4YBSABKAsyFC5nYXVnZS5t",
+            "ZXNzYWdlcy5TcGFuIi0KGlVuc3VwcG9ydGVkTWVzc2FnZVJlc3BvbnNlEg8K",
+            "B21lc3NhZ2UYASABKAki0QEKEENhY2hlRmlsZVJlcXVlc3QSDwoHY29udGVu",
+            "dBgBIAEoCRIQCghmaWxlUGF0aBgCIAEoCRIQCghpc0Nsb3NlZBgDIAEoCBI7",
+            "CgZzdGF0dXMYBCABKA4yKy5nYXVnZS5tZXNzYWdlcy5DYWNoZUZpbGVSZXF1",
+            "ZXN0LkZpbGVTdGF0dXMiSwoKRmlsZVN0YXR1cxILCgdDSEFOR0VEEAASCgoG",
+            "Q0xPU0VEEAESCwoHQ1JFQVRFRBACEgsKB0RFTEVURUQQAxIKCgZPUEVORUQQ",
+            "BCIoChRTdGVwUG9zaXRpb25zUmVxdWVzdBIQCghmaWxlUGF0aBgBIAEoCSK4",
+            "AQoVU3RlcFBvc2l0aW9uc1Jlc3BvbnNlEkkKDXN0ZXBQb3NpdGlvbnMYASAD",
+            "KAsyMi5nYXVnZS5tZXNzYWdlcy5TdGVwUG9zaXRpb25zUmVzcG9uc2UuU3Rl",
+            "cFBvc2l0aW9uEg0KBWVycm9yGAIgASgJGkUKDFN0ZXBQb3NpdGlvbhIRCglz",
+            "dGVwVmFsdWUYASABKAkSIgoEc3BhbhgCIAEoCzIULmdhdWdlLm1lc3NhZ2Vz",
+            "LlNwYW4iJgokSW1wbGVtZW50YXRpb25GaWxlR2xvYlBhdHRlcm5SZXF1ZXN0",
+            "Ij0KJUltcGxlbWVudGF0aW9uRmlsZUdsb2JQYXR0ZXJuUmVzcG9uc2USFAoM",
+            "Z2xvYlBhdHRlcm5zGAEgAygJIh8KHUltcGxlbWVudGF0aW9uRmlsZUxpc3RS",
+            "ZXF1ZXN0IkEKHkltcGxlbWVudGF0aW9uRmlsZUxpc3RSZXNwb25zZRIfChdp",
+            "bXBsZW1lbnRhdGlvbkZpbGVQYXRocxgBIAMoCSJOCh1TdHViSW1wbGVtZW50",
+            "YXRpb25Db2RlUmVxdWVzdBIeChZpbXBsZW1lbnRhdGlvbkZpbGVQYXRoGAEg",
+            "ASgJEg0KBWNvZGVzGAIgAygJIj8KCFRleHREaWZmEiIKBHNwYW4YASABKAsy",
+            "FC5nYXVnZS5tZXNzYWdlcy5TcGFuEg8KB2NvbnRlbnQYAiABKAkiSQoIRmls",
+            "ZURpZmYSEAoIZmlsZVBhdGgYASABKAkSKwoJdGV4dERpZmZzGAIgAygLMhgu",
+            "Z2F1Z2UubWVzc2FnZXMuVGV4dERpZmYiHQoJS2VlcEFsaXZlEhAKCHBsdWdp",
+            "bklkGAEgASgJIgcKBUVtcHR5Iv0bCgdNZXNzYWdlEjgKC21lc3NhZ2VUeXBl",
+            "GAEgASgOMiMuZ2F1Z2UubWVzc2FnZXMuTWVzc2FnZS5NZXNzYWdlVHlwZRIR",
+            "CgltZXNzYWdlSWQYAiABKAMSSgoYZXhlY3V0aW9uU3RhcnRpbmdSZXF1ZXN0",
+            "GAMgASgLMiguZ2F1Z2UubWVzc2FnZXMuRXhlY3V0aW9uU3RhcnRpbmdSZXF1",
+            "ZXN0ElIKHHNwZWNFeGVjdXRpb25TdGFydGluZ1JlcXVlc3QYBCABKAsyLC5n",
+            "YXVnZS5tZXNzYWdlcy5TcGVjRXhlY3V0aW9uU3RhcnRpbmdSZXF1ZXN0Ek4K",
+            "GnNwZWNFeGVjdXRpb25FbmRpbmdSZXF1ZXN0GAUgASgLMiouZ2F1Z2UubWVz",
+            "c2FnZXMuU3BlY0V4ZWN1dGlvbkVuZGluZ1JlcXVlc3QSWgogc2NlbmFyaW9F",
+            "eGVjdXRpb25TdGFydGluZ1JlcXVlc3QYBiABKAsyMC5nYXVnZS5tZXNzYWdl",
+            "cy5TY2VuYXJpb0V4ZWN1dGlvblN0YXJ0aW5nUmVxdWVzdBJWCh5zY2VuYXJp",
+            "b0V4ZWN1dGlvbkVuZGluZ1JlcXVlc3QYByABKAsyLi5nYXVnZS5tZXNzYWdl",
+            "cy5TY2VuYXJpb0V4ZWN1dGlvbkVuZGluZ1JlcXVlc3QSUgocc3RlcEV4ZWN1",
+            "dGlvblN0YXJ0aW5nUmVxdWVzdBgIIAEoCzIsLmdhdWdlLm1lc3NhZ2VzLlN0",
+            "ZXBFeGVjdXRpb25TdGFydGluZ1JlcXVlc3QSTgoac3RlcEV4ZWN1dGlvbkVu",
+            "ZGluZ1JlcXVlc3QYCSABKAsyKi5nYXVnZS5tZXNzYWdlcy5TdGVwRXhlY3V0",
+            "aW9uRW5kaW5nUmVxdWVzdBI+ChJleGVjdXRlU3RlcFJlcXVlc3QYCiABKAsy",
+            "Ii5nYXVnZS5tZXNzYWdlcy5FeGVjdXRlU3RlcFJlcXVlc3QSRgoWZXhlY3V0",
+            "aW9uRW5kaW5nUmVxdWVzdBgLIAEoCzImLmdhdWdlLm1lc3NhZ2VzLkV4ZWN1",
+            "dGlvbkVuZGluZ1JlcXVlc3QSQAoTc3RlcFZhbGlkYXRlUmVxdWVzdBgMIAEo",
+            "CzIjLmdhdWdlLm1lc3NhZ2VzLlN0ZXBWYWxpZGF0ZVJlcXVlc3QSQgoUc3Rl",
+            "cFZhbGlkYXRlUmVzcG9uc2UYDSABKAsyJC5nYXVnZS5tZXNzYWdlcy5TdGVw",
+            "VmFsaWRhdGVSZXNwb25zZRJIChdleGVjdXRpb25TdGF0dXNSZXNwb25zZRgO",
+            "IAEoCzInLmdhdWdlLm1lc3NhZ2VzLkV4ZWN1dGlvblN0YXR1c1Jlc3BvbnNl",
+            "EjoKEHN0ZXBOYW1lc1JlcXVlc3QYDyABKAsyIC5nYXVnZS5tZXNzYWdlcy5T",
+            "dGVwTmFtZXNSZXF1ZXN0EjwKEXN0ZXBOYW1lc1Jlc3BvbnNlGBAgASgLMiEu",
+            "Z2F1Z2UubWVzc2FnZXMuU3RlcE5hbWVzUmVzcG9uc2USQgoUc3VpdGVFeGVj",
+            "dXRpb25SZXN1bHQYESABKAsyJC5nYXVnZS5tZXNzYWdlcy5TdWl0ZUV4ZWN1",
+            "dGlvblJlc3VsdBI+ChJraWxsUHJvY2Vzc1JlcXVlc3QYEiABKAsyIi5nYXVn",
+            "ZS5tZXNzYWdlcy5LaWxsUHJvY2Vzc1JlcXVlc3QSUgocc2NlbmFyaW9EYXRh",
+            "U3RvcmVJbml0UmVxdWVzdBgTIAEoCzIsLmdhdWdlLm1lc3NhZ2VzLlNjZW5h",
+            "cmlvRGF0YVN0b3JlSW5pdFJlcXVlc3QSSgoYc3BlY0RhdGFTdG9yZUluaXRS",
+            "ZXF1ZXN0GBQgASgLMiguZ2F1Z2UubWVzc2FnZXMuU3BlY0RhdGFTdG9yZUlu",
+            "aXRSZXF1ZXN0EkwKGXN1aXRlRGF0YVN0b3JlSW5pdFJlcXVlc3QYFSABKAsy",
+            "KS5nYXVnZS5tZXNzYWdlcy5TdWl0ZURhdGFTdG9yZUluaXRSZXF1ZXN0EjgK",
+            "D3N0ZXBOYW1lUmVxdWVzdBgWIAEoCzIfLmdhdWdlLm1lc3NhZ2VzLlN0ZXBO",
+            "YW1lUmVxdWVzdBI6ChBzdGVwTmFtZVJlc3BvbnNlGBcgASgLMiAuZ2F1Z2Uu",
+            "bWVzc2FnZXMuU3RlcE5hbWVSZXNwb25zZRI4Cg9yZWZhY3RvclJlcXVlc3QY",
+            "GCABKAsyHy5nYXVnZS5tZXNzYWdlcy5SZWZhY3RvclJlcXVlc3QSOgoQcmVm",
+            "YWN0b3JSZXNwb25zZRgZIAEoCzIgLmdhdWdlLm1lc3NhZ2VzLlJlZmFjdG9y",
+            "UmVzcG9uc2USTgoadW5zdXBwb3J0ZWRNZXNzYWdlUmVzcG9uc2UYGiABKAsy",
+            "Ki5nYXVnZS5tZXNzYWdlcy5VbnN1cHBvcnRlZE1lc3NhZ2VSZXNwb25zZRI6",
+            "ChBjYWNoZUZpbGVSZXF1ZXN0GBsgASgLMiAuZ2F1Z2UubWVzc2FnZXMuQ2Fj",
+            "aGVGaWxlUmVxdWVzdBJCChRzdGVwUG9zaXRpb25zUmVxdWVzdBgcIAEoCzIk",
+            "LmdhdWdlLm1lc3NhZ2VzLlN0ZXBQb3NpdGlvbnNSZXF1ZXN0EkQKFXN0ZXBQ",
+            "b3NpdGlvbnNSZXNwb25zZRgdIAEoCzIlLmdhdWdlLm1lc3NhZ2VzLlN0ZXBQ",
+            "b3NpdGlvbnNSZXNwb25zZRJUCh1pbXBsZW1lbnRhdGlvbkZpbGVMaXN0UmVx",
+            "dWVzdBgeIAEoCzItLmdhdWdlLm1lc3NhZ2VzLkltcGxlbWVudGF0aW9uRmls",
+            "ZUxpc3RSZXF1ZXN0ElYKHmltcGxlbWVudGF0aW9uRmlsZUxpc3RSZXNwb25z",
+            "ZRgfIAEoCzIuLmdhdWdlLm1lc3NhZ2VzLkltcGxlbWVudGF0aW9uRmlsZUxp",
+            "c3RSZXNwb25zZRJUCh1zdHViSW1wbGVtZW50YXRpb25Db2RlUmVxdWVzdBgg",
+            "IAEoCzItLmdhdWdlLm1lc3NhZ2VzLlN0dWJJbXBsZW1lbnRhdGlvbkNvZGVS",
+            "ZXF1ZXN0EioKCGZpbGVEaWZmGCEgASgLMhguZ2F1Z2UubWVzc2FnZXMuRmls",
+            "ZURpZmYSYgokaW1wbGVtZW50YXRpb25GaWxlR2xvYlBhdHRlcm5SZXF1ZXN0",
+            "GCIgASgLMjQuZ2F1Z2UubWVzc2FnZXMuSW1wbGVtZW50YXRpb25GaWxlR2xv",
+            "YlBhdHRlcm5SZXF1ZXN0EmQKJWltcGxlbWVudGF0aW9uRmlsZUdsb2JQYXR0",
+            "ZXJuUmVzcG9uc2UYIyABKAsyNS5nYXVnZS5tZXNzYWdlcy5JbXBsZW1lbnRh",
+            "dGlvbkZpbGVHbG9iUGF0dGVyblJlc3BvbnNlEkoKGHN1aXRlRXhlY3V0aW9u",
+            "UmVzdWx0SXRlbRgkIAEoCzIoLmdhdWdlLm1lc3NhZ2VzLlN1aXRlRXhlY3V0",
+            "aW9uUmVzdWx0SXRlbRIsCglrZWVwQWxpdmUYJSABKAsyGS5nYXVnZS5tZXNz",
+            "YWdlcy5LZWVwQWxpdmUiogcKC01lc3NhZ2VUeXBlEhUKEUV4ZWN1dGlvblN0",
+            "YXJ0aW5nEAASGQoVU3BlY0V4ZWN1dGlvblN0YXJ0aW5nEAESFwoTU3BlY0V4",
+            "ZWN1dGlvbkVuZGluZxACEh0KGVNjZW5hcmlvRXhlY3V0aW9uU3RhcnRpbmcQ",
+            "AxIbChdTY2VuYXJpb0V4ZWN1dGlvbkVuZGluZxAEEhkKFVN0ZXBFeGVjdXRp",
+            "b25TdGFydGluZxAFEhcKE1N0ZXBFeGVjdXRpb25FbmRpbmcQBhIPCgtFeGVj",
+            "dXRlU3RlcBAHEhMKD0V4ZWN1dGlvbkVuZGluZxAIEhcKE1N0ZXBWYWxpZGF0",
+            "ZVJlcXVlc3QQCRIYChRTdGVwVmFsaWRhdGVSZXNwb25zZRAKEhsKF0V4ZWN1",
+            "dGlvblN0YXR1c1Jlc3BvbnNlEAsSFAoQU3RlcE5hbWVzUmVxdWVzdBAMEhUK",
+            "EVN0ZXBOYW1lc1Jlc3BvbnNlEA0SFgoSS2lsbFByb2Nlc3NSZXF1ZXN0EA4S",
+            "GAoUU3VpdGVFeGVjdXRpb25SZXN1bHQQDxIZChVTY2VuYXJpb0RhdGFTdG9y",
+            "ZUluaXQQEBIVChFTcGVjRGF0YVN0b3JlSW5pdBAREhYKElN1aXRlRGF0YVN0",
+            "b3JlSW5pdBASEhMKD1N0ZXBOYW1lUmVxdWVzdBATEhQKEFN0ZXBOYW1lUmVz",
+            "cG9uc2UQFBITCg9SZWZhY3RvclJlcXVlc3QQFRIUChBSZWZhY3RvclJlc3Bv",
+            "bnNlEBYSHgoaVW5zdXBwb3J0ZWRNZXNzYWdlUmVzcG9uc2UQFxIUChBDYWNo",
+            "ZUZpbGVSZXF1ZXN0EBgSGAoUU3RlcFBvc2l0aW9uc1JlcXVlc3QQGRIZChVT",
+            "dGVwUG9zaXRpb25zUmVzcG9uc2UQGhIhCh1JbXBsZW1lbnRhdGlvbkZpbGVM",
+            "aXN0UmVxdWVzdBAbEiIKHkltcGxlbWVudGF0aW9uRmlsZUxpc3RSZXNwb25z",
+            "ZRAcEiEKHVN0dWJJbXBsZW1lbnRhdGlvbkNvZGVSZXF1ZXN0EB0SDAoIRmls",
+            "ZURpZmYQHhIoCiRJbXBsZW1lbnRhdGlvbkZpbGVHbG9iUGF0dGVyblJlcXVl",
+            "c3QQHxIpCiVJbXBsZW1lbnRhdGlvbkZpbGVHbG9iUGF0dGVyblJlc3BvbnNl",
+            "ECASHAoYU3VpdGVFeGVjdXRpb25SZXN1bHRJdGVtECESDQoJS2VlcEFsaXZl",
+            "ECJCKQoWY29tLnRob3VnaHR3b3Jrcy5nYXVnZaoCDkdhdWdlLk1lc3NhZ2Vz",
+            "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gauge.Messages.SpecReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.KillProcessRequest), global::Gauge.Messages.KillProcessRequest.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionStatusResponse), global::Gauge.Messages.ExecutionStatusResponse.Parser, new[]{ "ExecutionResult" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionStartingRequest), global::Gauge.Messages.ExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionEndingRequest), global::Gauge.Messages.ExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionStartingRequest), global::Gauge.Messages.SpecExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionEndingRequest), global::Gauge.Messages.SpecExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionStartingRequest), global::Gauge.Messages.ScenarioExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionEndingRequest), global::Gauge.Messages.ScenarioExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionStartingRequest), global::Gauge.Messages.StepExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionEndingRequest), global::Gauge.Messages.StepExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionInfo), global::Gauge.Messages.ExecutionInfo.Parser, new[]{ "CurrentSpec", "CurrentScenario", "CurrentStep", "Stacktrace" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionStartingRequest), global::Gauge.Messages.ExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "SuiteResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionEndingRequest), global::Gauge.Messages.ExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "SuiteResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionStartingRequest), global::Gauge.Messages.SpecExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "SpecResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionEndingRequest), global::Gauge.Messages.SpecExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "SpecResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionStartingRequest), global::Gauge.Messages.ScenarioExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "ScenarioResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionEndingRequest), global::Gauge.Messages.ScenarioExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "ScenarioResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionStartingRequest), global::Gauge.Messages.StepExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "StepResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionEndingRequest), global::Gauge.Messages.StepExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "StepResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionArg), global::Gauge.Messages.ExecutionArg.Parser, new[]{ "FlagName", "FlagValue" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionInfo), global::Gauge.Messages.ExecutionInfo.Parser, new[]{ "CurrentSpec", "CurrentScenario", "CurrentStep", "Stacktrace", "ProjectName", "ExecutionArgs", "NumberOfExecutionStreams", "RunnerId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecInfo), global::Gauge.Messages.SpecInfo.Parser, new[]{ "Name", "FileName", "IsFailed", "Tags" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioInfo), global::Gauge.Messages.ScenarioInfo.Parser, new[]{ "Name", "IsFailed", "Tags" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepInfo), global::Gauge.Messages.StepInfo.Parser, new[]{ "Step", "IsFailed", "StackTrace", "ErrorMessage" }, null, null, null),
@@ -203,6 +225,7 @@ namespace Gauge.Messages {
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepValidateRequest), global::Gauge.Messages.StepValidateRequest.Parser, new[]{ "StepText", "NumberOfParameters", "StepValue" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepValidateResponse), global::Gauge.Messages.StepValidateResponse.Parser, new[]{ "IsValid", "ErrorMessage", "ErrorType", "Suggestion" }, null, new[]{ typeof(global::Gauge.Messages.StepValidateResponse.Types.ErrorType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteExecutionResult), global::Gauge.Messages.SuiteExecutionResult.Parser, new[]{ "SuiteResult" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteExecutionResultItem), global::Gauge.Messages.SuiteExecutionResultItem.Parser, new[]{ "ResultItem" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNamesRequest), global::Gauge.Messages.StepNamesRequest.Parser, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNamesResponse), global::Gauge.Messages.StepNamesResponse.Parser, new[]{ "Steps" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioDataStoreInitRequest), global::Gauge.Messages.ScenarioDataStoreInitRequest.Parser, null, null, null, null),
@@ -225,7 +248,9 @@ namespace Gauge.Messages {
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StubImplementationCodeRequest), global::Gauge.Messages.StubImplementationCodeRequest.Parser, new[]{ "ImplementationFilePath", "Codes" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.TextDiff), global::Gauge.Messages.TextDiff.Parser, new[]{ "Span", "Content" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FileDiff), global::Gauge.Messages.FileDiff.Parser, new[]{ "FilePath", "TextDiffs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Message), global::Gauge.Messages.Message.Parser, new[]{ "MessageType", "MessageId", "ExecutionStartingRequest", "SpecExecutionStartingRequest", "SpecExecutionEndingRequest", "ScenarioExecutionStartingRequest", "ScenarioExecutionEndingRequest", "StepExecutionStartingRequest", "StepExecutionEndingRequest", "ExecuteStepRequest", "ExecutionEndingRequest", "StepValidateRequest", "StepValidateResponse", "ExecutionStatusResponse", "StepNamesRequest", "StepNamesResponse", "SuiteExecutionResult", "KillProcessRequest", "ScenarioDataStoreInitRequest", "SpecDataStoreInitRequest", "SuiteDataStoreInitRequest", "StepNameRequest", "StepNameResponse", "RefactorRequest", "RefactorResponse", "UnsupportedMessageResponse", "CacheFileRequest", "StepPositionsRequest", "StepPositionsResponse", "ImplementationFileListRequest", "ImplementationFileListResponse", "StubImplementationCodeRequest", "FileDiff", "ImplementationFileGlobPatternRequest", "ImplementationFileGlobPatternResponse" }, null, new[]{ typeof(global::Gauge.Messages.Message.Types.MessageType) }, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.KeepAlive), global::Gauge.Messages.KeepAlive.Parser, new[]{ "PluginId" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Empty), global::Gauge.Messages.Empty.Parser, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Message), global::Gauge.Messages.Message.Parser, new[]{ "MessageType", "MessageId", "ExecutionStartingRequest", "SpecExecutionStartingRequest", "SpecExecutionEndingRequest", "ScenarioExecutionStartingRequest", "ScenarioExecutionEndingRequest", "StepExecutionStartingRequest", "StepExecutionEndingRequest", "ExecuteStepRequest", "ExecutionEndingRequest", "StepValidateRequest", "StepValidateResponse", "ExecutionStatusResponse", "StepNamesRequest", "StepNamesResponse", "SuiteExecutionResult", "KillProcessRequest", "ScenarioDataStoreInitRequest", "SpecDataStoreInitRequest", "SuiteDataStoreInitRequest", "StepNameRequest", "StepNameResponse", "RefactorRequest", "RefactorResponse", "UnsupportedMessageResponse", "CacheFileRequest", "StepPositionsRequest", "StepPositionsResponse", "ImplementationFileListRequest", "ImplementationFileListResponse", "StubImplementationCodeRequest", "FileDiff", "ImplementationFileGlobPatternRequest", "ImplementationFileGlobPatternResponse", "SuiteExecutionResultItem", "KeepAlive" }, null, new[]{ typeof(global::Gauge.Messages.Message.Types.MessageType) }, null)
           }));
     }
     #endregion
@@ -377,6 +402,9 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "executionResult" field.</summary>
     public const int ExecutionResultFieldNumber = 1;
     private global::Gauge.Messages.ProtoExecutionResult executionResult_;
+    /// <summary>
+    //// Holds the suite result after suite execution done.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ProtoExecutionResult ExecutionResult {
       get { return executionResult_; }
@@ -504,6 +532,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ExecutionStartingRequest(ExecutionStartingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      SuiteResult = other.suiteResult_ != null ? other.SuiteResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -515,11 +544,29 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current suite execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "suiteResult" field.</summary>
+    public const int SuiteResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoSuiteResult suiteResult_;
+    /// <summary>
+    //// Holds the suite result in execution starting.
+    //// Some fields will not be populated before execution.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoSuiteResult SuiteResult {
+      get { return suiteResult_; }
+      set {
+        suiteResult_ = value;
       }
     }
 
@@ -537,6 +584,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(SuiteResult, other.SuiteResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -544,6 +592,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (suiteResult_ != null) hash ^= SuiteResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -561,6 +610,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (suiteResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SuiteResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -571,6 +624,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (suiteResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SuiteResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -589,6 +645,12 @@ namespace Gauge.Messages {
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
+      if (other.suiteResult_ != null) {
+        if (suiteResult_ == null) {
+          suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+        }
+        SuiteResult.MergeFrom(other.SuiteResult);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -605,6 +667,13 @@ namespace Gauge.Messages {
               currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
             }
             input.ReadMessage(currentExecutionInfo_);
+            break;
+          }
+          case 18: {
+            if (suiteResult_ == null) {
+              suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+            }
+            input.ReadMessage(suiteResult_);
             break;
           }
         }
@@ -642,6 +711,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ExecutionEndingRequest(ExecutionEndingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      SuiteResult = other.suiteResult_ != null ? other.SuiteResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -653,11 +723,28 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current suite execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "suiteResult" field.</summary>
+    public const int SuiteResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoSuiteResult suiteResult_;
+    /// <summary>
+    //// Holds the suite result in execution ending.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoSuiteResult SuiteResult {
+      get { return suiteResult_; }
+      set {
+        suiteResult_ = value;
       }
     }
 
@@ -675,6 +762,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(SuiteResult, other.SuiteResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -682,6 +770,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (suiteResult_ != null) hash ^= SuiteResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -699,6 +788,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (suiteResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SuiteResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -709,6 +802,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (suiteResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SuiteResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -727,6 +823,12 @@ namespace Gauge.Messages {
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
+      if (other.suiteResult_ != null) {
+        if (suiteResult_ == null) {
+          suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+        }
+        SuiteResult.MergeFrom(other.SuiteResult);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -743,6 +845,13 @@ namespace Gauge.Messages {
               currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
             }
             input.ReadMessage(currentExecutionInfo_);
+            break;
+          }
+          case 18: {
+            if (suiteResult_ == null) {
+              suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+            }
+            input.ReadMessage(suiteResult_);
             break;
           }
         }
@@ -780,6 +889,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SpecExecutionStartingRequest(SpecExecutionStartingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      SpecResult = other.specResult_ != null ? other.SpecResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -791,11 +901,29 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current spec execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "specResult" field.</summary>
+    public const int SpecResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoSpecResult specResult_;
+    /// <summary>
+    //// Holds the specs result in spec execution starting.
+    //// Some fields will not be populated before execution.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoSpecResult SpecResult {
+      get { return specResult_; }
+      set {
+        specResult_ = value;
       }
     }
 
@@ -813,6 +941,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(SpecResult, other.SpecResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -820,6 +949,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (specResult_ != null) hash ^= SpecResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -837,6 +967,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (specResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SpecResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -847,6 +981,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (specResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SpecResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -865,6 +1002,12 @@ namespace Gauge.Messages {
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
+      if (other.specResult_ != null) {
+        if (specResult_ == null) {
+          specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+        }
+        SpecResult.MergeFrom(other.SpecResult);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -881,6 +1024,13 @@ namespace Gauge.Messages {
               currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
             }
             input.ReadMessage(currentExecutionInfo_);
+            break;
+          }
+          case 18: {
+            if (specResult_ == null) {
+              specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+            }
+            input.ReadMessage(specResult_);
             break;
           }
         }
@@ -918,6 +1068,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SpecExecutionEndingRequest(SpecExecutionEndingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      SpecResult = other.specResult_ != null ? other.SpecResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -929,11 +1080,28 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current spec execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "specResult" field.</summary>
+    public const int SpecResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoSpecResult specResult_;
+    /// <summary>
+    //// Holds the specs result in spec execution ending.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoSpecResult SpecResult {
+      get { return specResult_; }
+      set {
+        specResult_ = value;
       }
     }
 
@@ -951,6 +1119,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(SpecResult, other.SpecResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -958,6 +1127,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (specResult_ != null) hash ^= SpecResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -975,6 +1145,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (specResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(SpecResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -985,6 +1159,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (specResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(SpecResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1003,6 +1180,12 @@ namespace Gauge.Messages {
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
+      if (other.specResult_ != null) {
+        if (specResult_ == null) {
+          specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+        }
+        SpecResult.MergeFrom(other.SpecResult);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1019,6 +1202,13 @@ namespace Gauge.Messages {
               currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
             }
             input.ReadMessage(currentExecutionInfo_);
+            break;
+          }
+          case 18: {
+            if (specResult_ == null) {
+              specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+            }
+            input.ReadMessage(specResult_);
             break;
           }
         }
@@ -1056,6 +1246,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ScenarioExecutionStartingRequest(ScenarioExecutionStartingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      ScenarioResult = other.scenarioResult_ != null ? other.ScenarioResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1067,11 +1258,29 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current sceanrio execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "scenarioResult" field.</summary>
+    public const int ScenarioResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoScenarioResult scenarioResult_;
+    /// <summary>
+    //// Holds the scenarion result in scenarion execution starting.
+    //// Some fields will not be populated before execution.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoScenarioResult ScenarioResult {
+      get { return scenarioResult_; }
+      set {
+        scenarioResult_ = value;
       }
     }
 
@@ -1089,6 +1298,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(ScenarioResult, other.ScenarioResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1096,6 +1306,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (scenarioResult_ != null) hash ^= ScenarioResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1113,6 +1324,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (scenarioResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ScenarioResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1123,6 +1338,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (scenarioResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ScenarioResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1141,6 +1359,12 @@ namespace Gauge.Messages {
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
+      if (other.scenarioResult_ != null) {
+        if (scenarioResult_ == null) {
+          scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+        }
+        ScenarioResult.MergeFrom(other.ScenarioResult);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1157,6 +1381,13 @@ namespace Gauge.Messages {
               currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
             }
             input.ReadMessage(currentExecutionInfo_);
+            break;
+          }
+          case 18: {
+            if (scenarioResult_ == null) {
+              scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+            }
+            input.ReadMessage(scenarioResult_);
             break;
           }
         }
@@ -1194,6 +1425,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ScenarioExecutionEndingRequest(ScenarioExecutionEndingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      ScenarioResult = other.scenarioResult_ != null ? other.ScenarioResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1205,11 +1437,25 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current scenario execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "scenarioResult" field.</summary>
+    public const int ScenarioResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoScenarioResult scenarioResult_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoScenarioResult ScenarioResult {
+      get { return scenarioResult_; }
+      set {
+        scenarioResult_ = value;
       }
     }
 
@@ -1227,6 +1473,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(ScenarioResult, other.ScenarioResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1234,6 +1481,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (scenarioResult_ != null) hash ^= ScenarioResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1251,6 +1499,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (scenarioResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ScenarioResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1261,6 +1513,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (scenarioResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ScenarioResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1279,6 +1534,12 @@ namespace Gauge.Messages {
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
+      if (other.scenarioResult_ != null) {
+        if (scenarioResult_ == null) {
+          scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+        }
+        ScenarioResult.MergeFrom(other.ScenarioResult);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1295,6 +1556,13 @@ namespace Gauge.Messages {
               currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
             }
             input.ReadMessage(currentExecutionInfo_);
+            break;
+          }
+          case 18: {
+            if (scenarioResult_ == null) {
+              scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+            }
+            input.ReadMessage(scenarioResult_);
             break;
           }
         }
@@ -1332,6 +1600,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StepExecutionStartingRequest(StepExecutionStartingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      StepResult = other.stepResult_ != null ? other.StepResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1343,11 +1612,29 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current step execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "stepResult" field.</summary>
+    public const int StepResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoStepResult stepResult_;
+    /// <summary>
+    //// Holds step result in step execution starting.
+    //// Some fields will not be populated before execution.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoStepResult StepResult {
+      get { return stepResult_; }
+      set {
+        stepResult_ = value;
       }
     }
 
@@ -1365,6 +1652,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(StepResult, other.StepResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1372,6 +1660,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (stepResult_ != null) hash ^= StepResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1389,6 +1678,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (stepResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(StepResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1399,6 +1692,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (stepResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StepResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1417,6 +1713,12 @@ namespace Gauge.Messages {
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
+      if (other.stepResult_ != null) {
+        if (stepResult_ == null) {
+          stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+        }
+        StepResult.MergeFrom(other.StepResult);
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1433,6 +1735,13 @@ namespace Gauge.Messages {
               currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
             }
             input.ReadMessage(currentExecutionInfo_);
+            break;
+          }
+          case 18: {
+            if (stepResult_ == null) {
+              stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+            }
+            input.ReadMessage(stepResult_);
             break;
           }
         }
@@ -1470,6 +1779,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StepExecutionEndingRequest(StepExecutionEndingRequest other) : this() {
       CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
+      StepResult = other.stepResult_ != null ? other.StepResult.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1481,11 +1791,28 @@ namespace Gauge.Messages {
     /// <summary>Field number for the "currentExecutionInfo" field.</summary>
     public const int CurrentExecutionInfoFieldNumber = 1;
     private global::Gauge.Messages.ExecutionInfo currentExecutionInfo_;
+    /// <summary>
+    //// Holds the current step execution info.
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.ExecutionInfo CurrentExecutionInfo {
       get { return currentExecutionInfo_; }
       set {
         currentExecutionInfo_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "stepResult" field.</summary>
+    public const int StepResultFieldNumber = 2;
+    private global::Gauge.Messages.ProtoStepResult stepResult_;
+    /// <summary>
+    //// Holds step result in step execution ending.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoStepResult StepResult {
+      get { return stepResult_; }
+      set {
+        stepResult_ = value;
       }
     }
 
@@ -1503,6 +1830,7 @@ namespace Gauge.Messages {
         return true;
       }
       if (!object.Equals(CurrentExecutionInfo, other.CurrentExecutionInfo)) return false;
+      if (!object.Equals(StepResult, other.StepResult)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1510,6 +1838,7 @@ namespace Gauge.Messages {
     public override int GetHashCode() {
       int hash = 1;
       if (currentExecutionInfo_ != null) hash ^= CurrentExecutionInfo.GetHashCode();
+      if (stepResult_ != null) hash ^= StepResult.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1527,6 +1856,10 @@ namespace Gauge.Messages {
         output.WriteRawTag(10);
         output.WriteMessage(CurrentExecutionInfo);
       }
+      if (stepResult_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(StepResult);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1537,6 +1870,9 @@ namespace Gauge.Messages {
       int size = 0;
       if (currentExecutionInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CurrentExecutionInfo);
+      }
+      if (stepResult_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(StepResult);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1554,6 +1890,12 @@ namespace Gauge.Messages {
           currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
+      }
+      if (other.stepResult_ != null) {
+        if (stepResult_ == null) {
+          stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+        }
+        StepResult.MergeFrom(other.StepResult);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1573,6 +1915,13 @@ namespace Gauge.Messages {
             input.ReadMessage(currentExecutionInfo_);
             break;
           }
+          case 18: {
+            if (stepResult_ == null) {
+              stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+            }
+            input.ReadMessage(stepResult_);
+            break;
+          }
         }
       }
     }
@@ -1580,7 +1929,165 @@ namespace Gauge.Messages {
   }
 
   /// <summary>
-  //// Contains details of the execution. 
+  //// Contains command line arguments which passed by user during execution.
+  /// </summary>
+  public sealed partial class ExecutionArg : pb::IMessage<ExecutionArg> {
+    private static readonly pb::MessageParser<ExecutionArg> _parser = new pb::MessageParser<ExecutionArg>(() => new ExecutionArg());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ExecutionArg> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExecutionArg() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExecutionArg(ExecutionArg other) : this() {
+      flagName_ = other.flagName_;
+      flagValue_ = other.flagValue_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ExecutionArg Clone() {
+      return new ExecutionArg(this);
+    }
+
+    /// <summary>Field number for the "flagName" field.</summary>
+    public const int FlagNameFieldNumber = 1;
+    private string flagName_ = "";
+    /// <summary>
+    //// Holds the flag name passed from command line.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string FlagName {
+      get { return flagName_; }
+      set {
+        flagName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "flagValue" field.</summary>
+    public const int FlagValueFieldNumber = 2;
+    private static readonly pb::FieldCodec<string> _repeated_flagValue_codec
+        = pb::FieldCodec.ForString(18);
+    private readonly pbc::RepeatedField<string> flagValue_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Holds the flag value passed from command line.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> FlagValue {
+      get { return flagValue_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ExecutionArg);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ExecutionArg other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (FlagName != other.FlagName) return false;
+      if(!flagValue_.Equals(other.flagValue_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (FlagName.Length != 0) hash ^= FlagName.GetHashCode();
+      hash ^= flagValue_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (FlagName.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(FlagName);
+      }
+      flagValue_.WriteTo(output, _repeated_flagValue_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (FlagName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(FlagName);
+      }
+      size += flagValue_.CalculateSize(_repeated_flagValue_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ExecutionArg other) {
+      if (other == null) {
+        return;
+      }
+      if (other.FlagName.Length != 0) {
+        FlagName = other.FlagName;
+      }
+      flagValue_.Add(other.flagValue_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            FlagName = input.ReadString();
+            break;
+          }
+          case 18: {
+            flagValue_.AddEntriesFrom(input, _repeated_flagValue_codec);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  //// Contains details of the execution.
   //// Depending on the context (Step, Scenario, Spec or Suite), the respective fields are set.
   /// </summary>
   public sealed partial class ExecutionInfo : pb::IMessage<ExecutionInfo> {
@@ -1591,7 +2098,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[10]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1612,6 +2119,10 @@ namespace Gauge.Messages {
       CurrentScenario = other.currentScenario_ != null ? other.CurrentScenario.Clone() : null;
       CurrentStep = other.currentStep_ != null ? other.CurrentStep.Clone() : null;
       stacktrace_ = other.stacktrace_;
+      projectName_ = other.projectName_;
+      executionArgs_ = other.executionArgs_.Clone();
+      numberOfExecutionStreams_ = other.numberOfExecutionStreams_;
+      runnerId_ = other.runnerId_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1676,6 +2187,61 @@ namespace Gauge.Messages {
       }
     }
 
+    /// <summary>Field number for the "projectName" field.</summary>
+    public const int ProjectNameFieldNumber = 5;
+    private string projectName_ = "";
+    /// <summary>
+    //// Holds the project name
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string ProjectName {
+      get { return projectName_; }
+      set {
+        projectName_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "ExecutionArgs" field.</summary>
+    public const int ExecutionArgsFieldNumber = 6;
+    private static readonly pb::FieldCodec<global::Gauge.Messages.ExecutionArg> _repeated_executionArgs_codec
+        = pb::FieldCodec.ForMessage(50, global::Gauge.Messages.ExecutionArg.Parser);
+    private readonly pbc::RepeatedField<global::Gauge.Messages.ExecutionArg> executionArgs_ = new pbc::RepeatedField<global::Gauge.Messages.ExecutionArg>();
+    /// <summary>
+    //// Holds the command line arguments.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<global::Gauge.Messages.ExecutionArg> ExecutionArgs {
+      get { return executionArgs_; }
+    }
+
+    /// <summary>Field number for the "numberOfExecutionStreams" field.</summary>
+    public const int NumberOfExecutionStreamsFieldNumber = 7;
+    private int numberOfExecutionStreams_;
+    /// <summary>
+    //// Holds the number of running execution streams.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int NumberOfExecutionStreams {
+      get { return numberOfExecutionStreams_; }
+      set {
+        numberOfExecutionStreams_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "runnerId" field.</summary>
+    public const int RunnerIdFieldNumber = 8;
+    private int runnerId_;
+    /// <summary>
+    //// Holds the runner id for parallel execution.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int RunnerId {
+      get { return runnerId_; }
+      set {
+        runnerId_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ExecutionInfo);
@@ -1693,6 +2259,10 @@ namespace Gauge.Messages {
       if (!object.Equals(CurrentScenario, other.CurrentScenario)) return false;
       if (!object.Equals(CurrentStep, other.CurrentStep)) return false;
       if (Stacktrace != other.Stacktrace) return false;
+      if (ProjectName != other.ProjectName) return false;
+      if(!executionArgs_.Equals(other.executionArgs_)) return false;
+      if (NumberOfExecutionStreams != other.NumberOfExecutionStreams) return false;
+      if (RunnerId != other.RunnerId) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1703,6 +2273,10 @@ namespace Gauge.Messages {
       if (currentScenario_ != null) hash ^= CurrentScenario.GetHashCode();
       if (currentStep_ != null) hash ^= CurrentStep.GetHashCode();
       if (Stacktrace.Length != 0) hash ^= Stacktrace.GetHashCode();
+      if (ProjectName.Length != 0) hash ^= ProjectName.GetHashCode();
+      hash ^= executionArgs_.GetHashCode();
+      if (NumberOfExecutionStreams != 0) hash ^= NumberOfExecutionStreams.GetHashCode();
+      if (RunnerId != 0) hash ^= RunnerId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1732,6 +2306,19 @@ namespace Gauge.Messages {
         output.WriteRawTag(34);
         output.WriteString(Stacktrace);
       }
+      if (ProjectName.Length != 0) {
+        output.WriteRawTag(42);
+        output.WriteString(ProjectName);
+      }
+      executionArgs_.WriteTo(output, _repeated_executionArgs_codec);
+      if (NumberOfExecutionStreams != 0) {
+        output.WriteRawTag(56);
+        output.WriteInt32(NumberOfExecutionStreams);
+      }
+      if (RunnerId != 0) {
+        output.WriteRawTag(64);
+        output.WriteInt32(RunnerId);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1751,6 +2338,16 @@ namespace Gauge.Messages {
       }
       if (Stacktrace.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Stacktrace);
+      }
+      if (ProjectName.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(ProjectName);
+      }
+      size += executionArgs_.CalculateSize(_repeated_executionArgs_codec);
+      if (NumberOfExecutionStreams != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(NumberOfExecutionStreams);
+      }
+      if (RunnerId != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(RunnerId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -1783,6 +2380,16 @@ namespace Gauge.Messages {
       }
       if (other.Stacktrace.Length != 0) {
         Stacktrace = other.Stacktrace;
+      }
+      if (other.ProjectName.Length != 0) {
+        ProjectName = other.ProjectName;
+      }
+      executionArgs_.Add(other.executionArgs_);
+      if (other.NumberOfExecutionStreams != 0) {
+        NumberOfExecutionStreams = other.NumberOfExecutionStreams;
+      }
+      if (other.RunnerId != 0) {
+        RunnerId = other.RunnerId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -1820,6 +2427,22 @@ namespace Gauge.Messages {
             Stacktrace = input.ReadString();
             break;
           }
+          case 42: {
+            ProjectName = input.ReadString();
+            break;
+          }
+          case 50: {
+            executionArgs_.AddEntriesFrom(input, _repeated_executionArgs_codec);
+            break;
+          }
+          case 56: {
+            NumberOfExecutionStreams = input.ReadInt32();
+            break;
+          }
+          case 64: {
+            RunnerId = input.ReadInt32();
+            break;
+          }
         }
       }
     }
@@ -1837,7 +2460,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[11]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[12]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2057,7 +2680,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[12]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[13]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2246,7 +2869,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[13]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[14]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2480,7 +3103,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[14]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[15]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2513,7 +3136,7 @@ namespace Gauge.Messages {
     public const int ActualStepTextFieldNumber = 1;
     private string actualStepText_ = "";
     /// <summary>
-    //// Contains the actual text of the Step being executed. 
+    //// Contains the actual text of the Step being executed.
     //// This contains the parameters as defined in the Spec.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2528,7 +3151,7 @@ namespace Gauge.Messages {
     public const int ParsedStepTextFieldNumber = 2;
     private string parsedStepText_ = "";
     /// <summary>
-    //// Contains the parsed text of the Step being executed. 
+    //// Contains the parsed text of the Step being executed.
     //// The paramters are replaced with placeholders.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2692,7 +3315,7 @@ namespace Gauge.Messages {
   }
 
   /// <summary>
-  //// Request sent ot the runner to check if given Step is valid. 
+  //// Request sent ot the runner to check if given Step is valid.
   //// The runner should check if there is an implementation defined for the given Step Text.
   /// </summary>
   public sealed partial class StepValidateRequest : pb::IMessage<StepValidateRequest> {
@@ -2703,7 +3326,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[15]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[16]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2897,7 +3520,7 @@ namespace Gauge.Messages {
 
   /// <summary>
   //// Response of StepValidateRequest.
-  //// The runner tells the caller if the Request was valid, 
+  //// The runner tells the caller if the Request was valid,
   //// i.e. an implementation exists for given Step text.
   //// Returns an error message if it is an error response.
   /// </summary>
@@ -2909,7 +3532,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[16]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[17]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3137,7 +3760,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[17]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[18]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3264,6 +3887,141 @@ namespace Gauge.Messages {
 
   }
 
+  public sealed partial class SuiteExecutionResultItem : pb::IMessage<SuiteExecutionResultItem> {
+    private static readonly pb::MessageParser<SuiteExecutionResultItem> _parser = new pb::MessageParser<SuiteExecutionResultItem>(() => new SuiteExecutionResultItem());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SuiteExecutionResultItem> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[19]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SuiteExecutionResultItem() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SuiteExecutionResultItem(SuiteExecutionResultItem other) : this() {
+      ResultItem = other.resultItem_ != null ? other.ResultItem.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SuiteExecutionResultItem Clone() {
+      return new SuiteExecutionResultItem(this);
+    }
+
+    /// <summary>Field number for the "resultItem" field.</summary>
+    public const int ResultItemFieldNumber = 1;
+    private global::Gauge.Messages.ProtoItem resultItem_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.ProtoItem ResultItem {
+      get { return resultItem_; }
+      set {
+        resultItem_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SuiteExecutionResultItem);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SuiteExecutionResultItem other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(ResultItem, other.ResultItem)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (resultItem_ != null) hash ^= ResultItem.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (resultItem_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(ResultItem);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (resultItem_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ResultItem);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SuiteExecutionResultItem other) {
+      if (other == null) {
+        return;
+      }
+      if (other.resultItem_ != null) {
+        if (resultItem_ == null) {
+          resultItem_ = new global::Gauge.Messages.ProtoItem();
+        }
+        ResultItem.MergeFrom(other.ResultItem);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (resultItem_ == null) {
+              resultItem_ = new global::Gauge.Messages.ProtoItem();
+            }
+            input.ReadMessage(resultItem_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   /// <summary>
   //// Requests Gauge to give all Step Names.
   /// </summary>
@@ -3275,7 +4033,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[18]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[20]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3379,7 +4137,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[19]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[21]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3507,7 +4265,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[20]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[22]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3612,7 +4370,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[21]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[23]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3717,7 +4475,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[22]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[24]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3822,7 +4580,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[23]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[25]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -3982,7 +4740,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[24]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[26]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4214,7 +4972,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[25]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[27]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4395,7 +5153,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[26]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[28]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4607,7 +5365,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[27]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[29]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4637,7 +5395,7 @@ namespace Gauge.Messages {
     public const int StepValueFieldNumber = 1;
     private string stepValue_ = "";
     /// <summary>
-    //// Step text to lookup the Step. 
+    //// Step text to lookup the Step.
     //// This is the parsed step value, i.e. with placeholders for parameters.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4743,7 +5501,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[28]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[30]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4793,7 +5551,7 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForString(18);
     private readonly pbc::RepeatedField<string> stepName_ = new pbc::RepeatedField<string>();
     /// <summary>
-    //// The Step name of the given step. 
+    //// The Step name of the given step.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<string> StepName {
@@ -5000,7 +5758,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[29]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[31]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5134,7 +5892,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[30]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[32]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5392,7 +6150,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[31]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[33]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5527,7 +6285,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[32]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[34]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5864,7 +6622,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[33]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[35]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5968,7 +6726,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[34]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[36]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6095,7 +6853,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[35]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[37]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6199,7 +6957,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[36]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[38]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6326,7 +7084,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[37]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[39]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6484,7 +7242,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[38]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[40]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6656,7 +7414,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[39]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[41]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6804,6 +7562,245 @@ namespace Gauge.Messages {
   }
 
   /// <summary>
+  //// Tell gauge to reset the kill timer, thus extending the life
+  /// </summary>
+  public sealed partial class KeepAlive : pb::IMessage<KeepAlive> {
+    private static readonly pb::MessageParser<KeepAlive> _parser = new pb::MessageParser<KeepAlive>(() => new KeepAlive());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<KeepAlive> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[42]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public KeepAlive() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public KeepAlive(KeepAlive other) : this() {
+      pluginId_ = other.pluginId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public KeepAlive Clone() {
+      return new KeepAlive(this);
+    }
+
+    /// <summary>Field number for the "pluginId" field.</summary>
+    public const int PluginIdFieldNumber = 1;
+    private string pluginId_ = "";
+    /// <summary>
+    //// ID of the plugin initiating this request
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string PluginId {
+      get { return pluginId_; }
+      set {
+        pluginId_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as KeepAlive);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(KeepAlive other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (PluginId != other.PluginId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (PluginId.Length != 0) hash ^= PluginId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (PluginId.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(PluginId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (PluginId.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(PluginId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(KeepAlive other) {
+      if (other == null) {
+        return;
+      }
+      if (other.PluginId.Length != 0) {
+        PluginId = other.PluginId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            PluginId = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
+  /// Empty is a blank response, to be used when there is no return expected.
+  /// </summary>
+  public sealed partial class Empty : pb::IMessage<Empty> {
+    private static readonly pb::MessageParser<Empty> _parser = new pb::MessageParser<Empty>(() => new Empty());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<Empty> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[43]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Empty() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Empty(Empty other) : this() {
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public Empty Clone() {
+      return new Empty(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as Empty);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(Empty other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(Empty other) {
+      if (other == null) {
+        return;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+        }
+      }
+    }
+
+  }
+
+  /// <summary>
   //// This is the message which gets transferred all the time
   //// with proper message type set
   //// One of the Request/Response fields will have value, depending on the MessageType set.
@@ -6816,7 +7813,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[40]; }
+      get { return global::Gauge.Messages.MessagesReflection.Descriptor.MessageTypes[44]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -6868,6 +7865,8 @@ namespace Gauge.Messages {
       FileDiff = other.fileDiff_ != null ? other.FileDiff.Clone() : null;
       ImplementationFileGlobPatternRequest = other.implementationFileGlobPatternRequest_ != null ? other.ImplementationFileGlobPatternRequest.Clone() : null;
       ImplementationFileGlobPatternResponse = other.implementationFileGlobPatternResponse_ != null ? other.ImplementationFileGlobPatternResponse.Clone() : null;
+      SuiteExecutionResultItem = other.suiteExecutionResultItem_ != null ? other.SuiteExecutionResultItem.Clone() : null;
+      KeepAlive = other.keepAlive_ != null ? other.KeepAlive.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -7364,6 +8363,34 @@ namespace Gauge.Messages {
       }
     }
 
+    /// <summary>Field number for the "suiteExecutionResultItem" field.</summary>
+    public const int SuiteExecutionResultItemFieldNumber = 36;
+    private global::Gauge.Messages.SuiteExecutionResultItem suiteExecutionResultItem_;
+    /// <summary>
+    //// [SuiteExecutionResult ](#gauge.messages.SuiteExecutionResult )
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.SuiteExecutionResultItem SuiteExecutionResultItem {
+      get { return suiteExecutionResultItem_; }
+      set {
+        suiteExecutionResultItem_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "keepAlive" field.</summary>
+    public const int KeepAliveFieldNumber = 37;
+    private global::Gauge.Messages.KeepAlive keepAlive_;
+    /// <summary>
+    //// [KeepAlive ](#gauge.messages.KeepAlive )
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Gauge.Messages.KeepAlive KeepAlive {
+      get { return keepAlive_; }
+      set {
+        keepAlive_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as Message);
@@ -7412,6 +8439,8 @@ namespace Gauge.Messages {
       if (!object.Equals(FileDiff, other.FileDiff)) return false;
       if (!object.Equals(ImplementationFileGlobPatternRequest, other.ImplementationFileGlobPatternRequest)) return false;
       if (!object.Equals(ImplementationFileGlobPatternResponse, other.ImplementationFileGlobPatternResponse)) return false;
+      if (!object.Equals(SuiteExecutionResultItem, other.SuiteExecutionResultItem)) return false;
+      if (!object.Equals(KeepAlive, other.KeepAlive)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -7453,6 +8482,8 @@ namespace Gauge.Messages {
       if (fileDiff_ != null) hash ^= FileDiff.GetHashCode();
       if (implementationFileGlobPatternRequest_ != null) hash ^= ImplementationFileGlobPatternRequest.GetHashCode();
       if (implementationFileGlobPatternResponse_ != null) hash ^= ImplementationFileGlobPatternResponse.GetHashCode();
+      if (suiteExecutionResultItem_ != null) hash ^= SuiteExecutionResultItem.GetHashCode();
+      if (keepAlive_ != null) hash ^= KeepAlive.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -7606,6 +8637,14 @@ namespace Gauge.Messages {
         output.WriteRawTag(154, 2);
         output.WriteMessage(ImplementationFileGlobPatternResponse);
       }
+      if (suiteExecutionResultItem_ != null) {
+        output.WriteRawTag(162, 2);
+        output.WriteMessage(SuiteExecutionResultItem);
+      }
+      if (keepAlive_ != null) {
+        output.WriteRawTag(170, 2);
+        output.WriteMessage(KeepAlive);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -7718,6 +8757,12 @@ namespace Gauge.Messages {
       }
       if (implementationFileGlobPatternResponse_ != null) {
         size += 2 + pb::CodedOutputStream.ComputeMessageSize(ImplementationFileGlobPatternResponse);
+      }
+      if (suiteExecutionResultItem_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(SuiteExecutionResultItem);
+      }
+      if (keepAlive_ != null) {
+        size += 2 + pb::CodedOutputStream.ComputeMessageSize(KeepAlive);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -7933,6 +8978,18 @@ namespace Gauge.Messages {
           implementationFileGlobPatternResponse_ = new global::Gauge.Messages.ImplementationFileGlobPatternResponse();
         }
         ImplementationFileGlobPatternResponse.MergeFrom(other.ImplementationFileGlobPatternResponse);
+      }
+      if (other.suiteExecutionResultItem_ != null) {
+        if (suiteExecutionResultItem_ == null) {
+          suiteExecutionResultItem_ = new global::Gauge.Messages.SuiteExecutionResultItem();
+        }
+        SuiteExecutionResultItem.MergeFrom(other.SuiteExecutionResultItem);
+      }
+      if (other.keepAlive_ != null) {
+        if (keepAlive_ == null) {
+          keepAlive_ = new global::Gauge.Messages.KeepAlive();
+        }
+        KeepAlive.MergeFrom(other.KeepAlive);
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
@@ -8184,6 +9241,20 @@ namespace Gauge.Messages {
             input.ReadMessage(implementationFileGlobPatternResponse_);
             break;
           }
+          case 290: {
+            if (suiteExecutionResultItem_ == null) {
+              suiteExecutionResultItem_ = new global::Gauge.Messages.SuiteExecutionResultItem();
+            }
+            input.ReadMessage(suiteExecutionResultItem_);
+            break;
+          }
+          case 298: {
+            if (keepAlive_ == null) {
+              keepAlive_ = new global::Gauge.Messages.KeepAlive();
+            }
+            input.ReadMessage(keepAlive_);
+            break;
+          }
         }
       }
     }
@@ -8226,6 +9297,8 @@ namespace Gauge.Messages {
         [pbr::OriginalName("FileDiff")] FileDiff = 30,
         [pbr::OriginalName("ImplementationFileGlobPatternRequest")] ImplementationFileGlobPatternRequest = 31,
         [pbr::OriginalName("ImplementationFileGlobPatternResponse")] ImplementationFileGlobPatternResponse = 32,
+        [pbr::OriginalName("SuiteExecutionResultItem")] SuiteExecutionResultItem = 33,
+        [pbr::OriginalName("KeepAlive")] KeepAlive = 34,
       }
 
     }
