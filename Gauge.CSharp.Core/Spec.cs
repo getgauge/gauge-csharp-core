@@ -24,7 +24,7 @@ namespace Gauge.Messages {
     static SpecReflection() {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
-            "CgpzcGVjLnByb3RvEg5nYXVnZS5tZXNzYWdlcyKwAwoJUHJvdG9TcGVjEhMK",
+            "CgpzcGVjLnByb3RvEg5nYXVnZS5tZXNzYWdlcyL5AwoJUHJvdG9TcGVjEhMK",
             "C3NwZWNIZWFkaW5nGAEgASgJEigKBWl0ZW1zGAIgAygLMhkuZ2F1Z2UubWVz",
             "c2FnZXMuUHJvdG9JdGVtEhUKDWlzVGFibGVEcml2ZW4YAyABKAgSOQoPcHJl",
             "SG9va0ZhaWx1cmVzGAQgAygLMiAuZ2F1Z2UubWVzc2FnZXMuUHJvdG9Ib29r",
@@ -32,128 +32,135 @@ namespace Gauge.Messages {
             "c2FnZXMuUHJvdG9Ib29rRmFpbHVyZRIQCghmaWxlTmFtZRgGIAEoCRIMCgR0",
             "YWdzGAcgAygJEhcKD3ByZUhvb2tNZXNzYWdlcxgIIAMoCRIYChBwb3N0SG9v",
             "a01lc3NhZ2VzGAkgAygJEhoKDnByZUhvb2tNZXNzYWdlGAogAygJQgIYARIb",
-            "Cg9wb3N0SG9va01lc3NhZ2UYCyADKAlCAhgBEhoKEnByZUhvb2tTY3JlZW5z",
-            "aG90cxgMIAMoDBIbChNwb3N0SG9va1NjcmVlbnNob3RzGA0gAygMEhEKCWl0",
-            "ZW1Db3VudBgOIAEoAyKSBAoJUHJvdG9JdGVtEjQKCGl0ZW1UeXBlGAEgASgO",
-            "MiIuZ2F1Z2UubWVzc2FnZXMuUHJvdG9JdGVtLkl0ZW1UeXBlEicKBHN0ZXAY",
-            "AiABKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXASLQoHY29uY2VwdBgD",
-            "IAEoCzIcLmdhdWdlLm1lc3NhZ2VzLlByb3RvQ29uY2VwdBIvCghzY2VuYXJp",
-            "bxgEIAEoCzIdLmdhdWdlLm1lc3NhZ2VzLlByb3RvU2NlbmFyaW8SRQoTdGFi",
-            "bGVEcml2ZW5TY2VuYXJpbxgFIAEoCzIoLmdhdWdlLm1lc3NhZ2VzLlByb3Rv",
-            "VGFibGVEcml2ZW5TY2VuYXJpbxItCgdjb21tZW50GAYgASgLMhwuZ2F1Z2Uu",
-            "bWVzc2FnZXMuUHJvdG9Db21tZW50EikKBXRhYmxlGAcgASgLMhouZ2F1Z2Uu",
-            "bWVzc2FnZXMuUHJvdG9UYWJsZRInCgR0YWdzGAggASgLMhkuZ2F1Z2UubWVz",
-            "c2FnZXMuUHJvdG9UYWdzEhAKCGZpbGVOYW1lGAkgASgJImoKCEl0ZW1UeXBl",
-            "EggKBFN0ZXAQABILCgdDb21tZW50EAESCwoHQ29uY2VwdBACEgwKCFNjZW5h",
-            "cmlvEAMSFwoTVGFibGVEcml2ZW5TY2VuYXJpbxAEEgkKBVRhYmxlEAUSCAoE",
-            "VGFncxAGIp8FCg1Qcm90b1NjZW5hcmlvEhcKD3NjZW5hcmlvSGVhZGluZxgB",
-            "IAEoCRISCgZmYWlsZWQYAiABKAhCAhgBEisKCGNvbnRleHRzGAMgAygLMhku",
-            "Z2F1Z2UubWVzc2FnZXMuUHJvdG9JdGVtEjAKDXNjZW5hcmlvSXRlbXMYBCAD",
-            "KAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b0l0ZW0SOAoOcHJlSG9va0ZhaWx1",
-            "cmUYBSABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b0hvb2tGYWlsdXJlEjkK",
-            "D3Bvc3RIb29rRmFpbHVyZRgGIAEoCzIgLmdhdWdlLm1lc3NhZ2VzLlByb3Rv",
-            "SG9va0ZhaWx1cmUSDAoEdGFncxgHIAMoCRIVCg1leGVjdXRpb25UaW1lGAgg",
-            "ASgDEhMKB3NraXBwZWQYCSABKAhCAhgBEhIKCnNraXBFcnJvcnMYCiADKAkS",
-            "CgoCSUQYCyABKAkSMAoNdGVhckRvd25TdGVwcxgMIAMoCzIZLmdhdWdlLm1l",
-            "c3NhZ2VzLlByb3RvSXRlbRIiCgRzcGFuGA0gASgLMhQuZ2F1Z2UubWVzc2Fn",
-            "ZXMuU3BhbhI4Cg9leGVjdXRpb25TdGF0dXMYDiABKA4yHy5nYXVnZS5tZXNz",
-            "YWdlcy5FeGVjdXRpb25TdGF0dXMSFwoPcHJlSG9va01lc3NhZ2VzGA8gAygJ",
-            "EhgKEHBvc3RIb29rTWVzc2FnZXMYECADKAkSGgoOcHJlSG9va01lc3NhZ2UY",
-            "ESADKAlCAhgBEhsKD3Bvc3RIb29rTWVzc2FnZRgSIAMoCUICGAESGgoScHJl",
-            "SG9va1NjcmVlbnNob3RzGBMgAygMEhsKE3Bvc3RIb29rU2NyZWVuc2hvdHMY",
-            "FCADKAwiRgoEU3BhbhINCgVzdGFydBgBIAEoAxILCgNlbmQYAiABKAMSEQoJ",
-            "c3RhcnRDaGFyGAMgASgDEg8KB2VuZENoYXIYBCABKAMiqAIKGFByb3RvVGFi",
-            "bGVEcml2ZW5TY2VuYXJpbxIvCghzY2VuYXJpbxgBIAEoCzIdLmdhdWdlLm1l",
-            "c3NhZ2VzLlByb3RvU2NlbmFyaW8SFQoNdGFibGVSb3dJbmRleBgCIAEoBRId",
-            "ChVzY2VuYXJpb1RhYmxlUm93SW5kZXgYAyABKAUSGQoRaXNTcGVjVGFibGVE",
-            "cml2ZW4YBCABKAgSHQoVaXNTY2VuYXJpb1RhYmxlRHJpdmVuGAUgASgIEjUK",
-            "EXNjZW5hcmlvRGF0YVRhYmxlGAYgASgLMhouZ2F1Z2UubWVzc2FnZXMuUHJv",
-            "dG9UYWJsZRI0ChBzY2VuYXJpb1RhYmxlUm93GAcgASgLMhouZ2F1Z2UubWVz",
-            "c2FnZXMuUHJvdG9UYWJsZSKTAgoJUHJvdG9TdGVwEhIKCmFjdHVhbFRleHQY",
-            "ASABKAkSEgoKcGFyc2VkVGV4dBgCIAEoCRIrCglmcmFnbWVudHMYAyADKAsy",
-            "GC5nYXVnZS5tZXNzYWdlcy5GcmFnbWVudBJFChNzdGVwRXhlY3V0aW9uUmVz",
-            "dWx0GAQgASgLMiguZ2F1Z2UubWVzc2FnZXMuUHJvdG9TdGVwRXhlY3V0aW9u",
-            "UmVzdWx0EhcKD3ByZUhvb2tNZXNzYWdlcxgFIAMoCRIYChBwb3N0SG9va01l",
-            "c3NhZ2VzGAYgAygJEhoKEnByZUhvb2tTY3JlZW5zaG90cxgHIAMoDBIbChNw",
-            "b3N0SG9va1NjcmVlbnNob3RzGAggAygMIrIBCgxQcm90b0NvbmNlcHQSLgoL",
-            "Y29uY2VwdFN0ZXAYASABKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXAS",
-            "KAoFc3RlcHMYAiADKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b0l0ZW0SSAoW",
-            "Y29uY2VwdEV4ZWN1dGlvblJlc3VsdBgDIAEoCzIoLmdhdWdlLm1lc3NhZ2Vz",
-            "LlByb3RvU3RlcEV4ZWN1dGlvblJlc3VsdCIZCglQcm90b1RhZ3MSDAoEdGFn",
-            "cxgBIAMoCSKsAQoIRnJhZ21lbnQSOwoMZnJhZ21lbnRUeXBlGAEgASgOMiUu",
-            "Z2F1Z2UubWVzc2FnZXMuRnJhZ21lbnQuRnJhZ21lbnRUeXBlEgwKBHRleHQY",
-            "AiABKAkSLAoJcGFyYW1ldGVyGAMgASgLMhkuZ2F1Z2UubWVzc2FnZXMuUGFy",
-            "YW1ldGVyIicKDEZyYWdtZW50VHlwZRIICgRUZXh0EAASDQoJUGFyYW1ldGVy",
-            "EAEi7wEKCVBhcmFtZXRlchI+Cg1wYXJhbWV0ZXJUeXBlGAEgASgOMicuZ2F1",
-            "Z2UubWVzc2FnZXMuUGFyYW1ldGVyLlBhcmFtZXRlclR5cGUSDQoFdmFsdWUY",
-            "AiABKAkSDAoEbmFtZRgDIAEoCRIpCgV0YWJsZRgEIAEoCzIaLmdhdWdlLm1l",
-            "c3NhZ2VzLlByb3RvVGFibGUiWgoNUGFyYW1ldGVyVHlwZRIKCgZTdGF0aWMQ",
-            "ABILCgdEeW5hbWljEAESEgoOU3BlY2lhbF9TdHJpbmcQAhIRCg1TcGVjaWFs",
-            "X1RhYmxlEAMSCQoFVGFibGUQBCIcCgxQcm90b0NvbW1lbnQSDAoEdGV4dBgB",
-            "IAEoCSJpCgpQcm90b1RhYmxlEi4KB2hlYWRlcnMYASABKAsyHS5nYXVnZS5t",
-            "ZXNzYWdlcy5Qcm90b1RhYmxlUm93EisKBHJvd3MYAiADKAsyHS5nYXVnZS5t",
-            "ZXNzYWdlcy5Qcm90b1RhYmxlUm93Ih4KDVByb3RvVGFibGVSb3cSDQoFY2Vs",
-            "bHMYASADKAki9gEKGFByb3RvU3RlcEV4ZWN1dGlvblJlc3VsdBI9Cg9leGVj",
-            "dXRpb25SZXN1bHQYASABKAsyJC5nYXVnZS5tZXNzYWdlcy5Qcm90b0V4ZWN1",
-            "dGlvblJlc3VsdBI4Cg5wcmVIb29rRmFpbHVyZRgCIAEoCzIgLmdhdWdlLm1l",
-            "c3NhZ2VzLlByb3RvSG9va0ZhaWx1cmUSOQoPcG9zdEhvb2tGYWlsdXJlGAMg",
-            "ASgLMiAuZ2F1Z2UubWVzc2FnZXMuUHJvdG9Ib29rRmFpbHVyZRIPCgdza2lw",
-            "cGVkGAQgASgIEhUKDXNraXBwZWRSZWFzb24YBSABKAkigwMKFFByb3RvRXhl",
-            "Y3V0aW9uUmVzdWx0Eg4KBmZhaWxlZBgBIAEoCBIYChByZWNvdmVyYWJsZUVy",
-            "cm9yGAIgASgIEhQKDGVycm9yTWVzc2FnZRgDIAEoCRISCgpzdGFja1RyYWNl",
-            "GAQgASgJEhYKCnNjcmVlblNob3QYBSABKAxCAhgBEhUKDWV4ZWN1dGlvblRp",
-            "bWUYBiABKAMSDwoHbWVzc2FnZRgHIAMoCRJBCgllcnJvclR5cGUYCCABKA4y",
-            "Li5nYXVnZS5tZXNzYWdlcy5Qcm90b0V4ZWN1dGlvblJlc3VsdC5FcnJvclR5",
-            "cGUSGQoRZmFpbHVyZVNjcmVlbnNob3QYCSABKAwSEwoLc2NyZWVuc2hvdHMY",
-            "CiADKAwSHQoVZmFpbHVyZVNjcmVlbnNob3RGaWxlGAsgASgJEhcKD3NjcmVl",
-            "bnNob3RGaWxlcxgMIAMoCSIsCglFcnJvclR5cGUSDQoJQVNTRVJUSU9OEAAS",
-            "EAoMVkVSSUZJQ0FUSU9OEAEipQEKEFByb3RvSG9va0ZhaWx1cmUSEgoKc3Rh",
-            "Y2tUcmFjZRgBIAEoCRIUCgxlcnJvck1lc3NhZ2UYAiABKAkSFgoKc2NyZWVu",
-            "U2hvdBgDIAEoDEICGAESFQoNdGFibGVSb3dJbmRleBgEIAEoBRIZChFmYWls",
-            "dXJlU2NyZWVuc2hvdBgFIAEoDBIdChVmYWlsdXJlU2NyZWVuc2hvdEZpbGUY",
-            "BiABKAkiwgQKEFByb3RvU3VpdGVSZXN1bHQSNAoLc3BlY1Jlc3VsdHMYASAD",
-            "KAsyHy5nYXVnZS5tZXNzYWdlcy5Qcm90b1NwZWNSZXN1bHQSOAoOcHJlSG9v",
-            "a0ZhaWx1cmUYAiABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b0hvb2tGYWls",
-            "dXJlEjkKD3Bvc3RIb29rRmFpbHVyZRgDIAEoCzIgLmdhdWdlLm1lc3NhZ2Vz",
-            "LlByb3RvSG9va0ZhaWx1cmUSDgoGZmFpbGVkGAQgASgIEhgKEHNwZWNzRmFp",
-            "bGVkQ291bnQYBSABKAUSFQoNZXhlY3V0aW9uVGltZRgGIAEoAxITCgtzdWNj",
-            "ZXNzUmF0ZRgHIAEoAhITCgtlbnZpcm9ubWVudBgIIAEoCRIMCgR0YWdzGAkg",
-            "ASgJEhMKC3Byb2plY3ROYW1lGAogASgJEhEKCXRpbWVzdGFtcBgLIAEoCRIZ",
-            "ChFzcGVjc1NraXBwZWRDb3VudBgMIAEoBRIXCg9wcmVIb29rTWVzc2FnZXMY",
-            "DSADKAkSGAoQcG9zdEhvb2tNZXNzYWdlcxgOIAMoCRIaCg5wcmVIb29rTWVz",
-            "c2FnZRgPIAMoCUICGAESGwoPcG9zdEhvb2tNZXNzYWdlGBAgAygJQgIYARIa",
-            "ChJwcmVIb29rU2NyZWVuc2hvdHMYESADKAwSGwoTcG9zdEhvb2tTY3JlZW5z",
-            "aG90cxgSIAMoDBIPCgdjaHVua2VkGBMgASgIEhEKCWNodW5rU2l6ZRgUIAEo",
-            "AyK+AgoPUHJvdG9TcGVjUmVzdWx0EiwKCXByb3RvU3BlYxgBIAEoCzIZLmdh",
-            "dWdlLm1lc3NhZ2VzLlByb3RvU3BlYxIVCg1zY2VuYXJpb0NvdW50GAIgASgF",
-            "EhsKE3NjZW5hcmlvRmFpbGVkQ291bnQYAyABKAUSDgoGZmFpbGVkGAQgASgI",
-            "EhsKE2ZhaWxlZERhdGFUYWJsZVJvd3MYBSADKAUSFQoNZXhlY3V0aW9uVGlt",
-            "ZRgGIAEoAxIPCgdza2lwcGVkGAcgASgIEhwKFHNjZW5hcmlvU2tpcHBlZENv",
-            "dW50GAggASgFEhwKFHNraXBwZWREYXRhVGFibGVSb3dzGAkgAygFEiUKBmVy",
-            "cm9ycxgKIAMoCzIVLmdhdWdlLm1lc3NhZ2VzLkVycm9yEhEKCXRpbWVzdGFt",
-            "cBgLIAEoCSJtChNQcm90b1NjZW5hcmlvUmVzdWx0EiwKCXByb3RvSXRlbRgB",
-            "IAEoCzIZLmdhdWdlLm1lc3NhZ2VzLlByb3RvSXRlbRIVCg1leGVjdXRpb25U",
-            "aW1lGAIgASgDEhEKCXRpbWVzdGFtcBgDIAEoCSJpCg9Qcm90b1N0ZXBSZXN1",
-            "bHQSLAoJcHJvdG9JdGVtGAEgASgLMhkuZ2F1Z2UubWVzc2FnZXMuUHJvdG9J",
-            "dGVtEhUKDWV4ZWN1dGlvblRpbWUYAiABKAMSEQoJdGltZXN0YW1wGAMgASgJ",
-            "IqEBCgVFcnJvchItCgR0eXBlGAEgASgOMh8uZ2F1Z2UubWVzc2FnZXMuRXJy",
-            "b3IuRXJyb3JUeXBlEhAKCGZpbGVuYW1lGAIgASgJEhIKCmxpbmVOdW1iZXIY",
-            "AyABKAUSDwoHbWVzc2FnZRgEIAEoCSIyCglFcnJvclR5cGUSDwoLUEFSU0Vf",
-            "RVJST1IQABIUChBWQUxJREFUSU9OX0VSUk9SEAEiVwoOUHJvdG9TdGVwVmFs",
-            "dWUSEQoJc3RlcFZhbHVlGAEgASgJEh4KFnBhcmFtZXRlcml6ZWRTdGVwVmFs",
-            "dWUYAiABKAkSEgoKcGFyYW1ldGVycxgDIAMoCSpHCg9FeGVjdXRpb25TdGF0",
-            "dXMSDwoLTk9URVhFQ1VURUQQABIKCgZQQVNTRUQQARIKCgZGQUlMRUQQAhIL",
-            "CgdTS0lQUEVEEANCKQoWY29tLnRob3VnaHR3b3Jrcy5nYXVnZaoCDkdhdWdl",
-            "Lk1lc3NhZ2VzYgZwcm90bzM="));
+            "Cg9wb3N0SG9va01lc3NhZ2UYCyADKAlCAhgBEh4KEnByZUhvb2tTY3JlZW5z",
+            "aG90cxgMIAMoDEICGAESHwoTcG9zdEhvb2tTY3JlZW5zaG90cxgNIAMoDEIC",
+            "GAESEQoJaXRlbUNvdW50GA4gASgDEh4KFnByZUhvb2tTY3JlZW5zaG90Rmls",
+            "ZXMYDyADKAkSHwoXcG9zdEhvb2tTY3JlZW5zaG90RmlsZXMYECADKAkikgQK",
+            "CVByb3RvSXRlbRI0CghpdGVtVHlwZRgBIAEoDjIiLmdhdWdlLm1lc3NhZ2Vz",
+            "LlByb3RvSXRlbS5JdGVtVHlwZRInCgRzdGVwGAIgASgLMhkuZ2F1Z2UubWVz",
+            "c2FnZXMuUHJvdG9TdGVwEi0KB2NvbmNlcHQYAyABKAsyHC5nYXVnZS5tZXNz",
+            "YWdlcy5Qcm90b0NvbmNlcHQSLwoIc2NlbmFyaW8YBCABKAsyHS5nYXVnZS5t",
+            "ZXNzYWdlcy5Qcm90b1NjZW5hcmlvEkUKE3RhYmxlRHJpdmVuU2NlbmFyaW8Y",
+            "BSABKAsyKC5nYXVnZS5tZXNzYWdlcy5Qcm90b1RhYmxlRHJpdmVuU2NlbmFy",
+            "aW8SLQoHY29tbWVudBgGIAEoCzIcLmdhdWdlLm1lc3NhZ2VzLlByb3RvQ29t",
+            "bWVudBIpCgV0YWJsZRgHIAEoCzIaLmdhdWdlLm1lc3NhZ2VzLlByb3RvVGFi",
+            "bGUSJwoEdGFncxgIIAEoCzIZLmdhdWdlLm1lc3NhZ2VzLlByb3RvVGFncxIQ",
+            "CghmaWxlTmFtZRgJIAEoCSJqCghJdGVtVHlwZRIICgRTdGVwEAASCwoHQ29t",
+            "bWVudBABEgsKB0NvbmNlcHQQAhIMCghTY2VuYXJpbxADEhcKE1RhYmxlRHJp",
+            "dmVuU2NlbmFyaW8QBBIJCgVUYWJsZRAFEggKBFRhZ3MQBiLoBQoNUHJvdG9T",
+            "Y2VuYXJpbxIXCg9zY2VuYXJpb0hlYWRpbmcYASABKAkSEgoGZmFpbGVkGAIg",
+            "ASgIQgIYARIrCghjb250ZXh0cxgDIAMoCzIZLmdhdWdlLm1lc3NhZ2VzLlBy",
+            "b3RvSXRlbRIwCg1zY2VuYXJpb0l0ZW1zGAQgAygLMhkuZ2F1Z2UubWVzc2Fn",
+            "ZXMuUHJvdG9JdGVtEjgKDnByZUhvb2tGYWlsdXJlGAUgASgLMiAuZ2F1Z2Uu",
+            "bWVzc2FnZXMuUHJvdG9Ib29rRmFpbHVyZRI5Cg9wb3N0SG9va0ZhaWx1cmUY",
+            "BiABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b0hvb2tGYWlsdXJlEgwKBHRh",
+            "Z3MYByADKAkSFQoNZXhlY3V0aW9uVGltZRgIIAEoAxITCgdza2lwcGVkGAkg",
+            "ASgIQgIYARISCgpza2lwRXJyb3JzGAogAygJEgoKAklEGAsgASgJEjAKDXRl",
+            "YXJEb3duU3RlcHMYDCADKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b0l0ZW0S",
+            "IgoEc3BhbhgNIAEoCzIULmdhdWdlLm1lc3NhZ2VzLlNwYW4SOAoPZXhlY3V0",
+            "aW9uU3RhdHVzGA4gASgOMh8uZ2F1Z2UubWVzc2FnZXMuRXhlY3V0aW9uU3Rh",
+            "dHVzEhcKD3ByZUhvb2tNZXNzYWdlcxgPIAMoCRIYChBwb3N0SG9va01lc3Nh",
+            "Z2VzGBAgAygJEhoKDnByZUhvb2tNZXNzYWdlGBEgAygJQgIYARIbCg9wb3N0",
+            "SG9va01lc3NhZ2UYEiADKAlCAhgBEh4KEnByZUhvb2tTY3JlZW5zaG90cxgT",
+            "IAMoDEICGAESHwoTcG9zdEhvb2tTY3JlZW5zaG90cxgUIAMoDEICGAESHgoW",
+            "cHJlSG9va1NjcmVlbnNob3RGaWxlcxgVIAMoCRIfChdwb3N0SG9va1NjcmVl",
+            "bnNob3RGaWxlcxgWIAMoCSJGCgRTcGFuEg0KBXN0YXJ0GAEgASgDEgsKA2Vu",
+            "ZBgCIAEoAxIRCglzdGFydENoYXIYAyABKAMSDwoHZW5kQ2hhchgEIAEoAyKo",
+            "AgoYUHJvdG9UYWJsZURyaXZlblNjZW5hcmlvEi8KCHNjZW5hcmlvGAEgASgL",
+            "Mh0uZ2F1Z2UubWVzc2FnZXMuUHJvdG9TY2VuYXJpbxIVCg10YWJsZVJvd0lu",
+            "ZGV4GAIgASgFEh0KFXNjZW5hcmlvVGFibGVSb3dJbmRleBgDIAEoBRIZChFp",
+            "c1NwZWNUYWJsZURyaXZlbhgEIAEoCBIdChVpc1NjZW5hcmlvVGFibGVEcml2",
+            "ZW4YBSABKAgSNQoRc2NlbmFyaW9EYXRhVGFibGUYBiABKAsyGi5nYXVnZS5t",
+            "ZXNzYWdlcy5Qcm90b1RhYmxlEjQKEHNjZW5hcmlvVGFibGVSb3cYByABKAsy",
+            "Gi5nYXVnZS5tZXNzYWdlcy5Qcm90b1RhYmxlItwCCglQcm90b1N0ZXASEgoK",
+            "YWN0dWFsVGV4dBgBIAEoCRISCgpwYXJzZWRUZXh0GAIgASgJEisKCWZyYWdt",
+            "ZW50cxgDIAMoCzIYLmdhdWdlLm1lc3NhZ2VzLkZyYWdtZW50EkUKE3N0ZXBF",
+            "eGVjdXRpb25SZXN1bHQYBCABKAsyKC5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0",
+            "ZXBFeGVjdXRpb25SZXN1bHQSFwoPcHJlSG9va01lc3NhZ2VzGAUgAygJEhgK",
+            "EHBvc3RIb29rTWVzc2FnZXMYBiADKAkSHgoScHJlSG9va1NjcmVlbnNob3Rz",
+            "GAcgAygMQgIYARIfChNwb3N0SG9va1NjcmVlbnNob3RzGAggAygMQgIYARIe",
+            "ChZwcmVIb29rU2NyZWVuc2hvdEZpbGVzGAkgAygJEh8KF3Bvc3RIb29rU2Ny",
+            "ZWVuc2hvdEZpbGVzGAogAygJIrIBCgxQcm90b0NvbmNlcHQSLgoLY29uY2Vw",
+            "dFN0ZXAYASABKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXASKAoFc3Rl",
+            "cHMYAiADKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b0l0ZW0SSAoWY29uY2Vw",
+            "dEV4ZWN1dGlvblJlc3VsdBgDIAEoCzIoLmdhdWdlLm1lc3NhZ2VzLlByb3Rv",
+            "U3RlcEV4ZWN1dGlvblJlc3VsdCIZCglQcm90b1RhZ3MSDAoEdGFncxgBIAMo",
+            "CSKsAQoIRnJhZ21lbnQSOwoMZnJhZ21lbnRUeXBlGAEgASgOMiUuZ2F1Z2Uu",
+            "bWVzc2FnZXMuRnJhZ21lbnQuRnJhZ21lbnRUeXBlEgwKBHRleHQYAiABKAkS",
+            "LAoJcGFyYW1ldGVyGAMgASgLMhkuZ2F1Z2UubWVzc2FnZXMuUGFyYW1ldGVy",
+            "IicKDEZyYWdtZW50VHlwZRIICgRUZXh0EAASDQoJUGFyYW1ldGVyEAEi7wEK",
+            "CVBhcmFtZXRlchI+Cg1wYXJhbWV0ZXJUeXBlGAEgASgOMicuZ2F1Z2UubWVz",
+            "c2FnZXMuUGFyYW1ldGVyLlBhcmFtZXRlclR5cGUSDQoFdmFsdWUYAiABKAkS",
+            "DAoEbmFtZRgDIAEoCRIpCgV0YWJsZRgEIAEoCzIaLmdhdWdlLm1lc3NhZ2Vz",
+            "LlByb3RvVGFibGUiWgoNUGFyYW1ldGVyVHlwZRIKCgZTdGF0aWMQABILCgdE",
+            "eW5hbWljEAESEgoOU3BlY2lhbF9TdHJpbmcQAhIRCg1TcGVjaWFsX1RhYmxl",
+            "EAMSCQoFVGFibGUQBCIcCgxQcm90b0NvbW1lbnQSDAoEdGV4dBgBIAEoCSJp",
+            "CgpQcm90b1RhYmxlEi4KB2hlYWRlcnMYASABKAsyHS5nYXVnZS5tZXNzYWdl",
+            "cy5Qcm90b1RhYmxlUm93EisKBHJvd3MYAiADKAsyHS5nYXVnZS5tZXNzYWdl",
+            "cy5Qcm90b1RhYmxlUm93Ih4KDVByb3RvVGFibGVSb3cSDQoFY2VsbHMYASAD",
+            "KAki9gEKGFByb3RvU3RlcEV4ZWN1dGlvblJlc3VsdBI9Cg9leGVjdXRpb25S",
+            "ZXN1bHQYASABKAsyJC5nYXVnZS5tZXNzYWdlcy5Qcm90b0V4ZWN1dGlvblJl",
+            "c3VsdBI4Cg5wcmVIb29rRmFpbHVyZRgCIAEoCzIgLmdhdWdlLm1lc3NhZ2Vz",
+            "LlByb3RvSG9va0ZhaWx1cmUSOQoPcG9zdEhvb2tGYWlsdXJlGAMgASgLMiAu",
+            "Z2F1Z2UubWVzc2FnZXMuUHJvdG9Ib29rRmFpbHVyZRIPCgdza2lwcGVkGAQg",
+            "ASgIEhUKDXNraXBwZWRSZWFzb24YBSABKAkiiwMKFFByb3RvRXhlY3V0aW9u",
+            "UmVzdWx0Eg4KBmZhaWxlZBgBIAEoCBIYChByZWNvdmVyYWJsZUVycm9yGAIg",
+            "ASgIEhQKDGVycm9yTWVzc2FnZRgDIAEoCRISCgpzdGFja1RyYWNlGAQgASgJ",
+            "EhYKCnNjcmVlblNob3QYBSABKAxCAhgBEhUKDWV4ZWN1dGlvblRpbWUYBiAB",
+            "KAMSDwoHbWVzc2FnZRgHIAMoCRJBCgllcnJvclR5cGUYCCABKA4yLi5nYXVn",
+            "ZS5tZXNzYWdlcy5Qcm90b0V4ZWN1dGlvblJlc3VsdC5FcnJvclR5cGUSHQoR",
+            "ZmFpbHVyZVNjcmVlbnNob3QYCSABKAxCAhgBEhcKC3NjcmVlbnNob3RzGAog",
+            "AygMQgIYARIdChVmYWlsdXJlU2NyZWVuc2hvdEZpbGUYCyABKAkSFwoPc2Ny",
+            "ZWVuc2hvdEZpbGVzGAwgAygJIiwKCUVycm9yVHlwZRINCglBU1NFUlRJT04Q",
+            "ABIQCgxWRVJJRklDQVRJT04QASKpAQoQUHJvdG9Ib29rRmFpbHVyZRISCgpz",
+            "dGFja1RyYWNlGAEgASgJEhQKDGVycm9yTWVzc2FnZRgCIAEoCRIWCgpzY3Jl",
+            "ZW5TaG90GAMgASgMQgIYARIVCg10YWJsZVJvd0luZGV4GAQgASgFEh0KEWZh",
+            "aWx1cmVTY3JlZW5zaG90GAUgASgMQgIYARIdChVmYWlsdXJlU2NyZWVuc2hv",
+            "dEZpbGUYBiABKAkiiwUKEFByb3RvU3VpdGVSZXN1bHQSNAoLc3BlY1Jlc3Vs",
+            "dHMYASADKAsyHy5nYXVnZS5tZXNzYWdlcy5Qcm90b1NwZWNSZXN1bHQSOAoO",
+            "cHJlSG9va0ZhaWx1cmUYAiABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b0hv",
+            "b2tGYWlsdXJlEjkKD3Bvc3RIb29rRmFpbHVyZRgDIAEoCzIgLmdhdWdlLm1l",
+            "c3NhZ2VzLlByb3RvSG9va0ZhaWx1cmUSDgoGZmFpbGVkGAQgASgIEhgKEHNw",
+            "ZWNzRmFpbGVkQ291bnQYBSABKAUSFQoNZXhlY3V0aW9uVGltZRgGIAEoAxIT",
+            "CgtzdWNjZXNzUmF0ZRgHIAEoAhITCgtlbnZpcm9ubWVudBgIIAEoCRIMCgR0",
+            "YWdzGAkgASgJEhMKC3Byb2plY3ROYW1lGAogASgJEhEKCXRpbWVzdGFtcBgL",
+            "IAEoCRIZChFzcGVjc1NraXBwZWRDb3VudBgMIAEoBRIXCg9wcmVIb29rTWVz",
+            "c2FnZXMYDSADKAkSGAoQcG9zdEhvb2tNZXNzYWdlcxgOIAMoCRIaCg5wcmVI",
+            "b29rTWVzc2FnZRgPIAMoCUICGAESGwoPcG9zdEhvb2tNZXNzYWdlGBAgAygJ",
+            "QgIYARIeChJwcmVIb29rU2NyZWVuc2hvdHMYESADKAxCAhgBEh8KE3Bvc3RI",
+            "b29rU2NyZWVuc2hvdHMYEiADKAxCAhgBEg8KB2NodW5rZWQYEyABKAgSEQoJ",
+            "Y2h1bmtTaXplGBQgASgDEh4KFnByZUhvb2tTY3JlZW5zaG90RmlsZXMYFSAD",
+            "KAkSHwoXcG9zdEhvb2tTY3JlZW5zaG90RmlsZXMYFiADKAkivgIKD1Byb3Rv",
+            "U3BlY1Jlc3VsdBIsCglwcm90b1NwZWMYASABKAsyGS5nYXVnZS5tZXNzYWdl",
+            "cy5Qcm90b1NwZWMSFQoNc2NlbmFyaW9Db3VudBgCIAEoBRIbChNzY2VuYXJp",
+            "b0ZhaWxlZENvdW50GAMgASgFEg4KBmZhaWxlZBgEIAEoCBIbChNmYWlsZWRE",
+            "YXRhVGFibGVSb3dzGAUgAygFEhUKDWV4ZWN1dGlvblRpbWUYBiABKAMSDwoH",
+            "c2tpcHBlZBgHIAEoCBIcChRzY2VuYXJpb1NraXBwZWRDb3VudBgIIAEoBRIc",
+            "ChRza2lwcGVkRGF0YVRhYmxlUm93cxgJIAMoBRIlCgZlcnJvcnMYCiADKAsy",
+            "FS5nYXVnZS5tZXNzYWdlcy5FcnJvchIRCgl0aW1lc3RhbXAYCyABKAkibQoT",
+            "UHJvdG9TY2VuYXJpb1Jlc3VsdBIsCglwcm90b0l0ZW0YASABKAsyGS5nYXVn",
+            "ZS5tZXNzYWdlcy5Qcm90b0l0ZW0SFQoNZXhlY3V0aW9uVGltZRgCIAEoAxIR",
+            "Cgl0aW1lc3RhbXAYAyABKAkiaQoPUHJvdG9TdGVwUmVzdWx0EiwKCXByb3Rv",
+            "SXRlbRgBIAEoCzIZLmdhdWdlLm1lc3NhZ2VzLlByb3RvSXRlbRIVCg1leGVj",
+            "dXRpb25UaW1lGAIgASgDEhEKCXRpbWVzdGFtcBgDIAEoCSKhAQoFRXJyb3IS",
+            "LQoEdHlwZRgBIAEoDjIfLmdhdWdlLm1lc3NhZ2VzLkVycm9yLkVycm9yVHlw",
+            "ZRIQCghmaWxlbmFtZRgCIAEoCRISCgpsaW5lTnVtYmVyGAMgASgFEg8KB21l",
+            "c3NhZ2UYBCABKAkiMgoJRXJyb3JUeXBlEg8KC1BBUlNFX0VSUk9SEAASFAoQ",
+            "VkFMSURBVElPTl9FUlJPUhABIlcKDlByb3RvU3RlcFZhbHVlEhEKCXN0ZXBW",
+            "YWx1ZRgBIAEoCRIeChZwYXJhbWV0ZXJpemVkU3RlcFZhbHVlGAIgASgJEhIK",
+            "CnBhcmFtZXRlcnMYAyADKAkqRwoPRXhlY3V0aW9uU3RhdHVzEg8KC05PVEVY",
+            "RUNVVEVEEAASCgoGUEFTU0VEEAESCgoGRkFJTEVEEAISCwoHU0tJUFBFRBAD",
+            "QikKFmNvbS50aG91Z2h0d29ya3MuZ2F1Z2WqAg5HYXVnZS5NZXNzYWdlc2IG",
+            "cHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Gauge.Messages.ExecutionStatus), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSpec), global::Gauge.Messages.ProtoSpec.Parser, new[]{ "SpecHeading", "Items", "IsTableDriven", "PreHookFailures", "PostHookFailures", "FileName", "Tags", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "ItemCount" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSpec), global::Gauge.Messages.ProtoSpec.Parser, new[]{ "SpecHeading", "Items", "IsTableDriven", "PreHookFailures", "PostHookFailures", "FileName", "Tags", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "ItemCount", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoItem), global::Gauge.Messages.ProtoItem.Parser, new[]{ "ItemType", "Step", "Concept", "Scenario", "TableDrivenScenario", "Comment", "Table", "Tags", "FileName" }, null, new[]{ typeof(global::Gauge.Messages.ProtoItem.Types.ItemType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoScenario), global::Gauge.Messages.ProtoScenario.Parser, new[]{ "ScenarioHeading", "Failed", "Contexts", "ScenarioItems", "PreHookFailure", "PostHookFailure", "Tags", "ExecutionTime", "Skipped", "SkipErrors", "ID", "TearDownSteps", "Span", "ExecutionStatus", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoScenario), global::Gauge.Messages.ProtoScenario.Parser, new[]{ "ScenarioHeading", "Failed", "Contexts", "ScenarioItems", "PreHookFailure", "PostHookFailure", "Tags", "ExecutionTime", "Skipped", "SkipErrors", "ID", "TearDownSteps", "Span", "ExecutionStatus", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Span), global::Gauge.Messages.Span.Parser, new[]{ "Start", "End", "StartChar", "EndChar" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTableDrivenScenario), global::Gauge.Messages.ProtoTableDrivenScenario.Parser, new[]{ "Scenario", "TableRowIndex", "ScenarioTableRowIndex", "IsSpecTableDriven", "IsScenarioTableDriven", "ScenarioDataTable", "ScenarioTableRow" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStep), global::Gauge.Messages.ProtoStep.Parser, new[]{ "ActualText", "ParsedText", "Fragments", "StepExecutionResult", "PreHookMessages", "PostHookMessages", "PreHookScreenshots", "PostHookScreenshots" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStep), global::Gauge.Messages.ProtoStep.Parser, new[]{ "ActualText", "ParsedText", "Fragments", "StepExecutionResult", "PreHookMessages", "PostHookMessages", "PreHookScreenshots", "PostHookScreenshots", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoConcept), global::Gauge.Messages.ProtoConcept.Parser, new[]{ "ConceptStep", "Steps", "ConceptExecutionResult" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTags), global::Gauge.Messages.ProtoTags.Parser, new[]{ "Tags" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Fragment), global::Gauge.Messages.Fragment.Parser, new[]{ "FragmentType", "Text", "Parameter" }, null, new[]{ typeof(global::Gauge.Messages.Fragment.Types.FragmentType) }, null),
@@ -164,7 +171,7 @@ namespace Gauge.Messages {
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepExecutionResult), global::Gauge.Messages.ProtoStepExecutionResult.Parser, new[]{ "ExecutionResult", "PreHookFailure", "PostHookFailure", "Skipped", "SkippedReason" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoExecutionResult), global::Gauge.Messages.ProtoExecutionResult.Parser, new[]{ "Failed", "RecoverableError", "ErrorMessage", "StackTrace", "ScreenShot", "ExecutionTime", "Message", "ErrorType", "FailureScreenshot", "Screenshots", "FailureScreenshotFile", "ScreenshotFiles" }, null, new[]{ typeof(global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType) }, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoHookFailure), global::Gauge.Messages.ProtoHookFailure.Parser, new[]{ "StackTrace", "ErrorMessage", "ScreenShot", "TableRowIndex", "FailureScreenshot", "FailureScreenshotFile" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSuiteResult), global::Gauge.Messages.ProtoSuiteResult.Parser, new[]{ "SpecResults", "PreHookFailure", "PostHookFailure", "Failed", "SpecsFailedCount", "ExecutionTime", "SuccessRate", "Environment", "Tags", "ProjectName", "Timestamp", "SpecsSkippedCount", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "Chunked", "ChunkSize" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSuiteResult), global::Gauge.Messages.ProtoSuiteResult.Parser, new[]{ "SpecResults", "PreHookFailure", "PostHookFailure", "Failed", "SpecsFailedCount", "ExecutionTime", "SuccessRate", "Environment", "Tags", "ProjectName", "Timestamp", "SpecsSkippedCount", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "Chunked", "ChunkSize", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSpecResult), global::Gauge.Messages.ProtoSpecResult.Parser, new[]{ "ProtoSpec", "ScenarioCount", "ScenarioFailedCount", "Failed", "FailedDataTableRows", "ExecutionTime", "Skipped", "ScenarioSkippedCount", "SkippedDataTableRows", "Errors", "Timestamp" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoScenarioResult), global::Gauge.Messages.ProtoScenarioResult.Parser, new[]{ "ProtoItem", "ExecutionTime", "Timestamp" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepResult), global::Gauge.Messages.ProtoStepResult.Parser, new[]{ "ProtoItem", "ExecutionTime", "Timestamp" }, null, null, null),
@@ -232,6 +239,8 @@ namespace Gauge.Messages {
       preHookScreenshots_ = other.preHookScreenshots_.Clone();
       postHookScreenshots_ = other.postHookScreenshots_.Clone();
       itemCount_ = other.itemCount_;
+      preHookScreenshotFiles_ = other.preHookScreenshotFiles_.Clone();
+      postHookScreenshotFiles_ = other.postHookScreenshotFiles_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -394,8 +403,9 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(98);
     private readonly pbc::RepeatedField<pb::ByteString> preHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at pre hook exec time to be available on reports
+    //// [DEPRECATED, use preHookScreenshotFiles] Capture Screenshot at pre hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PreHookScreenshots {
       get { return preHookScreenshots_; }
@@ -407,8 +417,9 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(106);
     private readonly pbc::RepeatedField<pb::ByteString> postHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at post hook exec time to be available on reports
+    //// [DEPRECATED, use postHookScreenshotFiles] Capture Screenshot at post hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PostHookScreenshots {
       get { return postHookScreenshots_; }
@@ -427,6 +438,32 @@ namespace Gauge.Messages {
       set {
         itemCount_ = value;
       }
+    }
+
+    /// <summary>Field number for the "preHookScreenshotFiles" field.</summary>
+    public const int PreHookScreenshotFilesFieldNumber = 15;
+    private static readonly pb::FieldCodec<string> _repeated_preHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(122);
+    private readonly pbc::RepeatedField<string> preHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on pre hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PreHookScreenshotFiles {
+      get { return preHookScreenshotFiles_; }
+    }
+
+    /// <summary>Field number for the "postHookScreenshotFiles" field.</summary>
+    public const int PostHookScreenshotFilesFieldNumber = 16;
+    private static readonly pb::FieldCodec<string> _repeated_postHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(130);
+    private readonly pbc::RepeatedField<string> postHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on post hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PostHookScreenshotFiles {
+      get { return postHookScreenshotFiles_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -456,6 +493,8 @@ namespace Gauge.Messages {
       if(!preHookScreenshots_.Equals(other.preHookScreenshots_)) return false;
       if(!postHookScreenshots_.Equals(other.postHookScreenshots_)) return false;
       if (ItemCount != other.ItemCount) return false;
+      if(!preHookScreenshotFiles_.Equals(other.preHookScreenshotFiles_)) return false;
+      if(!postHookScreenshotFiles_.Equals(other.postHookScreenshotFiles_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -476,6 +515,8 @@ namespace Gauge.Messages {
       hash ^= preHookScreenshots_.GetHashCode();
       hash ^= postHookScreenshots_.GetHashCode();
       if (ItemCount != 0L) hash ^= ItemCount.GetHashCode();
+      hash ^= preHookScreenshotFiles_.GetHashCode();
+      hash ^= postHookScreenshotFiles_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -515,6 +556,8 @@ namespace Gauge.Messages {
         output.WriteRawTag(112);
         output.WriteInt64(ItemCount);
       }
+      preHookScreenshotFiles_.WriteTo(output, _repeated_preHookScreenshotFiles_codec);
+      postHookScreenshotFiles_.WriteTo(output, _repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -545,6 +588,8 @@ namespace Gauge.Messages {
       if (ItemCount != 0L) {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(ItemCount);
       }
+      size += preHookScreenshotFiles_.CalculateSize(_repeated_preHookScreenshotFiles_codec);
+      size += postHookScreenshotFiles_.CalculateSize(_repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -578,6 +623,8 @@ namespace Gauge.Messages {
       if (other.ItemCount != 0L) {
         ItemCount = other.ItemCount;
       }
+      preHookScreenshotFiles_.Add(other.preHookScreenshotFiles_);
+      postHookScreenshotFiles_.Add(other.postHookScreenshotFiles_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -643,6 +690,14 @@ namespace Gauge.Messages {
           }
           case 112: {
             ItemCount = input.ReadInt64();
+            break;
+          }
+          case 122: {
+            preHookScreenshotFiles_.AddEntriesFrom(input, _repeated_preHookScreenshotFiles_codec);
+            break;
+          }
+          case 130: {
+            postHookScreenshotFiles_.AddEntriesFrom(input, _repeated_postHookScreenshotFiles_codec);
             break;
           }
         }
@@ -1165,6 +1220,8 @@ namespace Gauge.Messages {
       postHookMessage_ = other.postHookMessage_.Clone();
       preHookScreenshots_ = other.preHookScreenshots_.Clone();
       postHookScreenshots_ = other.postHookScreenshots_.Clone();
+      preHookScreenshotFiles_ = other.preHookScreenshotFiles_.Clone();
+      postHookScreenshotFiles_ = other.postHookScreenshotFiles_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1426,8 +1483,9 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(154);
     private readonly pbc::RepeatedField<pb::ByteString> preHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at pre hook exec time to be available on reports
+    //// [DEPRECATED, use preHookScreenshotFiles] Capture Screenshot at pre hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PreHookScreenshots {
       get { return preHookScreenshots_; }
@@ -1439,11 +1497,38 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(162);
     private readonly pbc::RepeatedField<pb::ByteString> postHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at post hook exec time to be available on reports
+    //// [DEPRECATED, use postHookScreenshotFiles] Capture Screenshot at post hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PostHookScreenshots {
       get { return postHookScreenshots_; }
+    }
+
+    /// <summary>Field number for the "preHookScreenshotFiles" field.</summary>
+    public const int PreHookScreenshotFilesFieldNumber = 21;
+    private static readonly pb::FieldCodec<string> _repeated_preHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(170);
+    private readonly pbc::RepeatedField<string> preHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on pre hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PreHookScreenshotFiles {
+      get { return preHookScreenshotFiles_; }
+    }
+
+    /// <summary>Field number for the "postHookScreenshotFiles" field.</summary>
+    public const int PostHookScreenshotFilesFieldNumber = 22;
+    private static readonly pb::FieldCodec<string> _repeated_postHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(178);
+    private readonly pbc::RepeatedField<string> postHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on post hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PostHookScreenshotFiles {
+      get { return postHookScreenshotFiles_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1479,6 +1564,8 @@ namespace Gauge.Messages {
       if(!postHookMessage_.Equals(other.postHookMessage_)) return false;
       if(!preHookScreenshots_.Equals(other.preHookScreenshots_)) return false;
       if(!postHookScreenshots_.Equals(other.postHookScreenshots_)) return false;
+      if(!preHookScreenshotFiles_.Equals(other.preHookScreenshotFiles_)) return false;
+      if(!postHookScreenshotFiles_.Equals(other.postHookScreenshotFiles_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1505,6 +1592,8 @@ namespace Gauge.Messages {
       hash ^= postHookMessage_.GetHashCode();
       hash ^= preHookScreenshots_.GetHashCode();
       hash ^= postHookScreenshots_.GetHashCode();
+      hash ^= preHookScreenshotFiles_.GetHashCode();
+      hash ^= postHookScreenshotFiles_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1565,6 +1654,8 @@ namespace Gauge.Messages {
       postHookMessage_.WriteTo(output, _repeated_postHookMessage_codec);
       preHookScreenshots_.WriteTo(output, _repeated_preHookScreenshots_codec);
       postHookScreenshots_.WriteTo(output, _repeated_postHookScreenshots_codec);
+      preHookScreenshotFiles_.WriteTo(output, _repeated_preHookScreenshotFiles_codec);
+      postHookScreenshotFiles_.WriteTo(output, _repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1611,6 +1702,8 @@ namespace Gauge.Messages {
       size += postHookMessage_.CalculateSize(_repeated_postHookMessage_codec);
       size += preHookScreenshots_.CalculateSize(_repeated_preHookScreenshots_codec);
       size += postHookScreenshots_.CalculateSize(_repeated_postHookScreenshots_codec);
+      size += preHookScreenshotFiles_.CalculateSize(_repeated_preHookScreenshotFiles_codec);
+      size += postHookScreenshotFiles_.CalculateSize(_repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1669,6 +1762,8 @@ namespace Gauge.Messages {
       postHookMessage_.Add(other.postHookMessage_);
       preHookScreenshots_.Add(other.preHookScreenshots_);
       postHookScreenshots_.Add(other.postHookScreenshots_);
+      preHookScreenshotFiles_.Add(other.preHookScreenshotFiles_);
+      postHookScreenshotFiles_.Add(other.postHookScreenshotFiles_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1767,6 +1862,14 @@ namespace Gauge.Messages {
           }
           case 162: {
             postHookScreenshots_.AddEntriesFrom(input, _repeated_postHookScreenshots_codec);
+            break;
+          }
+          case 170: {
+            preHookScreenshotFiles_.AddEntriesFrom(input, _repeated_preHookScreenshotFiles_codec);
+            break;
+          }
+          case 178: {
+            postHookScreenshotFiles_.AddEntriesFrom(input, _repeated_postHookScreenshotFiles_codec);
             break;
           }
         }
@@ -2366,6 +2469,8 @@ namespace Gauge.Messages {
       postHookMessages_ = other.postHookMessages_.Clone();
       preHookScreenshots_ = other.preHookScreenshots_.Clone();
       postHookScreenshots_ = other.postHookScreenshots_.Clone();
+      preHookScreenshotFiles_ = other.preHookScreenshotFiles_.Clone();
+      postHookScreenshotFiles_ = other.postHookScreenshotFiles_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2461,8 +2566,9 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(58);
     private readonly pbc::RepeatedField<pb::ByteString> preHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at pre hook exec time to be available on reports
+    //// [DEPRECATED, use preHookScreenshotFiles] Capture Screenshot at pre hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PreHookScreenshots {
       get { return preHookScreenshots_; }
@@ -2474,11 +2580,38 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(66);
     private readonly pbc::RepeatedField<pb::ByteString> postHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at post hook exec time to be available on reports
+    //// [DEPRECATED, use postHookScreenshotFiles] Capture Screenshot at post hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PostHookScreenshots {
       get { return postHookScreenshots_; }
+    }
+
+    /// <summary>Field number for the "preHookScreenshotFiles" field.</summary>
+    public const int PreHookScreenshotFilesFieldNumber = 9;
+    private static readonly pb::FieldCodec<string> _repeated_preHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(74);
+    private readonly pbc::RepeatedField<string> preHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on pre hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PreHookScreenshotFiles {
+      get { return preHookScreenshotFiles_; }
+    }
+
+    /// <summary>Field number for the "postHookScreenshotFiles" field.</summary>
+    public const int PostHookScreenshotFilesFieldNumber = 10;
+    private static readonly pb::FieldCodec<string> _repeated_postHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(82);
+    private readonly pbc::RepeatedField<string> postHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on post hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PostHookScreenshotFiles {
+      get { return postHookScreenshotFiles_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2502,6 +2635,8 @@ namespace Gauge.Messages {
       if(!postHookMessages_.Equals(other.postHookMessages_)) return false;
       if(!preHookScreenshots_.Equals(other.preHookScreenshots_)) return false;
       if(!postHookScreenshots_.Equals(other.postHookScreenshots_)) return false;
+      if(!preHookScreenshotFiles_.Equals(other.preHookScreenshotFiles_)) return false;
+      if(!postHookScreenshotFiles_.Equals(other.postHookScreenshotFiles_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -2516,6 +2651,8 @@ namespace Gauge.Messages {
       hash ^= postHookMessages_.GetHashCode();
       hash ^= preHookScreenshots_.GetHashCode();
       hash ^= postHookScreenshots_.GetHashCode();
+      hash ^= preHookScreenshotFiles_.GetHashCode();
+      hash ^= postHookScreenshotFiles_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -2546,6 +2683,8 @@ namespace Gauge.Messages {
       postHookMessages_.WriteTo(output, _repeated_postHookMessages_codec);
       preHookScreenshots_.WriteTo(output, _repeated_preHookScreenshots_codec);
       postHookScreenshots_.WriteTo(output, _repeated_postHookScreenshots_codec);
+      preHookScreenshotFiles_.WriteTo(output, _repeated_preHookScreenshotFiles_codec);
+      postHookScreenshotFiles_.WriteTo(output, _repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -2568,6 +2707,8 @@ namespace Gauge.Messages {
       size += postHookMessages_.CalculateSize(_repeated_postHookMessages_codec);
       size += preHookScreenshots_.CalculateSize(_repeated_preHookScreenshots_codec);
       size += postHookScreenshots_.CalculateSize(_repeated_postHookScreenshots_codec);
+      size += preHookScreenshotFiles_.CalculateSize(_repeated_preHookScreenshotFiles_codec);
+      size += postHookScreenshotFiles_.CalculateSize(_repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -2596,6 +2737,8 @@ namespace Gauge.Messages {
       postHookMessages_.Add(other.postHookMessages_);
       preHookScreenshots_.Add(other.preHookScreenshots_);
       postHookScreenshots_.Add(other.postHookScreenshots_);
+      preHookScreenshotFiles_.Add(other.preHookScreenshotFiles_);
+      postHookScreenshotFiles_.Add(other.postHookScreenshotFiles_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -2640,6 +2783,14 @@ namespace Gauge.Messages {
           }
           case 66: {
             postHookScreenshots_.AddEntriesFrom(input, _repeated_postHookScreenshots_codec);
+            break;
+          }
+          case 74: {
+            preHookScreenshotFiles_.AddEntriesFrom(input, _repeated_preHookScreenshotFiles_codec);
+            break;
+          }
+          case 82: {
+            postHookScreenshotFiles_.AddEntriesFrom(input, _repeated_postHookScreenshotFiles_codec);
             break;
           }
         }
@@ -4275,7 +4426,7 @@ namespace Gauge.Messages {
     public const int ScreenShotFieldNumber = 5;
     private pb::ByteString screenShot_ = pb::ByteString.Empty;
     /// <summary>
-    //// [DEPRECATED, use failedScreenshot] Bytes containing screenshot taken at the time of failure.
+    //// [DEPRECATED, use failureScreenshotFile] Bytes containing screenshot taken at the time of failure.
     /// </summary>
     [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4331,8 +4482,9 @@ namespace Gauge.Messages {
     public const int FailureScreenshotFieldNumber = 9;
     private pb::ByteString failureScreenshot_ = pb::ByteString.Empty;
     /// <summary>
-    //// Bytes containing screenshot taken at the time of failure.
+    //// [DEPRECATED, use failureScreenshotFile] Bytes containing screenshot taken at the time of failure.
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pb::ByteString FailureScreenshot {
       get { return failureScreenshot_; }
@@ -4347,8 +4499,9 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(82);
     private readonly pbc::RepeatedField<pb::ByteString> screenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Bytes array containing screenshots at the time of it invoked
+    //// [DEPRECATED, use screenshotFiles] Bytes array containing screenshots at the time of it invoked
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> Screenshots {
       get { return screenshots_; }
@@ -4707,7 +4860,7 @@ namespace Gauge.Messages {
     public const int ScreenShotFieldNumber = 3;
     private pb::ByteString screenShot_ = pb::ByteString.Empty;
     /// <summary>
-    //// [DEPRECATED, use failedScreenshot] Bytes holding the screenshot taken at the time of failure.
+    //// [DEPRECATED, use failureScreenshotFile] Bytes holding the screenshot taken at the time of failure.
     /// </summary>
     [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -4736,8 +4889,9 @@ namespace Gauge.Messages {
     public const int FailureScreenshotFieldNumber = 5;
     private pb::ByteString failureScreenshot_ = pb::ByteString.Empty;
     /// <summary>
-    ////Bytes holding the screenshot taken at the time of failure.
+    //// [DEPRECATED, use failureScreenshotFile] Bytes holding the screenshot taken at the time of failure.
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pb::ByteString FailureScreenshot {
       get { return failureScreenshot_; }
@@ -4972,6 +5126,8 @@ namespace Gauge.Messages {
       postHookScreenshots_ = other.postHookScreenshots_.Clone();
       chunked_ = other.chunked_;
       chunkSize_ = other.chunkSize_;
+      preHookScreenshotFiles_ = other.preHookScreenshotFiles_.Clone();
+      postHookScreenshotFiles_ = other.postHookScreenshotFiles_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -5204,8 +5360,9 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(138);
     private readonly pbc::RepeatedField<pb::ByteString> preHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at pre hook exec time to be available on reports
+    //// [DEPRECATED, use preHookScreenshotFiles] Capture Screenshot at pre hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PreHookScreenshots {
       get { return preHookScreenshots_; }
@@ -5217,8 +5374,9 @@ namespace Gauge.Messages {
         = pb::FieldCodec.ForBytes(146);
     private readonly pbc::RepeatedField<pb::ByteString> postHookScreenshots_ = new pbc::RepeatedField<pb::ByteString>();
     /// <summary>
-    //// Capture Screenshot at post hook exec time to be available on reports
+    //// [DEPRECATED, use postHookScreenshotFiles] Capture Screenshot at post hook exec time to be available on reports
     /// </summary>
+    [global::System.ObsoleteAttribute]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public pbc::RepeatedField<pb::ByteString> PostHookScreenshots {
       get { return postHookScreenshots_; }
@@ -5250,6 +5408,32 @@ namespace Gauge.Messages {
       set {
         chunkSize_ = value;
       }
+    }
+
+    /// <summary>Field number for the "preHookScreenshotFiles" field.</summary>
+    public const int PreHookScreenshotFilesFieldNumber = 21;
+    private static readonly pb::FieldCodec<string> _repeated_preHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(170);
+    private readonly pbc::RepeatedField<string> preHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on pre hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PreHookScreenshotFiles {
+      get { return preHookScreenshotFiles_; }
+    }
+
+    /// <summary>Field number for the "postHookScreenshotFiles" field.</summary>
+    public const int PostHookScreenshotFilesFieldNumber = 22;
+    private static readonly pb::FieldCodec<string> _repeated_postHookScreenshotFiles_codec
+        = pb::FieldCodec.ForString(178);
+    private readonly pbc::RepeatedField<string> postHookScreenshotFiles_ = new pbc::RepeatedField<string>();
+    /// <summary>
+    //// Screenshots captured on post hook exec time to be available on reports
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public pbc::RepeatedField<string> PostHookScreenshotFiles {
+      get { return postHookScreenshotFiles_; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -5285,6 +5469,8 @@ namespace Gauge.Messages {
       if(!postHookScreenshots_.Equals(other.postHookScreenshots_)) return false;
       if (Chunked != other.Chunked) return false;
       if (ChunkSize != other.ChunkSize) return false;
+      if(!preHookScreenshotFiles_.Equals(other.preHookScreenshotFiles_)) return false;
+      if(!postHookScreenshotFiles_.Equals(other.postHookScreenshotFiles_)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -5311,6 +5497,8 @@ namespace Gauge.Messages {
       hash ^= postHookScreenshots_.GetHashCode();
       if (Chunked != false) hash ^= Chunked.GetHashCode();
       if (ChunkSize != 0L) hash ^= ChunkSize.GetHashCode();
+      hash ^= preHookScreenshotFiles_.GetHashCode();
+      hash ^= postHookScreenshotFiles_.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -5383,6 +5571,8 @@ namespace Gauge.Messages {
         output.WriteRawTag(160, 1);
         output.WriteInt64(ChunkSize);
       }
+      preHookScreenshotFiles_.WriteTo(output, _repeated_preHookScreenshotFiles_codec);
+      postHookScreenshotFiles_.WriteTo(output, _repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -5437,6 +5627,8 @@ namespace Gauge.Messages {
       if (ChunkSize != 0L) {
         size += 2 + pb::CodedOutputStream.ComputeInt64Size(ChunkSize);
       }
+      size += preHookScreenshotFiles_.CalculateSize(_repeated_preHookScreenshotFiles_codec);
+      size += postHookScreenshotFiles_.CalculateSize(_repeated_postHookScreenshotFiles_codec);
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -5500,6 +5692,8 @@ namespace Gauge.Messages {
       if (other.ChunkSize != 0L) {
         ChunkSize = other.ChunkSize;
       }
+      preHookScreenshotFiles_.Add(other.preHookScreenshotFiles_);
+      postHookScreenshotFiles_.Add(other.postHookScreenshotFiles_);
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -5595,6 +5789,14 @@ namespace Gauge.Messages {
           }
           case 160: {
             ChunkSize = input.ReadInt64();
+            break;
+          }
+          case 170: {
+            preHookScreenshotFiles_.AddEntriesFrom(input, _repeated_preHookScreenshotFiles_codec);
+            break;
+          }
+          case 178: {
+            postHookScreenshotFiles_.AddEntriesFrom(input, _repeated_postHookScreenshotFiles_codec);
             break;
           }
         }
