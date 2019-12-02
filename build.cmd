@@ -13,6 +13,6 @@ goto :eof
 
 :package
     rmdir /s /q artifacts
-    dotnet pack -c release -o ../artifacts Gauge.CSharp.Core
+    dotnet pack -c release -o ./artifacts Gauge.CSharp.Core
     goto :eof
 
