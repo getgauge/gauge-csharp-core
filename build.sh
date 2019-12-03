@@ -12,7 +12,7 @@ function build() {
 function package() {
     checkCommand "dotnet"
     rm -rf deploy artifacts
-    dotnet pack -c release -o ./artifacts Gauge.CSharp.Core
+    dotnet pack -c release -o ../artifacts Gauge.CSharp.Core
 }
 
 tasks=(build test package)
