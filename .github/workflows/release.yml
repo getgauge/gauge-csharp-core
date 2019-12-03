@@ -21,4 +21,4 @@ jobs:
       - name: Upload nuget package
         run: |
           cd artifacts
-          dotnet nuget push Gauge.CSharp.Core*.nupkg $NUGET_API_KEY -Source https://www.nuget.org/api/v2/package
+          dotnet nuget push Gauge.CSharp.Core*.nupkg $NUGET_API_KEY -s https://www.nuget.org/api/v2/package
