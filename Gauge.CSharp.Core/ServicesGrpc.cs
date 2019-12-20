@@ -8,10 +8,12 @@
 using grpc = global::Grpc.Core;
 
 namespace Gauge.Messages {
-  public static partial class Execution
+  public static partial class Runner
   {
-    static readonly string __ServiceName = "gauge.messages.Execution";
+    static readonly string __ServiceName = "gauge.messages.Runner";
 
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateRequest> __Marshaller_StepValidateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateResponse> __Marshaller_StepValidateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionStatusResponse> __Marshaller_ExecutionStatusResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionStatusResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionStartingRequest> __Marshaller_ExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionStartingRequest.Parser.ParseFrom);
@@ -23,6 +25,27 @@ namespace Gauge.Messages {
     static readonly grpc::Marshaller<global::Gauge.Messages.ScenarioExecutionEndingRequest> __Marshaller_ScenarioExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ScenarioExecutionEndingRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.SpecExecutionEndingRequest> __Marshaller_SpecExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SpecExecutionEndingRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionEndingRequest> __Marshaller_ExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionEndingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.CacheFileRequest> __Marshaller_CacheFileRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.CacheFileRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameRequest> __Marshaller_StepNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameResponse> __Marshaller_StepNameResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Marshaller_ImplementationFileGlobPatternResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileGlobPatternResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesRequest> __Marshaller_StepNamesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesResponse> __Marshaller_StepNamesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsRequest> __Marshaller_StepPositionsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsResponse> __Marshaller_StepPositionsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileListResponse> __Marshaller_ImplementationFileListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileListResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StubImplementationCodeRequest> __Marshaller_StubImplementationCodeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StubImplementationCodeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.FileDiff> __Marshaller_FileDiff = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.FileDiff.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorRequest> __Marshaller_RefactorRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorResponse> __Marshaller_RefactorResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.KillProcessRequest> __Marshaller_KillProcessRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.KillProcessRequest.Parser.ParseFrom);
+
+    static readonly grpc::Method<global::Gauge.Messages.StepValidateRequest, global::Gauge.Messages.StepValidateResponse> __Method_ValidateStep = new grpc::Method<global::Gauge.Messages.StepValidateRequest, global::Gauge.Messages.StepValidateResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ValidateStep",
+        __Marshaller_StepValidateRequest,
+        __Marshaller_StepValidateResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse> __Method_InitializeSuiteDataStore = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse>(
         grpc::MethodType.Unary,
@@ -108,15 +131,91 @@ namespace Gauge.Messages {
         __Marshaller_ExecutionEndingRequest,
         __Marshaller_ExecutionStatusResponse);
 
+    static readonly grpc::Method<global::Gauge.Messages.CacheFileRequest, global::Gauge.Messages.Empty> __Method_CacheFile = new grpc::Method<global::Gauge.Messages.CacheFileRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CacheFile",
+        __Marshaller_CacheFileRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.StepNameRequest, global::Gauge.Messages.StepNameResponse> __Method_GetStepName = new grpc::Method<global::Gauge.Messages.StepNameRequest, global::Gauge.Messages.StepNameResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetStepName",
+        __Marshaller_StepNameRequest,
+        __Marshaller_StepNameResponse);
+
+    static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Method_GetGlobPatterns = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileGlobPatternResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetGlobPatterns",
+        __Marshaller_Empty,
+        __Marshaller_ImplementationFileGlobPatternResponse);
+
+    static readonly grpc::Method<global::Gauge.Messages.StepNamesRequest, global::Gauge.Messages.StepNamesResponse> __Method_GetStepNames = new grpc::Method<global::Gauge.Messages.StepNamesRequest, global::Gauge.Messages.StepNamesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetStepNames",
+        __Marshaller_StepNamesRequest,
+        __Marshaller_StepNamesResponse);
+
+    static readonly grpc::Method<global::Gauge.Messages.StepPositionsRequest, global::Gauge.Messages.StepPositionsResponse> __Method_GetStepPositions = new grpc::Method<global::Gauge.Messages.StepPositionsRequest, global::Gauge.Messages.StepPositionsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetStepPositions",
+        __Marshaller_StepPositionsRequest,
+        __Marshaller_StepPositionsResponse);
+
+    static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileListResponse> __Method_GetImplementationFiles = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileListResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetImplementationFiles",
+        __Marshaller_Empty,
+        __Marshaller_ImplementationFileListResponse);
+
+    static readonly grpc::Method<global::Gauge.Messages.StubImplementationCodeRequest, global::Gauge.Messages.FileDiff> __Method_ImplementStub = new grpc::Method<global::Gauge.Messages.StubImplementationCodeRequest, global::Gauge.Messages.FileDiff>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "ImplementStub",
+        __Marshaller_StubImplementationCodeRequest,
+        __Marshaller_FileDiff);
+
+    static readonly grpc::Method<global::Gauge.Messages.RefactorRequest, global::Gauge.Messages.RefactorResponse> __Method_Refactor = new grpc::Method<global::Gauge.Messages.RefactorRequest, global::Gauge.Messages.RefactorResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Refactor",
+        __Marshaller_RefactorRequest,
+        __Marshaller_RefactorResponse);
+
+    static readonly grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty> __Method_Kill = new grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Kill",
+        __Marshaller_KillProcessRequest,
+        __Marshaller_Empty);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
       get { return global::Gauge.Messages.ServicesReflection.Descriptor.Services[0]; }
     }
 
-    /// <summary>Base class for server-side implementations of Execution</summary>
-    public abstract partial class ExecutionBase
+    /// <summary>Base class for server-side implementations of Runner</summary>
+    public abstract partial class RunnerBase
     {
+      /// <summary>
+      /// ValidateStep is a RPC to validate a given step.
+      ///
+      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepValidateResponse> ValidateStep(global::Gauge.Messages.StepValidateRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
       /// <summary>
       /// SuiteDataStoreInit is a RPC to initialize the suite level data store.
       ///
@@ -273,31 +372,200 @@ namespace Gauge.Messages {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
+      /// <summary>
+      /// CacheFile is a RPC to tell runner to load/reload/unload a implementation file.
+      ///
+      /// Accepts a CacheFileRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> CacheFile(global::Gauge.Messages.CacheFileRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetStepName is a RPC to get information about the given step.
+      ///
+      /// Accepts a StepNameRequest message and returns a StepNameResponse message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepNameResponse> GetStepName(global::Gauge.Messages.StepNameRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetGlobPatterns is a RPC to get the file path pattern which needs to be cached.
+      ///
+      /// Accepts a Empty message and returns a ImplementationFileGlobPatternResponse message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ImplementationFileGlobPatternResponse> GetGlobPatterns(global::Gauge.Messages.Empty request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetStepNames is a RPC to get all the available steps from the runner.
+      ///
+      /// Accepts a StepNamesRequest message and returns a StepNamesResponse
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepNamesResponse> GetStepNames(global::Gauge.Messages.StepNamesRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetStepPositions is a RPC to get positions of all available steps in a given file.
+      ///
+      /// Accepts a StepPositionsRequest message and returns a StepPositionsResponse message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepPositionsResponse> GetStepPositions(global::Gauge.Messages.StepPositionsRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// GetImplementationFiles is a RPC get all the existing implementation files.
+      ///
+      /// Accepts a Empty and returns a ImplementationFileListResponse message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ImplementationFileListResponse> GetImplementationFiles(global::Gauge.Messages.Empty request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// ImplementStub is a RPC to to ask runner to add a given implementation to given file.
+      ///
+      /// Accepts a StubImplementationCodeRequest and returns a FileDiff message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.FileDiff> ImplementStub(global::Gauge.Messages.StubImplementationCodeRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Refactor is a RPC to refactor a given step in implementation file.
+      ///
+      /// Accepts a RefactorRequest message and returns a RefactorResponse message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.RefactorResponse> Refactor(global::Gauge.Messages.RefactorRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> Kill(global::Gauge.Messages.KillProcessRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
     }
 
-    /// <summary>Client for Execution</summary>
-    public partial class ExecutionClient : grpc::ClientBase<ExecutionClient>
+    /// <summary>Client for Runner</summary>
+    public partial class RunnerClient : grpc::ClientBase<RunnerClient>
     {
-      /// <summary>Creates a new client for Execution</summary>
+      /// <summary>Creates a new client for Runner</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public ExecutionClient(grpc::Channel channel) : base(channel)
+      public RunnerClient(grpc::Channel channel) : base(channel)
       {
       }
-      /// <summary>Creates a new client for Execution that uses a custom <c>CallInvoker</c>.</summary>
+      /// <summary>Creates a new client for Runner that uses a custom <c>CallInvoker</c>.</summary>
       /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
-      public ExecutionClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      public RunnerClient(grpc::CallInvoker callInvoker) : base(callInvoker)
       {
       }
       /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
-      protected ExecutionClient() : base()
+      protected RunnerClient() : base()
       {
       }
       /// <summary>Protected constructor to allow creation of configured clients.</summary>
       /// <param name="configuration">The client configuration.</param>
-      protected ExecutionClient(ClientBaseConfiguration configuration) : base(configuration)
+      protected RunnerClient(ClientBaseConfiguration configuration) : base(configuration)
       {
       }
 
+      /// <summary>
+      /// ValidateStep is a RPC to validate a given step.
+      ///
+      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.StepValidateResponse ValidateStep(global::Gauge.Messages.StepValidateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ValidateStep(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ValidateStep is a RPC to validate a given step.
+      ///
+      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.StepValidateResponse ValidateStep(global::Gauge.Messages.StepValidateRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_ValidateStep, null, options, request);
+      }
+      /// <summary>
+      /// ValidateStep is a RPC to validate a given step.
+      ///
+      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.StepValidateResponse> ValidateStepAsync(global::Gauge.Messages.StepValidateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return ValidateStepAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// ValidateStep is a RPC to validate a given step.
+      ///
+      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.StepValidateResponse> ValidateStepAsync(global::Gauge.Messages.StepValidateRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_ValidateStep, null, options, request);
+      }
       /// <summary>
       /// SuiteDataStoreInit is a RPC to initialize the suite level data store.
       ///
@@ -922,246 +1190,6 @@ namespace Gauge.Messages {
       {
         return CallInvoker.AsyncUnaryCall(__Method_FinishExecution, null, options, request);
       }
-      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
-      protected override ExecutionClient NewInstance(ClientBaseConfiguration configuration)
-      {
-        return new ExecutionClient(configuration);
-      }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    public static grpc::ServerServiceDefinition BindService(ExecutionBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_InitializeSuiteDataStore, serviceImpl.InitializeSuiteDataStore)
-          .AddMethod(__Method_StartExecution, serviceImpl.StartExecution)
-          .AddMethod(__Method_InitializeSpecDataStore, serviceImpl.InitializeSpecDataStore)
-          .AddMethod(__Method_StartSpecExecution, serviceImpl.StartSpecExecution)
-          .AddMethod(__Method_InitializeScenarioDataStore, serviceImpl.InitializeScenarioDataStore)
-          .AddMethod(__Method_StartScenarioExecution, serviceImpl.StartScenarioExecution)
-          .AddMethod(__Method_StartStepExecution, serviceImpl.StartStepExecution)
-          .AddMethod(__Method_ExecuteStep, serviceImpl.ExecuteStep)
-          .AddMethod(__Method_FinishStepExecution, serviceImpl.FinishStepExecution)
-          .AddMethod(__Method_FinishScenarioExecution, serviceImpl.FinishScenarioExecution)
-          .AddMethod(__Method_FinishSpecExecution, serviceImpl.FinishSpecExecution)
-          .AddMethod(__Method_FinishExecution, serviceImpl.FinishExecution).Build();
-    }
-
-  }
-  public static partial class Authoring
-  {
-    static readonly string __ServiceName = "gauge.messages.Authoring";
-
-    static readonly grpc::Marshaller<global::Gauge.Messages.CacheFileRequest> __Marshaller_CacheFileRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.CacheFileRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameRequest> __Marshaller_StepNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameResponse> __Marshaller_StepNameResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Marshaller_ImplementationFileGlobPatternResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileGlobPatternResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesRequest> __Marshaller_StepNamesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesResponse> __Marshaller_StepNamesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsRequest> __Marshaller_StepPositionsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsResponse> __Marshaller_StepPositionsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileListResponse> __Marshaller_ImplementationFileListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileListResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StubImplementationCodeRequest> __Marshaller_StubImplementationCodeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StubImplementationCodeRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.FileDiff> __Marshaller_FileDiff = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.FileDiff.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorRequest> __Marshaller_RefactorRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorResponse> __Marshaller_RefactorResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorResponse.Parser.ParseFrom);
-
-    static readonly grpc::Method<global::Gauge.Messages.CacheFileRequest, global::Gauge.Messages.Empty> __Method_CacheFile = new grpc::Method<global::Gauge.Messages.CacheFileRequest, global::Gauge.Messages.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "CacheFile",
-        __Marshaller_CacheFileRequest,
-        __Marshaller_Empty);
-
-    static readonly grpc::Method<global::Gauge.Messages.StepNameRequest, global::Gauge.Messages.StepNameResponse> __Method_GetStepName = new grpc::Method<global::Gauge.Messages.StepNameRequest, global::Gauge.Messages.StepNameResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetStepName",
-        __Marshaller_StepNameRequest,
-        __Marshaller_StepNameResponse);
-
-    static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Method_GetGlobPatterns = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileGlobPatternResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetGlobPatterns",
-        __Marshaller_Empty,
-        __Marshaller_ImplementationFileGlobPatternResponse);
-
-    static readonly grpc::Method<global::Gauge.Messages.StepNamesRequest, global::Gauge.Messages.StepNamesResponse> __Method_GetStepNames = new grpc::Method<global::Gauge.Messages.StepNamesRequest, global::Gauge.Messages.StepNamesResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetStepNames",
-        __Marshaller_StepNamesRequest,
-        __Marshaller_StepNamesResponse);
-
-    static readonly grpc::Method<global::Gauge.Messages.StepPositionsRequest, global::Gauge.Messages.StepPositionsResponse> __Method_GetStepPositions = new grpc::Method<global::Gauge.Messages.StepPositionsRequest, global::Gauge.Messages.StepPositionsResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetStepPositions",
-        __Marshaller_StepPositionsRequest,
-        __Marshaller_StepPositionsResponse);
-
-    static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileListResponse> __Method_GetImplementationFiles = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileListResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetImplementationFiles",
-        __Marshaller_Empty,
-        __Marshaller_ImplementationFileListResponse);
-
-    static readonly grpc::Method<global::Gauge.Messages.StubImplementationCodeRequest, global::Gauge.Messages.FileDiff> __Method_ImplementStub = new grpc::Method<global::Gauge.Messages.StubImplementationCodeRequest, global::Gauge.Messages.FileDiff>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "ImplementStub",
-        __Marshaller_StubImplementationCodeRequest,
-        __Marshaller_FileDiff);
-
-    static readonly grpc::Method<global::Gauge.Messages.RefactorRequest, global::Gauge.Messages.RefactorResponse> __Method_Refactor = new grpc::Method<global::Gauge.Messages.RefactorRequest, global::Gauge.Messages.RefactorResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "Refactor",
-        __Marshaller_RefactorRequest,
-        __Marshaller_RefactorResponse);
-
-    /// <summary>Service descriptor</summary>
-    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
-    {
-      get { return global::Gauge.Messages.ServicesReflection.Descriptor.Services[1]; }
-    }
-
-    /// <summary>Base class for server-side implementations of Authoring</summary>
-    public abstract partial class AuthoringBase
-    {
-      /// <summary>
-      /// CacheFile is a RPC to tell runner to load/reload/unload a implementation file.
-      ///
-      /// Accepts a CacheFileRequest message and returns a Empty message
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> CacheFile(global::Gauge.Messages.CacheFileRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// GetStepName is a RPC to get information about the given step.
-      ///
-      /// Accepts a StepNameRequest message and returns a StepNameResponse message.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepNameResponse> GetStepName(global::Gauge.Messages.StepNameRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// GetGlobPatterns is a RPC to get the file path pattern which needs to be cached.
-      ///
-      /// Accepts a Empty message and returns a ImplementationFileGlobPatternResponse message.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ImplementationFileGlobPatternResponse> GetGlobPatterns(global::Gauge.Messages.Empty request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// GetStepNames is a RPC to get all the available steps from the runner.
-      ///
-      /// Accepts a StepNamesRequest message and returns a StepNamesResponse
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepNamesResponse> GetStepNames(global::Gauge.Messages.StepNamesRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// GetStepPositions is a RPC to get positions of all available steps in a given file.
-      ///
-      /// Accepts a StepPositionsRequest message and returns a StepPositionsResponse message
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepPositionsResponse> GetStepPositions(global::Gauge.Messages.StepPositionsRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// GetImplementationFiles is a RPC get all the existing implementation files.
-      ///
-      /// Accepts a Empty and returns a ImplementationFileListResponse message.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ImplementationFileListResponse> GetImplementationFiles(global::Gauge.Messages.Empty request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// ImplementStub is a RPC to to ask runner to add a given implementation to given file.
-      ///
-      /// Accepts a StubImplementationCodeRequest and returns a FileDiff message.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.FileDiff> ImplementStub(global::Gauge.Messages.StubImplementationCodeRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-      /// <summary>
-      /// Refactor is a RPC to refactor a given step in implementation file.
-      ///
-      /// Accepts a RefactorRequest message and returns a RefactorResponse message.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.RefactorResponse> Refactor(global::Gauge.Messages.RefactorRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
-    /// <summary>Client for Authoring</summary>
-    public partial class AuthoringClient : grpc::ClientBase<AuthoringClient>
-    {
-      /// <summary>Creates a new client for Authoring</summary>
-      /// <param name="channel">The channel to use to make remote calls.</param>
-      public AuthoringClient(grpc::Channel channel) : base(channel)
-      {
-      }
-      /// <summary>Creates a new client for Authoring that uses a custom <c>CallInvoker</c>.</summary>
-      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
-      public AuthoringClient(grpc::CallInvoker callInvoker) : base(callInvoker)
-      {
-      }
-      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
-      protected AuthoringClient() : base()
-      {
-      }
-      /// <summary>Protected constructor to allow creation of configured clients.</summary>
-      /// <param name="configuration">The client configuration.</param>
-      protected AuthoringClient(ClientBaseConfiguration configuration) : base(configuration)
-      {
-      }
-
       /// <summary>
       /// CacheFile is a RPC to tell runner to load/reload/unload a implementation file.
       ///
@@ -1578,348 +1606,6 @@ namespace Gauge.Messages {
       {
         return CallInvoker.AsyncUnaryCall(__Method_Refactor, null, options, request);
       }
-      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
-      protected override AuthoringClient NewInstance(ClientBaseConfiguration configuration)
-      {
-        return new AuthoringClient(configuration);
-      }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    public static grpc::ServerServiceDefinition BindService(AuthoringBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_CacheFile, serviceImpl.CacheFile)
-          .AddMethod(__Method_GetStepName, serviceImpl.GetStepName)
-          .AddMethod(__Method_GetGlobPatterns, serviceImpl.GetGlobPatterns)
-          .AddMethod(__Method_GetStepNames, serviceImpl.GetStepNames)
-          .AddMethod(__Method_GetStepPositions, serviceImpl.GetStepPositions)
-          .AddMethod(__Method_GetImplementationFiles, serviceImpl.GetImplementationFiles)
-          .AddMethod(__Method_ImplementStub, serviceImpl.ImplementStub)
-          .AddMethod(__Method_Refactor, serviceImpl.Refactor).Build();
-    }
-
-  }
-  public static partial class Result
-  {
-    static readonly string __ServiceName = "gauge.messages.Result";
-
-    static readonly grpc::Marshaller<global::Gauge.Messages.SuiteExecutionResult> __Marshaller_SuiteExecutionResult = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SuiteExecutionResult.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
-
-    static readonly grpc::Method<global::Gauge.Messages.SuiteExecutionResult, global::Gauge.Messages.Empty> __Method_NotifySuiteResult = new grpc::Method<global::Gauge.Messages.SuiteExecutionResult, global::Gauge.Messages.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "NotifySuiteResult",
-        __Marshaller_SuiteExecutionResult,
-        __Marshaller_Empty);
-
-    /// <summary>Service descriptor</summary>
-    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
-    {
-      get { return global::Gauge.Messages.ServicesReflection.Descriptor.Services[2]; }
-    }
-
-    /// <summary>Base class for server-side implementations of Result</summary>
-    public abstract partial class ResultBase
-    {
-      /// <summary>
-      /// NotifySuiteResult is a RPC to tell about the end result of execution
-      ///
-      /// Accepts a SuiteExecutionResult message and returns a Empty message.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifySuiteResult(global::Gauge.Messages.SuiteExecutionResult request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
-    /// <summary>Client for Result</summary>
-    public partial class ResultClient : grpc::ClientBase<ResultClient>
-    {
-      /// <summary>Creates a new client for Result</summary>
-      /// <param name="channel">The channel to use to make remote calls.</param>
-      public ResultClient(grpc::Channel channel) : base(channel)
-      {
-      }
-      /// <summary>Creates a new client for Result that uses a custom <c>CallInvoker</c>.</summary>
-      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
-      public ResultClient(grpc::CallInvoker callInvoker) : base(callInvoker)
-      {
-      }
-      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
-      protected ResultClient() : base()
-      {
-      }
-      /// <summary>Protected constructor to allow creation of configured clients.</summary>
-      /// <param name="configuration">The client configuration.</param>
-      protected ResultClient(ClientBaseConfiguration configuration) : base(configuration)
-      {
-      }
-
-      /// <summary>
-      /// NotifySuiteResult is a RPC to tell about the end result of execution
-      ///
-      /// Accepts a SuiteExecutionResult message and returns a Empty message.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.Empty NotifySuiteResult(global::Gauge.Messages.SuiteExecutionResult request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return NotifySuiteResult(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// NotifySuiteResult is a RPC to tell about the end result of execution
-      ///
-      /// Accepts a SuiteExecutionResult message and returns a Empty message.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.Empty NotifySuiteResult(global::Gauge.Messages.SuiteExecutionResult request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_NotifySuiteResult, null, options, request);
-      }
-      /// <summary>
-      /// NotifySuiteResult is a RPC to tell about the end result of execution
-      ///
-      /// Accepts a SuiteExecutionResult message and returns a Empty message.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySuiteResultAsync(global::Gauge.Messages.SuiteExecutionResult request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return NotifySuiteResultAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// NotifySuiteResult is a RPC to tell about the end result of execution
-      ///
-      /// Accepts a SuiteExecutionResult message and returns a Empty message.
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySuiteResultAsync(global::Gauge.Messages.SuiteExecutionResult request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_NotifySuiteResult, null, options, request);
-      }
-      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
-      protected override ResultClient NewInstance(ClientBaseConfiguration configuration)
-      {
-        return new ResultClient(configuration);
-      }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    public static grpc::ServerServiceDefinition BindService(ResultBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_NotifySuiteResult, serviceImpl.NotifySuiteResult).Build();
-    }
-
-  }
-  public static partial class Validator
-  {
-    static readonly string __ServiceName = "gauge.messages.Validator";
-
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateRequest> __Marshaller_StepValidateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateResponse> __Marshaller_StepValidateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateResponse.Parser.ParseFrom);
-
-    static readonly grpc::Method<global::Gauge.Messages.StepValidateRequest, global::Gauge.Messages.StepValidateResponse> __Method_ValidateStep = new grpc::Method<global::Gauge.Messages.StepValidateRequest, global::Gauge.Messages.StepValidateResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "ValidateStep",
-        __Marshaller_StepValidateRequest,
-        __Marshaller_StepValidateResponse);
-
-    /// <summary>Service descriptor</summary>
-    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
-    {
-      get { return global::Gauge.Messages.ServicesReflection.Descriptor.Services[3]; }
-    }
-
-    /// <summary>Base class for server-side implementations of Validator</summary>
-    public abstract partial class ValidatorBase
-    {
-      /// <summary>
-      /// ValidateStep is a RPC to validate a given step.
-      ///
-      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepValidateResponse> ValidateStep(global::Gauge.Messages.StepValidateRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
-    /// <summary>Client for Validator</summary>
-    public partial class ValidatorClient : grpc::ClientBase<ValidatorClient>
-    {
-      /// <summary>Creates a new client for Validator</summary>
-      /// <param name="channel">The channel to use to make remote calls.</param>
-      public ValidatorClient(grpc::Channel channel) : base(channel)
-      {
-      }
-      /// <summary>Creates a new client for Validator that uses a custom <c>CallInvoker</c>.</summary>
-      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
-      public ValidatorClient(grpc::CallInvoker callInvoker) : base(callInvoker)
-      {
-      }
-      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
-      protected ValidatorClient() : base()
-      {
-      }
-      /// <summary>Protected constructor to allow creation of configured clients.</summary>
-      /// <param name="configuration">The client configuration.</param>
-      protected ValidatorClient(ClientBaseConfiguration configuration) : base(configuration)
-      {
-      }
-
-      /// <summary>
-      /// ValidateStep is a RPC to validate a given step.
-      ///
-      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.StepValidateResponse ValidateStep(global::Gauge.Messages.StepValidateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ValidateStep(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// ValidateStep is a RPC to validate a given step.
-      ///
-      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.StepValidateResponse ValidateStep(global::Gauge.Messages.StepValidateRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.BlockingUnaryCall(__Method_ValidateStep, null, options, request);
-      }
-      /// <summary>
-      /// ValidateStep is a RPC to validate a given step.
-      ///
-      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
-      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
-      /// <param name="cancellationToken">An optional token for canceling the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.StepValidateResponse> ValidateStepAsync(global::Gauge.Messages.StepValidateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
-      {
-        return ValidateStepAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
-      }
-      /// <summary>
-      /// ValidateStep is a RPC to validate a given step.
-      ///
-      /// Accepts a StepValidateRequest message and returns a StepValidateResponse message
-      /// </summary>
-      /// <param name="request">The request to send to the server.</param>
-      /// <param name="options">The options for the call.</param>
-      /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.StepValidateResponse> ValidateStepAsync(global::Gauge.Messages.StepValidateRequest request, grpc::CallOptions options)
-      {
-        return CallInvoker.AsyncUnaryCall(__Method_ValidateStep, null, options, request);
-      }
-      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
-      protected override ValidatorClient NewInstance(ClientBaseConfiguration configuration)
-      {
-        return new ValidatorClient(configuration);
-      }
-    }
-
-    /// <summary>Creates service definition that can be registered with a server</summary>
-    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    public static grpc::ServerServiceDefinition BindService(ValidatorBase serviceImpl)
-    {
-      return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_ValidateStep, serviceImpl.ValidateStep).Build();
-    }
-
-  }
-  public static partial class Process
-  {
-    static readonly string __ServiceName = "gauge.messages.Process";
-
-    static readonly grpc::Marshaller<global::Gauge.Messages.KillProcessRequest> __Marshaller_KillProcessRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.KillProcessRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
-
-    static readonly grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty> __Method_Kill = new grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "Kill",
-        __Marshaller_KillProcessRequest,
-        __Marshaller_Empty);
-
-    /// <summary>Service descriptor</summary>
-    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
-    {
-      get { return global::Gauge.Messages.ServicesReflection.Descriptor.Services[4]; }
-    }
-
-    /// <summary>Base class for server-side implementations of Process</summary>
-    public abstract partial class ProcessBase
-    {
-      /// <summary>
-      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
-      ///
-      /// Accepts a KillProcessRequest message and returns a Empty message.
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> Kill(global::Gauge.Messages.KillProcessRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
-    }
-
-    /// <summary>Client for Process</summary>
-    public partial class ProcessClient : grpc::ClientBase<ProcessClient>
-    {
-      /// <summary>Creates a new client for Process</summary>
-      /// <param name="channel">The channel to use to make remote calls.</param>
-      public ProcessClient(grpc::Channel channel) : base(channel)
-      {
-      }
-      /// <summary>Creates a new client for Process that uses a custom <c>CallInvoker</c>.</summary>
-      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
-      public ProcessClient(grpc::CallInvoker callInvoker) : base(callInvoker)
-      {
-      }
-      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
-      protected ProcessClient() : base()
-      {
-      }
-      /// <summary>Protected constructor to allow creation of configured clients.</summary>
-      /// <param name="configuration">The client configuration.</param>
-      protected ProcessClient(ClientBaseConfiguration configuration) : base(configuration)
-      {
-      }
-
       /// <summary>
       /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
       ///
@@ -1973,17 +1659,836 @@ namespace Gauge.Messages {
         return CallInvoker.AsyncUnaryCall(__Method_Kill, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
-      protected override ProcessClient NewInstance(ClientBaseConfiguration configuration)
+      protected override RunnerClient NewInstance(ClientBaseConfiguration configuration)
       {
-        return new ProcessClient(configuration);
+        return new RunnerClient(configuration);
       }
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
     /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
-    public static grpc::ServerServiceDefinition BindService(ProcessBase serviceImpl)
+    public static grpc::ServerServiceDefinition BindService(RunnerBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
+          .AddMethod(__Method_ValidateStep, serviceImpl.ValidateStep)
+          .AddMethod(__Method_InitializeSuiteDataStore, serviceImpl.InitializeSuiteDataStore)
+          .AddMethod(__Method_StartExecution, serviceImpl.StartExecution)
+          .AddMethod(__Method_InitializeSpecDataStore, serviceImpl.InitializeSpecDataStore)
+          .AddMethod(__Method_StartSpecExecution, serviceImpl.StartSpecExecution)
+          .AddMethod(__Method_InitializeScenarioDataStore, serviceImpl.InitializeScenarioDataStore)
+          .AddMethod(__Method_StartScenarioExecution, serviceImpl.StartScenarioExecution)
+          .AddMethod(__Method_StartStepExecution, serviceImpl.StartStepExecution)
+          .AddMethod(__Method_ExecuteStep, serviceImpl.ExecuteStep)
+          .AddMethod(__Method_FinishStepExecution, serviceImpl.FinishStepExecution)
+          .AddMethod(__Method_FinishScenarioExecution, serviceImpl.FinishScenarioExecution)
+          .AddMethod(__Method_FinishSpecExecution, serviceImpl.FinishSpecExecution)
+          .AddMethod(__Method_FinishExecution, serviceImpl.FinishExecution)
+          .AddMethod(__Method_CacheFile, serviceImpl.CacheFile)
+          .AddMethod(__Method_GetStepName, serviceImpl.GetStepName)
+          .AddMethod(__Method_GetGlobPatterns, serviceImpl.GetGlobPatterns)
+          .AddMethod(__Method_GetStepNames, serviceImpl.GetStepNames)
+          .AddMethod(__Method_GetStepPositions, serviceImpl.GetStepPositions)
+          .AddMethod(__Method_GetImplementationFiles, serviceImpl.GetImplementationFiles)
+          .AddMethod(__Method_ImplementStub, serviceImpl.ImplementStub)
+          .AddMethod(__Method_Refactor, serviceImpl.Refactor)
+          .AddMethod(__Method_Kill, serviceImpl.Kill).Build();
+    }
+
+  }
+  /// <summary>
+  /// Reporter services is meant for reporting plugins, or others plugins which are interested the live events
+  /// </summary>
+  public static partial class Reporter
+  {
+    static readonly string __ServiceName = "gauge.messages.Reporter";
+
+    static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionStartingRequest> __Marshaller_ExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionStartingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.SpecExecutionStartingRequest> __Marshaller_SpecExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SpecExecutionStartingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ScenarioExecutionStartingRequest> __Marshaller_ScenarioExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ScenarioExecutionStartingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepExecutionStartingRequest> __Marshaller_StepExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepExecutionStartingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepExecutionEndingRequest> __Marshaller_StepExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepExecutionEndingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ScenarioExecutionEndingRequest> __Marshaller_ScenarioExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ScenarioExecutionEndingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.SpecExecutionEndingRequest> __Marshaller_SpecExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SpecExecutionEndingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionEndingRequest> __Marshaller_ExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionEndingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.SuiteExecutionResult> __Marshaller_SuiteExecutionResult = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SuiteExecutionResult.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.KillProcessRequest> __Marshaller_KillProcessRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.KillProcessRequest.Parser.ParseFrom);
+
+    static readonly grpc::Method<global::Gauge.Messages.ExecutionStartingRequest, global::Gauge.Messages.Empty> __Method_NotifyExecutionStarting = new grpc::Method<global::Gauge.Messages.ExecutionStartingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifyExecutionStarting",
+        __Marshaller_ExecutionStartingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.SpecExecutionStartingRequest, global::Gauge.Messages.Empty> __Method_NotifySpecExecutionStarting = new grpc::Method<global::Gauge.Messages.SpecExecutionStartingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifySpecExecutionStarting",
+        __Marshaller_SpecExecutionStartingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.ScenarioExecutionStartingRequest, global::Gauge.Messages.Empty> __Method_NotifyScenarioExecutionStarting = new grpc::Method<global::Gauge.Messages.ScenarioExecutionStartingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifyScenarioExecutionStarting",
+        __Marshaller_ScenarioExecutionStartingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.StepExecutionStartingRequest, global::Gauge.Messages.Empty> __Method_NotifyStepExecutionStarting = new grpc::Method<global::Gauge.Messages.StepExecutionStartingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifyStepExecutionStarting",
+        __Marshaller_StepExecutionStartingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.StepExecutionEndingRequest, global::Gauge.Messages.Empty> __Method_NotifyStepExecutionEnding = new grpc::Method<global::Gauge.Messages.StepExecutionEndingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifyStepExecutionEnding",
+        __Marshaller_StepExecutionEndingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.ScenarioExecutionEndingRequest, global::Gauge.Messages.Empty> __Method_NotifyScenarioExecutionEnding = new grpc::Method<global::Gauge.Messages.ScenarioExecutionEndingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifyScenarioExecutionEnding",
+        __Marshaller_ScenarioExecutionEndingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.SpecExecutionEndingRequest, global::Gauge.Messages.Empty> __Method_NotifySpecExecutionEnding = new grpc::Method<global::Gauge.Messages.SpecExecutionEndingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifySpecExecutionEnding",
+        __Marshaller_SpecExecutionEndingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.ExecutionEndingRequest, global::Gauge.Messages.Empty> __Method_NotifyExecutionEnding = new grpc::Method<global::Gauge.Messages.ExecutionEndingRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifyExecutionEnding",
+        __Marshaller_ExecutionEndingRequest,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.SuiteExecutionResult, global::Gauge.Messages.Empty> __Method_NotifySuiteResult = new grpc::Method<global::Gauge.Messages.SuiteExecutionResult, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "NotifySuiteResult",
+        __Marshaller_SuiteExecutionResult,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty> __Method_Kill = new grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Kill",
+        __Marshaller_KillProcessRequest,
+        __Marshaller_Empty);
+
+    /// <summary>Service descriptor</summary>
+    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
+    {
+      get { return global::Gauge.Messages.ServicesReflection.Descriptor.Services[1]; }
+    }
+
+    /// <summary>Base class for server-side implementations of Reporter</summary>
+    public abstract partial class ReporterBase
+    {
+      /// <summary>
+      /// NotifyExecutionStarting is a RPC to tell plugins that the execution has started.
+      ///
+      /// Accepts a ExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifyExecutionStarting(global::Gauge.Messages.ExecutionStartingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifySpecExecutionStarting is a RPC to tell plugins that the specification execution has started.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifySpecExecutionStarting(global::Gauge.Messages.SpecExecutionStartingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifyScenarioExecutionStarting is a RPC to tell plugins that the scenario execution has started.
+      ///
+      /// Accepts a ScenarioExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifyScenarioExecutionStarting(global::Gauge.Messages.ScenarioExecutionStartingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifyStepExecutionStarting is a RPC to tell plugins that the step execution has started.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifyStepExecutionStarting(global::Gauge.Messages.StepExecutionStartingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifyStepExecutionEnding is a RPC to tell plugins that the step execution has finished.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifyStepExecutionEnding(global::Gauge.Messages.StepExecutionEndingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifyScenarioExecutionEnding is a RPC to tell plugins that the scenario execution has finished.
+      ///
+      /// Accepts a ScenarioExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifyScenarioExecutionEnding(global::Gauge.Messages.ScenarioExecutionEndingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifySpecExecutionEnding is a RPC to tell plugins that the specification execution has finished.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifySpecExecutionEnding(global::Gauge.Messages.SpecExecutionEndingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifyExecutionEnding is a RPC to tell plugins that the execution has finished.
+      ///
+      /// Accepts a ExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifyExecutionEnding(global::Gauge.Messages.ExecutionEndingRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// NotifySuiteResult is a RPC to tell about the end result of execution
+      ///
+      /// Accepts a SuiteExecutionResult message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> NotifySuiteResult(global::Gauge.Messages.SuiteExecutionResult request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> Kill(global::Gauge.Messages.KillProcessRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+    }
+
+    /// <summary>Client for Reporter</summary>
+    public partial class ReporterClient : grpc::ClientBase<ReporterClient>
+    {
+      /// <summary>Creates a new client for Reporter</summary>
+      /// <param name="channel">The channel to use to make remote calls.</param>
+      public ReporterClient(grpc::Channel channel) : base(channel)
+      {
+      }
+      /// <summary>Creates a new client for Reporter that uses a custom <c>CallInvoker</c>.</summary>
+      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      public ReporterClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      {
+      }
+      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      protected ReporterClient() : base()
+      {
+      }
+      /// <summary>Protected constructor to allow creation of configured clients.</summary>
+      /// <param name="configuration">The client configuration.</param>
+      protected ReporterClient(ClientBaseConfiguration configuration) : base(configuration)
+      {
+      }
+
+      /// <summary>
+      /// NotifyExecutionStarting is a RPC to tell plugins that the execution has started.
+      ///
+      /// Accepts a ExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyExecutionStarting(global::Gauge.Messages.ExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyExecutionStarting(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyExecutionStarting is a RPC to tell plugins that the execution has started.
+      ///
+      /// Accepts a ExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyExecutionStarting(global::Gauge.Messages.ExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifyExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifyExecutionStarting is a RPC to tell plugins that the execution has started.
+      ///
+      /// Accepts a ExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyExecutionStartingAsync(global::Gauge.Messages.ExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyExecutionStartingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyExecutionStarting is a RPC to tell plugins that the execution has started.
+      ///
+      /// Accepts a ExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyExecutionStartingAsync(global::Gauge.Messages.ExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifyExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifySpecExecutionStarting is a RPC to tell plugins that the specification execution has started.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifySpecExecutionStarting(global::Gauge.Messages.SpecExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifySpecExecutionStarting(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifySpecExecutionStarting is a RPC to tell plugins that the specification execution has started.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifySpecExecutionStarting(global::Gauge.Messages.SpecExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifySpecExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifySpecExecutionStarting is a RPC to tell plugins that the specification execution has started.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySpecExecutionStartingAsync(global::Gauge.Messages.SpecExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifySpecExecutionStartingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifySpecExecutionStarting is a RPC to tell plugins that the specification execution has started.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySpecExecutionStartingAsync(global::Gauge.Messages.SpecExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifySpecExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionStarting is a RPC to tell plugins that the scenario execution has started.
+      ///
+      /// Accepts a ScenarioExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyScenarioExecutionStarting(global::Gauge.Messages.ScenarioExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyScenarioExecutionStarting(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionStarting is a RPC to tell plugins that the scenario execution has started.
+      ///
+      /// Accepts a ScenarioExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyScenarioExecutionStarting(global::Gauge.Messages.ScenarioExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifyScenarioExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionStarting is a RPC to tell plugins that the scenario execution has started.
+      ///
+      /// Accepts a ScenarioExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyScenarioExecutionStartingAsync(global::Gauge.Messages.ScenarioExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyScenarioExecutionStartingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionStarting is a RPC to tell plugins that the scenario execution has started.
+      ///
+      /// Accepts a ScenarioExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyScenarioExecutionStartingAsync(global::Gauge.Messages.ScenarioExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifyScenarioExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifyStepExecutionStarting is a RPC to tell plugins that the step execution has started.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyStepExecutionStarting(global::Gauge.Messages.StepExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyStepExecutionStarting(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyStepExecutionStarting is a RPC to tell plugins that the step execution has started.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyStepExecutionStarting(global::Gauge.Messages.StepExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifyStepExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifyStepExecutionStarting is a RPC to tell plugins that the step execution has started.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyStepExecutionStartingAsync(global::Gauge.Messages.StepExecutionStartingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyStepExecutionStartingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyStepExecutionStarting is a RPC to tell plugins that the step execution has started.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyStepExecutionStartingAsync(global::Gauge.Messages.StepExecutionStartingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifyStepExecutionStarting, null, options, request);
+      }
+      /// <summary>
+      /// NotifyStepExecutionEnding is a RPC to tell plugins that the step execution has finished.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyStepExecutionEnding(global::Gauge.Messages.StepExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyStepExecutionEnding(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyStepExecutionEnding is a RPC to tell plugins that the step execution has finished.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyStepExecutionEnding(global::Gauge.Messages.StepExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifyStepExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifyStepExecutionEnding is a RPC to tell plugins that the step execution has finished.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyStepExecutionEndingAsync(global::Gauge.Messages.StepExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyStepExecutionEndingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyStepExecutionEnding is a RPC to tell plugins that the step execution has finished.
+      ///
+      /// Accepts a StepExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyStepExecutionEndingAsync(global::Gauge.Messages.StepExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifyStepExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionEnding is a RPC to tell plugins that the scenario execution has finished.
+      ///
+      /// Accepts a ScenarioExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyScenarioExecutionEnding(global::Gauge.Messages.ScenarioExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyScenarioExecutionEnding(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionEnding is a RPC to tell plugins that the scenario execution has finished.
+      ///
+      /// Accepts a ScenarioExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyScenarioExecutionEnding(global::Gauge.Messages.ScenarioExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifyScenarioExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionEnding is a RPC to tell plugins that the scenario execution has finished.
+      ///
+      /// Accepts a ScenarioExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyScenarioExecutionEndingAsync(global::Gauge.Messages.ScenarioExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyScenarioExecutionEndingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyScenarioExecutionEnding is a RPC to tell plugins that the scenario execution has finished.
+      ///
+      /// Accepts a ScenarioExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyScenarioExecutionEndingAsync(global::Gauge.Messages.ScenarioExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifyScenarioExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifySpecExecutionEnding is a RPC to tell plugins that the specification execution has finished.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifySpecExecutionEnding(global::Gauge.Messages.SpecExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifySpecExecutionEnding(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifySpecExecutionEnding is a RPC to tell plugins that the specification execution has finished.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifySpecExecutionEnding(global::Gauge.Messages.SpecExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifySpecExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifySpecExecutionEnding is a RPC to tell plugins that the specification execution has finished.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySpecExecutionEndingAsync(global::Gauge.Messages.SpecExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifySpecExecutionEndingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifySpecExecutionEnding is a RPC to tell plugins that the specification execution has finished.
+      ///
+      /// Accepts a SpecExecutionStartingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySpecExecutionEndingAsync(global::Gauge.Messages.SpecExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifySpecExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifyExecutionEnding is a RPC to tell plugins that the execution has finished.
+      ///
+      /// Accepts a ExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyExecutionEnding(global::Gauge.Messages.ExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyExecutionEnding(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyExecutionEnding is a RPC to tell plugins that the execution has finished.
+      ///
+      /// Accepts a ExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifyExecutionEnding(global::Gauge.Messages.ExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifyExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifyExecutionEnding is a RPC to tell plugins that the execution has finished.
+      ///
+      /// Accepts a ExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyExecutionEndingAsync(global::Gauge.Messages.ExecutionEndingRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifyExecutionEndingAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifyExecutionEnding is a RPC to tell plugins that the execution has finished.
+      ///
+      /// Accepts a ExecutionEndingRequest message and returns a Empty message
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifyExecutionEndingAsync(global::Gauge.Messages.ExecutionEndingRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifyExecutionEnding, null, options, request);
+      }
+      /// <summary>
+      /// NotifySuiteResult is a RPC to tell about the end result of execution
+      ///
+      /// Accepts a SuiteExecutionResult message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifySuiteResult(global::Gauge.Messages.SuiteExecutionResult request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifySuiteResult(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifySuiteResult is a RPC to tell about the end result of execution
+      ///
+      /// Accepts a SuiteExecutionResult message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty NotifySuiteResult(global::Gauge.Messages.SuiteExecutionResult request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_NotifySuiteResult, null, options, request);
+      }
+      /// <summary>
+      /// NotifySuiteResult is a RPC to tell about the end result of execution
+      ///
+      /// Accepts a SuiteExecutionResult message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySuiteResultAsync(global::Gauge.Messages.SuiteExecutionResult request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return NotifySuiteResultAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// NotifySuiteResult is a RPC to tell about the end result of execution
+      ///
+      /// Accepts a SuiteExecutionResult message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> NotifySuiteResultAsync(global::Gauge.Messages.SuiteExecutionResult request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_NotifySuiteResult, null, options, request);
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty Kill(global::Gauge.Messages.KillProcessRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Kill(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty Kill(global::Gauge.Messages.KillProcessRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Kill, null, options, request);
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> KillAsync(global::Gauge.Messages.KillProcessRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return KillAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> KillAsync(global::Gauge.Messages.KillProcessRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Kill, null, options, request);
+      }
+      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      protected override ReporterClient NewInstance(ClientBaseConfiguration configuration)
+      {
+        return new ReporterClient(configuration);
+      }
+    }
+
+    /// <summary>Creates service definition that can be registered with a server</summary>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    public static grpc::ServerServiceDefinition BindService(ReporterBase serviceImpl)
+    {
+      return grpc::ServerServiceDefinition.CreateBuilder()
+          .AddMethod(__Method_NotifyExecutionStarting, serviceImpl.NotifyExecutionStarting)
+          .AddMethod(__Method_NotifySpecExecutionStarting, serviceImpl.NotifySpecExecutionStarting)
+          .AddMethod(__Method_NotifyScenarioExecutionStarting, serviceImpl.NotifyScenarioExecutionStarting)
+          .AddMethod(__Method_NotifyStepExecutionStarting, serviceImpl.NotifyStepExecutionStarting)
+          .AddMethod(__Method_NotifyStepExecutionEnding, serviceImpl.NotifyStepExecutionEnding)
+          .AddMethod(__Method_NotifyScenarioExecutionEnding, serviceImpl.NotifyScenarioExecutionEnding)
+          .AddMethod(__Method_NotifySpecExecutionEnding, serviceImpl.NotifySpecExecutionEnding)
+          .AddMethod(__Method_NotifyExecutionEnding, serviceImpl.NotifyExecutionEnding)
+          .AddMethod(__Method_NotifySuiteResult, serviceImpl.NotifySuiteResult)
           .AddMethod(__Method_Kill, serviceImpl.Kill).Build();
     }
 
