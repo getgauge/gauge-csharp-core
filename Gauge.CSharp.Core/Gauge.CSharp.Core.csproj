@@ -19,7 +19,6 @@
     <SignAssembly Condition=" '$(OS)' == 'Windows_NT' ">true</SignAssembly>
     <AssemblyOriginatorKeyFile>gauge_core.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
-  <Import Project="..\.paket\paket.targets" />
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.6.0" />
     <PackageReference Include="Grpc.Core" Version="1.12.0" />

@@ -14,10 +14,12 @@ namespace Gauge.Messages {
 
     static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateRequest> __Marshaller_StepValidateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateResponse> __Marshaller_StepValidateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.SuiteDataStoreInitRequest> __Marshaller_SuiteDataStoreInitRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SuiteDataStoreInitRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionStatusResponse> __Marshaller_ExecutionStatusResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionStatusResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionStartingRequest> __Marshaller_ExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionStartingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.SpecDataStoreInitRequest> __Marshaller_SpecDataStoreInitRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SpecDataStoreInitRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.SpecExecutionStartingRequest> __Marshaller_SpecExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SpecExecutionStartingRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ScenarioDataStoreInitRequest> __Marshaller_ScenarioDataStoreInitRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ScenarioDataStoreInitRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ScenarioExecutionStartingRequest> __Marshaller_ScenarioExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ScenarioExecutionStartingRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.StepExecutionStartingRequest> __Marshaller_StepExecutionStartingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepExecutionStartingRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ExecuteStepRequest> __Marshaller_ExecuteStepRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecuteStepRequest.Parser.ParseFrom);
@@ -26,6 +28,7 @@ namespace Gauge.Messages {
     static readonly grpc::Marshaller<global::Gauge.Messages.SpecExecutionEndingRequest> __Marshaller_SpecExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SpecExecutionEndingRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ExecutionEndingRequest> __Marshaller_ExecutionEndingRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ExecutionEndingRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.CacheFileRequest> __Marshaller_CacheFileRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.CacheFileRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.StepNameRequest> __Marshaller_StepNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.StepNameResponse> __Marshaller_StepNameResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameResponse.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Marshaller_ImplementationFileGlobPatternResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileGlobPatternResponse.Parser.ParseFrom);
@@ -47,11 +50,11 @@ namespace Gauge.Messages {
         __Marshaller_StepValidateRequest,
         __Marshaller_StepValidateResponse);
 
-    static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse> __Method_InitializeSuiteDataStore = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse>(
+    static readonly grpc::Method<global::Gauge.Messages.SuiteDataStoreInitRequest, global::Gauge.Messages.ExecutionStatusResponse> __Method_InitializeSuiteDataStore = new grpc::Method<global::Gauge.Messages.SuiteDataStoreInitRequest, global::Gauge.Messages.ExecutionStatusResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "InitializeSuiteDataStore",
-        __Marshaller_Empty,
+        __Marshaller_SuiteDataStoreInitRequest,
         __Marshaller_ExecutionStatusResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.ExecutionStartingRequest, global::Gauge.Messages.ExecutionStatusResponse> __Method_StartExecution = new grpc::Method<global::Gauge.Messages.ExecutionStartingRequest, global::Gauge.Messages.ExecutionStatusResponse>(
@@ -61,11 +64,11 @@ namespace Gauge.Messages {
         __Marshaller_ExecutionStartingRequest,
         __Marshaller_ExecutionStatusResponse);
 
-    static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse> __Method_InitializeSpecDataStore = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse>(
+    static readonly grpc::Method<global::Gauge.Messages.SpecDataStoreInitRequest, global::Gauge.Messages.ExecutionStatusResponse> __Method_InitializeSpecDataStore = new grpc::Method<global::Gauge.Messages.SpecDataStoreInitRequest, global::Gauge.Messages.ExecutionStatusResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "InitializeSpecDataStore",
-        __Marshaller_Empty,
+        __Marshaller_SpecDataStoreInitRequest,
         __Marshaller_ExecutionStatusResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.SpecExecutionStartingRequest, global::Gauge.Messages.ExecutionStatusResponse> __Method_StartSpecExecution = new grpc::Method<global::Gauge.Messages.SpecExecutionStartingRequest, global::Gauge.Messages.ExecutionStatusResponse>(
@@ -75,11 +78,11 @@ namespace Gauge.Messages {
         __Marshaller_SpecExecutionStartingRequest,
         __Marshaller_ExecutionStatusResponse);
 
-    static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse> __Method_InitializeScenarioDataStore = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ExecutionStatusResponse>(
+    static readonly grpc::Method<global::Gauge.Messages.ScenarioDataStoreInitRequest, global::Gauge.Messages.ExecutionStatusResponse> __Method_InitializeScenarioDataStore = new grpc::Method<global::Gauge.Messages.ScenarioDataStoreInitRequest, global::Gauge.Messages.ExecutionStatusResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "InitializeScenarioDataStore",
-        __Marshaller_Empty,
+        __Marshaller_ScenarioDataStoreInitRequest,
         __Marshaller_ExecutionStatusResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.ScenarioExecutionStartingRequest, global::Gauge.Messages.ExecutionStatusResponse> __Method_StartScenarioExecution = new grpc::Method<global::Gauge.Messages.ScenarioExecutionStartingRequest, global::Gauge.Messages.ExecutionStatusResponse>(
@@ -224,7 +227,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ExecutionStatusResponse> InitializeSuiteDataStore(global::Gauge.Messages.Empty request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ExecutionStatusResponse> InitializeSuiteDataStore(global::Gauge.Messages.SuiteDataStoreInitRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -250,7 +253,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ExecutionStatusResponse> InitializeSpecDataStore(global::Gauge.Messages.Empty request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ExecutionStatusResponse> InitializeSpecDataStore(global::Gauge.Messages.SpecDataStoreInitRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -276,7 +279,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
       /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ExecutionStatusResponse> InitializeScenarioDataStore(global::Gauge.Messages.Empty request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.ExecutionStatusResponse> InitializeScenarioDataStore(global::Gauge.Messages.ScenarioDataStoreInitRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -576,7 +579,7 @@ namespace Gauge.Messages {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSuiteDataStore(global::Gauge.Messages.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSuiteDataStore(global::Gauge.Messages.SuiteDataStoreInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeSuiteDataStore(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -588,7 +591,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSuiteDataStore(global::Gauge.Messages.Empty request, grpc::CallOptions options)
+      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSuiteDataStore(global::Gauge.Messages.SuiteDataStoreInitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_InitializeSuiteDataStore, null, options, request);
       }
@@ -602,7 +605,7 @@ namespace Gauge.Messages {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSuiteDataStoreAsync(global::Gauge.Messages.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSuiteDataStoreAsync(global::Gauge.Messages.SuiteDataStoreInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeSuiteDataStoreAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -614,7 +617,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSuiteDataStoreAsync(global::Gauge.Messages.Empty request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSuiteDataStoreAsync(global::Gauge.Messages.SuiteDataStoreInitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_InitializeSuiteDataStore, null, options, request);
       }
@@ -680,7 +683,7 @@ namespace Gauge.Messages {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSpecDataStore(global::Gauge.Messages.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSpecDataStore(global::Gauge.Messages.SpecDataStoreInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeSpecDataStore(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -692,7 +695,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSpecDataStore(global::Gauge.Messages.Empty request, grpc::CallOptions options)
+      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeSpecDataStore(global::Gauge.Messages.SpecDataStoreInitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_InitializeSpecDataStore, null, options, request);
       }
@@ -706,7 +709,7 @@ namespace Gauge.Messages {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSpecDataStoreAsync(global::Gauge.Messages.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSpecDataStoreAsync(global::Gauge.Messages.SpecDataStoreInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeSpecDataStoreAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -718,7 +721,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSpecDataStoreAsync(global::Gauge.Messages.Empty request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeSpecDataStoreAsync(global::Gauge.Messages.SpecDataStoreInitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_InitializeSpecDataStore, null, options, request);
       }
@@ -784,7 +787,7 @@ namespace Gauge.Messages {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeScenarioDataStore(global::Gauge.Messages.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeScenarioDataStore(global::Gauge.Messages.ScenarioDataStoreInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeScenarioDataStore(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -796,7 +799,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The response received from the server.</returns>
-      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeScenarioDataStore(global::Gauge.Messages.Empty request, grpc::CallOptions options)
+      public virtual global::Gauge.Messages.ExecutionStatusResponse InitializeScenarioDataStore(global::Gauge.Messages.ScenarioDataStoreInitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_InitializeScenarioDataStore, null, options, request);
       }
@@ -810,7 +813,7 @@ namespace Gauge.Messages {
       /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
       /// <param name="cancellationToken">An optional token for canceling the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeScenarioDataStoreAsync(global::Gauge.Messages.Empty request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeScenarioDataStoreAsync(global::Gauge.Messages.ScenarioDataStoreInitRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return InitializeScenarioDataStoreAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
@@ -822,7 +825,7 @@ namespace Gauge.Messages {
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
       /// <returns>The call object.</returns>
-      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeScenarioDataStoreAsync(global::Gauge.Messages.Empty request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.ExecutionStatusResponse> InitializeScenarioDataStoreAsync(global::Gauge.Messages.ScenarioDataStoreInitRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_InitializeScenarioDataStore, null, options, request);
       }
@@ -2489,6 +2492,212 @@ namespace Gauge.Messages {
           .AddMethod(__Method_NotifySpecExecutionEnding, serviceImpl.NotifySpecExecutionEnding)
           .AddMethod(__Method_NotifyExecutionEnding, serviceImpl.NotifyExecutionEnding)
           .AddMethod(__Method_NotifySuiteResult, serviceImpl.NotifySuiteResult)
+          .AddMethod(__Method_Kill, serviceImpl.Kill).Build();
+    }
+
+  }
+  /// <summary>
+  /// Reporter services is meant for documentation plugins
+  /// </summary>
+  public static partial class Documenter
+  {
+    static readonly string __ServiceName = "gauge.messages.Documenter";
+
+    static readonly grpc::Marshaller<global::Gauge.Messages.SpecDetails> __Marshaller_SpecDetails = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.SpecDetails.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.KillProcessRequest> __Marshaller_KillProcessRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.KillProcessRequest.Parser.ParseFrom);
+
+    static readonly grpc::Method<global::Gauge.Messages.SpecDetails, global::Gauge.Messages.Empty> __Method_GenerateDocs = new grpc::Method<global::Gauge.Messages.SpecDetails, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GenerateDocs",
+        __Marshaller_SpecDetails,
+        __Marshaller_Empty);
+
+    static readonly grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty> __Method_Kill = new grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "Kill",
+        __Marshaller_KillProcessRequest,
+        __Marshaller_Empty);
+
+    /// <summary>Service descriptor</summary>
+    public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
+    {
+      get { return global::Gauge.Messages.ServicesReflection.Descriptor.Services[2]; }
+    }
+
+    /// <summary>Base class for server-side implementations of Documenter</summary>
+    public abstract partial class DocumenterBase
+    {
+      /// <summary>
+      /// GenerateDocs is a RPC tell plugin to generate docs from the spec details.
+      ///
+      /// Accepts a SpecDetails message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> GenerateDocs(global::Gauge.Messages.SpecDetails request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request received from the client.</param>
+      /// <param name="context">The context of the server-side call handler being invoked.</param>
+      /// <returns>The response to send back to the client (wrapped by a task).</returns>
+      public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.Empty> Kill(global::Gauge.Messages.KillProcessRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+    }
+
+    /// <summary>Client for Documenter</summary>
+    public partial class DocumenterClient : grpc::ClientBase<DocumenterClient>
+    {
+      /// <summary>Creates a new client for Documenter</summary>
+      /// <param name="channel">The channel to use to make remote calls.</param>
+      public DocumenterClient(grpc::Channel channel) : base(channel)
+      {
+      }
+      /// <summary>Creates a new client for Documenter that uses a custom <c>CallInvoker</c>.</summary>
+      /// <param name="callInvoker">The callInvoker to use to make remote calls.</param>
+      public DocumenterClient(grpc::CallInvoker callInvoker) : base(callInvoker)
+      {
+      }
+      /// <summary>Protected parameterless constructor to allow creation of test doubles.</summary>
+      protected DocumenterClient() : base()
+      {
+      }
+      /// <summary>Protected constructor to allow creation of configured clients.</summary>
+      /// <param name="configuration">The client configuration.</param>
+      protected DocumenterClient(ClientBaseConfiguration configuration) : base(configuration)
+      {
+      }
+
+      /// <summary>
+      /// GenerateDocs is a RPC tell plugin to generate docs from the spec details.
+      ///
+      /// Accepts a SpecDetails message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty GenerateDocs(global::Gauge.Messages.SpecDetails request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateDocs(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GenerateDocs is a RPC tell plugin to generate docs from the spec details.
+      ///
+      /// Accepts a SpecDetails message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty GenerateDocs(global::Gauge.Messages.SpecDetails request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GenerateDocs, null, options, request);
+      }
+      /// <summary>
+      /// GenerateDocs is a RPC tell plugin to generate docs from the spec details.
+      ///
+      /// Accepts a SpecDetails message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> GenerateDocsAsync(global::Gauge.Messages.SpecDetails request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GenerateDocsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// GenerateDocs is a RPC tell plugin to generate docs from the spec details.
+      ///
+      /// Accepts a SpecDetails message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> GenerateDocsAsync(global::Gauge.Messages.SpecDetails request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GenerateDocs, null, options, request);
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty Kill(global::Gauge.Messages.KillProcessRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return Kill(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The response received from the server.</returns>
+      public virtual global::Gauge.Messages.Empty Kill(global::Gauge.Messages.KillProcessRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_Kill, null, options, request);
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
+      /// <param name="deadline">An optional deadline for the call. The call will be cancelled if deadline is hit.</param>
+      /// <param name="cancellationToken">An optional token for canceling the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> KillAsync(global::Gauge.Messages.KillProcessRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return KillAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      /// <summary>
+      /// Kill is a RPC tell plugin to stop grpc server and kill the plugin process.
+      ///
+      /// Accepts a KillProcessRequest message and returns a Empty message.
+      /// </summary>
+      /// <param name="request">The request to send to the server.</param>
+      /// <param name="options">The options for the call.</param>
+      /// <returns>The call object.</returns>
+      public virtual grpc::AsyncUnaryCall<global::Gauge.Messages.Empty> KillAsync(global::Gauge.Messages.KillProcessRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_Kill, null, options, request);
+      }
+      /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
+      protected override DocumenterClient NewInstance(ClientBaseConfiguration configuration)
+      {
+        return new DocumenterClient(configuration);
+      }
+    }
+
+    /// <summary>Creates service definition that can be registered with a server</summary>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    public static grpc::ServerServiceDefinition BindService(DocumenterBase serviceImpl)
+    {
+      return grpc::ServerServiceDefinition.CreateBuilder()
+          .AddMethod(__Method_GenerateDocs, serviceImpl.GenerateDocs)
           .AddMethod(__Method_Kill, serviceImpl.Kill).Build();
     }
 
