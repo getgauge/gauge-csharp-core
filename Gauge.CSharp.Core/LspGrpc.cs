@@ -3,24 +3,13 @@
 //     source: lsp.proto
 // </auto-generated>
 // Original file comments:
-// Copyright 2015 ThoughtWorks, Inc.
+// ----------------------------------------------------------------
+//  Copyright (c) ThoughtWorks, Inc.
+//  Licensed under the Apache License, Version 2.0
+//  See LICENSE in the project root for license information.
+// ----------------------------------------------------------------
 //
-// This file is part of gauge-proto.
-//
-// gauge-proto is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// gauge-proto is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with gauge-proto.  If not, see <http://www.gnu.org/licenses/>.
-//
-#pragma warning disable 1591
+#pragma warning disable 0414, 1591
 #region Designer generated code
 
 using grpc = global::Grpc.Core;
@@ -30,93 +19,93 @@ namespace Gauge.Messages {
   {
     static readonly string __ServiceName = "gauge.messages.lspService";
 
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesRequest> __Marshaller_StepNamesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesResponse> __Marshaller_StepNamesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.CacheFileRequest> __Marshaller_CacheFileRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.CacheFileRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsRequest> __Marshaller_StepPositionsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsResponse> __Marshaller_StepPositionsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileListResponse> __Marshaller_ImplementationFileListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileListResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StubImplementationCodeRequest> __Marshaller_StubImplementationCodeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StubImplementationCodeRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.FileDiff> __Marshaller_FileDiff = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.FileDiff.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateRequest> __Marshaller_StepValidateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateResponse> __Marshaller_StepValidateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorRequest> __Marshaller_RefactorRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorResponse> __Marshaller_RefactorResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameRequest> __Marshaller_StepNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameRequest.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameResponse> __Marshaller_StepNameResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Marshaller_ImplementationFileGlobPatternResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileGlobPatternResponse.Parser.ParseFrom);
-    static readonly grpc::Marshaller<global::Gauge.Messages.KillProcessRequest> __Marshaller_KillProcessRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.KillProcessRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesRequest> __Marshaller_gauge_messages_StepNamesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNamesResponse> __Marshaller_gauge_messages_StepNamesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNamesResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.CacheFileRequest> __Marshaller_gauge_messages_CacheFileRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.CacheFileRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.Empty> __Marshaller_gauge_messages_Empty = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.Empty.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsRequest> __Marshaller_gauge_messages_StepPositionsRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepPositionsResponse> __Marshaller_gauge_messages_StepPositionsResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepPositionsResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileListResponse> __Marshaller_gauge_messages_ImplementationFileListResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileListResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StubImplementationCodeRequest> __Marshaller_gauge_messages_StubImplementationCodeRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StubImplementationCodeRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.FileDiff> __Marshaller_gauge_messages_FileDiff = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.FileDiff.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateRequest> __Marshaller_gauge_messages_StepValidateRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepValidateResponse> __Marshaller_gauge_messages_StepValidateResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepValidateResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorRequest> __Marshaller_gauge_messages_RefactorRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.RefactorResponse> __Marshaller_gauge_messages_RefactorResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.RefactorResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameRequest> __Marshaller_gauge_messages_StepNameRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameRequest.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.StepNameResponse> __Marshaller_gauge_messages_StepNameResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.StepNameResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Marshaller_gauge_messages_ImplementationFileGlobPatternResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.ImplementationFileGlobPatternResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::Gauge.Messages.KillProcessRequest> __Marshaller_gauge_messages_KillProcessRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::Gauge.Messages.KillProcessRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::Gauge.Messages.StepNamesRequest, global::Gauge.Messages.StepNamesResponse> __Method_GetStepNames = new grpc::Method<global::Gauge.Messages.StepNamesRequest, global::Gauge.Messages.StepNamesResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetStepNames",
-        __Marshaller_StepNamesRequest,
-        __Marshaller_StepNamesResponse);
+        __Marshaller_gauge_messages_StepNamesRequest,
+        __Marshaller_gauge_messages_StepNamesResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.CacheFileRequest, global::Gauge.Messages.Empty> __Method_CacheFile = new grpc::Method<global::Gauge.Messages.CacheFileRequest, global::Gauge.Messages.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
         "CacheFile",
-        __Marshaller_CacheFileRequest,
-        __Marshaller_Empty);
+        __Marshaller_gauge_messages_CacheFileRequest,
+        __Marshaller_gauge_messages_Empty);
 
     static readonly grpc::Method<global::Gauge.Messages.StepPositionsRequest, global::Gauge.Messages.StepPositionsResponse> __Method_GetStepPositions = new grpc::Method<global::Gauge.Messages.StepPositionsRequest, global::Gauge.Messages.StepPositionsResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetStepPositions",
-        __Marshaller_StepPositionsRequest,
-        __Marshaller_StepPositionsResponse);
+        __Marshaller_gauge_messages_StepPositionsRequest,
+        __Marshaller_gauge_messages_StepPositionsResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileListResponse> __Method_GetImplementationFiles = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileListResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetImplementationFiles",
-        __Marshaller_Empty,
-        __Marshaller_ImplementationFileListResponse);
+        __Marshaller_gauge_messages_Empty,
+        __Marshaller_gauge_messages_ImplementationFileListResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.StubImplementationCodeRequest, global::Gauge.Messages.FileDiff> __Method_ImplementStub = new grpc::Method<global::Gauge.Messages.StubImplementationCodeRequest, global::Gauge.Messages.FileDiff>(
         grpc::MethodType.Unary,
         __ServiceName,
         "ImplementStub",
-        __Marshaller_StubImplementationCodeRequest,
-        __Marshaller_FileDiff);
+        __Marshaller_gauge_messages_StubImplementationCodeRequest,
+        __Marshaller_gauge_messages_FileDiff);
 
     static readonly grpc::Method<global::Gauge.Messages.StepValidateRequest, global::Gauge.Messages.StepValidateResponse> __Method_ValidateStep = new grpc::Method<global::Gauge.Messages.StepValidateRequest, global::Gauge.Messages.StepValidateResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "ValidateStep",
-        __Marshaller_StepValidateRequest,
-        __Marshaller_StepValidateResponse);
+        __Marshaller_gauge_messages_StepValidateRequest,
+        __Marshaller_gauge_messages_StepValidateResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.RefactorRequest, global::Gauge.Messages.RefactorResponse> __Method_Refactor = new grpc::Method<global::Gauge.Messages.RefactorRequest, global::Gauge.Messages.RefactorResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "Refactor",
-        __Marshaller_RefactorRequest,
-        __Marshaller_RefactorResponse);
+        __Marshaller_gauge_messages_RefactorRequest,
+        __Marshaller_gauge_messages_RefactorResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.StepNameRequest, global::Gauge.Messages.StepNameResponse> __Method_GetStepName = new grpc::Method<global::Gauge.Messages.StepNameRequest, global::Gauge.Messages.StepNameResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetStepName",
-        __Marshaller_StepNameRequest,
-        __Marshaller_StepNameResponse);
+        __Marshaller_gauge_messages_StepNameRequest,
+        __Marshaller_gauge_messages_StepNameResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileGlobPatternResponse> __Method_GetGlobPatterns = new grpc::Method<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileGlobPatternResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "GetGlobPatterns",
-        __Marshaller_Empty,
-        __Marshaller_ImplementationFileGlobPatternResponse);
+        __Marshaller_gauge_messages_Empty,
+        __Marshaller_gauge_messages_ImplementationFileGlobPatternResponse);
 
     static readonly grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty> __Method_KillProcess = new grpc::Method<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty>(
         grpc::MethodType.Unary,
         __ServiceName,
         "KillProcess",
-        __Marshaller_KillProcessRequest,
-        __Marshaller_Empty);
+        __Marshaller_gauge_messages_KillProcessRequest,
+        __Marshaller_gauge_messages_Empty);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -125,6 +114,7 @@ namespace Gauge.Messages {
     }
 
     /// <summary>Base class for server-side implementations of lspService</summary>
+    [grpc::BindServiceMethod(typeof(lspService), "BindService")]
     public abstract partial class lspServiceBase
     {
       public virtual global::System.Threading.Tasks.Task<global::Gauge.Messages.StepNamesResponse> GetStepNames(global::Gauge.Messages.StepNamesRequest request, grpc::ServerCallContext context)
@@ -184,7 +174,7 @@ namespace Gauge.Messages {
     {
       /// <summary>Creates a new client for lspService</summary>
       /// <param name="channel">The channel to use to make remote calls.</param>
-      public lspServiceClient(grpc::Channel channel) : base(channel)
+      public lspServiceClient(grpc::ChannelBase channel) : base(channel)
       {
       }
       /// <summary>Creates a new client for lspService that uses a custom <c>CallInvoker</c>.</summary>
@@ -384,6 +374,24 @@ namespace Gauge.Messages {
           .AddMethod(__Method_GetStepName, serviceImpl.GetStepName)
           .AddMethod(__Method_GetGlobPatterns, serviceImpl.GetGlobPatterns)
           .AddMethod(__Method_KillProcess, serviceImpl.KillProcess).Build();
+    }
+
+    /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the  service binding logic.
+    /// Note: this method is part of an experimental API that can change or be removed without any prior notice.</summary>
+    /// <param name="serviceBinder">Service methods will be bound by calling <c>AddMethod</c> on this object.</param>
+    /// <param name="serviceImpl">An object implementing the server-side handling logic.</param>
+    public static void BindService(grpc::ServiceBinderBase serviceBinder, lspServiceBase serviceImpl)
+    {
+      serviceBinder.AddMethod(__Method_GetStepNames, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.StepNamesRequest, global::Gauge.Messages.StepNamesResponse>(serviceImpl.GetStepNames));
+      serviceBinder.AddMethod(__Method_CacheFile, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.CacheFileRequest, global::Gauge.Messages.Empty>(serviceImpl.CacheFile));
+      serviceBinder.AddMethod(__Method_GetStepPositions, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.StepPositionsRequest, global::Gauge.Messages.StepPositionsResponse>(serviceImpl.GetStepPositions));
+      serviceBinder.AddMethod(__Method_GetImplementationFiles, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileListResponse>(serviceImpl.GetImplementationFiles));
+      serviceBinder.AddMethod(__Method_ImplementStub, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.StubImplementationCodeRequest, global::Gauge.Messages.FileDiff>(serviceImpl.ImplementStub));
+      serviceBinder.AddMethod(__Method_ValidateStep, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.StepValidateRequest, global::Gauge.Messages.StepValidateResponse>(serviceImpl.ValidateStep));
+      serviceBinder.AddMethod(__Method_Refactor, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.RefactorRequest, global::Gauge.Messages.RefactorResponse>(serviceImpl.Refactor));
+      serviceBinder.AddMethod(__Method_GetStepName, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.StepNameRequest, global::Gauge.Messages.StepNameResponse>(serviceImpl.GetStepName));
+      serviceBinder.AddMethod(__Method_GetGlobPatterns, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.Empty, global::Gauge.Messages.ImplementationFileGlobPatternResponse>(serviceImpl.GetGlobPatterns));
+      serviceBinder.AddMethod(__Method_KillProcess, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Gauge.Messages.KillProcessRequest, global::Gauge.Messages.Empty>(serviceImpl.KillProcess));
     }
 
   }

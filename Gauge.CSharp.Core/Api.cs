@@ -114,33 +114,33 @@ namespace Gauge.Messages {
             "d29ya3MuZ2F1Z2WqAg5HYXVnZS5NZXNzYWdlc2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gauge.Messages.SpecReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetProjectRootRequest), global::Gauge.Messages.GetProjectRootRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetProjectRootResponse), global::Gauge.Messages.GetProjectRootResponse.Parser, new[]{ "ProjectRoot" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetInstallationRootRequest), global::Gauge.Messages.GetInstallationRootRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetInstallationRootResponse), global::Gauge.Messages.GetInstallationRootResponse.Parser, new[]{ "InstallationRoot" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllStepsRequest), global::Gauge.Messages.GetAllStepsRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllStepsResponse), global::Gauge.Messages.GetAllStepsResponse.Parser, new[]{ "AllSteps" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecsRequest), global::Gauge.Messages.SpecsRequest.Parser, new[]{ "Specs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecsResponse), global::Gauge.Messages.SpecsResponse.Parser, new[]{ "Details" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecsResponse.Types.SpecDetail), global::Gauge.Messages.SpecsResponse.Types.SpecDetail.Parser, new[]{ "Spec", "ParseErrors" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllConceptsRequest), global::Gauge.Messages.GetAllConceptsRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllConceptsResponse), global::Gauge.Messages.GetAllConceptsResponse.Parser, new[]{ "Concepts" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ConceptInfo), global::Gauge.Messages.ConceptInfo.Parser, new[]{ "StepValue", "Filepath", "LineNumber" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetStepValueRequest), global::Gauge.Messages.GetStepValueRequest.Parser, new[]{ "StepText", "HasInlineTable" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetStepValueResponse), global::Gauge.Messages.GetStepValueResponse.Parser, new[]{ "StepValue" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetLanguagePluginLibPathRequest), global::Gauge.Messages.GetLanguagePluginLibPathRequest.Parser, new[]{ "Language" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetLanguagePluginLibPathResponse), global::Gauge.Messages.GetLanguagePluginLibPathResponse.Parser, new[]{ "Path" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ErrorResponse), global::Gauge.Messages.ErrorResponse.Parser, new[]{ "Error" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.PerformRefactoringRequest), global::Gauge.Messages.PerformRefactoringRequest.Parser, new[]{ "OldStep", "NewStep" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.PerformRefactoringResponse), global::Gauge.Messages.PerformRefactoringResponse.Parser, new[]{ "Success", "Errors", "FilesChanged" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExtractConceptRequest), global::Gauge.Messages.ExtractConceptRequest.Parser, new[]{ "ConceptName", "Steps", "ChangeAcrossProject", "ConceptFileName", "SelectedTextInfo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.textInfo), global::Gauge.Messages.textInfo.Parser, new[]{ "FileName", "StartingLineNo", "EndLineNo" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.step), global::Gauge.Messages.step.Parser, new[]{ "Name", "Table", "ParamTableName" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExtractConceptResponse), global::Gauge.Messages.ExtractConceptResponse.Parser, new[]{ "IsSuccess", "Error", "FilesChanged" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FormatSpecsRequest), global::Gauge.Messages.FormatSpecsRequest.Parser, new[]{ "Specs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FormatSpecsResponse), global::Gauge.Messages.FormatSpecsResponse.Parser, new[]{ "Errors", "Warnings" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.UnsupportedApiMessageResponse), global::Gauge.Messages.UnsupportedApiMessageResponse.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.APIMessage), global::Gauge.Messages.APIMessage.Parser, new[]{ "MessageType", "MessageId", "ProjectRootRequest", "ProjectRootResponse", "InstallationRootRequest", "InstallationRootResponse", "AllStepsRequest", "AllStepsResponse", "SpecsRequest", "SpecsResponse", "StepValueRequest", "StepValueResponse", "LibPathRequest", "LibPathResponse", "Error", "AllConceptsRequest", "AllConceptsResponse", "PerformRefactoringRequest", "PerformRefactoringResponse", "ExtractConceptRequest", "ExtractConceptResponse", "FormatSpecsRequest", "FormatSpecsResponse", "UnsupportedApiMessageResponse" }, null, new[]{ typeof(global::Gauge.Messages.APIMessage.Types.APIMessageType) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetProjectRootRequest), global::Gauge.Messages.GetProjectRootRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetProjectRootResponse), global::Gauge.Messages.GetProjectRootResponse.Parser, new[]{ "ProjectRoot" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetInstallationRootRequest), global::Gauge.Messages.GetInstallationRootRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetInstallationRootResponse), global::Gauge.Messages.GetInstallationRootResponse.Parser, new[]{ "InstallationRoot" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllStepsRequest), global::Gauge.Messages.GetAllStepsRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllStepsResponse), global::Gauge.Messages.GetAllStepsResponse.Parser, new[]{ "AllSteps" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecsRequest), global::Gauge.Messages.SpecsRequest.Parser, new[]{ "Specs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecsResponse), global::Gauge.Messages.SpecsResponse.Parser, new[]{ "Details" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecsResponse.Types.SpecDetail), global::Gauge.Messages.SpecsResponse.Types.SpecDetail.Parser, new[]{ "Spec", "ParseErrors" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllConceptsRequest), global::Gauge.Messages.GetAllConceptsRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetAllConceptsResponse), global::Gauge.Messages.GetAllConceptsResponse.Parser, new[]{ "Concepts" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ConceptInfo), global::Gauge.Messages.ConceptInfo.Parser, new[]{ "StepValue", "Filepath", "LineNumber" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetStepValueRequest), global::Gauge.Messages.GetStepValueRequest.Parser, new[]{ "StepText", "HasInlineTable" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetStepValueResponse), global::Gauge.Messages.GetStepValueResponse.Parser, new[]{ "StepValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetLanguagePluginLibPathRequest), global::Gauge.Messages.GetLanguagePluginLibPathRequest.Parser, new[]{ "Language" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.GetLanguagePluginLibPathResponse), global::Gauge.Messages.GetLanguagePluginLibPathResponse.Parser, new[]{ "Path" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ErrorResponse), global::Gauge.Messages.ErrorResponse.Parser, new[]{ "Error" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.PerformRefactoringRequest), global::Gauge.Messages.PerformRefactoringRequest.Parser, new[]{ "OldStep", "NewStep" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.PerformRefactoringResponse), global::Gauge.Messages.PerformRefactoringResponse.Parser, new[]{ "Success", "Errors", "FilesChanged" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExtractConceptRequest), global::Gauge.Messages.ExtractConceptRequest.Parser, new[]{ "ConceptName", "Steps", "ChangeAcrossProject", "ConceptFileName", "SelectedTextInfo" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.textInfo), global::Gauge.Messages.textInfo.Parser, new[]{ "FileName", "StartingLineNo", "EndLineNo" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.step), global::Gauge.Messages.step.Parser, new[]{ "Name", "Table", "ParamTableName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExtractConceptResponse), global::Gauge.Messages.ExtractConceptResponse.Parser, new[]{ "IsSuccess", "Error", "FilesChanged" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FormatSpecsRequest), global::Gauge.Messages.FormatSpecsRequest.Parser, new[]{ "Specs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FormatSpecsResponse), global::Gauge.Messages.FormatSpecsResponse.Parser, new[]{ "Errors", "Warnings" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.UnsupportedApiMessageResponse), global::Gauge.Messages.UnsupportedApiMessageResponse.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.APIMessage), global::Gauge.Messages.APIMessage.Parser, new[]{ "MessageType", "MessageId", "ProjectRootRequest", "ProjectRootResponse", "InstallationRootRequest", "InstallationRootResponse", "AllStepsRequest", "AllStepsResponse", "SpecsRequest", "SpecsResponse", "StepValueRequest", "StepValueResponse", "LibPathRequest", "LibPathResponse", "Error", "AllConceptsRequest", "AllConceptsResponse", "PerformRefactoringRequest", "PerformRefactoringResponse", "ExtractConceptRequest", "ExtractConceptResponse", "FormatSpecsRequest", "FormatSpecsResponse", "UnsupportedApiMessageResponse" }, null, new[]{ typeof(global::Gauge.Messages.APIMessage.Types.APIMessageType) }, null, null)
           }));
     }
     #endregion
@@ -1134,7 +1134,7 @@ namespace Gauge.Messages {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public SpecDetail(SpecDetail other) : this() {
-          Spec = other.spec_ != null ? other.Spec.Clone() : null;
+          spec_ = other.spec_ != null ? other.spec_.Clone() : null;
           parseErrors_ = other.parseErrors_.Clone();
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
@@ -1237,7 +1237,7 @@ namespace Gauge.Messages {
           }
           if (other.spec_ != null) {
             if (spec_ == null) {
-              spec_ = new global::Gauge.Messages.ProtoSpec();
+              Spec = new global::Gauge.Messages.ProtoSpec();
             }
             Spec.MergeFrom(other.Spec);
           }
@@ -1255,9 +1255,9 @@ namespace Gauge.Messages {
                 break;
               case 10: {
                 if (spec_ == null) {
-                  spec_ = new global::Gauge.Messages.ProtoSpec();
+                  Spec = new global::Gauge.Messages.ProtoSpec();
                 }
-                input.ReadMessage(spec_);
+                input.ReadMessage(Spec);
                 break;
               }
               case 18: {
@@ -1534,7 +1534,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ConceptInfo(ConceptInfo other) : this() {
-      StepValue = other.stepValue_ != null ? other.StepValue.Clone() : null;
+      stepValue_ = other.stepValue_ != null ? other.stepValue_.Clone() : null;
       filepath_ = other.filepath_;
       lineNumber_ = other.lineNumber_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -1667,7 +1667,7 @@ namespace Gauge.Messages {
       }
       if (other.stepValue_ != null) {
         if (stepValue_ == null) {
-          stepValue_ = new global::Gauge.Messages.ProtoStepValue();
+          StepValue = new global::Gauge.Messages.ProtoStepValue();
         }
         StepValue.MergeFrom(other.StepValue);
       }
@@ -1690,9 +1690,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (stepValue_ == null) {
-              stepValue_ = new global::Gauge.Messages.ProtoStepValue();
+              StepValue = new global::Gauge.Messages.ProtoStepValue();
             }
-            input.ReadMessage(stepValue_);
+            input.ReadMessage(StepValue);
             break;
           }
           case 18: {
@@ -1903,7 +1903,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public GetStepValueResponse(GetStepValueResponse other) : this() {
-      StepValue = other.stepValue_ != null ? other.StepValue.Clone() : null;
+      stepValue_ = other.stepValue_ != null ? other.stepValue_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1988,7 +1988,7 @@ namespace Gauge.Messages {
       }
       if (other.stepValue_ != null) {
         if (stepValue_ == null) {
-          stepValue_ = new global::Gauge.Messages.ProtoStepValue();
+          StepValue = new global::Gauge.Messages.ProtoStepValue();
         }
         StepValue.MergeFrom(other.StepValue);
       }
@@ -2005,9 +2005,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (stepValue_ == null) {
-              stepValue_ = new global::Gauge.Messages.ProtoStepValue();
+              StepValue = new global::Gauge.Messages.ProtoStepValue();
             }
-            input.ReadMessage(stepValue_);
+            input.ReadMessage(StepValue);
             break;
           }
         }
@@ -2796,11 +2796,11 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ExtractConceptRequest(ExtractConceptRequest other) : this() {
-      ConceptName = other.conceptName_ != null ? other.ConceptName.Clone() : null;
+      conceptName_ = other.conceptName_ != null ? other.conceptName_.Clone() : null;
       steps_ = other.steps_.Clone();
       changeAcrossProject_ = other.changeAcrossProject_;
       conceptFileName_ = other.conceptFileName_;
-      SelectedTextInfo = other.selectedTextInfo_ != null ? other.SelectedTextInfo.Clone() : null;
+      selectedTextInfo_ = other.selectedTextInfo_ != null ? other.selectedTextInfo_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2971,7 +2971,7 @@ namespace Gauge.Messages {
       }
       if (other.conceptName_ != null) {
         if (conceptName_ == null) {
-          conceptName_ = new global::Gauge.Messages.step();
+          ConceptName = new global::Gauge.Messages.step();
         }
         ConceptName.MergeFrom(other.ConceptName);
       }
@@ -2984,7 +2984,7 @@ namespace Gauge.Messages {
       }
       if (other.selectedTextInfo_ != null) {
         if (selectedTextInfo_ == null) {
-          selectedTextInfo_ = new global::Gauge.Messages.textInfo();
+          SelectedTextInfo = new global::Gauge.Messages.textInfo();
         }
         SelectedTextInfo.MergeFrom(other.SelectedTextInfo);
       }
@@ -3001,9 +3001,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (conceptName_ == null) {
-              conceptName_ = new global::Gauge.Messages.step();
+              ConceptName = new global::Gauge.Messages.step();
             }
-            input.ReadMessage(conceptName_);
+            input.ReadMessage(ConceptName);
             break;
           }
           case 18: {
@@ -3020,9 +3020,9 @@ namespace Gauge.Messages {
           }
           case 42: {
             if (selectedTextInfo_ == null) {
-              selectedTextInfo_ = new global::Gauge.Messages.textInfo();
+              SelectedTextInfo = new global::Gauge.Messages.textInfo();
             }
-            input.ReadMessage(selectedTextInfo_);
+            input.ReadMessage(SelectedTextInfo);
             break;
           }
         }
@@ -4017,28 +4017,28 @@ namespace Gauge.Messages {
     public APIMessage(APIMessage other) : this() {
       messageType_ = other.messageType_;
       messageId_ = other.messageId_;
-      ProjectRootRequest = other.projectRootRequest_ != null ? other.ProjectRootRequest.Clone() : null;
-      ProjectRootResponse = other.projectRootResponse_ != null ? other.ProjectRootResponse.Clone() : null;
-      InstallationRootRequest = other.installationRootRequest_ != null ? other.InstallationRootRequest.Clone() : null;
-      InstallationRootResponse = other.installationRootResponse_ != null ? other.InstallationRootResponse.Clone() : null;
-      AllStepsRequest = other.allStepsRequest_ != null ? other.AllStepsRequest.Clone() : null;
-      AllStepsResponse = other.allStepsResponse_ != null ? other.AllStepsResponse.Clone() : null;
-      SpecsRequest = other.specsRequest_ != null ? other.SpecsRequest.Clone() : null;
-      SpecsResponse = other.specsResponse_ != null ? other.SpecsResponse.Clone() : null;
-      StepValueRequest = other.stepValueRequest_ != null ? other.StepValueRequest.Clone() : null;
-      StepValueResponse = other.stepValueResponse_ != null ? other.StepValueResponse.Clone() : null;
-      LibPathRequest = other.libPathRequest_ != null ? other.LibPathRequest.Clone() : null;
-      LibPathResponse = other.libPathResponse_ != null ? other.LibPathResponse.Clone() : null;
-      Error = other.error_ != null ? other.Error.Clone() : null;
-      AllConceptsRequest = other.allConceptsRequest_ != null ? other.AllConceptsRequest.Clone() : null;
-      AllConceptsResponse = other.allConceptsResponse_ != null ? other.AllConceptsResponse.Clone() : null;
-      PerformRefactoringRequest = other.performRefactoringRequest_ != null ? other.PerformRefactoringRequest.Clone() : null;
-      PerformRefactoringResponse = other.performRefactoringResponse_ != null ? other.PerformRefactoringResponse.Clone() : null;
-      ExtractConceptRequest = other.extractConceptRequest_ != null ? other.ExtractConceptRequest.Clone() : null;
-      ExtractConceptResponse = other.extractConceptResponse_ != null ? other.ExtractConceptResponse.Clone() : null;
-      FormatSpecsRequest = other.formatSpecsRequest_ != null ? other.FormatSpecsRequest.Clone() : null;
-      FormatSpecsResponse = other.formatSpecsResponse_ != null ? other.FormatSpecsResponse.Clone() : null;
-      UnsupportedApiMessageResponse = other.unsupportedApiMessageResponse_ != null ? other.UnsupportedApiMessageResponse.Clone() : null;
+      projectRootRequest_ = other.projectRootRequest_ != null ? other.projectRootRequest_.Clone() : null;
+      projectRootResponse_ = other.projectRootResponse_ != null ? other.projectRootResponse_.Clone() : null;
+      installationRootRequest_ = other.installationRootRequest_ != null ? other.installationRootRequest_.Clone() : null;
+      installationRootResponse_ = other.installationRootResponse_ != null ? other.installationRootResponse_.Clone() : null;
+      allStepsRequest_ = other.allStepsRequest_ != null ? other.allStepsRequest_.Clone() : null;
+      allStepsResponse_ = other.allStepsResponse_ != null ? other.allStepsResponse_.Clone() : null;
+      specsRequest_ = other.specsRequest_ != null ? other.specsRequest_.Clone() : null;
+      specsResponse_ = other.specsResponse_ != null ? other.specsResponse_.Clone() : null;
+      stepValueRequest_ = other.stepValueRequest_ != null ? other.stepValueRequest_.Clone() : null;
+      stepValueResponse_ = other.stepValueResponse_ != null ? other.stepValueResponse_.Clone() : null;
+      libPathRequest_ = other.libPathRequest_ != null ? other.libPathRequest_.Clone() : null;
+      libPathResponse_ = other.libPathResponse_ != null ? other.libPathResponse_.Clone() : null;
+      error_ = other.error_ != null ? other.error_.Clone() : null;
+      allConceptsRequest_ = other.allConceptsRequest_ != null ? other.allConceptsRequest_.Clone() : null;
+      allConceptsResponse_ = other.allConceptsResponse_ != null ? other.allConceptsResponse_.Clone() : null;
+      performRefactoringRequest_ = other.performRefactoringRequest_ != null ? other.performRefactoringRequest_.Clone() : null;
+      performRefactoringResponse_ = other.performRefactoringResponse_ != null ? other.performRefactoringResponse_.Clone() : null;
+      extractConceptRequest_ = other.extractConceptRequest_ != null ? other.extractConceptRequest_.Clone() : null;
+      extractConceptResponse_ = other.extractConceptResponse_ != null ? other.extractConceptResponse_.Clone() : null;
+      formatSpecsRequest_ = other.formatSpecsRequest_ != null ? other.formatSpecsRequest_.Clone() : null;
+      formatSpecsResponse_ = other.formatSpecsResponse_ != null ? other.formatSpecsResponse_.Clone() : null;
+      unsupportedApiMessageResponse_ = other.unsupportedApiMessageResponse_ != null ? other.unsupportedApiMessageResponse_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4049,7 +4049,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "messageType" field.</summary>
     public const int MessageTypeFieldNumber = 1;
-    private global::Gauge.Messages.APIMessage.Types.APIMessageType messageType_ = 0;
+    private global::Gauge.Messages.APIMessage.Types.APIMessageType messageType_ = global::Gauge.Messages.APIMessage.Types.APIMessageType.GetProjectRootRequest;
     /// <summary>
     //// Type of API call being made
     /// </summary>
@@ -4427,7 +4427,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (MessageType != 0) hash ^= MessageType.GetHashCode();
+      if (MessageType != global::Gauge.Messages.APIMessage.Types.APIMessageType.GetProjectRootRequest) hash ^= MessageType.GetHashCode();
       if (MessageId != 0L) hash ^= MessageId.GetHashCode();
       if (projectRootRequest_ != null) hash ^= ProjectRootRequest.GetHashCode();
       if (projectRootResponse_ != null) hash ^= ProjectRootResponse.GetHashCode();
@@ -4464,7 +4464,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (MessageType != 0) {
+      if (MessageType != global::Gauge.Messages.APIMessage.Types.APIMessageType.GetProjectRootRequest) {
         output.WriteRawTag(8);
         output.WriteEnum((int) MessageType);
       }
@@ -4568,7 +4568,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (MessageType != 0) {
+      if (MessageType != global::Gauge.Messages.APIMessage.Types.APIMessageType.GetProjectRootRequest) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) MessageType);
       }
       if (MessageId != 0L) {
@@ -4651,7 +4651,7 @@ namespace Gauge.Messages {
       if (other == null) {
         return;
       }
-      if (other.MessageType != 0) {
+      if (other.MessageType != global::Gauge.Messages.APIMessage.Types.APIMessageType.GetProjectRootRequest) {
         MessageType = other.MessageType;
       }
       if (other.MessageId != 0L) {
@@ -4659,133 +4659,133 @@ namespace Gauge.Messages {
       }
       if (other.projectRootRequest_ != null) {
         if (projectRootRequest_ == null) {
-          projectRootRequest_ = new global::Gauge.Messages.GetProjectRootRequest();
+          ProjectRootRequest = new global::Gauge.Messages.GetProjectRootRequest();
         }
         ProjectRootRequest.MergeFrom(other.ProjectRootRequest);
       }
       if (other.projectRootResponse_ != null) {
         if (projectRootResponse_ == null) {
-          projectRootResponse_ = new global::Gauge.Messages.GetProjectRootResponse();
+          ProjectRootResponse = new global::Gauge.Messages.GetProjectRootResponse();
         }
         ProjectRootResponse.MergeFrom(other.ProjectRootResponse);
       }
       if (other.installationRootRequest_ != null) {
         if (installationRootRequest_ == null) {
-          installationRootRequest_ = new global::Gauge.Messages.GetInstallationRootRequest();
+          InstallationRootRequest = new global::Gauge.Messages.GetInstallationRootRequest();
         }
         InstallationRootRequest.MergeFrom(other.InstallationRootRequest);
       }
       if (other.installationRootResponse_ != null) {
         if (installationRootResponse_ == null) {
-          installationRootResponse_ = new global::Gauge.Messages.GetInstallationRootResponse();
+          InstallationRootResponse = new global::Gauge.Messages.GetInstallationRootResponse();
         }
         InstallationRootResponse.MergeFrom(other.InstallationRootResponse);
       }
       if (other.allStepsRequest_ != null) {
         if (allStepsRequest_ == null) {
-          allStepsRequest_ = new global::Gauge.Messages.GetAllStepsRequest();
+          AllStepsRequest = new global::Gauge.Messages.GetAllStepsRequest();
         }
         AllStepsRequest.MergeFrom(other.AllStepsRequest);
       }
       if (other.allStepsResponse_ != null) {
         if (allStepsResponse_ == null) {
-          allStepsResponse_ = new global::Gauge.Messages.GetAllStepsResponse();
+          AllStepsResponse = new global::Gauge.Messages.GetAllStepsResponse();
         }
         AllStepsResponse.MergeFrom(other.AllStepsResponse);
       }
       if (other.specsRequest_ != null) {
         if (specsRequest_ == null) {
-          specsRequest_ = new global::Gauge.Messages.SpecsRequest();
+          SpecsRequest = new global::Gauge.Messages.SpecsRequest();
         }
         SpecsRequest.MergeFrom(other.SpecsRequest);
       }
       if (other.specsResponse_ != null) {
         if (specsResponse_ == null) {
-          specsResponse_ = new global::Gauge.Messages.SpecsResponse();
+          SpecsResponse = new global::Gauge.Messages.SpecsResponse();
         }
         SpecsResponse.MergeFrom(other.SpecsResponse);
       }
       if (other.stepValueRequest_ != null) {
         if (stepValueRequest_ == null) {
-          stepValueRequest_ = new global::Gauge.Messages.GetStepValueRequest();
+          StepValueRequest = new global::Gauge.Messages.GetStepValueRequest();
         }
         StepValueRequest.MergeFrom(other.StepValueRequest);
       }
       if (other.stepValueResponse_ != null) {
         if (stepValueResponse_ == null) {
-          stepValueResponse_ = new global::Gauge.Messages.GetStepValueResponse();
+          StepValueResponse = new global::Gauge.Messages.GetStepValueResponse();
         }
         StepValueResponse.MergeFrom(other.StepValueResponse);
       }
       if (other.libPathRequest_ != null) {
         if (libPathRequest_ == null) {
-          libPathRequest_ = new global::Gauge.Messages.GetLanguagePluginLibPathRequest();
+          LibPathRequest = new global::Gauge.Messages.GetLanguagePluginLibPathRequest();
         }
         LibPathRequest.MergeFrom(other.LibPathRequest);
       }
       if (other.libPathResponse_ != null) {
         if (libPathResponse_ == null) {
-          libPathResponse_ = new global::Gauge.Messages.GetLanguagePluginLibPathResponse();
+          LibPathResponse = new global::Gauge.Messages.GetLanguagePluginLibPathResponse();
         }
         LibPathResponse.MergeFrom(other.LibPathResponse);
       }
       if (other.error_ != null) {
         if (error_ == null) {
-          error_ = new global::Gauge.Messages.ErrorResponse();
+          Error = new global::Gauge.Messages.ErrorResponse();
         }
         Error.MergeFrom(other.Error);
       }
       if (other.allConceptsRequest_ != null) {
         if (allConceptsRequest_ == null) {
-          allConceptsRequest_ = new global::Gauge.Messages.GetAllConceptsRequest();
+          AllConceptsRequest = new global::Gauge.Messages.GetAllConceptsRequest();
         }
         AllConceptsRequest.MergeFrom(other.AllConceptsRequest);
       }
       if (other.allConceptsResponse_ != null) {
         if (allConceptsResponse_ == null) {
-          allConceptsResponse_ = new global::Gauge.Messages.GetAllConceptsResponse();
+          AllConceptsResponse = new global::Gauge.Messages.GetAllConceptsResponse();
         }
         AllConceptsResponse.MergeFrom(other.AllConceptsResponse);
       }
       if (other.performRefactoringRequest_ != null) {
         if (performRefactoringRequest_ == null) {
-          performRefactoringRequest_ = new global::Gauge.Messages.PerformRefactoringRequest();
+          PerformRefactoringRequest = new global::Gauge.Messages.PerformRefactoringRequest();
         }
         PerformRefactoringRequest.MergeFrom(other.PerformRefactoringRequest);
       }
       if (other.performRefactoringResponse_ != null) {
         if (performRefactoringResponse_ == null) {
-          performRefactoringResponse_ = new global::Gauge.Messages.PerformRefactoringResponse();
+          PerformRefactoringResponse = new global::Gauge.Messages.PerformRefactoringResponse();
         }
         PerformRefactoringResponse.MergeFrom(other.PerformRefactoringResponse);
       }
       if (other.extractConceptRequest_ != null) {
         if (extractConceptRequest_ == null) {
-          extractConceptRequest_ = new global::Gauge.Messages.ExtractConceptRequest();
+          ExtractConceptRequest = new global::Gauge.Messages.ExtractConceptRequest();
         }
         ExtractConceptRequest.MergeFrom(other.ExtractConceptRequest);
       }
       if (other.extractConceptResponse_ != null) {
         if (extractConceptResponse_ == null) {
-          extractConceptResponse_ = new global::Gauge.Messages.ExtractConceptResponse();
+          ExtractConceptResponse = new global::Gauge.Messages.ExtractConceptResponse();
         }
         ExtractConceptResponse.MergeFrom(other.ExtractConceptResponse);
       }
       if (other.formatSpecsRequest_ != null) {
         if (formatSpecsRequest_ == null) {
-          formatSpecsRequest_ = new global::Gauge.Messages.FormatSpecsRequest();
+          FormatSpecsRequest = new global::Gauge.Messages.FormatSpecsRequest();
         }
         FormatSpecsRequest.MergeFrom(other.FormatSpecsRequest);
       }
       if (other.formatSpecsResponse_ != null) {
         if (formatSpecsResponse_ == null) {
-          formatSpecsResponse_ = new global::Gauge.Messages.FormatSpecsResponse();
+          FormatSpecsResponse = new global::Gauge.Messages.FormatSpecsResponse();
         }
         FormatSpecsResponse.MergeFrom(other.FormatSpecsResponse);
       }
       if (other.unsupportedApiMessageResponse_ != null) {
         if (unsupportedApiMessageResponse_ == null) {
-          unsupportedApiMessageResponse_ = new global::Gauge.Messages.UnsupportedApiMessageResponse();
+          UnsupportedApiMessageResponse = new global::Gauge.Messages.UnsupportedApiMessageResponse();
         }
         UnsupportedApiMessageResponse.MergeFrom(other.UnsupportedApiMessageResponse);
       }
@@ -4801,7 +4801,7 @@ namespace Gauge.Messages {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            messageType_ = (global::Gauge.Messages.APIMessage.Types.APIMessageType) input.ReadEnum();
+            MessageType = (global::Gauge.Messages.APIMessage.Types.APIMessageType) input.ReadEnum();
             break;
           }
           case 16: {
@@ -4810,156 +4810,156 @@ namespace Gauge.Messages {
           }
           case 26: {
             if (projectRootRequest_ == null) {
-              projectRootRequest_ = new global::Gauge.Messages.GetProjectRootRequest();
+              ProjectRootRequest = new global::Gauge.Messages.GetProjectRootRequest();
             }
-            input.ReadMessage(projectRootRequest_);
+            input.ReadMessage(ProjectRootRequest);
             break;
           }
           case 34: {
             if (projectRootResponse_ == null) {
-              projectRootResponse_ = new global::Gauge.Messages.GetProjectRootResponse();
+              ProjectRootResponse = new global::Gauge.Messages.GetProjectRootResponse();
             }
-            input.ReadMessage(projectRootResponse_);
+            input.ReadMessage(ProjectRootResponse);
             break;
           }
           case 42: {
             if (installationRootRequest_ == null) {
-              installationRootRequest_ = new global::Gauge.Messages.GetInstallationRootRequest();
+              InstallationRootRequest = new global::Gauge.Messages.GetInstallationRootRequest();
             }
-            input.ReadMessage(installationRootRequest_);
+            input.ReadMessage(InstallationRootRequest);
             break;
           }
           case 50: {
             if (installationRootResponse_ == null) {
-              installationRootResponse_ = new global::Gauge.Messages.GetInstallationRootResponse();
+              InstallationRootResponse = new global::Gauge.Messages.GetInstallationRootResponse();
             }
-            input.ReadMessage(installationRootResponse_);
+            input.ReadMessage(InstallationRootResponse);
             break;
           }
           case 58: {
             if (allStepsRequest_ == null) {
-              allStepsRequest_ = new global::Gauge.Messages.GetAllStepsRequest();
+              AllStepsRequest = new global::Gauge.Messages.GetAllStepsRequest();
             }
-            input.ReadMessage(allStepsRequest_);
+            input.ReadMessage(AllStepsRequest);
             break;
           }
           case 66: {
             if (allStepsResponse_ == null) {
-              allStepsResponse_ = new global::Gauge.Messages.GetAllStepsResponse();
+              AllStepsResponse = new global::Gauge.Messages.GetAllStepsResponse();
             }
-            input.ReadMessage(allStepsResponse_);
+            input.ReadMessage(AllStepsResponse);
             break;
           }
           case 74: {
             if (specsRequest_ == null) {
-              specsRequest_ = new global::Gauge.Messages.SpecsRequest();
+              SpecsRequest = new global::Gauge.Messages.SpecsRequest();
             }
-            input.ReadMessage(specsRequest_);
+            input.ReadMessage(SpecsRequest);
             break;
           }
           case 82: {
             if (specsResponse_ == null) {
-              specsResponse_ = new global::Gauge.Messages.SpecsResponse();
+              SpecsResponse = new global::Gauge.Messages.SpecsResponse();
             }
-            input.ReadMessage(specsResponse_);
+            input.ReadMessage(SpecsResponse);
             break;
           }
           case 90: {
             if (stepValueRequest_ == null) {
-              stepValueRequest_ = new global::Gauge.Messages.GetStepValueRequest();
+              StepValueRequest = new global::Gauge.Messages.GetStepValueRequest();
             }
-            input.ReadMessage(stepValueRequest_);
+            input.ReadMessage(StepValueRequest);
             break;
           }
           case 98: {
             if (stepValueResponse_ == null) {
-              stepValueResponse_ = new global::Gauge.Messages.GetStepValueResponse();
+              StepValueResponse = new global::Gauge.Messages.GetStepValueResponse();
             }
-            input.ReadMessage(stepValueResponse_);
+            input.ReadMessage(StepValueResponse);
             break;
           }
           case 106: {
             if (libPathRequest_ == null) {
-              libPathRequest_ = new global::Gauge.Messages.GetLanguagePluginLibPathRequest();
+              LibPathRequest = new global::Gauge.Messages.GetLanguagePluginLibPathRequest();
             }
-            input.ReadMessage(libPathRequest_);
+            input.ReadMessage(LibPathRequest);
             break;
           }
           case 114: {
             if (libPathResponse_ == null) {
-              libPathResponse_ = new global::Gauge.Messages.GetLanguagePluginLibPathResponse();
+              LibPathResponse = new global::Gauge.Messages.GetLanguagePluginLibPathResponse();
             }
-            input.ReadMessage(libPathResponse_);
+            input.ReadMessage(LibPathResponse);
             break;
           }
           case 122: {
             if (error_ == null) {
-              error_ = new global::Gauge.Messages.ErrorResponse();
+              Error = new global::Gauge.Messages.ErrorResponse();
             }
-            input.ReadMessage(error_);
+            input.ReadMessage(Error);
             break;
           }
           case 130: {
             if (allConceptsRequest_ == null) {
-              allConceptsRequest_ = new global::Gauge.Messages.GetAllConceptsRequest();
+              AllConceptsRequest = new global::Gauge.Messages.GetAllConceptsRequest();
             }
-            input.ReadMessage(allConceptsRequest_);
+            input.ReadMessage(AllConceptsRequest);
             break;
           }
           case 138: {
             if (allConceptsResponse_ == null) {
-              allConceptsResponse_ = new global::Gauge.Messages.GetAllConceptsResponse();
+              AllConceptsResponse = new global::Gauge.Messages.GetAllConceptsResponse();
             }
-            input.ReadMessage(allConceptsResponse_);
+            input.ReadMessage(AllConceptsResponse);
             break;
           }
           case 146: {
             if (performRefactoringRequest_ == null) {
-              performRefactoringRequest_ = new global::Gauge.Messages.PerformRefactoringRequest();
+              PerformRefactoringRequest = new global::Gauge.Messages.PerformRefactoringRequest();
             }
-            input.ReadMessage(performRefactoringRequest_);
+            input.ReadMessage(PerformRefactoringRequest);
             break;
           }
           case 154: {
             if (performRefactoringResponse_ == null) {
-              performRefactoringResponse_ = new global::Gauge.Messages.PerformRefactoringResponse();
+              PerformRefactoringResponse = new global::Gauge.Messages.PerformRefactoringResponse();
             }
-            input.ReadMessage(performRefactoringResponse_);
+            input.ReadMessage(PerformRefactoringResponse);
             break;
           }
           case 162: {
             if (extractConceptRequest_ == null) {
-              extractConceptRequest_ = new global::Gauge.Messages.ExtractConceptRequest();
+              ExtractConceptRequest = new global::Gauge.Messages.ExtractConceptRequest();
             }
-            input.ReadMessage(extractConceptRequest_);
+            input.ReadMessage(ExtractConceptRequest);
             break;
           }
           case 170: {
             if (extractConceptResponse_ == null) {
-              extractConceptResponse_ = new global::Gauge.Messages.ExtractConceptResponse();
+              ExtractConceptResponse = new global::Gauge.Messages.ExtractConceptResponse();
             }
-            input.ReadMessage(extractConceptResponse_);
+            input.ReadMessage(ExtractConceptResponse);
             break;
           }
           case 178: {
             if (formatSpecsRequest_ == null) {
-              formatSpecsRequest_ = new global::Gauge.Messages.FormatSpecsRequest();
+              FormatSpecsRequest = new global::Gauge.Messages.FormatSpecsRequest();
             }
-            input.ReadMessage(formatSpecsRequest_);
+            input.ReadMessage(FormatSpecsRequest);
             break;
           }
           case 186: {
             if (formatSpecsResponse_ == null) {
-              formatSpecsResponse_ = new global::Gauge.Messages.FormatSpecsResponse();
+              FormatSpecsResponse = new global::Gauge.Messages.FormatSpecsResponse();
             }
-            input.ReadMessage(formatSpecsResponse_);
+            input.ReadMessage(FormatSpecsResponse);
             break;
           }
           case 194: {
             if (unsupportedApiMessageResponse_ == null) {
-              unsupportedApiMessageResponse_ = new global::Gauge.Messages.UnsupportedApiMessageResponse();
+              UnsupportedApiMessageResponse = new global::Gauge.Messages.UnsupportedApiMessageResponse();
             }
-            input.ReadMessage(unsupportedApiMessageResponse_);
+            input.ReadMessage(UnsupportedApiMessageResponse);
             break;
           }
         }

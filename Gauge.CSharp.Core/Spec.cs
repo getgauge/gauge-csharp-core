@@ -47,7 +47,7 @@ namespace Gauge.Messages {
             "bGUSJwoEdGFncxgIIAEoCzIZLmdhdWdlLm1lc3NhZ2VzLlByb3RvVGFncxIQ",
             "CghmaWxlTmFtZRgJIAEoCSJqCghJdGVtVHlwZRIICgRTdGVwEAASCwoHQ29t",
             "bWVudBABEgsKB0NvbmNlcHQQAhIMCghTY2VuYXJpbxADEhcKE1RhYmxlRHJp",
-            "dmVuU2NlbmFyaW8QBBIJCgVUYWJsZRAFEggKBFRhZ3MQBiLoBQoNUHJvdG9T",
+            "dmVuU2NlbmFyaW8QBBIJCgVUYWJsZRAFEggKBFRhZ3MQBiL+BQoNUHJvdG9T",
             "Y2VuYXJpbxIXCg9zY2VuYXJpb0hlYWRpbmcYASABKAkSEgoGZmFpbGVkGAIg",
             "ASgIQgIYARIrCghjb250ZXh0cxgDIAMoCzIZLmdhdWdlLm1lc3NhZ2VzLlBy",
             "b3RvSXRlbRIwCg1zY2VuYXJpb0l0ZW1zGAQgAygLMhkuZ2F1Z2UubWVzc2Fn",
@@ -64,119 +64,119 @@ namespace Gauge.Messages {
             "SG9va01lc3NhZ2UYEiADKAlCAhgBEh4KEnByZUhvb2tTY3JlZW5zaG90cxgT",
             "IAMoDEICGAESHwoTcG9zdEhvb2tTY3JlZW5zaG90cxgUIAMoDEICGAESHgoW",
             "cHJlSG9va1NjcmVlbnNob3RGaWxlcxgVIAMoCRIfChdwb3N0SG9va1NjcmVl",
-            "bnNob3RGaWxlcxgWIAMoCSJGCgRTcGFuEg0KBXN0YXJ0GAEgASgDEgsKA2Vu",
-            "ZBgCIAEoAxIRCglzdGFydENoYXIYAyABKAMSDwoHZW5kQ2hhchgEIAEoAyKo",
-            "AgoYUHJvdG9UYWJsZURyaXZlblNjZW5hcmlvEi8KCHNjZW5hcmlvGAEgASgL",
-            "Mh0uZ2F1Z2UubWVzc2FnZXMuUHJvdG9TY2VuYXJpbxIVCg10YWJsZVJvd0lu",
-            "ZGV4GAIgASgFEh0KFXNjZW5hcmlvVGFibGVSb3dJbmRleBgDIAEoBRIZChFp",
-            "c1NwZWNUYWJsZURyaXZlbhgEIAEoCBIdChVpc1NjZW5hcmlvVGFibGVEcml2",
-            "ZW4YBSABKAgSNQoRc2NlbmFyaW9EYXRhVGFibGUYBiABKAsyGi5nYXVnZS5t",
-            "ZXNzYWdlcy5Qcm90b1RhYmxlEjQKEHNjZW5hcmlvVGFibGVSb3cYByABKAsy",
-            "Gi5nYXVnZS5tZXNzYWdlcy5Qcm90b1RhYmxlItwCCglQcm90b1N0ZXASEgoK",
-            "YWN0dWFsVGV4dBgBIAEoCRISCgpwYXJzZWRUZXh0GAIgASgJEisKCWZyYWdt",
-            "ZW50cxgDIAMoCzIYLmdhdWdlLm1lc3NhZ2VzLkZyYWdtZW50EkUKE3N0ZXBF",
-            "eGVjdXRpb25SZXN1bHQYBCABKAsyKC5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0",
-            "ZXBFeGVjdXRpb25SZXN1bHQSFwoPcHJlSG9va01lc3NhZ2VzGAUgAygJEhgK",
-            "EHBvc3RIb29rTWVzc2FnZXMYBiADKAkSHgoScHJlSG9va1NjcmVlbnNob3Rz",
-            "GAcgAygMQgIYARIfChNwb3N0SG9va1NjcmVlbnNob3RzGAggAygMQgIYARIe",
-            "ChZwcmVIb29rU2NyZWVuc2hvdEZpbGVzGAkgAygJEh8KF3Bvc3RIb29rU2Ny",
-            "ZWVuc2hvdEZpbGVzGAogAygJIrIBCgxQcm90b0NvbmNlcHQSLgoLY29uY2Vw",
-            "dFN0ZXAYASABKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXASKAoFc3Rl",
-            "cHMYAiADKAsyGS5nYXVnZS5tZXNzYWdlcy5Qcm90b0l0ZW0SSAoWY29uY2Vw",
-            "dEV4ZWN1dGlvblJlc3VsdBgDIAEoCzIoLmdhdWdlLm1lc3NhZ2VzLlByb3Rv",
-            "U3RlcEV4ZWN1dGlvblJlc3VsdCIZCglQcm90b1RhZ3MSDAoEdGFncxgBIAMo",
-            "CSKsAQoIRnJhZ21lbnQSOwoMZnJhZ21lbnRUeXBlGAEgASgOMiUuZ2F1Z2Uu",
-            "bWVzc2FnZXMuRnJhZ21lbnQuRnJhZ21lbnRUeXBlEgwKBHRleHQYAiABKAkS",
-            "LAoJcGFyYW1ldGVyGAMgASgLMhkuZ2F1Z2UubWVzc2FnZXMuUGFyYW1ldGVy",
-            "IicKDEZyYWdtZW50VHlwZRIICgRUZXh0EAASDQoJUGFyYW1ldGVyEAEi7wEK",
-            "CVBhcmFtZXRlchI+Cg1wYXJhbWV0ZXJUeXBlGAEgASgOMicuZ2F1Z2UubWVz",
-            "c2FnZXMuUGFyYW1ldGVyLlBhcmFtZXRlclR5cGUSDQoFdmFsdWUYAiABKAkS",
-            "DAoEbmFtZRgDIAEoCRIpCgV0YWJsZRgEIAEoCzIaLmdhdWdlLm1lc3NhZ2Vz",
-            "LlByb3RvVGFibGUiWgoNUGFyYW1ldGVyVHlwZRIKCgZTdGF0aWMQABILCgdE",
-            "eW5hbWljEAESEgoOU3BlY2lhbF9TdHJpbmcQAhIRCg1TcGVjaWFsX1RhYmxl",
-            "EAMSCQoFVGFibGUQBCIcCgxQcm90b0NvbW1lbnQSDAoEdGV4dBgBIAEoCSJp",
-            "CgpQcm90b1RhYmxlEi4KB2hlYWRlcnMYASABKAsyHS5nYXVnZS5tZXNzYWdl",
-            "cy5Qcm90b1RhYmxlUm93EisKBHJvd3MYAiADKAsyHS5nYXVnZS5tZXNzYWdl",
-            "cy5Qcm90b1RhYmxlUm93Ih4KDVByb3RvVGFibGVSb3cSDQoFY2VsbHMYASAD",
-            "KAki9gEKGFByb3RvU3RlcEV4ZWN1dGlvblJlc3VsdBI9Cg9leGVjdXRpb25S",
-            "ZXN1bHQYASABKAsyJC5nYXVnZS5tZXNzYWdlcy5Qcm90b0V4ZWN1dGlvblJl",
-            "c3VsdBI4Cg5wcmVIb29rRmFpbHVyZRgCIAEoCzIgLmdhdWdlLm1lc3NhZ2Vz",
-            "LlByb3RvSG9va0ZhaWx1cmUSOQoPcG9zdEhvb2tGYWlsdXJlGAMgASgLMiAu",
-            "Z2F1Z2UubWVzc2FnZXMuUHJvdG9Ib29rRmFpbHVyZRIPCgdza2lwcGVkGAQg",
-            "ASgIEhUKDXNraXBwZWRSZWFzb24YBSABKAkiiwMKFFByb3RvRXhlY3V0aW9u",
-            "UmVzdWx0Eg4KBmZhaWxlZBgBIAEoCBIYChByZWNvdmVyYWJsZUVycm9yGAIg",
-            "ASgIEhQKDGVycm9yTWVzc2FnZRgDIAEoCRISCgpzdGFja1RyYWNlGAQgASgJ",
-            "EhYKCnNjcmVlblNob3QYBSABKAxCAhgBEhUKDWV4ZWN1dGlvblRpbWUYBiAB",
-            "KAMSDwoHbWVzc2FnZRgHIAMoCRJBCgllcnJvclR5cGUYCCABKA4yLi5nYXVn",
-            "ZS5tZXNzYWdlcy5Qcm90b0V4ZWN1dGlvblJlc3VsdC5FcnJvclR5cGUSHQoR",
-            "ZmFpbHVyZVNjcmVlbnNob3QYCSABKAxCAhgBEhcKC3NjcmVlbnNob3RzGAog",
-            "AygMQgIYARIdChVmYWlsdXJlU2NyZWVuc2hvdEZpbGUYCyABKAkSFwoPc2Ny",
-            "ZWVuc2hvdEZpbGVzGAwgAygJIiwKCUVycm9yVHlwZRINCglBU1NFUlRJT04Q",
-            "ABIQCgxWRVJJRklDQVRJT04QASKpAQoQUHJvdG9Ib29rRmFpbHVyZRISCgpz",
-            "dGFja1RyYWNlGAEgASgJEhQKDGVycm9yTWVzc2FnZRgCIAEoCRIWCgpzY3Jl",
-            "ZW5TaG90GAMgASgMQgIYARIVCg10YWJsZVJvd0luZGV4GAQgASgFEh0KEWZh",
-            "aWx1cmVTY3JlZW5zaG90GAUgASgMQgIYARIdChVmYWlsdXJlU2NyZWVuc2hv",
-            "dEZpbGUYBiABKAkiiwUKEFByb3RvU3VpdGVSZXN1bHQSNAoLc3BlY1Jlc3Vs",
-            "dHMYASADKAsyHy5nYXVnZS5tZXNzYWdlcy5Qcm90b1NwZWNSZXN1bHQSOAoO",
-            "cHJlSG9va0ZhaWx1cmUYAiABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b0hv",
-            "b2tGYWlsdXJlEjkKD3Bvc3RIb29rRmFpbHVyZRgDIAEoCzIgLmdhdWdlLm1l",
-            "c3NhZ2VzLlByb3RvSG9va0ZhaWx1cmUSDgoGZmFpbGVkGAQgASgIEhgKEHNw",
-            "ZWNzRmFpbGVkQ291bnQYBSABKAUSFQoNZXhlY3V0aW9uVGltZRgGIAEoAxIT",
-            "CgtzdWNjZXNzUmF0ZRgHIAEoAhITCgtlbnZpcm9ubWVudBgIIAEoCRIMCgR0",
-            "YWdzGAkgASgJEhMKC3Byb2plY3ROYW1lGAogASgJEhEKCXRpbWVzdGFtcBgL",
-            "IAEoCRIZChFzcGVjc1NraXBwZWRDb3VudBgMIAEoBRIXCg9wcmVIb29rTWVz",
-            "c2FnZXMYDSADKAkSGAoQcG9zdEhvb2tNZXNzYWdlcxgOIAMoCRIaCg5wcmVI",
-            "b29rTWVzc2FnZRgPIAMoCUICGAESGwoPcG9zdEhvb2tNZXNzYWdlGBAgAygJ",
-            "QgIYARIeChJwcmVIb29rU2NyZWVuc2hvdHMYESADKAxCAhgBEh8KE3Bvc3RI",
-            "b29rU2NyZWVuc2hvdHMYEiADKAxCAhgBEg8KB2NodW5rZWQYEyABKAgSEQoJ",
-            "Y2h1bmtTaXplGBQgASgDEh4KFnByZUhvb2tTY3JlZW5zaG90RmlsZXMYFSAD",
-            "KAkSHwoXcG9zdEhvb2tTY3JlZW5zaG90RmlsZXMYFiADKAkivgIKD1Byb3Rv",
-            "U3BlY1Jlc3VsdBIsCglwcm90b1NwZWMYASABKAsyGS5nYXVnZS5tZXNzYWdl",
-            "cy5Qcm90b1NwZWMSFQoNc2NlbmFyaW9Db3VudBgCIAEoBRIbChNzY2VuYXJp",
-            "b0ZhaWxlZENvdW50GAMgASgFEg4KBmZhaWxlZBgEIAEoCBIbChNmYWlsZWRE",
-            "YXRhVGFibGVSb3dzGAUgAygFEhUKDWV4ZWN1dGlvblRpbWUYBiABKAMSDwoH",
-            "c2tpcHBlZBgHIAEoCBIcChRzY2VuYXJpb1NraXBwZWRDb3VudBgIIAEoBRIc",
-            "ChRza2lwcGVkRGF0YVRhYmxlUm93cxgJIAMoBRIlCgZlcnJvcnMYCiADKAsy",
-            "FS5nYXVnZS5tZXNzYWdlcy5FcnJvchIRCgl0aW1lc3RhbXAYCyABKAkibQoT",
-            "UHJvdG9TY2VuYXJpb1Jlc3VsdBIsCglwcm90b0l0ZW0YASABKAsyGS5nYXVn",
-            "ZS5tZXNzYWdlcy5Qcm90b0l0ZW0SFQoNZXhlY3V0aW9uVGltZRgCIAEoAxIR",
-            "Cgl0aW1lc3RhbXAYAyABKAkiaQoPUHJvdG9TdGVwUmVzdWx0EiwKCXByb3Rv",
-            "SXRlbRgBIAEoCzIZLmdhdWdlLm1lc3NhZ2VzLlByb3RvSXRlbRIVCg1leGVj",
-            "dXRpb25UaW1lGAIgASgDEhEKCXRpbWVzdGFtcBgDIAEoCSKhAQoFRXJyb3IS",
-            "LQoEdHlwZRgBIAEoDjIfLmdhdWdlLm1lc3NhZ2VzLkVycm9yLkVycm9yVHlw",
-            "ZRIQCghmaWxlbmFtZRgCIAEoCRISCgpsaW5lTnVtYmVyGAMgASgFEg8KB21l",
-            "c3NhZ2UYBCABKAkiMgoJRXJyb3JUeXBlEg8KC1BBUlNFX0VSUk9SEAASFAoQ",
-            "VkFMSURBVElPTl9FUlJPUhABIlcKDlByb3RvU3RlcFZhbHVlEhEKCXN0ZXBW",
-            "YWx1ZRgBIAEoCRIeChZwYXJhbWV0ZXJpemVkU3RlcFZhbHVlGAIgASgJEhIK",
-            "CnBhcmFtZXRlcnMYAyADKAkqRwoPRXhlY3V0aW9uU3RhdHVzEg8KC05PVEVY",
-            "RUNVVEVEEAASCgoGUEFTU0VEEAESCgoGRkFJTEVEEAISCwoHU0tJUFBFRBAD",
-            "QikKFmNvbS50aG91Z2h0d29ya3MuZ2F1Z2WqAg5HYXVnZS5NZXNzYWdlc2IG",
-            "cHJvdG8z"));
+            "bnNob3RGaWxlcxgWIAMoCRIUCgxyZXRyaWVzQ291bnQYFyABKAMiRgoEU3Bh",
+            "bhINCgVzdGFydBgBIAEoAxILCgNlbmQYAiABKAMSEQoJc3RhcnRDaGFyGAMg",
+            "ASgDEg8KB2VuZENoYXIYBCABKAMiqAIKGFByb3RvVGFibGVEcml2ZW5TY2Vu",
+            "YXJpbxIvCghzY2VuYXJpbxgBIAEoCzIdLmdhdWdlLm1lc3NhZ2VzLlByb3Rv",
+            "U2NlbmFyaW8SFQoNdGFibGVSb3dJbmRleBgCIAEoBRIdChVzY2VuYXJpb1Rh",
+            "YmxlUm93SW5kZXgYAyABKAUSGQoRaXNTcGVjVGFibGVEcml2ZW4YBCABKAgS",
+            "HQoVaXNTY2VuYXJpb1RhYmxlRHJpdmVuGAUgASgIEjUKEXNjZW5hcmlvRGF0",
+            "YVRhYmxlGAYgASgLMhouZ2F1Z2UubWVzc2FnZXMuUHJvdG9UYWJsZRI0ChBz",
+            "Y2VuYXJpb1RhYmxlUm93GAcgASgLMhouZ2F1Z2UubWVzc2FnZXMuUHJvdG9U",
+            "YWJsZSLcAgoJUHJvdG9TdGVwEhIKCmFjdHVhbFRleHQYASABKAkSEgoKcGFy",
+            "c2VkVGV4dBgCIAEoCRIrCglmcmFnbWVudHMYAyADKAsyGC5nYXVnZS5tZXNz",
+            "YWdlcy5GcmFnbWVudBJFChNzdGVwRXhlY3V0aW9uUmVzdWx0GAQgASgLMigu",
+            "Z2F1Z2UubWVzc2FnZXMuUHJvdG9TdGVwRXhlY3V0aW9uUmVzdWx0EhcKD3By",
+            "ZUhvb2tNZXNzYWdlcxgFIAMoCRIYChBwb3N0SG9va01lc3NhZ2VzGAYgAygJ",
+            "Eh4KEnByZUhvb2tTY3JlZW5zaG90cxgHIAMoDEICGAESHwoTcG9zdEhvb2tT",
+            "Y3JlZW5zaG90cxgIIAMoDEICGAESHgoWcHJlSG9va1NjcmVlbnNob3RGaWxl",
+            "cxgJIAMoCRIfChdwb3N0SG9va1NjcmVlbnNob3RGaWxlcxgKIAMoCSKyAQoM",
+            "UHJvdG9Db25jZXB0Ei4KC2NvbmNlcHRTdGVwGAEgASgLMhkuZ2F1Z2UubWVz",
+            "c2FnZXMuUHJvdG9TdGVwEigKBXN0ZXBzGAIgAygLMhkuZ2F1Z2UubWVzc2Fn",
+            "ZXMuUHJvdG9JdGVtEkgKFmNvbmNlcHRFeGVjdXRpb25SZXN1bHQYAyABKAsy",
+            "KC5nYXVnZS5tZXNzYWdlcy5Qcm90b1N0ZXBFeGVjdXRpb25SZXN1bHQiGQoJ",
+            "UHJvdG9UYWdzEgwKBHRhZ3MYASADKAkirAEKCEZyYWdtZW50EjsKDGZyYWdt",
+            "ZW50VHlwZRgBIAEoDjIlLmdhdWdlLm1lc3NhZ2VzLkZyYWdtZW50LkZyYWdt",
+            "ZW50VHlwZRIMCgR0ZXh0GAIgASgJEiwKCXBhcmFtZXRlchgDIAEoCzIZLmdh",
+            "dWdlLm1lc3NhZ2VzLlBhcmFtZXRlciInCgxGcmFnbWVudFR5cGUSCAoEVGV4",
+            "dBAAEg0KCVBhcmFtZXRlchABIu8BCglQYXJhbWV0ZXISPgoNcGFyYW1ldGVy",
+            "VHlwZRgBIAEoDjInLmdhdWdlLm1lc3NhZ2VzLlBhcmFtZXRlci5QYXJhbWV0",
+            "ZXJUeXBlEg0KBXZhbHVlGAIgASgJEgwKBG5hbWUYAyABKAkSKQoFdGFibGUY",
+            "BCABKAsyGi5nYXVnZS5tZXNzYWdlcy5Qcm90b1RhYmxlIloKDVBhcmFtZXRl",
+            "clR5cGUSCgoGU3RhdGljEAASCwoHRHluYW1pYxABEhIKDlNwZWNpYWxfU3Ry",
+            "aW5nEAISEQoNU3BlY2lhbF9UYWJsZRADEgkKBVRhYmxlEAQiHAoMUHJvdG9D",
+            "b21tZW50EgwKBHRleHQYASABKAkiaQoKUHJvdG9UYWJsZRIuCgdoZWFkZXJz",
+            "GAEgASgLMh0uZ2F1Z2UubWVzc2FnZXMuUHJvdG9UYWJsZVJvdxIrCgRyb3dz",
+            "GAIgAygLMh0uZ2F1Z2UubWVzc2FnZXMuUHJvdG9UYWJsZVJvdyIeCg1Qcm90",
+            "b1RhYmxlUm93Eg0KBWNlbGxzGAEgAygJIvYBChhQcm90b1N0ZXBFeGVjdXRp",
+            "b25SZXN1bHQSPQoPZXhlY3V0aW9uUmVzdWx0GAEgASgLMiQuZ2F1Z2UubWVz",
+            "c2FnZXMuUHJvdG9FeGVjdXRpb25SZXN1bHQSOAoOcHJlSG9va0ZhaWx1cmUY",
+            "AiABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b0hvb2tGYWlsdXJlEjkKD3Bv",
+            "c3RIb29rRmFpbHVyZRgDIAEoCzIgLmdhdWdlLm1lc3NhZ2VzLlByb3RvSG9v",
+            "a0ZhaWx1cmUSDwoHc2tpcHBlZBgEIAEoCBIVCg1za2lwcGVkUmVhc29uGAUg",
+            "ASgJIosDChRQcm90b0V4ZWN1dGlvblJlc3VsdBIOCgZmYWlsZWQYASABKAgS",
+            "GAoQcmVjb3ZlcmFibGVFcnJvchgCIAEoCBIUCgxlcnJvck1lc3NhZ2UYAyAB",
+            "KAkSEgoKc3RhY2tUcmFjZRgEIAEoCRIWCgpzY3JlZW5TaG90GAUgASgMQgIY",
+            "ARIVCg1leGVjdXRpb25UaW1lGAYgASgDEg8KB21lc3NhZ2UYByADKAkSQQoJ",
+            "ZXJyb3JUeXBlGAggASgOMi4uZ2F1Z2UubWVzc2FnZXMuUHJvdG9FeGVjdXRp",
+            "b25SZXN1bHQuRXJyb3JUeXBlEh0KEWZhaWx1cmVTY3JlZW5zaG90GAkgASgM",
+            "QgIYARIXCgtzY3JlZW5zaG90cxgKIAMoDEICGAESHQoVZmFpbHVyZVNjcmVl",
+            "bnNob3RGaWxlGAsgASgJEhcKD3NjcmVlbnNob3RGaWxlcxgMIAMoCSIsCglF",
+            "cnJvclR5cGUSDQoJQVNTRVJUSU9OEAASEAoMVkVSSUZJQ0FUSU9OEAEiqQEK",
+            "EFByb3RvSG9va0ZhaWx1cmUSEgoKc3RhY2tUcmFjZRgBIAEoCRIUCgxlcnJv",
+            "ck1lc3NhZ2UYAiABKAkSFgoKc2NyZWVuU2hvdBgDIAEoDEICGAESFQoNdGFi",
+            "bGVSb3dJbmRleBgEIAEoBRIdChFmYWlsdXJlU2NyZWVuc2hvdBgFIAEoDEIC",
+            "GAESHQoVZmFpbHVyZVNjcmVlbnNob3RGaWxlGAYgASgJIosFChBQcm90b1N1",
+            "aXRlUmVzdWx0EjQKC3NwZWNSZXN1bHRzGAEgAygLMh8uZ2F1Z2UubWVzc2Fn",
+            "ZXMuUHJvdG9TcGVjUmVzdWx0EjgKDnByZUhvb2tGYWlsdXJlGAIgASgLMiAu",
+            "Z2F1Z2UubWVzc2FnZXMuUHJvdG9Ib29rRmFpbHVyZRI5Cg9wb3N0SG9va0Zh",
+            "aWx1cmUYAyABKAsyIC5nYXVnZS5tZXNzYWdlcy5Qcm90b0hvb2tGYWlsdXJl",
+            "Eg4KBmZhaWxlZBgEIAEoCBIYChBzcGVjc0ZhaWxlZENvdW50GAUgASgFEhUK",
+            "DWV4ZWN1dGlvblRpbWUYBiABKAMSEwoLc3VjY2Vzc1JhdGUYByABKAISEwoL",
+            "ZW52aXJvbm1lbnQYCCABKAkSDAoEdGFncxgJIAEoCRITCgtwcm9qZWN0TmFt",
+            "ZRgKIAEoCRIRCgl0aW1lc3RhbXAYCyABKAkSGQoRc3BlY3NTa2lwcGVkQ291",
+            "bnQYDCABKAUSFwoPcHJlSG9va01lc3NhZ2VzGA0gAygJEhgKEHBvc3RIb29r",
+            "TWVzc2FnZXMYDiADKAkSGgoOcHJlSG9va01lc3NhZ2UYDyADKAlCAhgBEhsK",
+            "D3Bvc3RIb29rTWVzc2FnZRgQIAMoCUICGAESHgoScHJlSG9va1NjcmVlbnNo",
+            "b3RzGBEgAygMQgIYARIfChNwb3N0SG9va1NjcmVlbnNob3RzGBIgAygMQgIY",
+            "ARIPCgdjaHVua2VkGBMgASgIEhEKCWNodW5rU2l6ZRgUIAEoAxIeChZwcmVI",
+            "b29rU2NyZWVuc2hvdEZpbGVzGBUgAygJEh8KF3Bvc3RIb29rU2NyZWVuc2hv",
+            "dEZpbGVzGBYgAygJIr4CCg9Qcm90b1NwZWNSZXN1bHQSLAoJcHJvdG9TcGVj",
+            "GAEgASgLMhkuZ2F1Z2UubWVzc2FnZXMuUHJvdG9TcGVjEhUKDXNjZW5hcmlv",
+            "Q291bnQYAiABKAUSGwoTc2NlbmFyaW9GYWlsZWRDb3VudBgDIAEoBRIOCgZm",
+            "YWlsZWQYBCABKAgSGwoTZmFpbGVkRGF0YVRhYmxlUm93cxgFIAMoBRIVCg1l",
+            "eGVjdXRpb25UaW1lGAYgASgDEg8KB3NraXBwZWQYByABKAgSHAoUc2NlbmFy",
+            "aW9Ta2lwcGVkQ291bnQYCCABKAUSHAoUc2tpcHBlZERhdGFUYWJsZVJvd3MY",
+            "CSADKAUSJQoGZXJyb3JzGAogAygLMhUuZ2F1Z2UubWVzc2FnZXMuRXJyb3IS",
+            "EQoJdGltZXN0YW1wGAsgASgJIm0KE1Byb3RvU2NlbmFyaW9SZXN1bHQSLAoJ",
+            "cHJvdG9JdGVtGAEgASgLMhkuZ2F1Z2UubWVzc2FnZXMuUHJvdG9JdGVtEhUK",
+            "DWV4ZWN1dGlvblRpbWUYAiABKAMSEQoJdGltZXN0YW1wGAMgASgJImkKD1By",
+            "b3RvU3RlcFJlc3VsdBIsCglwcm90b0l0ZW0YASABKAsyGS5nYXVnZS5tZXNz",
+            "YWdlcy5Qcm90b0l0ZW0SFQoNZXhlY3V0aW9uVGltZRgCIAEoAxIRCgl0aW1l",
+            "c3RhbXAYAyABKAkioQEKBUVycm9yEi0KBHR5cGUYASABKA4yHy5nYXVnZS5t",
+            "ZXNzYWdlcy5FcnJvci5FcnJvclR5cGUSEAoIZmlsZW5hbWUYAiABKAkSEgoK",
+            "bGluZU51bWJlchgDIAEoBRIPCgdtZXNzYWdlGAQgASgJIjIKCUVycm9yVHlw",
+            "ZRIPCgtQQVJTRV9FUlJPUhAAEhQKEFZBTElEQVRJT05fRVJST1IQASJXCg5Q",
+            "cm90b1N0ZXBWYWx1ZRIRCglzdGVwVmFsdWUYASABKAkSHgoWcGFyYW1ldGVy",
+            "aXplZFN0ZXBWYWx1ZRgCIAEoCRISCgpwYXJhbWV0ZXJzGAMgAygJKkcKD0V4",
+            "ZWN1dGlvblN0YXR1cxIPCgtOT1RFWEVDVVRFRBAAEgoKBlBBU1NFRBABEgoK",
+            "BkZBSUxFRBACEgsKB1NLSVBQRUQQA0IpChZjb20udGhvdWdodHdvcmtzLmdh",
+            "dWdlqgIOR2F1Z2UuTWVzc2FnZXNiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
-          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Gauge.Messages.ExecutionStatus), }, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSpec), global::Gauge.Messages.ProtoSpec.Parser, new[]{ "SpecHeading", "Items", "IsTableDriven", "PreHookFailures", "PostHookFailures", "FileName", "Tags", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "ItemCount", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoItem), global::Gauge.Messages.ProtoItem.Parser, new[]{ "ItemType", "Step", "Concept", "Scenario", "TableDrivenScenario", "Comment", "Table", "Tags", "FileName" }, null, new[]{ typeof(global::Gauge.Messages.ProtoItem.Types.ItemType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoScenario), global::Gauge.Messages.ProtoScenario.Parser, new[]{ "ScenarioHeading", "Failed", "Contexts", "ScenarioItems", "PreHookFailure", "PostHookFailure", "Tags", "ExecutionTime", "Skipped", "SkipErrors", "ID", "TearDownSteps", "Span", "ExecutionStatus", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Span), global::Gauge.Messages.Span.Parser, new[]{ "Start", "End", "StartChar", "EndChar" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTableDrivenScenario), global::Gauge.Messages.ProtoTableDrivenScenario.Parser, new[]{ "Scenario", "TableRowIndex", "ScenarioTableRowIndex", "IsSpecTableDriven", "IsScenarioTableDriven", "ScenarioDataTable", "ScenarioTableRow" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStep), global::Gauge.Messages.ProtoStep.Parser, new[]{ "ActualText", "ParsedText", "Fragments", "StepExecutionResult", "PreHookMessages", "PostHookMessages", "PreHookScreenshots", "PostHookScreenshots", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoConcept), global::Gauge.Messages.ProtoConcept.Parser, new[]{ "ConceptStep", "Steps", "ConceptExecutionResult" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTags), global::Gauge.Messages.ProtoTags.Parser, new[]{ "Tags" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Fragment), global::Gauge.Messages.Fragment.Parser, new[]{ "FragmentType", "Text", "Parameter" }, null, new[]{ typeof(global::Gauge.Messages.Fragment.Types.FragmentType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Parameter), global::Gauge.Messages.Parameter.Parser, new[]{ "ParameterType", "Value", "Name", "Table" }, null, new[]{ typeof(global::Gauge.Messages.Parameter.Types.ParameterType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoComment), global::Gauge.Messages.ProtoComment.Parser, new[]{ "Text" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTable), global::Gauge.Messages.ProtoTable.Parser, new[]{ "Headers", "Rows" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTableRow), global::Gauge.Messages.ProtoTableRow.Parser, new[]{ "Cells" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepExecutionResult), global::Gauge.Messages.ProtoStepExecutionResult.Parser, new[]{ "ExecutionResult", "PreHookFailure", "PostHookFailure", "Skipped", "SkippedReason" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoExecutionResult), global::Gauge.Messages.ProtoExecutionResult.Parser, new[]{ "Failed", "RecoverableError", "ErrorMessage", "StackTrace", "ScreenShot", "ExecutionTime", "Message", "ErrorType", "FailureScreenshot", "Screenshots", "FailureScreenshotFile", "ScreenshotFiles" }, null, new[]{ typeof(global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoHookFailure), global::Gauge.Messages.ProtoHookFailure.Parser, new[]{ "StackTrace", "ErrorMessage", "ScreenShot", "TableRowIndex", "FailureScreenshot", "FailureScreenshotFile" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSuiteResult), global::Gauge.Messages.ProtoSuiteResult.Parser, new[]{ "SpecResults", "PreHookFailure", "PostHookFailure", "Failed", "SpecsFailedCount", "ExecutionTime", "SuccessRate", "Environment", "Tags", "ProjectName", "Timestamp", "SpecsSkippedCount", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "Chunked", "ChunkSize", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSpecResult), global::Gauge.Messages.ProtoSpecResult.Parser, new[]{ "ProtoSpec", "ScenarioCount", "ScenarioFailedCount", "Failed", "FailedDataTableRows", "ExecutionTime", "Skipped", "ScenarioSkippedCount", "SkippedDataTableRows", "Errors", "Timestamp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoScenarioResult), global::Gauge.Messages.ProtoScenarioResult.Parser, new[]{ "ProtoItem", "ExecutionTime", "Timestamp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepResult), global::Gauge.Messages.ProtoStepResult.Parser, new[]{ "ProtoItem", "ExecutionTime", "Timestamp" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Error), global::Gauge.Messages.Error.Parser, new[]{ "Type", "Filename", "LineNumber", "Message" }, null, new[]{ typeof(global::Gauge.Messages.Error.Types.ErrorType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepValue), global::Gauge.Messages.ProtoStepValue.Parser, new[]{ "StepValue", "ParameterizedStepValue", "Parameters" }, null, null, null)
+          new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Gauge.Messages.ExecutionStatus), }, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSpec), global::Gauge.Messages.ProtoSpec.Parser, new[]{ "SpecHeading", "Items", "IsTableDriven", "PreHookFailures", "PostHookFailures", "FileName", "Tags", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "ItemCount", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoItem), global::Gauge.Messages.ProtoItem.Parser, new[]{ "ItemType", "Step", "Concept", "Scenario", "TableDrivenScenario", "Comment", "Table", "Tags", "FileName" }, null, new[]{ typeof(global::Gauge.Messages.ProtoItem.Types.ItemType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoScenario), global::Gauge.Messages.ProtoScenario.Parser, new[]{ "ScenarioHeading", "Failed", "Contexts", "ScenarioItems", "PreHookFailure", "PostHookFailure", "Tags", "ExecutionTime", "Skipped", "SkipErrors", "ID", "TearDownSteps", "Span", "ExecutionStatus", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "PreHookScreenshotFiles", "PostHookScreenshotFiles", "RetriesCount" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Span), global::Gauge.Messages.Span.Parser, new[]{ "Start", "End", "StartChar", "EndChar" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTableDrivenScenario), global::Gauge.Messages.ProtoTableDrivenScenario.Parser, new[]{ "Scenario", "TableRowIndex", "ScenarioTableRowIndex", "IsSpecTableDriven", "IsScenarioTableDriven", "ScenarioDataTable", "ScenarioTableRow" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStep), global::Gauge.Messages.ProtoStep.Parser, new[]{ "ActualText", "ParsedText", "Fragments", "StepExecutionResult", "PreHookMessages", "PostHookMessages", "PreHookScreenshots", "PostHookScreenshots", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoConcept), global::Gauge.Messages.ProtoConcept.Parser, new[]{ "ConceptStep", "Steps", "ConceptExecutionResult" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTags), global::Gauge.Messages.ProtoTags.Parser, new[]{ "Tags" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Fragment), global::Gauge.Messages.Fragment.Parser, new[]{ "FragmentType", "Text", "Parameter" }, null, new[]{ typeof(global::Gauge.Messages.Fragment.Types.FragmentType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Parameter), global::Gauge.Messages.Parameter.Parser, new[]{ "ParameterType", "Value", "Name", "Table" }, null, new[]{ typeof(global::Gauge.Messages.Parameter.Types.ParameterType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoComment), global::Gauge.Messages.ProtoComment.Parser, new[]{ "Text" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTable), global::Gauge.Messages.ProtoTable.Parser, new[]{ "Headers", "Rows" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoTableRow), global::Gauge.Messages.ProtoTableRow.Parser, new[]{ "Cells" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepExecutionResult), global::Gauge.Messages.ProtoStepExecutionResult.Parser, new[]{ "ExecutionResult", "PreHookFailure", "PostHookFailure", "Skipped", "SkippedReason" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoExecutionResult), global::Gauge.Messages.ProtoExecutionResult.Parser, new[]{ "Failed", "RecoverableError", "ErrorMessage", "StackTrace", "ScreenShot", "ExecutionTime", "Message", "ErrorType", "FailureScreenshot", "Screenshots", "FailureScreenshotFile", "ScreenshotFiles" }, null, new[]{ typeof(global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoHookFailure), global::Gauge.Messages.ProtoHookFailure.Parser, new[]{ "StackTrace", "ErrorMessage", "ScreenShot", "TableRowIndex", "FailureScreenshot", "FailureScreenshotFile" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSuiteResult), global::Gauge.Messages.ProtoSuiteResult.Parser, new[]{ "SpecResults", "PreHookFailure", "PostHookFailure", "Failed", "SpecsFailedCount", "ExecutionTime", "SuccessRate", "Environment", "Tags", "ProjectName", "Timestamp", "SpecsSkippedCount", "PreHookMessages", "PostHookMessages", "PreHookMessage", "PostHookMessage", "PreHookScreenshots", "PostHookScreenshots", "Chunked", "ChunkSize", "PreHookScreenshotFiles", "PostHookScreenshotFiles" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoSpecResult), global::Gauge.Messages.ProtoSpecResult.Parser, new[]{ "ProtoSpec", "ScenarioCount", "ScenarioFailedCount", "Failed", "FailedDataTableRows", "ExecutionTime", "Skipped", "ScenarioSkippedCount", "SkippedDataTableRows", "Errors", "Timestamp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoScenarioResult), global::Gauge.Messages.ProtoScenarioResult.Parser, new[]{ "ProtoItem", "ExecutionTime", "Timestamp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepResult), global::Gauge.Messages.ProtoStepResult.Parser, new[]{ "ProtoItem", "ExecutionTime", "Timestamp" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Error), global::Gauge.Messages.Error.Parser, new[]{ "Type", "Filename", "LineNumber", "Message" }, null, new[]{ typeof(global::Gauge.Messages.Error.Types.ErrorType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ProtoStepValue), global::Gauge.Messages.ProtoStepValue.Parser, new[]{ "StepValue", "ParameterizedStepValue", "Parameters" }, null, null, null, null)
           }));
     }
     #endregion
@@ -735,13 +735,13 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoItem(ProtoItem other) : this() {
       itemType_ = other.itemType_;
-      Step = other.step_ != null ? other.Step.Clone() : null;
-      Concept = other.concept_ != null ? other.Concept.Clone() : null;
-      Scenario = other.scenario_ != null ? other.Scenario.Clone() : null;
-      TableDrivenScenario = other.tableDrivenScenario_ != null ? other.TableDrivenScenario.Clone() : null;
-      Comment = other.comment_ != null ? other.Comment.Clone() : null;
-      Table = other.table_ != null ? other.Table.Clone() : null;
-      Tags = other.tags_ != null ? other.Tags.Clone() : null;
+      step_ = other.step_ != null ? other.step_.Clone() : null;
+      concept_ = other.concept_ != null ? other.concept_.Clone() : null;
+      scenario_ = other.scenario_ != null ? other.scenario_.Clone() : null;
+      tableDrivenScenario_ = other.tableDrivenScenario_ != null ? other.tableDrivenScenario_.Clone() : null;
+      comment_ = other.comment_ != null ? other.comment_.Clone() : null;
+      table_ = other.table_ != null ? other.table_.Clone() : null;
+      tags_ = other.tags_ != null ? other.tags_.Clone() : null;
       fileName_ = other.fileName_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -753,7 +753,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "itemType" field.</summary>
     public const int ItemTypeFieldNumber = 1;
-    private global::Gauge.Messages.ProtoItem.Types.ItemType itemType_ = 0;
+    private global::Gauge.Messages.ProtoItem.Types.ItemType itemType_ = global::Gauge.Messages.ProtoItem.Types.ItemType.Step;
     /// <summary>
     //// Itemtype of the current ProtoItem
     /// </summary>
@@ -905,7 +905,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ItemType != 0) hash ^= ItemType.GetHashCode();
+      if (ItemType != global::Gauge.Messages.ProtoItem.Types.ItemType.Step) hash ^= ItemType.GetHashCode();
       if (step_ != null) hash ^= Step.GetHashCode();
       if (concept_ != null) hash ^= Concept.GetHashCode();
       if (scenario_ != null) hash ^= Scenario.GetHashCode();
@@ -927,7 +927,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (ItemType != 0) {
+      if (ItemType != global::Gauge.Messages.ProtoItem.Types.ItemType.Step) {
         output.WriteRawTag(8);
         output.WriteEnum((int) ItemType);
       }
@@ -971,7 +971,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ItemType != 0) {
+      if (ItemType != global::Gauge.Messages.ProtoItem.Types.ItemType.Step) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ItemType);
       }
       if (step_ != null) {
@@ -1009,48 +1009,48 @@ namespace Gauge.Messages {
       if (other == null) {
         return;
       }
-      if (other.ItemType != 0) {
+      if (other.ItemType != global::Gauge.Messages.ProtoItem.Types.ItemType.Step) {
         ItemType = other.ItemType;
       }
       if (other.step_ != null) {
         if (step_ == null) {
-          step_ = new global::Gauge.Messages.ProtoStep();
+          Step = new global::Gauge.Messages.ProtoStep();
         }
         Step.MergeFrom(other.Step);
       }
       if (other.concept_ != null) {
         if (concept_ == null) {
-          concept_ = new global::Gauge.Messages.ProtoConcept();
+          Concept = new global::Gauge.Messages.ProtoConcept();
         }
         Concept.MergeFrom(other.Concept);
       }
       if (other.scenario_ != null) {
         if (scenario_ == null) {
-          scenario_ = new global::Gauge.Messages.ProtoScenario();
+          Scenario = new global::Gauge.Messages.ProtoScenario();
         }
         Scenario.MergeFrom(other.Scenario);
       }
       if (other.tableDrivenScenario_ != null) {
         if (tableDrivenScenario_ == null) {
-          tableDrivenScenario_ = new global::Gauge.Messages.ProtoTableDrivenScenario();
+          TableDrivenScenario = new global::Gauge.Messages.ProtoTableDrivenScenario();
         }
         TableDrivenScenario.MergeFrom(other.TableDrivenScenario);
       }
       if (other.comment_ != null) {
         if (comment_ == null) {
-          comment_ = new global::Gauge.Messages.ProtoComment();
+          Comment = new global::Gauge.Messages.ProtoComment();
         }
         Comment.MergeFrom(other.Comment);
       }
       if (other.table_ != null) {
         if (table_ == null) {
-          table_ = new global::Gauge.Messages.ProtoTable();
+          Table = new global::Gauge.Messages.ProtoTable();
         }
         Table.MergeFrom(other.Table);
       }
       if (other.tags_ != null) {
         if (tags_ == null) {
-          tags_ = new global::Gauge.Messages.ProtoTags();
+          Tags = new global::Gauge.Messages.ProtoTags();
         }
         Tags.MergeFrom(other.Tags);
       }
@@ -1069,56 +1069,56 @@ namespace Gauge.Messages {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            itemType_ = (global::Gauge.Messages.ProtoItem.Types.ItemType) input.ReadEnum();
+            ItemType = (global::Gauge.Messages.ProtoItem.Types.ItemType) input.ReadEnum();
             break;
           }
           case 18: {
             if (step_ == null) {
-              step_ = new global::Gauge.Messages.ProtoStep();
+              Step = new global::Gauge.Messages.ProtoStep();
             }
-            input.ReadMessage(step_);
+            input.ReadMessage(Step);
             break;
           }
           case 26: {
             if (concept_ == null) {
-              concept_ = new global::Gauge.Messages.ProtoConcept();
+              Concept = new global::Gauge.Messages.ProtoConcept();
             }
-            input.ReadMessage(concept_);
+            input.ReadMessage(Concept);
             break;
           }
           case 34: {
             if (scenario_ == null) {
-              scenario_ = new global::Gauge.Messages.ProtoScenario();
+              Scenario = new global::Gauge.Messages.ProtoScenario();
             }
-            input.ReadMessage(scenario_);
+            input.ReadMessage(Scenario);
             break;
           }
           case 42: {
             if (tableDrivenScenario_ == null) {
-              tableDrivenScenario_ = new global::Gauge.Messages.ProtoTableDrivenScenario();
+              TableDrivenScenario = new global::Gauge.Messages.ProtoTableDrivenScenario();
             }
-            input.ReadMessage(tableDrivenScenario_);
+            input.ReadMessage(TableDrivenScenario);
             break;
           }
           case 50: {
             if (comment_ == null) {
-              comment_ = new global::Gauge.Messages.ProtoComment();
+              Comment = new global::Gauge.Messages.ProtoComment();
             }
-            input.ReadMessage(comment_);
+            input.ReadMessage(Comment);
             break;
           }
           case 58: {
             if (table_ == null) {
-              table_ = new global::Gauge.Messages.ProtoTable();
+              Table = new global::Gauge.Messages.ProtoTable();
             }
-            input.ReadMessage(table_);
+            input.ReadMessage(Table);
             break;
           }
           case 66: {
             if (tags_ == null) {
-              tags_ = new global::Gauge.Messages.ProtoTags();
+              Tags = new global::Gauge.Messages.ProtoTags();
             }
-            input.ReadMessage(tags_);
+            input.ReadMessage(Tags);
             break;
           }
           case 74: {
@@ -1204,15 +1204,15 @@ namespace Gauge.Messages {
       failed_ = other.failed_;
       contexts_ = other.contexts_.Clone();
       scenarioItems_ = other.scenarioItems_.Clone();
-      PreHookFailure = other.preHookFailure_ != null ? other.PreHookFailure.Clone() : null;
-      PostHookFailure = other.postHookFailure_ != null ? other.PostHookFailure.Clone() : null;
+      preHookFailure_ = other.preHookFailure_ != null ? other.preHookFailure_.Clone() : null;
+      postHookFailure_ = other.postHookFailure_ != null ? other.postHookFailure_.Clone() : null;
       tags_ = other.tags_.Clone();
       executionTime_ = other.executionTime_;
       skipped_ = other.skipped_;
       skipErrors_ = other.skipErrors_.Clone();
       iD_ = other.iD_;
       tearDownSteps_ = other.tearDownSteps_.Clone();
-      Span = other.span_ != null ? other.Span.Clone() : null;
+      span_ = other.span_ != null ? other.span_.Clone() : null;
       executionStatus_ = other.executionStatus_;
       preHookMessages_ = other.preHookMessages_.Clone();
       postHookMessages_ = other.postHookMessages_.Clone();
@@ -1222,6 +1222,7 @@ namespace Gauge.Messages {
       postHookScreenshots_ = other.postHookScreenshots_.Clone();
       preHookScreenshotFiles_ = other.preHookScreenshotFiles_.Clone();
       postHookScreenshotFiles_ = other.postHookScreenshotFiles_.Clone();
+      retriesCount_ = other.retriesCount_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -1411,7 +1412,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "executionStatus" field.</summary>
     public const int ExecutionStatusFieldNumber = 14;
-    private global::Gauge.Messages.ExecutionStatus executionStatus_ = 0;
+    private global::Gauge.Messages.ExecutionStatus executionStatus_ = global::Gauge.Messages.ExecutionStatus.Notexecuted;
     /// <summary>
     //// Execution status for the scenario
     /// </summary>
@@ -1531,6 +1532,20 @@ namespace Gauge.Messages {
       get { return postHookScreenshotFiles_; }
     }
 
+    /// <summary>Field number for the "retriesCount" field.</summary>
+    public const int RetriesCountFieldNumber = 23;
+    private long retriesCount_;
+    /// <summary>
+    //// Number of retires
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long RetriesCount {
+      get { return retriesCount_; }
+      set {
+        retriesCount_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ProtoScenario);
@@ -1566,6 +1581,7 @@ namespace Gauge.Messages {
       if(!postHookScreenshots_.Equals(other.postHookScreenshots_)) return false;
       if(!preHookScreenshotFiles_.Equals(other.preHookScreenshotFiles_)) return false;
       if(!postHookScreenshotFiles_.Equals(other.postHookScreenshotFiles_)) return false;
+      if (RetriesCount != other.RetriesCount) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -1585,7 +1601,7 @@ namespace Gauge.Messages {
       if (ID.Length != 0) hash ^= ID.GetHashCode();
       hash ^= tearDownSteps_.GetHashCode();
       if (span_ != null) hash ^= Span.GetHashCode();
-      if (ExecutionStatus != 0) hash ^= ExecutionStatus.GetHashCode();
+      if (ExecutionStatus != global::Gauge.Messages.ExecutionStatus.Notexecuted) hash ^= ExecutionStatus.GetHashCode();
       hash ^= preHookMessages_.GetHashCode();
       hash ^= postHookMessages_.GetHashCode();
       hash ^= preHookMessage_.GetHashCode();
@@ -1594,6 +1610,7 @@ namespace Gauge.Messages {
       hash ^= postHookScreenshots_.GetHashCode();
       hash ^= preHookScreenshotFiles_.GetHashCode();
       hash ^= postHookScreenshotFiles_.GetHashCode();
+      if (RetriesCount != 0L) hash ^= RetriesCount.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -1644,7 +1661,7 @@ namespace Gauge.Messages {
         output.WriteRawTag(106);
         output.WriteMessage(Span);
       }
-      if (ExecutionStatus != 0) {
+      if (ExecutionStatus != global::Gauge.Messages.ExecutionStatus.Notexecuted) {
         output.WriteRawTag(112);
         output.WriteEnum((int) ExecutionStatus);
       }
@@ -1656,6 +1673,10 @@ namespace Gauge.Messages {
       postHookScreenshots_.WriteTo(output, _repeated_postHookScreenshots_codec);
       preHookScreenshotFiles_.WriteTo(output, _repeated_preHookScreenshotFiles_codec);
       postHookScreenshotFiles_.WriteTo(output, _repeated_postHookScreenshotFiles_codec);
+      if (RetriesCount != 0L) {
+        output.WriteRawTag(184, 1);
+        output.WriteInt64(RetriesCount);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -1693,7 +1714,7 @@ namespace Gauge.Messages {
       if (span_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(Span);
       }
-      if (ExecutionStatus != 0) {
+      if (ExecutionStatus != global::Gauge.Messages.ExecutionStatus.Notexecuted) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ExecutionStatus);
       }
       size += preHookMessages_.CalculateSize(_repeated_preHookMessages_codec);
@@ -1704,6 +1725,9 @@ namespace Gauge.Messages {
       size += postHookScreenshots_.CalculateSize(_repeated_postHookScreenshots_codec);
       size += preHookScreenshotFiles_.CalculateSize(_repeated_preHookScreenshotFiles_codec);
       size += postHookScreenshotFiles_.CalculateSize(_repeated_postHookScreenshotFiles_codec);
+      if (RetriesCount != 0L) {
+        size += 2 + pb::CodedOutputStream.ComputeInt64Size(RetriesCount);
+      }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
       }
@@ -1725,13 +1749,13 @@ namespace Gauge.Messages {
       scenarioItems_.Add(other.scenarioItems_);
       if (other.preHookFailure_ != null) {
         if (preHookFailure_ == null) {
-          preHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+          PreHookFailure = new global::Gauge.Messages.ProtoHookFailure();
         }
         PreHookFailure.MergeFrom(other.PreHookFailure);
       }
       if (other.postHookFailure_ != null) {
         if (postHookFailure_ == null) {
-          postHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+          PostHookFailure = new global::Gauge.Messages.ProtoHookFailure();
         }
         PostHookFailure.MergeFrom(other.PostHookFailure);
       }
@@ -1749,11 +1773,11 @@ namespace Gauge.Messages {
       tearDownSteps_.Add(other.tearDownSteps_);
       if (other.span_ != null) {
         if (span_ == null) {
-          span_ = new global::Gauge.Messages.Span();
+          Span = new global::Gauge.Messages.Span();
         }
         Span.MergeFrom(other.Span);
       }
-      if (other.ExecutionStatus != 0) {
+      if (other.ExecutionStatus != global::Gauge.Messages.ExecutionStatus.Notexecuted) {
         ExecutionStatus = other.ExecutionStatus;
       }
       preHookMessages_.Add(other.preHookMessages_);
@@ -1764,6 +1788,9 @@ namespace Gauge.Messages {
       postHookScreenshots_.Add(other.postHookScreenshots_);
       preHookScreenshotFiles_.Add(other.preHookScreenshotFiles_);
       postHookScreenshotFiles_.Add(other.postHookScreenshotFiles_);
+      if (other.RetriesCount != 0L) {
+        RetriesCount = other.RetriesCount;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1793,16 +1820,16 @@ namespace Gauge.Messages {
           }
           case 42: {
             if (preHookFailure_ == null) {
-              preHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+              PreHookFailure = new global::Gauge.Messages.ProtoHookFailure();
             }
-            input.ReadMessage(preHookFailure_);
+            input.ReadMessage(PreHookFailure);
             break;
           }
           case 50: {
             if (postHookFailure_ == null) {
-              postHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+              PostHookFailure = new global::Gauge.Messages.ProtoHookFailure();
             }
-            input.ReadMessage(postHookFailure_);
+            input.ReadMessage(PostHookFailure);
             break;
           }
           case 58: {
@@ -1831,13 +1858,13 @@ namespace Gauge.Messages {
           }
           case 106: {
             if (span_ == null) {
-              span_ = new global::Gauge.Messages.Span();
+              Span = new global::Gauge.Messages.Span();
             }
-            input.ReadMessage(span_);
+            input.ReadMessage(Span);
             break;
           }
           case 112: {
-            executionStatus_ = (global::Gauge.Messages.ExecutionStatus) input.ReadEnum();
+            ExecutionStatus = (global::Gauge.Messages.ExecutionStatus) input.ReadEnum();
             break;
           }
           case 122: {
@@ -1870,6 +1897,10 @@ namespace Gauge.Messages {
           }
           case 178: {
             postHookScreenshotFiles_.AddEntriesFrom(input, _repeated_postHookScreenshotFiles_codec);
+            break;
+          }
+          case 184: {
+            RetriesCount = input.ReadInt64();
             break;
           }
         }
@@ -2122,13 +2153,13 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoTableDrivenScenario(ProtoTableDrivenScenario other) : this() {
-      Scenario = other.scenario_ != null ? other.Scenario.Clone() : null;
+      scenario_ = other.scenario_ != null ? other.scenario_.Clone() : null;
       tableRowIndex_ = other.tableRowIndex_;
       scenarioTableRowIndex_ = other.scenarioTableRowIndex_;
       isSpecTableDriven_ = other.isSpecTableDriven_;
       isScenarioTableDriven_ = other.isScenarioTableDriven_;
-      ScenarioDataTable = other.scenarioDataTable_ != null ? other.ScenarioDataTable.Clone() : null;
-      ScenarioTableRow = other.scenarioTableRow_ != null ? other.ScenarioTableRow.Clone() : null;
+      scenarioDataTable_ = other.scenarioDataTable_ != null ? other.scenarioDataTable_.Clone() : null;
+      scenarioTableRow_ = other.scenarioTableRow_ != null ? other.scenarioTableRow_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2351,7 +2382,7 @@ namespace Gauge.Messages {
       }
       if (other.scenario_ != null) {
         if (scenario_ == null) {
-          scenario_ = new global::Gauge.Messages.ProtoScenario();
+          Scenario = new global::Gauge.Messages.ProtoScenario();
         }
         Scenario.MergeFrom(other.Scenario);
       }
@@ -2369,13 +2400,13 @@ namespace Gauge.Messages {
       }
       if (other.scenarioDataTable_ != null) {
         if (scenarioDataTable_ == null) {
-          scenarioDataTable_ = new global::Gauge.Messages.ProtoTable();
+          ScenarioDataTable = new global::Gauge.Messages.ProtoTable();
         }
         ScenarioDataTable.MergeFrom(other.ScenarioDataTable);
       }
       if (other.scenarioTableRow_ != null) {
         if (scenarioTableRow_ == null) {
-          scenarioTableRow_ = new global::Gauge.Messages.ProtoTable();
+          ScenarioTableRow = new global::Gauge.Messages.ProtoTable();
         }
         ScenarioTableRow.MergeFrom(other.ScenarioTableRow);
       }
@@ -2392,9 +2423,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (scenario_ == null) {
-              scenario_ = new global::Gauge.Messages.ProtoScenario();
+              Scenario = new global::Gauge.Messages.ProtoScenario();
             }
-            input.ReadMessage(scenario_);
+            input.ReadMessage(Scenario);
             break;
           }
           case 16: {
@@ -2415,16 +2446,16 @@ namespace Gauge.Messages {
           }
           case 50: {
             if (scenarioDataTable_ == null) {
-              scenarioDataTable_ = new global::Gauge.Messages.ProtoTable();
+              ScenarioDataTable = new global::Gauge.Messages.ProtoTable();
             }
-            input.ReadMessage(scenarioDataTable_);
+            input.ReadMessage(ScenarioDataTable);
             break;
           }
           case 58: {
             if (scenarioTableRow_ == null) {
-              scenarioTableRow_ = new global::Gauge.Messages.ProtoTable();
+              ScenarioTableRow = new global::Gauge.Messages.ProtoTable();
             }
-            input.ReadMessage(scenarioTableRow_);
+            input.ReadMessage(ScenarioTableRow);
             break;
           }
         }
@@ -2464,7 +2495,7 @@ namespace Gauge.Messages {
       actualText_ = other.actualText_;
       parsedText_ = other.parsedText_;
       fragments_ = other.fragments_.Clone();
-      StepExecutionResult = other.stepExecutionResult_ != null ? other.StepExecutionResult.Clone() : null;
+      stepExecutionResult_ = other.stepExecutionResult_ != null ? other.stepExecutionResult_.Clone() : null;
       preHookMessages_ = other.preHookMessages_.Clone();
       postHookMessages_ = other.postHookMessages_.Clone();
       preHookScreenshots_ = other.preHookScreenshots_.Clone();
@@ -2729,7 +2760,7 @@ namespace Gauge.Messages {
       fragments_.Add(other.fragments_);
       if (other.stepExecutionResult_ != null) {
         if (stepExecutionResult_ == null) {
-          stepExecutionResult_ = new global::Gauge.Messages.ProtoStepExecutionResult();
+          StepExecutionResult = new global::Gauge.Messages.ProtoStepExecutionResult();
         }
         StepExecutionResult.MergeFrom(other.StepExecutionResult);
       }
@@ -2764,9 +2795,9 @@ namespace Gauge.Messages {
           }
           case 34: {
             if (stepExecutionResult_ == null) {
-              stepExecutionResult_ = new global::Gauge.Messages.ProtoStepExecutionResult();
+              StepExecutionResult = new global::Gauge.Messages.ProtoStepExecutionResult();
             }
-            input.ReadMessage(stepExecutionResult_);
+            input.ReadMessage(StepExecutionResult);
             break;
           }
           case 42: {
@@ -2829,9 +2860,9 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoConcept(ProtoConcept other) : this() {
-      ConceptStep = other.conceptStep_ != null ? other.ConceptStep.Clone() : null;
+      conceptStep_ = other.conceptStep_ != null ? other.conceptStep_.Clone() : null;
       steps_ = other.steps_.Clone();
-      ConceptExecutionResult = other.conceptExecutionResult_ != null ? other.ConceptExecutionResult.Clone() : null;
+      conceptExecutionResult_ = other.conceptExecutionResult_ != null ? other.conceptExecutionResult_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -2956,14 +2987,14 @@ namespace Gauge.Messages {
       }
       if (other.conceptStep_ != null) {
         if (conceptStep_ == null) {
-          conceptStep_ = new global::Gauge.Messages.ProtoStep();
+          ConceptStep = new global::Gauge.Messages.ProtoStep();
         }
         ConceptStep.MergeFrom(other.ConceptStep);
       }
       steps_.Add(other.steps_);
       if (other.conceptExecutionResult_ != null) {
         if (conceptExecutionResult_ == null) {
-          conceptExecutionResult_ = new global::Gauge.Messages.ProtoStepExecutionResult();
+          ConceptExecutionResult = new global::Gauge.Messages.ProtoStepExecutionResult();
         }
         ConceptExecutionResult.MergeFrom(other.ConceptExecutionResult);
       }
@@ -2980,9 +3011,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (conceptStep_ == null) {
-              conceptStep_ = new global::Gauge.Messages.ProtoStep();
+              ConceptStep = new global::Gauge.Messages.ProtoStep();
             }
-            input.ReadMessage(conceptStep_);
+            input.ReadMessage(ConceptStep);
             break;
           }
           case 18: {
@@ -2991,9 +3022,9 @@ namespace Gauge.Messages {
           }
           case 26: {
             if (conceptExecutionResult_ == null) {
-              conceptExecutionResult_ = new global::Gauge.Messages.ProtoStepExecutionResult();
+              ConceptExecutionResult = new global::Gauge.Messages.ProtoStepExecutionResult();
             }
-            input.ReadMessage(conceptExecutionResult_);
+            input.ReadMessage(ConceptExecutionResult);
             break;
           }
         }
@@ -3160,7 +3191,7 @@ namespace Gauge.Messages {
     public Fragment(Fragment other) : this() {
       fragmentType_ = other.fragmentType_;
       text_ = other.text_;
-      Parameter = other.parameter_ != null ? other.Parameter.Clone() : null;
+      parameter_ = other.parameter_ != null ? other.parameter_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3171,7 +3202,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "fragmentType" field.</summary>
     public const int FragmentTypeFieldNumber = 1;
-    private global::Gauge.Messages.Fragment.Types.FragmentType fragmentType_ = 0;
+    private global::Gauge.Messages.Fragment.Types.FragmentType fragmentType_ = global::Gauge.Messages.Fragment.Types.FragmentType.Text;
     /// <summary>
     //// Type of Fragment, valid values are Text, Parameter
     /// </summary>
@@ -3233,7 +3264,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (FragmentType != 0) hash ^= FragmentType.GetHashCode();
+      if (FragmentType != global::Gauge.Messages.Fragment.Types.FragmentType.Text) hash ^= FragmentType.GetHashCode();
       if (Text.Length != 0) hash ^= Text.GetHashCode();
       if (parameter_ != null) hash ^= Parameter.GetHashCode();
       if (_unknownFields != null) {
@@ -3249,7 +3280,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (FragmentType != 0) {
+      if (FragmentType != global::Gauge.Messages.Fragment.Types.FragmentType.Text) {
         output.WriteRawTag(8);
         output.WriteEnum((int) FragmentType);
       }
@@ -3269,7 +3300,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (FragmentType != 0) {
+      if (FragmentType != global::Gauge.Messages.Fragment.Types.FragmentType.Text) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) FragmentType);
       }
       if (Text.Length != 0) {
@@ -3289,7 +3320,7 @@ namespace Gauge.Messages {
       if (other == null) {
         return;
       }
-      if (other.FragmentType != 0) {
+      if (other.FragmentType != global::Gauge.Messages.Fragment.Types.FragmentType.Text) {
         FragmentType = other.FragmentType;
       }
       if (other.Text.Length != 0) {
@@ -3297,7 +3328,7 @@ namespace Gauge.Messages {
       }
       if (other.parameter_ != null) {
         if (parameter_ == null) {
-          parameter_ = new global::Gauge.Messages.Parameter();
+          Parameter = new global::Gauge.Messages.Parameter();
         }
         Parameter.MergeFrom(other.Parameter);
       }
@@ -3313,7 +3344,7 @@ namespace Gauge.Messages {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            fragmentType_ = (global::Gauge.Messages.Fragment.Types.FragmentType) input.ReadEnum();
+            FragmentType = (global::Gauge.Messages.Fragment.Types.FragmentType) input.ReadEnum();
             break;
           }
           case 18: {
@@ -3322,9 +3353,9 @@ namespace Gauge.Messages {
           }
           case 26: {
             if (parameter_ == null) {
-              parameter_ = new global::Gauge.Messages.Parameter();
+              Parameter = new global::Gauge.Messages.Parameter();
             }
-            input.ReadMessage(parameter_);
+            input.ReadMessage(Parameter);
             break;
           }
         }
@@ -3385,7 +3416,7 @@ namespace Gauge.Messages {
       parameterType_ = other.parameterType_;
       value_ = other.value_;
       name_ = other.name_;
-      Table = other.table_ != null ? other.Table.Clone() : null;
+      table_ = other.table_ != null ? other.table_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3396,7 +3427,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "parameterType" field.</summary>
     public const int ParameterTypeFieldNumber = 1;
-    private global::Gauge.Messages.Parameter.Types.ParameterType parameterType_ = 0;
+    private global::Gauge.Messages.Parameter.Types.ParameterType parameterType_ = global::Gauge.Messages.Parameter.Types.ParameterType.Static;
     /// <summary>
     //// Type of the Parameter. Valid values: Static, Dynamic, Special_String, Special_Table, Table
     /// </summary>
@@ -3473,7 +3504,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ParameterType != 0) hash ^= ParameterType.GetHashCode();
+      if (ParameterType != global::Gauge.Messages.Parameter.Types.ParameterType.Static) hash ^= ParameterType.GetHashCode();
       if (Value.Length != 0) hash ^= Value.GetHashCode();
       if (Name.Length != 0) hash ^= Name.GetHashCode();
       if (table_ != null) hash ^= Table.GetHashCode();
@@ -3490,7 +3521,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (ParameterType != 0) {
+      if (ParameterType != global::Gauge.Messages.Parameter.Types.ParameterType.Static) {
         output.WriteRawTag(8);
         output.WriteEnum((int) ParameterType);
       }
@@ -3514,7 +3545,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ParameterType != 0) {
+      if (ParameterType != global::Gauge.Messages.Parameter.Types.ParameterType.Static) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ParameterType);
       }
       if (Value.Length != 0) {
@@ -3537,7 +3568,7 @@ namespace Gauge.Messages {
       if (other == null) {
         return;
       }
-      if (other.ParameterType != 0) {
+      if (other.ParameterType != global::Gauge.Messages.Parameter.Types.ParameterType.Static) {
         ParameterType = other.ParameterType;
       }
       if (other.Value.Length != 0) {
@@ -3548,7 +3579,7 @@ namespace Gauge.Messages {
       }
       if (other.table_ != null) {
         if (table_ == null) {
-          table_ = new global::Gauge.Messages.ProtoTable();
+          Table = new global::Gauge.Messages.ProtoTable();
         }
         Table.MergeFrom(other.Table);
       }
@@ -3564,7 +3595,7 @@ namespace Gauge.Messages {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            parameterType_ = (global::Gauge.Messages.Parameter.Types.ParameterType) input.ReadEnum();
+            ParameterType = (global::Gauge.Messages.Parameter.Types.ParameterType) input.ReadEnum();
             break;
           }
           case 18: {
@@ -3577,9 +3608,9 @@ namespace Gauge.Messages {
           }
           case 34: {
             if (table_ == null) {
-              table_ = new global::Gauge.Messages.ProtoTable();
+              Table = new global::Gauge.Messages.ProtoTable();
             }
-            input.ReadMessage(table_);
+            input.ReadMessage(Table);
             break;
           }
         }
@@ -3784,7 +3815,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoTable(ProtoTable other) : this() {
-      Headers = other.headers_ != null ? other.Headers.Clone() : null;
+      headers_ = other.headers_ != null ? other.headers_.Clone() : null;
       rows_ = other.rows_.Clone();
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -3887,7 +3918,7 @@ namespace Gauge.Messages {
       }
       if (other.headers_ != null) {
         if (headers_ == null) {
-          headers_ = new global::Gauge.Messages.ProtoTableRow();
+          Headers = new global::Gauge.Messages.ProtoTableRow();
         }
         Headers.MergeFrom(other.Headers);
       }
@@ -3905,9 +3936,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (headers_ == null) {
-              headers_ = new global::Gauge.Messages.ProtoTableRow();
+              Headers = new global::Gauge.Messages.ProtoTableRow();
             }
-            input.ReadMessage(headers_);
+            input.ReadMessage(Headers);
             break;
           }
           case 18: {
@@ -4075,9 +4106,9 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoStepExecutionResult(ProtoStepExecutionResult other) : this() {
-      ExecutionResult = other.executionResult_ != null ? other.ExecutionResult.Clone() : null;
-      PreHookFailure = other.preHookFailure_ != null ? other.PreHookFailure.Clone() : null;
-      PostHookFailure = other.postHookFailure_ != null ? other.PostHookFailure.Clone() : null;
+      executionResult_ = other.executionResult_ != null ? other.executionResult_.Clone() : null;
+      preHookFailure_ = other.preHookFailure_ != null ? other.preHookFailure_.Clone() : null;
+      postHookFailure_ = other.postHookFailure_ != null ? other.postHookFailure_.Clone() : null;
       skipped_ = other.skipped_;
       skippedReason_ = other.skippedReason_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -4250,19 +4281,19 @@ namespace Gauge.Messages {
       }
       if (other.executionResult_ != null) {
         if (executionResult_ == null) {
-          executionResult_ = new global::Gauge.Messages.ProtoExecutionResult();
+          ExecutionResult = new global::Gauge.Messages.ProtoExecutionResult();
         }
         ExecutionResult.MergeFrom(other.ExecutionResult);
       }
       if (other.preHookFailure_ != null) {
         if (preHookFailure_ == null) {
-          preHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+          PreHookFailure = new global::Gauge.Messages.ProtoHookFailure();
         }
         PreHookFailure.MergeFrom(other.PreHookFailure);
       }
       if (other.postHookFailure_ != null) {
         if (postHookFailure_ == null) {
-          postHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+          PostHookFailure = new global::Gauge.Messages.ProtoHookFailure();
         }
         PostHookFailure.MergeFrom(other.PostHookFailure);
       }
@@ -4285,23 +4316,23 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (executionResult_ == null) {
-              executionResult_ = new global::Gauge.Messages.ProtoExecutionResult();
+              ExecutionResult = new global::Gauge.Messages.ProtoExecutionResult();
             }
-            input.ReadMessage(executionResult_);
+            input.ReadMessage(ExecutionResult);
             break;
           }
           case 18: {
             if (preHookFailure_ == null) {
-              preHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+              PreHookFailure = new global::Gauge.Messages.ProtoHookFailure();
             }
-            input.ReadMessage(preHookFailure_);
+            input.ReadMessage(PreHookFailure);
             break;
           }
           case 26: {
             if (postHookFailure_ == null) {
-              postHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+              PostHookFailure = new global::Gauge.Messages.ProtoHookFailure();
             }
-            input.ReadMessage(postHookFailure_);
+            input.ReadMessage(PostHookFailure);
             break;
           }
           case 32: {
@@ -4466,7 +4497,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "errorType" field.</summary>
     public const int ErrorTypeFieldNumber = 8;
-    private global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType errorType_ = 0;
+    private global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType errorType_ = global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType.Assertion;
     /// <summary>
     //// Type of the Error. Valid values: ASSERTION, VERIFICATION. Default: ASSERTION
     /// </summary>
@@ -4572,7 +4603,7 @@ namespace Gauge.Messages {
       if (ScreenShot.Length != 0) hash ^= ScreenShot.GetHashCode();
       if (ExecutionTime != 0L) hash ^= ExecutionTime.GetHashCode();
       hash ^= message_.GetHashCode();
-      if (ErrorType != 0) hash ^= ErrorType.GetHashCode();
+      if (ErrorType != global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType.Assertion) hash ^= ErrorType.GetHashCode();
       if (FailureScreenshot.Length != 0) hash ^= FailureScreenshot.GetHashCode();
       hash ^= screenshots_.GetHashCode();
       if (FailureScreenshotFile.Length != 0) hash ^= FailureScreenshotFile.GetHashCode();
@@ -4615,7 +4646,7 @@ namespace Gauge.Messages {
         output.WriteInt64(ExecutionTime);
       }
       message_.WriteTo(output, _repeated_message_codec);
-      if (ErrorType != 0) {
+      if (ErrorType != global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType.Assertion) {
         output.WriteRawTag(64);
         output.WriteEnum((int) ErrorType);
       }
@@ -4656,7 +4687,7 @@ namespace Gauge.Messages {
         size += 1 + pb::CodedOutputStream.ComputeInt64Size(ExecutionTime);
       }
       size += message_.CalculateSize(_repeated_message_codec);
-      if (ErrorType != 0) {
+      if (ErrorType != global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType.Assertion) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ErrorType);
       }
       if (FailureScreenshot.Length != 0) {
@@ -4697,7 +4728,7 @@ namespace Gauge.Messages {
         ExecutionTime = other.ExecutionTime;
       }
       message_.Add(other.message_);
-      if (other.ErrorType != 0) {
+      if (other.ErrorType != global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType.Assertion) {
         ErrorType = other.ErrorType;
       }
       if (other.FailureScreenshot.Length != 0) {
@@ -4748,7 +4779,7 @@ namespace Gauge.Messages {
             break;
           }
           case 64: {
-            errorType_ = (global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType) input.ReadEnum();
+            ErrorType = (global::Gauge.Messages.ProtoExecutionResult.Types.ErrorType) input.ReadEnum();
             break;
           }
           case 74: {
@@ -5107,8 +5138,8 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoSuiteResult(ProtoSuiteResult other) : this() {
       specResults_ = other.specResults_.Clone();
-      PreHookFailure = other.preHookFailure_ != null ? other.PreHookFailure.Clone() : null;
-      PostHookFailure = other.postHookFailure_ != null ? other.PostHookFailure.Clone() : null;
+      preHookFailure_ = other.preHookFailure_ != null ? other.preHookFailure_.Clone() : null;
+      postHookFailure_ = other.postHookFailure_ != null ? other.postHookFailure_.Clone() : null;
       failed_ = other.failed_;
       specsFailedCount_ = other.specsFailedCount_;
       executionTime_ = other.executionTime_;
@@ -5643,13 +5674,13 @@ namespace Gauge.Messages {
       specResults_.Add(other.specResults_);
       if (other.preHookFailure_ != null) {
         if (preHookFailure_ == null) {
-          preHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+          PreHookFailure = new global::Gauge.Messages.ProtoHookFailure();
         }
         PreHookFailure.MergeFrom(other.PreHookFailure);
       }
       if (other.postHookFailure_ != null) {
         if (postHookFailure_ == null) {
-          postHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+          PostHookFailure = new global::Gauge.Messages.ProtoHookFailure();
         }
         PostHookFailure.MergeFrom(other.PostHookFailure);
       }
@@ -5711,16 +5742,16 @@ namespace Gauge.Messages {
           }
           case 18: {
             if (preHookFailure_ == null) {
-              preHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+              PreHookFailure = new global::Gauge.Messages.ProtoHookFailure();
             }
-            input.ReadMessage(preHookFailure_);
+            input.ReadMessage(PreHookFailure);
             break;
           }
           case 26: {
             if (postHookFailure_ == null) {
-              postHookFailure_ = new global::Gauge.Messages.ProtoHookFailure();
+              PostHookFailure = new global::Gauge.Messages.ProtoHookFailure();
             }
-            input.ReadMessage(postHookFailure_);
+            input.ReadMessage(PostHookFailure);
             break;
           }
           case 32: {
@@ -5833,7 +5864,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoSpecResult(ProtoSpecResult other) : this() {
-      ProtoSpec = other.protoSpec_ != null ? other.ProtoSpec.Clone() : null;
+      protoSpec_ = other.protoSpec_ != null ? other.protoSpec_.Clone() : null;
       scenarioCount_ = other.scenarioCount_;
       scenarioFailedCount_ = other.scenarioFailedCount_;
       failed_ = other.failed_;
@@ -6140,7 +6171,7 @@ namespace Gauge.Messages {
       }
       if (other.protoSpec_ != null) {
         if (protoSpec_ == null) {
-          protoSpec_ = new global::Gauge.Messages.ProtoSpec();
+          ProtoSpec = new global::Gauge.Messages.ProtoSpec();
         }
         ProtoSpec.MergeFrom(other.ProtoSpec);
       }
@@ -6181,9 +6212,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (protoSpec_ == null) {
-              protoSpec_ = new global::Gauge.Messages.ProtoSpec();
+              ProtoSpec = new global::Gauge.Messages.ProtoSpec();
             }
-            input.ReadMessage(protoSpec_);
+            input.ReadMessage(ProtoSpec);
             break;
           }
           case 16: {
@@ -6262,7 +6293,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoScenarioResult(ProtoScenarioResult other) : this() {
-      ProtoItem = other.protoItem_ != null ? other.ProtoItem.Clone() : null;
+      protoItem_ = other.protoItem_ != null ? other.protoItem_.Clone() : null;
       executionTime_ = other.executionTime_;
       timestamp_ = other.timestamp_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -6395,7 +6426,7 @@ namespace Gauge.Messages {
       }
       if (other.protoItem_ != null) {
         if (protoItem_ == null) {
-          protoItem_ = new global::Gauge.Messages.ProtoItem();
+          ProtoItem = new global::Gauge.Messages.ProtoItem();
         }
         ProtoItem.MergeFrom(other.ProtoItem);
       }
@@ -6418,9 +6449,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (protoItem_ == null) {
-              protoItem_ = new global::Gauge.Messages.ProtoItem();
+              ProtoItem = new global::Gauge.Messages.ProtoItem();
             }
-            input.ReadMessage(protoItem_);
+            input.ReadMessage(ProtoItem);
             break;
           }
           case 16: {
@@ -6465,7 +6496,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ProtoStepResult(ProtoStepResult other) : this() {
-      ProtoItem = other.protoItem_ != null ? other.ProtoItem.Clone() : null;
+      protoItem_ = other.protoItem_ != null ? other.protoItem_.Clone() : null;
       executionTime_ = other.executionTime_;
       timestamp_ = other.timestamp_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -6598,7 +6629,7 @@ namespace Gauge.Messages {
       }
       if (other.protoItem_ != null) {
         if (protoItem_ == null) {
-          protoItem_ = new global::Gauge.Messages.ProtoItem();
+          ProtoItem = new global::Gauge.Messages.ProtoItem();
         }
         ProtoItem.MergeFrom(other.ProtoItem);
       }
@@ -6621,9 +6652,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (protoItem_ == null) {
-              protoItem_ = new global::Gauge.Messages.ProtoItem();
+              ProtoItem = new global::Gauge.Messages.ProtoItem();
             }
-            input.ReadMessage(protoItem_);
+            input.ReadMessage(ProtoItem);
             break;
           }
           case 16: {
@@ -6682,7 +6713,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "type" field.</summary>
     public const int TypeFieldNumber = 1;
-    private global::Gauge.Messages.Error.Types.ErrorType type_ = 0;
+    private global::Gauge.Messages.Error.Types.ErrorType type_ = global::Gauge.Messages.Error.Types.ErrorType.ParseError;
     /// <summary>
     //// Holds the type of error
     /// </summary>
@@ -6759,7 +6790,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (Type != 0) hash ^= Type.GetHashCode();
+      if (Type != global::Gauge.Messages.Error.Types.ErrorType.ParseError) hash ^= Type.GetHashCode();
       if (Filename.Length != 0) hash ^= Filename.GetHashCode();
       if (LineNumber != 0) hash ^= LineNumber.GetHashCode();
       if (Message.Length != 0) hash ^= Message.GetHashCode();
@@ -6776,7 +6807,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (Type != 0) {
+      if (Type != global::Gauge.Messages.Error.Types.ErrorType.ParseError) {
         output.WriteRawTag(8);
         output.WriteEnum((int) Type);
       }
@@ -6800,7 +6831,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (Type != 0) {
+      if (Type != global::Gauge.Messages.Error.Types.ErrorType.ParseError) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Type);
       }
       if (Filename.Length != 0) {
@@ -6823,7 +6854,7 @@ namespace Gauge.Messages {
       if (other == null) {
         return;
       }
-      if (other.Type != 0) {
+      if (other.Type != global::Gauge.Messages.Error.Types.ErrorType.ParseError) {
         Type = other.Type;
       }
       if (other.Filename.Length != 0) {
@@ -6847,7 +6878,7 @@ namespace Gauge.Messages {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            type_ = (global::Gauge.Messages.Error.Types.ErrorType) input.ReadEnum();
+            Type = (global::Gauge.Messages.Error.Types.ErrorType) input.ReadEnum();
             break;
           }
           case 18: {
