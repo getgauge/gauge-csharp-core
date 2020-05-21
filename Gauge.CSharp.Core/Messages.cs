@@ -213,53 +213,53 @@ namespace Gauge.Messages {
             "cy5nYXVnZaoCDkdhdWdlLk1lc3NhZ2VzYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Gauge.Messages.SpecReflection.Descriptor, },
-          new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.KillProcessRequest), global::Gauge.Messages.KillProcessRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionStatusResponse), global::Gauge.Messages.ExecutionStatusResponse.Parser, new[]{ "ExecutionResult" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionStartingRequest), global::Gauge.Messages.ExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "SuiteResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionEndingRequest), global::Gauge.Messages.ExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "SuiteResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionStartingRequest), global::Gauge.Messages.SpecExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "SpecResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionEndingRequest), global::Gauge.Messages.SpecExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "SpecResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionStartingRequest), global::Gauge.Messages.ScenarioExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "ScenarioResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionEndingRequest), global::Gauge.Messages.ScenarioExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "ScenarioResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionStartingRequest), global::Gauge.Messages.StepExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "StepResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionEndingRequest), global::Gauge.Messages.StepExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "StepResult", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionArg), global::Gauge.Messages.ExecutionArg.Parser, new[]{ "FlagName", "FlagValue" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionInfo), global::Gauge.Messages.ExecutionInfo.Parser, new[]{ "CurrentSpec", "CurrentScenario", "CurrentStep", "Stacktrace", "ProjectName", "ExecutionArgs", "NumberOfExecutionStreams", "RunnerId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecInfo), global::Gauge.Messages.SpecInfo.Parser, new[]{ "Name", "FileName", "IsFailed", "Tags" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioInfo), global::Gauge.Messages.ScenarioInfo.Parser, new[]{ "Name", "IsFailed", "Tags" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepInfo), global::Gauge.Messages.StepInfo.Parser, new[]{ "Step", "IsFailed", "StackTrace", "ErrorMessage" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecuteStepRequest), global::Gauge.Messages.ExecuteStepRequest.Parser, new[]{ "ActualStepText", "ParsedStepText", "ScenarioFailing", "Parameters", "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepValidateRequest), global::Gauge.Messages.StepValidateRequest.Parser, new[]{ "StepText", "NumberOfParameters", "StepValue" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepValidateResponse), global::Gauge.Messages.StepValidateResponse.Parser, new[]{ "IsValid", "ErrorMessage", "ErrorType", "Suggestion" }, null, new[]{ typeof(global::Gauge.Messages.StepValidateResponse.Types.ErrorType) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteExecutionResult), global::Gauge.Messages.SuiteExecutionResult.Parser, new[]{ "SuiteResult" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteExecutionResultItem), global::Gauge.Messages.SuiteExecutionResultItem.Parser, new[]{ "ResultItem" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNamesRequest), global::Gauge.Messages.StepNamesRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNamesResponse), global::Gauge.Messages.StepNamesResponse.Parser, new[]{ "Steps" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioDataStoreInitRequest), global::Gauge.Messages.ScenarioDataStoreInitRequest.Parser, new[]{ "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecDataStoreInitRequest), global::Gauge.Messages.SpecDataStoreInitRequest.Parser, new[]{ "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteDataStoreInitRequest), global::Gauge.Messages.SuiteDataStoreInitRequest.Parser, new[]{ "Stream" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ParameterPosition), global::Gauge.Messages.ParameterPosition.Parser, new[]{ "OldPosition", "NewPosition" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.RefactorRequest), global::Gauge.Messages.RefactorRequest.Parser, new[]{ "OldStepValue", "NewStepValue", "ParamPositions", "SaveChanges" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FileChanges), global::Gauge.Messages.FileChanges.Parser, new[]{ "FileName", "FileContent", "Diffs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.RefactorResponse), global::Gauge.Messages.RefactorResponse.Parser, new[]{ "Success", "Error", "FilesChanged", "FileChanges" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNameRequest), global::Gauge.Messages.StepNameRequest.Parser, new[]{ "StepValue" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNameResponse), global::Gauge.Messages.StepNameResponse.Parser, new[]{ "IsStepPresent", "StepName", "HasAlias", "FileName", "Span", "IsExternal" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.UnsupportedMessageResponse), global::Gauge.Messages.UnsupportedMessageResponse.Parser, new[]{ "Message" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.CacheFileRequest), global::Gauge.Messages.CacheFileRequest.Parser, new[]{ "Content", "FilePath", "IsClosed", "Status" }, null, new[]{ typeof(global::Gauge.Messages.CacheFileRequest.Types.FileStatus) }, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepPositionsRequest), global::Gauge.Messages.StepPositionsRequest.Parser, new[]{ "FilePath" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepPositionsResponse), global::Gauge.Messages.StepPositionsResponse.Parser, new[]{ "StepPositions", "Error" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepPositionsResponse.Types.StepPosition), global::Gauge.Messages.StepPositionsResponse.Types.StepPosition.Parser, new[]{ "StepValue", "Span" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileGlobPatternRequest), global::Gauge.Messages.ImplementationFileGlobPatternRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileGlobPatternResponse), global::Gauge.Messages.ImplementationFileGlobPatternResponse.Parser, new[]{ "GlobPatterns" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileListRequest), global::Gauge.Messages.ImplementationFileListRequest.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileListResponse), global::Gauge.Messages.ImplementationFileListResponse.Parser, new[]{ "ImplementationFilePaths" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StubImplementationCodeRequest), global::Gauge.Messages.StubImplementationCodeRequest.Parser, new[]{ "ImplementationFilePath", "Codes" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.TextDiff), global::Gauge.Messages.TextDiff.Parser, new[]{ "Span", "Content" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FileDiff), global::Gauge.Messages.FileDiff.Parser, new[]{ "FilePath", "TextDiffs" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.KeepAlive), global::Gauge.Messages.KeepAlive.Parser, new[]{ "PluginId" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecDetails), global::Gauge.Messages.SpecDetails.Parser, new[]{ "Details" }, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecDetails.Types.SpecDetail), global::Gauge.Messages.SpecDetails.Types.SpecDetail.Parser, new[]{ "Spec", "ParseErrors" }, null, null, null)}),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Empty), global::Gauge.Messages.Empty.Parser, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Message), global::Gauge.Messages.Message.Parser, new[]{ "MessageType", "MessageId", "ExecutionStartingRequest", "SpecExecutionStartingRequest", "SpecExecutionEndingRequest", "ScenarioExecutionStartingRequest", "ScenarioExecutionEndingRequest", "StepExecutionStartingRequest", "StepExecutionEndingRequest", "ExecuteStepRequest", "ExecutionEndingRequest", "StepValidateRequest", "StepValidateResponse", "ExecutionStatusResponse", "StepNamesRequest", "StepNamesResponse", "SuiteExecutionResult", "KillProcessRequest", "ScenarioDataStoreInitRequest", "SpecDataStoreInitRequest", "SuiteDataStoreInitRequest", "StepNameRequest", "StepNameResponse", "RefactorRequest", "RefactorResponse", "UnsupportedMessageResponse", "CacheFileRequest", "StepPositionsRequest", "StepPositionsResponse", "ImplementationFileListRequest", "ImplementationFileListResponse", "StubImplementationCodeRequest", "FileDiff", "ImplementationFileGlobPatternRequest", "ImplementationFileGlobPatternResponse", "SuiteExecutionResultItem", "KeepAlive" }, null, new[]{ typeof(global::Gauge.Messages.Message.Types.MessageType) }, null)
+          new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.KillProcessRequest), global::Gauge.Messages.KillProcessRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionStatusResponse), global::Gauge.Messages.ExecutionStatusResponse.Parser, new[]{ "ExecutionResult" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionStartingRequest), global::Gauge.Messages.ExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "SuiteResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionEndingRequest), global::Gauge.Messages.ExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "SuiteResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionStartingRequest), global::Gauge.Messages.SpecExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "SpecResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecExecutionEndingRequest), global::Gauge.Messages.SpecExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "SpecResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionStartingRequest), global::Gauge.Messages.ScenarioExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "ScenarioResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioExecutionEndingRequest), global::Gauge.Messages.ScenarioExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "ScenarioResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionStartingRequest), global::Gauge.Messages.StepExecutionStartingRequest.Parser, new[]{ "CurrentExecutionInfo", "StepResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepExecutionEndingRequest), global::Gauge.Messages.StepExecutionEndingRequest.Parser, new[]{ "CurrentExecutionInfo", "StepResult", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionArg), global::Gauge.Messages.ExecutionArg.Parser, new[]{ "FlagName", "FlagValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecutionInfo), global::Gauge.Messages.ExecutionInfo.Parser, new[]{ "CurrentSpec", "CurrentScenario", "CurrentStep", "Stacktrace", "ProjectName", "ExecutionArgs", "NumberOfExecutionStreams", "RunnerId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecInfo), global::Gauge.Messages.SpecInfo.Parser, new[]{ "Name", "FileName", "IsFailed", "Tags" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioInfo), global::Gauge.Messages.ScenarioInfo.Parser, new[]{ "Name", "IsFailed", "Tags" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepInfo), global::Gauge.Messages.StepInfo.Parser, new[]{ "Step", "IsFailed", "StackTrace", "ErrorMessage" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ExecuteStepRequest), global::Gauge.Messages.ExecuteStepRequest.Parser, new[]{ "ActualStepText", "ParsedStepText", "ScenarioFailing", "Parameters", "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepValidateRequest), global::Gauge.Messages.StepValidateRequest.Parser, new[]{ "StepText", "NumberOfParameters", "StepValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepValidateResponse), global::Gauge.Messages.StepValidateResponse.Parser, new[]{ "IsValid", "ErrorMessage", "ErrorType", "Suggestion" }, null, new[]{ typeof(global::Gauge.Messages.StepValidateResponse.Types.ErrorType) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteExecutionResult), global::Gauge.Messages.SuiteExecutionResult.Parser, new[]{ "SuiteResult" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteExecutionResultItem), global::Gauge.Messages.SuiteExecutionResultItem.Parser, new[]{ "ResultItem" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNamesRequest), global::Gauge.Messages.StepNamesRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNamesResponse), global::Gauge.Messages.StepNamesResponse.Parser, new[]{ "Steps" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ScenarioDataStoreInitRequest), global::Gauge.Messages.ScenarioDataStoreInitRequest.Parser, new[]{ "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecDataStoreInitRequest), global::Gauge.Messages.SpecDataStoreInitRequest.Parser, new[]{ "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SuiteDataStoreInitRequest), global::Gauge.Messages.SuiteDataStoreInitRequest.Parser, new[]{ "Stream" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ParameterPosition), global::Gauge.Messages.ParameterPosition.Parser, new[]{ "OldPosition", "NewPosition" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.RefactorRequest), global::Gauge.Messages.RefactorRequest.Parser, new[]{ "OldStepValue", "NewStepValue", "ParamPositions", "SaveChanges" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FileChanges), global::Gauge.Messages.FileChanges.Parser, new[]{ "FileName", "FileContent", "Diffs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.RefactorResponse), global::Gauge.Messages.RefactorResponse.Parser, new[]{ "Success", "Error", "FilesChanged", "FileChanges" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNameRequest), global::Gauge.Messages.StepNameRequest.Parser, new[]{ "StepValue" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepNameResponse), global::Gauge.Messages.StepNameResponse.Parser, new[]{ "IsStepPresent", "StepName", "HasAlias", "FileName", "Span", "IsExternal" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.UnsupportedMessageResponse), global::Gauge.Messages.UnsupportedMessageResponse.Parser, new[]{ "Message" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.CacheFileRequest), global::Gauge.Messages.CacheFileRequest.Parser, new[]{ "Content", "FilePath", "IsClosed", "Status" }, null, new[]{ typeof(global::Gauge.Messages.CacheFileRequest.Types.FileStatus) }, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepPositionsRequest), global::Gauge.Messages.StepPositionsRequest.Parser, new[]{ "FilePath" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepPositionsResponse), global::Gauge.Messages.StepPositionsResponse.Parser, new[]{ "StepPositions", "Error" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StepPositionsResponse.Types.StepPosition), global::Gauge.Messages.StepPositionsResponse.Types.StepPosition.Parser, new[]{ "StepValue", "Span" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileGlobPatternRequest), global::Gauge.Messages.ImplementationFileGlobPatternRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileGlobPatternResponse), global::Gauge.Messages.ImplementationFileGlobPatternResponse.Parser, new[]{ "GlobPatterns" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileListRequest), global::Gauge.Messages.ImplementationFileListRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.ImplementationFileListResponse), global::Gauge.Messages.ImplementationFileListResponse.Parser, new[]{ "ImplementationFilePaths" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.StubImplementationCodeRequest), global::Gauge.Messages.StubImplementationCodeRequest.Parser, new[]{ "ImplementationFilePath", "Codes" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.TextDiff), global::Gauge.Messages.TextDiff.Parser, new[]{ "Span", "Content" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.FileDiff), global::Gauge.Messages.FileDiff.Parser, new[]{ "FilePath", "TextDiffs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.KeepAlive), global::Gauge.Messages.KeepAlive.Parser, new[]{ "PluginId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecDetails), global::Gauge.Messages.SpecDetails.Parser, new[]{ "Details" }, null, null, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.SpecDetails.Types.SpecDetail), global::Gauge.Messages.SpecDetails.Types.SpecDetail.Parser, new[]{ "Spec", "ParseErrors" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Empty), global::Gauge.Messages.Empty.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Gauge.Messages.Message), global::Gauge.Messages.Message.Parser, new[]{ "MessageType", "MessageId", "ExecutionStartingRequest", "SpecExecutionStartingRequest", "SpecExecutionEndingRequest", "ScenarioExecutionStartingRequest", "ScenarioExecutionEndingRequest", "StepExecutionStartingRequest", "StepExecutionEndingRequest", "ExecuteStepRequest", "ExecutionEndingRequest", "StepValidateRequest", "StepValidateResponse", "ExecutionStatusResponse", "StepNamesRequest", "StepNamesResponse", "SuiteExecutionResult", "KillProcessRequest", "ScenarioDataStoreInitRequest", "SpecDataStoreInitRequest", "SuiteDataStoreInitRequest", "StepNameRequest", "StepNameResponse", "RefactorRequest", "RefactorResponse", "UnsupportedMessageResponse", "CacheFileRequest", "StepPositionsRequest", "StepPositionsResponse", "ImplementationFileListRequest", "ImplementationFileListResponse", "StubImplementationCodeRequest", "FileDiff", "ImplementationFileGlobPatternRequest", "ImplementationFileGlobPatternResponse", "SuiteExecutionResultItem", "KeepAlive" }, null, new[]{ typeof(global::Gauge.Messages.Message.Types.MessageType) }, null, null)
           }));
     }
     #endregion
@@ -399,7 +399,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ExecutionStatusResponse(ExecutionStatusResponse other) : this() {
-      ExecutionResult = other.executionResult_ != null ? other.ExecutionResult.Clone() : null;
+      executionResult_ = other.executionResult_ != null ? other.executionResult_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -484,7 +484,7 @@ namespace Gauge.Messages {
       }
       if (other.executionResult_ != null) {
         if (executionResult_ == null) {
-          executionResult_ = new global::Gauge.Messages.ProtoExecutionResult();
+          ExecutionResult = new global::Gauge.Messages.ProtoExecutionResult();
         }
         ExecutionResult.MergeFrom(other.ExecutionResult);
       }
@@ -501,9 +501,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (executionResult_ == null) {
-              executionResult_ = new global::Gauge.Messages.ProtoExecutionResult();
+              ExecutionResult = new global::Gauge.Messages.ProtoExecutionResult();
             }
-            input.ReadMessage(executionResult_);
+            input.ReadMessage(ExecutionResult);
             break;
           }
         }
@@ -540,8 +540,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ExecutionStartingRequest(ExecutionStartingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      SuiteResult = other.suiteResult_ != null ? other.SuiteResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      suiteResult_ = other.suiteResult_ != null ? other.suiteResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -671,13 +671,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.suiteResult_ != null) {
         if (suiteResult_ == null) {
-          suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+          SuiteResult = new global::Gauge.Messages.ProtoSuiteResult();
         }
         SuiteResult.MergeFrom(other.SuiteResult);
       }
@@ -697,16 +697,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (suiteResult_ == null) {
-              suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+              SuiteResult = new global::Gauge.Messages.ProtoSuiteResult();
             }
-            input.ReadMessage(suiteResult_);
+            input.ReadMessage(SuiteResult);
             break;
           }
           case 24: {
@@ -747,8 +747,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ExecutionEndingRequest(ExecutionEndingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      SuiteResult = other.suiteResult_ != null ? other.SuiteResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      suiteResult_ = other.suiteResult_ != null ? other.suiteResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -877,13 +877,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.suiteResult_ != null) {
         if (suiteResult_ == null) {
-          suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+          SuiteResult = new global::Gauge.Messages.ProtoSuiteResult();
         }
         SuiteResult.MergeFrom(other.SuiteResult);
       }
@@ -903,16 +903,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (suiteResult_ == null) {
-              suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+              SuiteResult = new global::Gauge.Messages.ProtoSuiteResult();
             }
-            input.ReadMessage(suiteResult_);
+            input.ReadMessage(SuiteResult);
             break;
           }
           case 24: {
@@ -953,8 +953,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SpecExecutionStartingRequest(SpecExecutionStartingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      SpecResult = other.specResult_ != null ? other.SpecResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      specResult_ = other.specResult_ != null ? other.specResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1084,13 +1084,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.specResult_ != null) {
         if (specResult_ == null) {
-          specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+          SpecResult = new global::Gauge.Messages.ProtoSpecResult();
         }
         SpecResult.MergeFrom(other.SpecResult);
       }
@@ -1110,16 +1110,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (specResult_ == null) {
-              specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+              SpecResult = new global::Gauge.Messages.ProtoSpecResult();
             }
-            input.ReadMessage(specResult_);
+            input.ReadMessage(SpecResult);
             break;
           }
           case 24: {
@@ -1160,8 +1160,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SpecExecutionEndingRequest(SpecExecutionEndingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      SpecResult = other.specResult_ != null ? other.SpecResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      specResult_ = other.specResult_ != null ? other.specResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1290,13 +1290,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.specResult_ != null) {
         if (specResult_ == null) {
-          specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+          SpecResult = new global::Gauge.Messages.ProtoSpecResult();
         }
         SpecResult.MergeFrom(other.SpecResult);
       }
@@ -1316,16 +1316,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (specResult_ == null) {
-              specResult_ = new global::Gauge.Messages.ProtoSpecResult();
+              SpecResult = new global::Gauge.Messages.ProtoSpecResult();
             }
-            input.ReadMessage(specResult_);
+            input.ReadMessage(SpecResult);
             break;
           }
           case 24: {
@@ -1366,8 +1366,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ScenarioExecutionStartingRequest(ScenarioExecutionStartingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      ScenarioResult = other.scenarioResult_ != null ? other.ScenarioResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      scenarioResult_ = other.scenarioResult_ != null ? other.scenarioResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1497,13 +1497,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.scenarioResult_ != null) {
         if (scenarioResult_ == null) {
-          scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+          ScenarioResult = new global::Gauge.Messages.ProtoScenarioResult();
         }
         ScenarioResult.MergeFrom(other.ScenarioResult);
       }
@@ -1523,16 +1523,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (scenarioResult_ == null) {
-              scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+              ScenarioResult = new global::Gauge.Messages.ProtoScenarioResult();
             }
-            input.ReadMessage(scenarioResult_);
+            input.ReadMessage(ScenarioResult);
             break;
           }
           case 24: {
@@ -1573,8 +1573,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ScenarioExecutionEndingRequest(ScenarioExecutionEndingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      ScenarioResult = other.scenarioResult_ != null ? other.ScenarioResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      scenarioResult_ = other.scenarioResult_ != null ? other.scenarioResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1700,13 +1700,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.scenarioResult_ != null) {
         if (scenarioResult_ == null) {
-          scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+          ScenarioResult = new global::Gauge.Messages.ProtoScenarioResult();
         }
         ScenarioResult.MergeFrom(other.ScenarioResult);
       }
@@ -1726,16 +1726,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (scenarioResult_ == null) {
-              scenarioResult_ = new global::Gauge.Messages.ProtoScenarioResult();
+              ScenarioResult = new global::Gauge.Messages.ProtoScenarioResult();
             }
-            input.ReadMessage(scenarioResult_);
+            input.ReadMessage(ScenarioResult);
             break;
           }
           case 24: {
@@ -1776,8 +1776,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StepExecutionStartingRequest(StepExecutionStartingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      StepResult = other.stepResult_ != null ? other.StepResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      stepResult_ = other.stepResult_ != null ? other.stepResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -1907,13 +1907,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.stepResult_ != null) {
         if (stepResult_ == null) {
-          stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+          StepResult = new global::Gauge.Messages.ProtoStepResult();
         }
         StepResult.MergeFrom(other.StepResult);
       }
@@ -1933,16 +1933,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (stepResult_ == null) {
-              stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+              StepResult = new global::Gauge.Messages.ProtoStepResult();
             }
-            input.ReadMessage(stepResult_);
+            input.ReadMessage(StepResult);
             break;
           }
           case 24: {
@@ -1983,8 +1983,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StepExecutionEndingRequest(StepExecutionEndingRequest other) : this() {
-      CurrentExecutionInfo = other.currentExecutionInfo_ != null ? other.CurrentExecutionInfo.Clone() : null;
-      StepResult = other.stepResult_ != null ? other.StepResult.Clone() : null;
+      currentExecutionInfo_ = other.currentExecutionInfo_ != null ? other.currentExecutionInfo_.Clone() : null;
+      stepResult_ = other.stepResult_ != null ? other.stepResult_.Clone() : null;
       stream_ = other.stream_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -2113,13 +2113,13 @@ namespace Gauge.Messages {
       }
       if (other.currentExecutionInfo_ != null) {
         if (currentExecutionInfo_ == null) {
-          currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+          CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
         }
         CurrentExecutionInfo.MergeFrom(other.CurrentExecutionInfo);
       }
       if (other.stepResult_ != null) {
         if (stepResult_ == null) {
-          stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+          StepResult = new global::Gauge.Messages.ProtoStepResult();
         }
         StepResult.MergeFrom(other.StepResult);
       }
@@ -2139,16 +2139,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentExecutionInfo_ == null) {
-              currentExecutionInfo_ = new global::Gauge.Messages.ExecutionInfo();
+              CurrentExecutionInfo = new global::Gauge.Messages.ExecutionInfo();
             }
-            input.ReadMessage(currentExecutionInfo_);
+            input.ReadMessage(CurrentExecutionInfo);
             break;
           }
           case 18: {
             if (stepResult_ == null) {
-              stepResult_ = new global::Gauge.Messages.ProtoStepResult();
+              StepResult = new global::Gauge.Messages.ProtoStepResult();
             }
-            input.ReadMessage(stepResult_);
+            input.ReadMessage(StepResult);
             break;
           }
           case 24: {
@@ -2348,9 +2348,9 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public ExecutionInfo(ExecutionInfo other) : this() {
-      CurrentSpec = other.currentSpec_ != null ? other.CurrentSpec.Clone() : null;
-      CurrentScenario = other.currentScenario_ != null ? other.CurrentScenario.Clone() : null;
-      CurrentStep = other.currentStep_ != null ? other.CurrentStep.Clone() : null;
+      currentSpec_ = other.currentSpec_ != null ? other.currentSpec_.Clone() : null;
+      currentScenario_ = other.currentScenario_ != null ? other.currentScenario_.Clone() : null;
+      currentStep_ = other.currentStep_ != null ? other.currentStep_.Clone() : null;
       stacktrace_ = other.stacktrace_;
       projectName_ = other.projectName_;
       executionArgs_ = other.executionArgs_.Clone();
@@ -2595,19 +2595,19 @@ namespace Gauge.Messages {
       }
       if (other.currentSpec_ != null) {
         if (currentSpec_ == null) {
-          currentSpec_ = new global::Gauge.Messages.SpecInfo();
+          CurrentSpec = new global::Gauge.Messages.SpecInfo();
         }
         CurrentSpec.MergeFrom(other.CurrentSpec);
       }
       if (other.currentScenario_ != null) {
         if (currentScenario_ == null) {
-          currentScenario_ = new global::Gauge.Messages.ScenarioInfo();
+          CurrentScenario = new global::Gauge.Messages.ScenarioInfo();
         }
         CurrentScenario.MergeFrom(other.CurrentScenario);
       }
       if (other.currentStep_ != null) {
         if (currentStep_ == null) {
-          currentStep_ = new global::Gauge.Messages.StepInfo();
+          CurrentStep = new global::Gauge.Messages.StepInfo();
         }
         CurrentStep.MergeFrom(other.CurrentStep);
       }
@@ -2637,23 +2637,23 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (currentSpec_ == null) {
-              currentSpec_ = new global::Gauge.Messages.SpecInfo();
+              CurrentSpec = new global::Gauge.Messages.SpecInfo();
             }
-            input.ReadMessage(currentSpec_);
+            input.ReadMessage(CurrentSpec);
             break;
           }
           case 18: {
             if (currentScenario_ == null) {
-              currentScenario_ = new global::Gauge.Messages.ScenarioInfo();
+              CurrentScenario = new global::Gauge.Messages.ScenarioInfo();
             }
-            input.ReadMessage(currentScenario_);
+            input.ReadMessage(CurrentScenario);
             break;
           }
           case 26: {
             if (currentStep_ == null) {
-              currentStep_ = new global::Gauge.Messages.StepInfo();
+              CurrentStep = new global::Gauge.Messages.StepInfo();
             }
-            input.ReadMessage(currentStep_);
+            input.ReadMessage(CurrentStep);
             break;
           }
           case 34: {
@@ -3119,7 +3119,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public StepInfo(StepInfo other) : this() {
-      Step = other.step_ != null ? other.Step.Clone() : null;
+      step_ = other.step_ != null ? other.step_.Clone() : null;
       isFailed_ = other.isFailed_;
       stackTrace_ = other.stackTrace_;
       errorMessage_ = other.errorMessage_;
@@ -3276,7 +3276,7 @@ namespace Gauge.Messages {
       }
       if (other.step_ != null) {
         if (step_ == null) {
-          step_ = new global::Gauge.Messages.ExecuteStepRequest();
+          Step = new global::Gauge.Messages.ExecuteStepRequest();
         }
         Step.MergeFrom(other.Step);
       }
@@ -3302,9 +3302,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (step_ == null) {
-              step_ = new global::Gauge.Messages.ExecuteStepRequest();
+              Step = new global::Gauge.Messages.ExecuteStepRequest();
             }
-            input.ReadMessage(step_);
+            input.ReadMessage(Step);
             break;
           }
           case 16: {
@@ -3606,7 +3606,7 @@ namespace Gauge.Messages {
     public StepValidateRequest(StepValidateRequest other) : this() {
       stepText_ = other.stepText_;
       numberOfParameters_ = other.numberOfParameters_;
-      StepValue = other.stepValue_ != null ? other.StepValue.Clone() : null;
+      stepValue_ = other.stepValue_ != null ? other.stepValue_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -3743,7 +3743,7 @@ namespace Gauge.Messages {
       }
       if (other.stepValue_ != null) {
         if (stepValue_ == null) {
-          stepValue_ = new global::Gauge.Messages.ProtoStepValue();
+          StepValue = new global::Gauge.Messages.ProtoStepValue();
         }
         StepValue.MergeFrom(other.StepValue);
       }
@@ -3768,9 +3768,9 @@ namespace Gauge.Messages {
           }
           case 26: {
             if (stepValue_ == null) {
-              stepValue_ = new global::Gauge.Messages.ProtoStepValue();
+              StepValue = new global::Gauge.Messages.ProtoStepValue();
             }
-            input.ReadMessage(stepValue_);
+            input.ReadMessage(StepValue);
             break;
           }
         }
@@ -3846,7 +3846,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "errorType" field.</summary>
     public const int ErrorTypeFieldNumber = 3;
-    private global::Gauge.Messages.StepValidateResponse.Types.ErrorType errorType_ = 0;
+    private global::Gauge.Messages.StepValidateResponse.Types.ErrorType errorType_ = global::Gauge.Messages.StepValidateResponse.Types.ErrorType.StepImplementationNotFound;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.StepValidateResponse.Types.ErrorType ErrorType {
       get { return errorType_; }
@@ -3891,7 +3891,7 @@ namespace Gauge.Messages {
       int hash = 1;
       if (IsValid != false) hash ^= IsValid.GetHashCode();
       if (ErrorMessage.Length != 0) hash ^= ErrorMessage.GetHashCode();
-      if (ErrorType != 0) hash ^= ErrorType.GetHashCode();
+      if (ErrorType != global::Gauge.Messages.StepValidateResponse.Types.ErrorType.StepImplementationNotFound) hash ^= ErrorType.GetHashCode();
       if (Suggestion.Length != 0) hash ^= Suggestion.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -3914,7 +3914,7 @@ namespace Gauge.Messages {
         output.WriteRawTag(18);
         output.WriteString(ErrorMessage);
       }
-      if (ErrorType != 0) {
+      if (ErrorType != global::Gauge.Messages.StepValidateResponse.Types.ErrorType.StepImplementationNotFound) {
         output.WriteRawTag(24);
         output.WriteEnum((int) ErrorType);
       }
@@ -3936,7 +3936,7 @@ namespace Gauge.Messages {
       if (ErrorMessage.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ErrorMessage);
       }
-      if (ErrorType != 0) {
+      if (ErrorType != global::Gauge.Messages.StepValidateResponse.Types.ErrorType.StepImplementationNotFound) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) ErrorType);
       }
       if (Suggestion.Length != 0) {
@@ -3959,7 +3959,7 @@ namespace Gauge.Messages {
       if (other.ErrorMessage.Length != 0) {
         ErrorMessage = other.ErrorMessage;
       }
-      if (other.ErrorType != 0) {
+      if (other.ErrorType != global::Gauge.Messages.StepValidateResponse.Types.ErrorType.StepImplementationNotFound) {
         ErrorType = other.ErrorType;
       }
       if (other.Suggestion.Length != 0) {
@@ -3985,7 +3985,7 @@ namespace Gauge.Messages {
             break;
           }
           case 24: {
-            errorType_ = (global::Gauge.Messages.StepValidateResponse.Types.ErrorType) input.ReadEnum();
+            ErrorType = (global::Gauge.Messages.StepValidateResponse.Types.ErrorType) input.ReadEnum();
             break;
           }
           case 34: {
@@ -4038,7 +4038,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SuiteExecutionResult(SuiteExecutionResult other) : this() {
-      SuiteResult = other.suiteResult_ != null ? other.SuiteResult.Clone() : null;
+      suiteResult_ = other.suiteResult_ != null ? other.suiteResult_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4120,7 +4120,7 @@ namespace Gauge.Messages {
       }
       if (other.suiteResult_ != null) {
         if (suiteResult_ == null) {
-          suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+          SuiteResult = new global::Gauge.Messages.ProtoSuiteResult();
         }
         SuiteResult.MergeFrom(other.SuiteResult);
       }
@@ -4137,9 +4137,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (suiteResult_ == null) {
-              suiteResult_ = new global::Gauge.Messages.ProtoSuiteResult();
+              SuiteResult = new global::Gauge.Messages.ProtoSuiteResult();
             }
-            input.ReadMessage(suiteResult_);
+            input.ReadMessage(SuiteResult);
             break;
           }
         }
@@ -4173,7 +4173,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public SuiteExecutionResultItem(SuiteExecutionResultItem other) : this() {
-      ResultItem = other.resultItem_ != null ? other.ResultItem.Clone() : null;
+      resultItem_ = other.resultItem_ != null ? other.resultItem_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -4255,7 +4255,7 @@ namespace Gauge.Messages {
       }
       if (other.resultItem_ != null) {
         if (resultItem_ == null) {
-          resultItem_ = new global::Gauge.Messages.ProtoItem();
+          ResultItem = new global::Gauge.Messages.ProtoItem();
         }
         ResultItem.MergeFrom(other.ResultItem);
       }
@@ -4272,9 +4272,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (resultItem_ == null) {
-              resultItem_ = new global::Gauge.Messages.ProtoItem();
+              ResultItem = new global::Gauge.Messages.ProtoItem();
             }
-            input.ReadMessage(resultItem_);
+            input.ReadMessage(ResultItem);
             break;
           }
         }
@@ -5102,8 +5102,8 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public RefactorRequest(RefactorRequest other) : this() {
-      OldStepValue = other.oldStepValue_ != null ? other.OldStepValue.Clone() : null;
-      NewStepValue = other.newStepValue_ != null ? other.NewStepValue.Clone() : null;
+      oldStepValue_ = other.oldStepValue_ != null ? other.oldStepValue_.Clone() : null;
+      newStepValue_ = other.newStepValue_ != null ? other.newStepValue_.Clone() : null;
       paramPositions_ = other.paramPositions_.Clone();
       saveChanges_ = other.saveChanges_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
@@ -5253,13 +5253,13 @@ namespace Gauge.Messages {
       }
       if (other.oldStepValue_ != null) {
         if (oldStepValue_ == null) {
-          oldStepValue_ = new global::Gauge.Messages.ProtoStepValue();
+          OldStepValue = new global::Gauge.Messages.ProtoStepValue();
         }
         OldStepValue.MergeFrom(other.OldStepValue);
       }
       if (other.newStepValue_ != null) {
         if (newStepValue_ == null) {
-          newStepValue_ = new global::Gauge.Messages.ProtoStepValue();
+          NewStepValue = new global::Gauge.Messages.ProtoStepValue();
         }
         NewStepValue.MergeFrom(other.NewStepValue);
       }
@@ -5280,16 +5280,16 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (oldStepValue_ == null) {
-              oldStepValue_ = new global::Gauge.Messages.ProtoStepValue();
+              OldStepValue = new global::Gauge.Messages.ProtoStepValue();
             }
-            input.ReadMessage(oldStepValue_);
+            input.ReadMessage(OldStepValue);
             break;
           }
           case 18: {
             if (newStepValue_ == null) {
-              newStepValue_ = new global::Gauge.Messages.ProtoStepValue();
+              NewStepValue = new global::Gauge.Messages.ProtoStepValue();
             }
-            input.ReadMessage(newStepValue_);
+            input.ReadMessage(NewStepValue);
             break;
           }
           case 26: {
@@ -5867,7 +5867,7 @@ namespace Gauge.Messages {
       stepName_ = other.stepName_.Clone();
       hasAlias_ = other.hasAlias_;
       fileName_ = other.fileName_;
-      Span = other.span_ != null ? other.Span.Clone() : null;
+      span_ = other.span_ != null ? other.span_.Clone() : null;
       isExternal_ = other.isExternal_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -6072,7 +6072,7 @@ namespace Gauge.Messages {
       }
       if (other.span_ != null) {
         if (span_ == null) {
-          span_ = new global::Gauge.Messages.Span();
+          Span = new global::Gauge.Messages.Span();
         }
         Span.MergeFrom(other.Span);
       }
@@ -6108,9 +6108,9 @@ namespace Gauge.Messages {
           }
           case 42: {
             if (span_ == null) {
-              span_ = new global::Gauge.Messages.Span();
+              Span = new global::Gauge.Messages.Span();
             }
-            input.ReadMessage(span_);
+            input.ReadMessage(Span);
             break;
           }
           case 48: {
@@ -6341,7 +6341,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "status" field.</summary>
     public const int StatusFieldNumber = 4;
-    private global::Gauge.Messages.CacheFileRequest.Types.FileStatus status_ = 0;
+    private global::Gauge.Messages.CacheFileRequest.Types.FileStatus status_ = global::Gauge.Messages.CacheFileRequest.Types.FileStatus.Changed;
     /// <summary>
     //// Specifies the status of the file
     /// </summary>
@@ -6379,7 +6379,7 @@ namespace Gauge.Messages {
       if (Content.Length != 0) hash ^= Content.GetHashCode();
       if (FilePath.Length != 0) hash ^= FilePath.GetHashCode();
       if (IsClosed != false) hash ^= IsClosed.GetHashCode();
-      if (Status != 0) hash ^= Status.GetHashCode();
+      if (Status != global::Gauge.Messages.CacheFileRequest.Types.FileStatus.Changed) hash ^= Status.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -6405,7 +6405,7 @@ namespace Gauge.Messages {
         output.WriteRawTag(24);
         output.WriteBool(IsClosed);
       }
-      if (Status != 0) {
+      if (Status != global::Gauge.Messages.CacheFileRequest.Types.FileStatus.Changed) {
         output.WriteRawTag(32);
         output.WriteEnum((int) Status);
       }
@@ -6426,7 +6426,7 @@ namespace Gauge.Messages {
       if (IsClosed != false) {
         size += 1 + 1;
       }
-      if (Status != 0) {
+      if (Status != global::Gauge.Messages.CacheFileRequest.Types.FileStatus.Changed) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Status);
       }
       if (_unknownFields != null) {
@@ -6449,7 +6449,7 @@ namespace Gauge.Messages {
       if (other.IsClosed != false) {
         IsClosed = other.IsClosed;
       }
-      if (other.Status != 0) {
+      if (other.Status != global::Gauge.Messages.CacheFileRequest.Types.FileStatus.Changed) {
         Status = other.Status;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -6476,7 +6476,7 @@ namespace Gauge.Messages {
             break;
           }
           case 32: {
-            status_ = (global::Gauge.Messages.CacheFileRequest.Types.FileStatus) input.ReadEnum();
+            Status = (global::Gauge.Messages.CacheFileRequest.Types.FileStatus) input.ReadEnum();
             break;
           }
         }
@@ -6839,7 +6839,7 @@ namespace Gauge.Messages {
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public StepPosition(StepPosition other) : this() {
           stepValue_ = other.stepValue_;
-          Span = other.span_ != null ? other.Span.Clone() : null;
+          span_ = other.span_ != null ? other.span_.Clone() : null;
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
 
@@ -6950,7 +6950,7 @@ namespace Gauge.Messages {
           }
           if (other.span_ != null) {
             if (span_ == null) {
-              span_ = new global::Gauge.Messages.Span();
+              Span = new global::Gauge.Messages.Span();
             }
             Span.MergeFrom(other.Span);
           }
@@ -6971,9 +6971,9 @@ namespace Gauge.Messages {
               }
               case 18: {
                 if (span_ == null) {
-                  span_ = new global::Gauge.Messages.Span();
+                  Span = new global::Gauge.Messages.Span();
                 }
-                input.ReadMessage(span_);
+                input.ReadMessage(Span);
                 break;
               }
             }
@@ -7635,7 +7635,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public TextDiff(TextDiff other) : this() {
-      Span = other.span_ != null ? other.Span.Clone() : null;
+      span_ = other.span_ != null ? other.span_.Clone() : null;
       content_ = other.content_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
@@ -7744,7 +7744,7 @@ namespace Gauge.Messages {
       }
       if (other.span_ != null) {
         if (span_ == null) {
-          span_ = new global::Gauge.Messages.Span();
+          Span = new global::Gauge.Messages.Span();
         }
         Span.MergeFrom(other.Span);
       }
@@ -7764,9 +7764,9 @@ namespace Gauge.Messages {
             break;
           case 10: {
             if (span_ == null) {
-              span_ = new global::Gauge.Messages.Span();
+              Span = new global::Gauge.Messages.Span();
             }
-            input.ReadMessage(span_);
+            input.ReadMessage(Span);
             break;
           }
           case 18: {
@@ -8223,7 +8223,7 @@ namespace Gauge.Messages {
 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public SpecDetail(SpecDetail other) : this() {
-          Spec = other.spec_ != null ? other.Spec.Clone() : null;
+          spec_ = other.spec_ != null ? other.spec_.Clone() : null;
           parseErrors_ = other.parseErrors_.Clone();
           _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
         }
@@ -8326,7 +8326,7 @@ namespace Gauge.Messages {
           }
           if (other.spec_ != null) {
             if (spec_ == null) {
-              spec_ = new global::Gauge.Messages.ProtoSpec();
+              Spec = new global::Gauge.Messages.ProtoSpec();
             }
             Spec.MergeFrom(other.Spec);
           }
@@ -8344,9 +8344,9 @@ namespace Gauge.Messages {
                 break;
               case 10: {
                 if (spec_ == null) {
-                  spec_ = new global::Gauge.Messages.ProtoSpec();
+                  Spec = new global::Gauge.Messages.ProtoSpec();
                 }
-                input.ReadMessage(spec_);
+                input.ReadMessage(Spec);
                 break;
               }
               case 18: {
@@ -8500,41 +8500,41 @@ namespace Gauge.Messages {
     public Message(Message other) : this() {
       messageType_ = other.messageType_;
       messageId_ = other.messageId_;
-      ExecutionStartingRequest = other.executionStartingRequest_ != null ? other.ExecutionStartingRequest.Clone() : null;
-      SpecExecutionStartingRequest = other.specExecutionStartingRequest_ != null ? other.SpecExecutionStartingRequest.Clone() : null;
-      SpecExecutionEndingRequest = other.specExecutionEndingRequest_ != null ? other.SpecExecutionEndingRequest.Clone() : null;
-      ScenarioExecutionStartingRequest = other.scenarioExecutionStartingRequest_ != null ? other.ScenarioExecutionStartingRequest.Clone() : null;
-      ScenarioExecutionEndingRequest = other.scenarioExecutionEndingRequest_ != null ? other.ScenarioExecutionEndingRequest.Clone() : null;
-      StepExecutionStartingRequest = other.stepExecutionStartingRequest_ != null ? other.StepExecutionStartingRequest.Clone() : null;
-      StepExecutionEndingRequest = other.stepExecutionEndingRequest_ != null ? other.StepExecutionEndingRequest.Clone() : null;
-      ExecuteStepRequest = other.executeStepRequest_ != null ? other.ExecuteStepRequest.Clone() : null;
-      ExecutionEndingRequest = other.executionEndingRequest_ != null ? other.ExecutionEndingRequest.Clone() : null;
-      StepValidateRequest = other.stepValidateRequest_ != null ? other.StepValidateRequest.Clone() : null;
-      StepValidateResponse = other.stepValidateResponse_ != null ? other.StepValidateResponse.Clone() : null;
-      ExecutionStatusResponse = other.executionStatusResponse_ != null ? other.ExecutionStatusResponse.Clone() : null;
-      StepNamesRequest = other.stepNamesRequest_ != null ? other.StepNamesRequest.Clone() : null;
-      StepNamesResponse = other.stepNamesResponse_ != null ? other.StepNamesResponse.Clone() : null;
-      SuiteExecutionResult = other.suiteExecutionResult_ != null ? other.SuiteExecutionResult.Clone() : null;
-      KillProcessRequest = other.killProcessRequest_ != null ? other.KillProcessRequest.Clone() : null;
-      ScenarioDataStoreInitRequest = other.scenarioDataStoreInitRequest_ != null ? other.ScenarioDataStoreInitRequest.Clone() : null;
-      SpecDataStoreInitRequest = other.specDataStoreInitRequest_ != null ? other.SpecDataStoreInitRequest.Clone() : null;
-      SuiteDataStoreInitRequest = other.suiteDataStoreInitRequest_ != null ? other.SuiteDataStoreInitRequest.Clone() : null;
-      StepNameRequest = other.stepNameRequest_ != null ? other.StepNameRequest.Clone() : null;
-      StepNameResponse = other.stepNameResponse_ != null ? other.StepNameResponse.Clone() : null;
-      RefactorRequest = other.refactorRequest_ != null ? other.RefactorRequest.Clone() : null;
-      RefactorResponse = other.refactorResponse_ != null ? other.RefactorResponse.Clone() : null;
-      UnsupportedMessageResponse = other.unsupportedMessageResponse_ != null ? other.UnsupportedMessageResponse.Clone() : null;
-      CacheFileRequest = other.cacheFileRequest_ != null ? other.CacheFileRequest.Clone() : null;
-      StepPositionsRequest = other.stepPositionsRequest_ != null ? other.StepPositionsRequest.Clone() : null;
-      StepPositionsResponse = other.stepPositionsResponse_ != null ? other.StepPositionsResponse.Clone() : null;
-      ImplementationFileListRequest = other.implementationFileListRequest_ != null ? other.ImplementationFileListRequest.Clone() : null;
-      ImplementationFileListResponse = other.implementationFileListResponse_ != null ? other.ImplementationFileListResponse.Clone() : null;
-      StubImplementationCodeRequest = other.stubImplementationCodeRequest_ != null ? other.StubImplementationCodeRequest.Clone() : null;
-      FileDiff = other.fileDiff_ != null ? other.FileDiff.Clone() : null;
-      ImplementationFileGlobPatternRequest = other.implementationFileGlobPatternRequest_ != null ? other.ImplementationFileGlobPatternRequest.Clone() : null;
-      ImplementationFileGlobPatternResponse = other.implementationFileGlobPatternResponse_ != null ? other.ImplementationFileGlobPatternResponse.Clone() : null;
-      SuiteExecutionResultItem = other.suiteExecutionResultItem_ != null ? other.SuiteExecutionResultItem.Clone() : null;
-      KeepAlive = other.keepAlive_ != null ? other.KeepAlive.Clone() : null;
+      executionStartingRequest_ = other.executionStartingRequest_ != null ? other.executionStartingRequest_.Clone() : null;
+      specExecutionStartingRequest_ = other.specExecutionStartingRequest_ != null ? other.specExecutionStartingRequest_.Clone() : null;
+      specExecutionEndingRequest_ = other.specExecutionEndingRequest_ != null ? other.specExecutionEndingRequest_.Clone() : null;
+      scenarioExecutionStartingRequest_ = other.scenarioExecutionStartingRequest_ != null ? other.scenarioExecutionStartingRequest_.Clone() : null;
+      scenarioExecutionEndingRequest_ = other.scenarioExecutionEndingRequest_ != null ? other.scenarioExecutionEndingRequest_.Clone() : null;
+      stepExecutionStartingRequest_ = other.stepExecutionStartingRequest_ != null ? other.stepExecutionStartingRequest_.Clone() : null;
+      stepExecutionEndingRequest_ = other.stepExecutionEndingRequest_ != null ? other.stepExecutionEndingRequest_.Clone() : null;
+      executeStepRequest_ = other.executeStepRequest_ != null ? other.executeStepRequest_.Clone() : null;
+      executionEndingRequest_ = other.executionEndingRequest_ != null ? other.executionEndingRequest_.Clone() : null;
+      stepValidateRequest_ = other.stepValidateRequest_ != null ? other.stepValidateRequest_.Clone() : null;
+      stepValidateResponse_ = other.stepValidateResponse_ != null ? other.stepValidateResponse_.Clone() : null;
+      executionStatusResponse_ = other.executionStatusResponse_ != null ? other.executionStatusResponse_.Clone() : null;
+      stepNamesRequest_ = other.stepNamesRequest_ != null ? other.stepNamesRequest_.Clone() : null;
+      stepNamesResponse_ = other.stepNamesResponse_ != null ? other.stepNamesResponse_.Clone() : null;
+      suiteExecutionResult_ = other.suiteExecutionResult_ != null ? other.suiteExecutionResult_.Clone() : null;
+      killProcessRequest_ = other.killProcessRequest_ != null ? other.killProcessRequest_.Clone() : null;
+      scenarioDataStoreInitRequest_ = other.scenarioDataStoreInitRequest_ != null ? other.scenarioDataStoreInitRequest_.Clone() : null;
+      specDataStoreInitRequest_ = other.specDataStoreInitRequest_ != null ? other.specDataStoreInitRequest_.Clone() : null;
+      suiteDataStoreInitRequest_ = other.suiteDataStoreInitRequest_ != null ? other.suiteDataStoreInitRequest_.Clone() : null;
+      stepNameRequest_ = other.stepNameRequest_ != null ? other.stepNameRequest_.Clone() : null;
+      stepNameResponse_ = other.stepNameResponse_ != null ? other.stepNameResponse_.Clone() : null;
+      refactorRequest_ = other.refactorRequest_ != null ? other.refactorRequest_.Clone() : null;
+      refactorResponse_ = other.refactorResponse_ != null ? other.refactorResponse_.Clone() : null;
+      unsupportedMessageResponse_ = other.unsupportedMessageResponse_ != null ? other.unsupportedMessageResponse_.Clone() : null;
+      cacheFileRequest_ = other.cacheFileRequest_ != null ? other.cacheFileRequest_.Clone() : null;
+      stepPositionsRequest_ = other.stepPositionsRequest_ != null ? other.stepPositionsRequest_.Clone() : null;
+      stepPositionsResponse_ = other.stepPositionsResponse_ != null ? other.stepPositionsResponse_.Clone() : null;
+      implementationFileListRequest_ = other.implementationFileListRequest_ != null ? other.implementationFileListRequest_.Clone() : null;
+      implementationFileListResponse_ = other.implementationFileListResponse_ != null ? other.implementationFileListResponse_.Clone() : null;
+      stubImplementationCodeRequest_ = other.stubImplementationCodeRequest_ != null ? other.stubImplementationCodeRequest_.Clone() : null;
+      fileDiff_ = other.fileDiff_ != null ? other.fileDiff_.Clone() : null;
+      implementationFileGlobPatternRequest_ = other.implementationFileGlobPatternRequest_ != null ? other.implementationFileGlobPatternRequest_.Clone() : null;
+      implementationFileGlobPatternResponse_ = other.implementationFileGlobPatternResponse_ != null ? other.implementationFileGlobPatternResponse_.Clone() : null;
+      suiteExecutionResultItem_ = other.suiteExecutionResultItem_ != null ? other.suiteExecutionResultItem_.Clone() : null;
+      keepAlive_ = other.keepAlive_ != null ? other.keepAlive_.Clone() : null;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -8545,7 +8545,7 @@ namespace Gauge.Messages {
 
     /// <summary>Field number for the "messageType" field.</summary>
     public const int MessageTypeFieldNumber = 1;
-    private global::Gauge.Messages.Message.Types.MessageType messageType_ = 0;
+    private global::Gauge.Messages.Message.Types.MessageType messageType_ = global::Gauge.Messages.Message.Types.MessageType.ExecutionStarting;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Gauge.Messages.Message.Types.MessageType MessageType {
       get { return messageType_; }
@@ -9115,7 +9115,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (MessageType != 0) hash ^= MessageType.GetHashCode();
+      if (MessageType != global::Gauge.Messages.Message.Types.MessageType.ExecutionStarting) hash ^= MessageType.GetHashCode();
       if (MessageId != 0L) hash ^= MessageId.GetHashCode();
       if (executionStartingRequest_ != null) hash ^= ExecutionStartingRequest.GetHashCode();
       if (specExecutionStartingRequest_ != null) hash ^= SpecExecutionStartingRequest.GetHashCode();
@@ -9165,7 +9165,7 @@ namespace Gauge.Messages {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (MessageType != 0) {
+      if (MessageType != global::Gauge.Messages.Message.Types.MessageType.ExecutionStarting) {
         output.WriteRawTag(8);
         output.WriteEnum((int) MessageType);
       }
@@ -9321,7 +9321,7 @@ namespace Gauge.Messages {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (MessageType != 0) {
+      if (MessageType != global::Gauge.Messages.Message.Types.MessageType.ExecutionStarting) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) MessageType);
       }
       if (MessageId != 0L) {
@@ -9443,7 +9443,7 @@ namespace Gauge.Messages {
       if (other == null) {
         return;
       }
-      if (other.MessageType != 0) {
+      if (other.MessageType != global::Gauge.Messages.Message.Types.MessageType.ExecutionStarting) {
         MessageType = other.MessageType;
       }
       if (other.MessageId != 0L) {
@@ -9451,211 +9451,211 @@ namespace Gauge.Messages {
       }
       if (other.executionStartingRequest_ != null) {
         if (executionStartingRequest_ == null) {
-          executionStartingRequest_ = new global::Gauge.Messages.ExecutionStartingRequest();
+          ExecutionStartingRequest = new global::Gauge.Messages.ExecutionStartingRequest();
         }
         ExecutionStartingRequest.MergeFrom(other.ExecutionStartingRequest);
       }
       if (other.specExecutionStartingRequest_ != null) {
         if (specExecutionStartingRequest_ == null) {
-          specExecutionStartingRequest_ = new global::Gauge.Messages.SpecExecutionStartingRequest();
+          SpecExecutionStartingRequest = new global::Gauge.Messages.SpecExecutionStartingRequest();
         }
         SpecExecutionStartingRequest.MergeFrom(other.SpecExecutionStartingRequest);
       }
       if (other.specExecutionEndingRequest_ != null) {
         if (specExecutionEndingRequest_ == null) {
-          specExecutionEndingRequest_ = new global::Gauge.Messages.SpecExecutionEndingRequest();
+          SpecExecutionEndingRequest = new global::Gauge.Messages.SpecExecutionEndingRequest();
         }
         SpecExecutionEndingRequest.MergeFrom(other.SpecExecutionEndingRequest);
       }
       if (other.scenarioExecutionStartingRequest_ != null) {
         if (scenarioExecutionStartingRequest_ == null) {
-          scenarioExecutionStartingRequest_ = new global::Gauge.Messages.ScenarioExecutionStartingRequest();
+          ScenarioExecutionStartingRequest = new global::Gauge.Messages.ScenarioExecutionStartingRequest();
         }
         ScenarioExecutionStartingRequest.MergeFrom(other.ScenarioExecutionStartingRequest);
       }
       if (other.scenarioExecutionEndingRequest_ != null) {
         if (scenarioExecutionEndingRequest_ == null) {
-          scenarioExecutionEndingRequest_ = new global::Gauge.Messages.ScenarioExecutionEndingRequest();
+          ScenarioExecutionEndingRequest = new global::Gauge.Messages.ScenarioExecutionEndingRequest();
         }
         ScenarioExecutionEndingRequest.MergeFrom(other.ScenarioExecutionEndingRequest);
       }
       if (other.stepExecutionStartingRequest_ != null) {
         if (stepExecutionStartingRequest_ == null) {
-          stepExecutionStartingRequest_ = new global::Gauge.Messages.StepExecutionStartingRequest();
+          StepExecutionStartingRequest = new global::Gauge.Messages.StepExecutionStartingRequest();
         }
         StepExecutionStartingRequest.MergeFrom(other.StepExecutionStartingRequest);
       }
       if (other.stepExecutionEndingRequest_ != null) {
         if (stepExecutionEndingRequest_ == null) {
-          stepExecutionEndingRequest_ = new global::Gauge.Messages.StepExecutionEndingRequest();
+          StepExecutionEndingRequest = new global::Gauge.Messages.StepExecutionEndingRequest();
         }
         StepExecutionEndingRequest.MergeFrom(other.StepExecutionEndingRequest);
       }
       if (other.executeStepRequest_ != null) {
         if (executeStepRequest_ == null) {
-          executeStepRequest_ = new global::Gauge.Messages.ExecuteStepRequest();
+          ExecuteStepRequest = new global::Gauge.Messages.ExecuteStepRequest();
         }
         ExecuteStepRequest.MergeFrom(other.ExecuteStepRequest);
       }
       if (other.executionEndingRequest_ != null) {
         if (executionEndingRequest_ == null) {
-          executionEndingRequest_ = new global::Gauge.Messages.ExecutionEndingRequest();
+          ExecutionEndingRequest = new global::Gauge.Messages.ExecutionEndingRequest();
         }
         ExecutionEndingRequest.MergeFrom(other.ExecutionEndingRequest);
       }
       if (other.stepValidateRequest_ != null) {
         if (stepValidateRequest_ == null) {
-          stepValidateRequest_ = new global::Gauge.Messages.StepValidateRequest();
+          StepValidateRequest = new global::Gauge.Messages.StepValidateRequest();
         }
         StepValidateRequest.MergeFrom(other.StepValidateRequest);
       }
       if (other.stepValidateResponse_ != null) {
         if (stepValidateResponse_ == null) {
-          stepValidateResponse_ = new global::Gauge.Messages.StepValidateResponse();
+          StepValidateResponse = new global::Gauge.Messages.StepValidateResponse();
         }
         StepValidateResponse.MergeFrom(other.StepValidateResponse);
       }
       if (other.executionStatusResponse_ != null) {
         if (executionStatusResponse_ == null) {
-          executionStatusResponse_ = new global::Gauge.Messages.ExecutionStatusResponse();
+          ExecutionStatusResponse = new global::Gauge.Messages.ExecutionStatusResponse();
         }
         ExecutionStatusResponse.MergeFrom(other.ExecutionStatusResponse);
       }
       if (other.stepNamesRequest_ != null) {
         if (stepNamesRequest_ == null) {
-          stepNamesRequest_ = new global::Gauge.Messages.StepNamesRequest();
+          StepNamesRequest = new global::Gauge.Messages.StepNamesRequest();
         }
         StepNamesRequest.MergeFrom(other.StepNamesRequest);
       }
       if (other.stepNamesResponse_ != null) {
         if (stepNamesResponse_ == null) {
-          stepNamesResponse_ = new global::Gauge.Messages.StepNamesResponse();
+          StepNamesResponse = new global::Gauge.Messages.StepNamesResponse();
         }
         StepNamesResponse.MergeFrom(other.StepNamesResponse);
       }
       if (other.suiteExecutionResult_ != null) {
         if (suiteExecutionResult_ == null) {
-          suiteExecutionResult_ = new global::Gauge.Messages.SuiteExecutionResult();
+          SuiteExecutionResult = new global::Gauge.Messages.SuiteExecutionResult();
         }
         SuiteExecutionResult.MergeFrom(other.SuiteExecutionResult);
       }
       if (other.killProcessRequest_ != null) {
         if (killProcessRequest_ == null) {
-          killProcessRequest_ = new global::Gauge.Messages.KillProcessRequest();
+          KillProcessRequest = new global::Gauge.Messages.KillProcessRequest();
         }
         KillProcessRequest.MergeFrom(other.KillProcessRequest);
       }
       if (other.scenarioDataStoreInitRequest_ != null) {
         if (scenarioDataStoreInitRequest_ == null) {
-          scenarioDataStoreInitRequest_ = new global::Gauge.Messages.ScenarioDataStoreInitRequest();
+          ScenarioDataStoreInitRequest = new global::Gauge.Messages.ScenarioDataStoreInitRequest();
         }
         ScenarioDataStoreInitRequest.MergeFrom(other.ScenarioDataStoreInitRequest);
       }
       if (other.specDataStoreInitRequest_ != null) {
         if (specDataStoreInitRequest_ == null) {
-          specDataStoreInitRequest_ = new global::Gauge.Messages.SpecDataStoreInitRequest();
+          SpecDataStoreInitRequest = new global::Gauge.Messages.SpecDataStoreInitRequest();
         }
         SpecDataStoreInitRequest.MergeFrom(other.SpecDataStoreInitRequest);
       }
       if (other.suiteDataStoreInitRequest_ != null) {
         if (suiteDataStoreInitRequest_ == null) {
-          suiteDataStoreInitRequest_ = new global::Gauge.Messages.SuiteDataStoreInitRequest();
+          SuiteDataStoreInitRequest = new global::Gauge.Messages.SuiteDataStoreInitRequest();
         }
         SuiteDataStoreInitRequest.MergeFrom(other.SuiteDataStoreInitRequest);
       }
       if (other.stepNameRequest_ != null) {
         if (stepNameRequest_ == null) {
-          stepNameRequest_ = new global::Gauge.Messages.StepNameRequest();
+          StepNameRequest = new global::Gauge.Messages.StepNameRequest();
         }
         StepNameRequest.MergeFrom(other.StepNameRequest);
       }
       if (other.stepNameResponse_ != null) {
         if (stepNameResponse_ == null) {
-          stepNameResponse_ = new global::Gauge.Messages.StepNameResponse();
+          StepNameResponse = new global::Gauge.Messages.StepNameResponse();
         }
         StepNameResponse.MergeFrom(other.StepNameResponse);
       }
       if (other.refactorRequest_ != null) {
         if (refactorRequest_ == null) {
-          refactorRequest_ = new global::Gauge.Messages.RefactorRequest();
+          RefactorRequest = new global::Gauge.Messages.RefactorRequest();
         }
         RefactorRequest.MergeFrom(other.RefactorRequest);
       }
       if (other.refactorResponse_ != null) {
         if (refactorResponse_ == null) {
-          refactorResponse_ = new global::Gauge.Messages.RefactorResponse();
+          RefactorResponse = new global::Gauge.Messages.RefactorResponse();
         }
         RefactorResponse.MergeFrom(other.RefactorResponse);
       }
       if (other.unsupportedMessageResponse_ != null) {
         if (unsupportedMessageResponse_ == null) {
-          unsupportedMessageResponse_ = new global::Gauge.Messages.UnsupportedMessageResponse();
+          UnsupportedMessageResponse = new global::Gauge.Messages.UnsupportedMessageResponse();
         }
         UnsupportedMessageResponse.MergeFrom(other.UnsupportedMessageResponse);
       }
       if (other.cacheFileRequest_ != null) {
         if (cacheFileRequest_ == null) {
-          cacheFileRequest_ = new global::Gauge.Messages.CacheFileRequest();
+          CacheFileRequest = new global::Gauge.Messages.CacheFileRequest();
         }
         CacheFileRequest.MergeFrom(other.CacheFileRequest);
       }
       if (other.stepPositionsRequest_ != null) {
         if (stepPositionsRequest_ == null) {
-          stepPositionsRequest_ = new global::Gauge.Messages.StepPositionsRequest();
+          StepPositionsRequest = new global::Gauge.Messages.StepPositionsRequest();
         }
         StepPositionsRequest.MergeFrom(other.StepPositionsRequest);
       }
       if (other.stepPositionsResponse_ != null) {
         if (stepPositionsResponse_ == null) {
-          stepPositionsResponse_ = new global::Gauge.Messages.StepPositionsResponse();
+          StepPositionsResponse = new global::Gauge.Messages.StepPositionsResponse();
         }
         StepPositionsResponse.MergeFrom(other.StepPositionsResponse);
       }
       if (other.implementationFileListRequest_ != null) {
         if (implementationFileListRequest_ == null) {
-          implementationFileListRequest_ = new global::Gauge.Messages.ImplementationFileListRequest();
+          ImplementationFileListRequest = new global::Gauge.Messages.ImplementationFileListRequest();
         }
         ImplementationFileListRequest.MergeFrom(other.ImplementationFileListRequest);
       }
       if (other.implementationFileListResponse_ != null) {
         if (implementationFileListResponse_ == null) {
-          implementationFileListResponse_ = new global::Gauge.Messages.ImplementationFileListResponse();
+          ImplementationFileListResponse = new global::Gauge.Messages.ImplementationFileListResponse();
         }
         ImplementationFileListResponse.MergeFrom(other.ImplementationFileListResponse);
       }
       if (other.stubImplementationCodeRequest_ != null) {
         if (stubImplementationCodeRequest_ == null) {
-          stubImplementationCodeRequest_ = new global::Gauge.Messages.StubImplementationCodeRequest();
+          StubImplementationCodeRequest = new global::Gauge.Messages.StubImplementationCodeRequest();
         }
         StubImplementationCodeRequest.MergeFrom(other.StubImplementationCodeRequest);
       }
       if (other.fileDiff_ != null) {
         if (fileDiff_ == null) {
-          fileDiff_ = new global::Gauge.Messages.FileDiff();
+          FileDiff = new global::Gauge.Messages.FileDiff();
         }
         FileDiff.MergeFrom(other.FileDiff);
       }
       if (other.implementationFileGlobPatternRequest_ != null) {
         if (implementationFileGlobPatternRequest_ == null) {
-          implementationFileGlobPatternRequest_ = new global::Gauge.Messages.ImplementationFileGlobPatternRequest();
+          ImplementationFileGlobPatternRequest = new global::Gauge.Messages.ImplementationFileGlobPatternRequest();
         }
         ImplementationFileGlobPatternRequest.MergeFrom(other.ImplementationFileGlobPatternRequest);
       }
       if (other.implementationFileGlobPatternResponse_ != null) {
         if (implementationFileGlobPatternResponse_ == null) {
-          implementationFileGlobPatternResponse_ = new global::Gauge.Messages.ImplementationFileGlobPatternResponse();
+          ImplementationFileGlobPatternResponse = new global::Gauge.Messages.ImplementationFileGlobPatternResponse();
         }
         ImplementationFileGlobPatternResponse.MergeFrom(other.ImplementationFileGlobPatternResponse);
       }
       if (other.suiteExecutionResultItem_ != null) {
         if (suiteExecutionResultItem_ == null) {
-          suiteExecutionResultItem_ = new global::Gauge.Messages.SuiteExecutionResultItem();
+          SuiteExecutionResultItem = new global::Gauge.Messages.SuiteExecutionResultItem();
         }
         SuiteExecutionResultItem.MergeFrom(other.SuiteExecutionResultItem);
       }
       if (other.keepAlive_ != null) {
         if (keepAlive_ == null) {
-          keepAlive_ = new global::Gauge.Messages.KeepAlive();
+          KeepAlive = new global::Gauge.Messages.KeepAlive();
         }
         KeepAlive.MergeFrom(other.KeepAlive);
       }
@@ -9671,7 +9671,7 @@ namespace Gauge.Messages {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            messageType_ = (global::Gauge.Messages.Message.Types.MessageType) input.ReadEnum();
+            MessageType = (global::Gauge.Messages.Message.Types.MessageType) input.ReadEnum();
             break;
           }
           case 16: {
@@ -9680,247 +9680,247 @@ namespace Gauge.Messages {
           }
           case 26: {
             if (executionStartingRequest_ == null) {
-              executionStartingRequest_ = new global::Gauge.Messages.ExecutionStartingRequest();
+              ExecutionStartingRequest = new global::Gauge.Messages.ExecutionStartingRequest();
             }
-            input.ReadMessage(executionStartingRequest_);
+            input.ReadMessage(ExecutionStartingRequest);
             break;
           }
           case 34: {
             if (specExecutionStartingRequest_ == null) {
-              specExecutionStartingRequest_ = new global::Gauge.Messages.SpecExecutionStartingRequest();
+              SpecExecutionStartingRequest = new global::Gauge.Messages.SpecExecutionStartingRequest();
             }
-            input.ReadMessage(specExecutionStartingRequest_);
+            input.ReadMessage(SpecExecutionStartingRequest);
             break;
           }
           case 42: {
             if (specExecutionEndingRequest_ == null) {
-              specExecutionEndingRequest_ = new global::Gauge.Messages.SpecExecutionEndingRequest();
+              SpecExecutionEndingRequest = new global::Gauge.Messages.SpecExecutionEndingRequest();
             }
-            input.ReadMessage(specExecutionEndingRequest_);
+            input.ReadMessage(SpecExecutionEndingRequest);
             break;
           }
           case 50: {
             if (scenarioExecutionStartingRequest_ == null) {
-              scenarioExecutionStartingRequest_ = new global::Gauge.Messages.ScenarioExecutionStartingRequest();
+              ScenarioExecutionStartingRequest = new global::Gauge.Messages.ScenarioExecutionStartingRequest();
             }
-            input.ReadMessage(scenarioExecutionStartingRequest_);
+            input.ReadMessage(ScenarioExecutionStartingRequest);
             break;
           }
           case 58: {
             if (scenarioExecutionEndingRequest_ == null) {
-              scenarioExecutionEndingRequest_ = new global::Gauge.Messages.ScenarioExecutionEndingRequest();
+              ScenarioExecutionEndingRequest = new global::Gauge.Messages.ScenarioExecutionEndingRequest();
             }
-            input.ReadMessage(scenarioExecutionEndingRequest_);
+            input.ReadMessage(ScenarioExecutionEndingRequest);
             break;
           }
           case 66: {
             if (stepExecutionStartingRequest_ == null) {
-              stepExecutionStartingRequest_ = new global::Gauge.Messages.StepExecutionStartingRequest();
+              StepExecutionStartingRequest = new global::Gauge.Messages.StepExecutionStartingRequest();
             }
-            input.ReadMessage(stepExecutionStartingRequest_);
+            input.ReadMessage(StepExecutionStartingRequest);
             break;
           }
           case 74: {
             if (stepExecutionEndingRequest_ == null) {
-              stepExecutionEndingRequest_ = new global::Gauge.Messages.StepExecutionEndingRequest();
+              StepExecutionEndingRequest = new global::Gauge.Messages.StepExecutionEndingRequest();
             }
-            input.ReadMessage(stepExecutionEndingRequest_);
+            input.ReadMessage(StepExecutionEndingRequest);
             break;
           }
           case 82: {
             if (executeStepRequest_ == null) {
-              executeStepRequest_ = new global::Gauge.Messages.ExecuteStepRequest();
+              ExecuteStepRequest = new global::Gauge.Messages.ExecuteStepRequest();
             }
-            input.ReadMessage(executeStepRequest_);
+            input.ReadMessage(ExecuteStepRequest);
             break;
           }
           case 90: {
             if (executionEndingRequest_ == null) {
-              executionEndingRequest_ = new global::Gauge.Messages.ExecutionEndingRequest();
+              ExecutionEndingRequest = new global::Gauge.Messages.ExecutionEndingRequest();
             }
-            input.ReadMessage(executionEndingRequest_);
+            input.ReadMessage(ExecutionEndingRequest);
             break;
           }
           case 98: {
             if (stepValidateRequest_ == null) {
-              stepValidateRequest_ = new global::Gauge.Messages.StepValidateRequest();
+              StepValidateRequest = new global::Gauge.Messages.StepValidateRequest();
             }
-            input.ReadMessage(stepValidateRequest_);
+            input.ReadMessage(StepValidateRequest);
             break;
           }
           case 106: {
             if (stepValidateResponse_ == null) {
-              stepValidateResponse_ = new global::Gauge.Messages.StepValidateResponse();
+              StepValidateResponse = new global::Gauge.Messages.StepValidateResponse();
             }
-            input.ReadMessage(stepValidateResponse_);
+            input.ReadMessage(StepValidateResponse);
             break;
           }
           case 114: {
             if (executionStatusResponse_ == null) {
-              executionStatusResponse_ = new global::Gauge.Messages.ExecutionStatusResponse();
+              ExecutionStatusResponse = new global::Gauge.Messages.ExecutionStatusResponse();
             }
-            input.ReadMessage(executionStatusResponse_);
+            input.ReadMessage(ExecutionStatusResponse);
             break;
           }
           case 122: {
             if (stepNamesRequest_ == null) {
-              stepNamesRequest_ = new global::Gauge.Messages.StepNamesRequest();
+              StepNamesRequest = new global::Gauge.Messages.StepNamesRequest();
             }
-            input.ReadMessage(stepNamesRequest_);
+            input.ReadMessage(StepNamesRequest);
             break;
           }
           case 130: {
             if (stepNamesResponse_ == null) {
-              stepNamesResponse_ = new global::Gauge.Messages.StepNamesResponse();
+              StepNamesResponse = new global::Gauge.Messages.StepNamesResponse();
             }
-            input.ReadMessage(stepNamesResponse_);
+            input.ReadMessage(StepNamesResponse);
             break;
           }
           case 138: {
             if (suiteExecutionResult_ == null) {
-              suiteExecutionResult_ = new global::Gauge.Messages.SuiteExecutionResult();
+              SuiteExecutionResult = new global::Gauge.Messages.SuiteExecutionResult();
             }
-            input.ReadMessage(suiteExecutionResult_);
+            input.ReadMessage(SuiteExecutionResult);
             break;
           }
           case 146: {
             if (killProcessRequest_ == null) {
-              killProcessRequest_ = new global::Gauge.Messages.KillProcessRequest();
+              KillProcessRequest = new global::Gauge.Messages.KillProcessRequest();
             }
-            input.ReadMessage(killProcessRequest_);
+            input.ReadMessage(KillProcessRequest);
             break;
           }
           case 154: {
             if (scenarioDataStoreInitRequest_ == null) {
-              scenarioDataStoreInitRequest_ = new global::Gauge.Messages.ScenarioDataStoreInitRequest();
+              ScenarioDataStoreInitRequest = new global::Gauge.Messages.ScenarioDataStoreInitRequest();
             }
-            input.ReadMessage(scenarioDataStoreInitRequest_);
+            input.ReadMessage(ScenarioDataStoreInitRequest);
             break;
           }
           case 162: {
             if (specDataStoreInitRequest_ == null) {
-              specDataStoreInitRequest_ = new global::Gauge.Messages.SpecDataStoreInitRequest();
+              SpecDataStoreInitRequest = new global::Gauge.Messages.SpecDataStoreInitRequest();
             }
-            input.ReadMessage(specDataStoreInitRequest_);
+            input.ReadMessage(SpecDataStoreInitRequest);
             break;
           }
           case 170: {
             if (suiteDataStoreInitRequest_ == null) {
-              suiteDataStoreInitRequest_ = new global::Gauge.Messages.SuiteDataStoreInitRequest();
+              SuiteDataStoreInitRequest = new global::Gauge.Messages.SuiteDataStoreInitRequest();
             }
-            input.ReadMessage(suiteDataStoreInitRequest_);
+            input.ReadMessage(SuiteDataStoreInitRequest);
             break;
           }
           case 178: {
             if (stepNameRequest_ == null) {
-              stepNameRequest_ = new global::Gauge.Messages.StepNameRequest();
+              StepNameRequest = new global::Gauge.Messages.StepNameRequest();
             }
-            input.ReadMessage(stepNameRequest_);
+            input.ReadMessage(StepNameRequest);
             break;
           }
           case 186: {
             if (stepNameResponse_ == null) {
-              stepNameResponse_ = new global::Gauge.Messages.StepNameResponse();
+              StepNameResponse = new global::Gauge.Messages.StepNameResponse();
             }
-            input.ReadMessage(stepNameResponse_);
+            input.ReadMessage(StepNameResponse);
             break;
           }
           case 194: {
             if (refactorRequest_ == null) {
-              refactorRequest_ = new global::Gauge.Messages.RefactorRequest();
+              RefactorRequest = new global::Gauge.Messages.RefactorRequest();
             }
-            input.ReadMessage(refactorRequest_);
+            input.ReadMessage(RefactorRequest);
             break;
           }
           case 202: {
             if (refactorResponse_ == null) {
-              refactorResponse_ = new global::Gauge.Messages.RefactorResponse();
+              RefactorResponse = new global::Gauge.Messages.RefactorResponse();
             }
-            input.ReadMessage(refactorResponse_);
+            input.ReadMessage(RefactorResponse);
             break;
           }
           case 210: {
             if (unsupportedMessageResponse_ == null) {
-              unsupportedMessageResponse_ = new global::Gauge.Messages.UnsupportedMessageResponse();
+              UnsupportedMessageResponse = new global::Gauge.Messages.UnsupportedMessageResponse();
             }
-            input.ReadMessage(unsupportedMessageResponse_);
+            input.ReadMessage(UnsupportedMessageResponse);
             break;
           }
           case 218: {
             if (cacheFileRequest_ == null) {
-              cacheFileRequest_ = new global::Gauge.Messages.CacheFileRequest();
+              CacheFileRequest = new global::Gauge.Messages.CacheFileRequest();
             }
-            input.ReadMessage(cacheFileRequest_);
+            input.ReadMessage(CacheFileRequest);
             break;
           }
           case 226: {
             if (stepPositionsRequest_ == null) {
-              stepPositionsRequest_ = new global::Gauge.Messages.StepPositionsRequest();
+              StepPositionsRequest = new global::Gauge.Messages.StepPositionsRequest();
             }
-            input.ReadMessage(stepPositionsRequest_);
+            input.ReadMessage(StepPositionsRequest);
             break;
           }
           case 234: {
             if (stepPositionsResponse_ == null) {
-              stepPositionsResponse_ = new global::Gauge.Messages.StepPositionsResponse();
+              StepPositionsResponse = new global::Gauge.Messages.StepPositionsResponse();
             }
-            input.ReadMessage(stepPositionsResponse_);
+            input.ReadMessage(StepPositionsResponse);
             break;
           }
           case 242: {
             if (implementationFileListRequest_ == null) {
-              implementationFileListRequest_ = new global::Gauge.Messages.ImplementationFileListRequest();
+              ImplementationFileListRequest = new global::Gauge.Messages.ImplementationFileListRequest();
             }
-            input.ReadMessage(implementationFileListRequest_);
+            input.ReadMessage(ImplementationFileListRequest);
             break;
           }
           case 250: {
             if (implementationFileListResponse_ == null) {
-              implementationFileListResponse_ = new global::Gauge.Messages.ImplementationFileListResponse();
+              ImplementationFileListResponse = new global::Gauge.Messages.ImplementationFileListResponse();
             }
-            input.ReadMessage(implementationFileListResponse_);
+            input.ReadMessage(ImplementationFileListResponse);
             break;
           }
           case 258: {
             if (stubImplementationCodeRequest_ == null) {
-              stubImplementationCodeRequest_ = new global::Gauge.Messages.StubImplementationCodeRequest();
+              StubImplementationCodeRequest = new global::Gauge.Messages.StubImplementationCodeRequest();
             }
-            input.ReadMessage(stubImplementationCodeRequest_);
+            input.ReadMessage(StubImplementationCodeRequest);
             break;
           }
           case 266: {
             if (fileDiff_ == null) {
-              fileDiff_ = new global::Gauge.Messages.FileDiff();
+              FileDiff = new global::Gauge.Messages.FileDiff();
             }
-            input.ReadMessage(fileDiff_);
+            input.ReadMessage(FileDiff);
             break;
           }
           case 274: {
             if (implementationFileGlobPatternRequest_ == null) {
-              implementationFileGlobPatternRequest_ = new global::Gauge.Messages.ImplementationFileGlobPatternRequest();
+              ImplementationFileGlobPatternRequest = new global::Gauge.Messages.ImplementationFileGlobPatternRequest();
             }
-            input.ReadMessage(implementationFileGlobPatternRequest_);
+            input.ReadMessage(ImplementationFileGlobPatternRequest);
             break;
           }
           case 282: {
             if (implementationFileGlobPatternResponse_ == null) {
-              implementationFileGlobPatternResponse_ = new global::Gauge.Messages.ImplementationFileGlobPatternResponse();
+              ImplementationFileGlobPatternResponse = new global::Gauge.Messages.ImplementationFileGlobPatternResponse();
             }
-            input.ReadMessage(implementationFileGlobPatternResponse_);
+            input.ReadMessage(ImplementationFileGlobPatternResponse);
             break;
           }
           case 290: {
             if (suiteExecutionResultItem_ == null) {
-              suiteExecutionResultItem_ = new global::Gauge.Messages.SuiteExecutionResultItem();
+              SuiteExecutionResultItem = new global::Gauge.Messages.SuiteExecutionResultItem();
             }
-            input.ReadMessage(suiteExecutionResultItem_);
+            input.ReadMessage(SuiteExecutionResultItem);
             break;
           }
           case 298: {
             if (keepAlive_ == null) {
-              keepAlive_ = new global::Gauge.Messages.KeepAlive();
+              KeepAlive = new global::Gauge.Messages.KeepAlive();
             }
-            input.ReadMessage(keepAlive_);
+            input.ReadMessage(KeepAlive);
             break;
           }
         }
