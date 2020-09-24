@@ -6,11 +6,13 @@ function checkCommand() {
 
 function build() {
     checkCommand "dotnet"
+    dotnet tool restore
     dotnet build -c release
 }
 
 function package() {
     checkCommand "dotnet"
+    dotnet tool restore
     rm -rf deploy artifacts
     dotnet pack -c release -o ./artifacts Gauge.CSharp.Core
 }
