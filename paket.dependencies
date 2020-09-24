@@ -1,8 +1,4 @@
 source https://www.nuget.org/api/v2
 
 nuget Google.Protobuf
-nuget Grpc 
-
-group Build
-    source https://nuget.org/api/v2
-    nuget Grpc.Tools 
+nuget Grpc.Net.Client
