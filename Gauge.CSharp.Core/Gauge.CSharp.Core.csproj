@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks Condition=" '$(OS)' == 'Windows_NT' ">netstandard2.1;net45;net46</TargetFrameworks>
-    <TargetFramework Condition=" '$(OS)' != 'Windows_NT' ">netstandard2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <Description>[INTERNAL GAUGE USE ONLY] Library to be used to communicate with Gauge Core.</Description>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
     <Authors>getgauge</Authors>
@@ -14,13 +13,13 @@
     <PackageTags />
     <AssemblyVersion>0.5.0.0</AssemblyVersion>
     <FileVersion>0.5.0.0</FileVersion>
-    <Version>0.5.0-pre2</Version>
+    <Version>0.5.0-pre3</Version>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>gauge_core.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.13.0" />
-    <PackageReference Include="Grpc.Net.Client" Version="2.31.0" />
+    <PackageReference Include="Grpc.AspNetCore.Server" Version="2.31.0" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
