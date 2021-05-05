@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.1;net5.0</TargetFramework>
+    <TargetFrameworks>netcoreapp3.0;net5.0</TargetFrameworks>
     <Description>[INTERNAL GAUGE USE ONLY] Library to be used to communicate with Gauge Core.</Description>
     <PackageLicenseUrl>https://www.apache.org/licenses/LICENSE-2.0.txt</PackageLicenseUrl>
     <Authors>getgauge</Authors>
